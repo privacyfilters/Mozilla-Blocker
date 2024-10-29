@@ -1,7 +1,7 @@
 # Mozilla-Blocker
-### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
+#### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 
-# Userful only in Systemwide Ad-blockers, DNS Sinkholes and for host blocking.
+# Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
 ## Direct Links to Mozilla Blocker filters
 For Zen Privacy Guard, Adguard Home and Pi-hole - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt

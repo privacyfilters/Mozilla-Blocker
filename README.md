@@ -4,9 +4,9 @@
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
 ## Direct Links to Mozilla Blocker filters
-For Zen Privacy Guard, Adguard Home and Pi-hole - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
+For Zen Privacy Guard, Adguard Home and Pi-hole - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
 
-For Windows host and Android Adaway - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
+For Windows host and Android Adaway - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts.txt
 
 ## Recommended Methods to Block Mozilla
 Systemwide Adblocker - Zen Privay Guard - https://github.com/anfragment/zen

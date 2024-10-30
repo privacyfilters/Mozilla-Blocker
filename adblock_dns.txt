@@ -3,9 +3,9 @@
 !              Mozilla accounts are blocked, mozilla download cdn and archive is blocked.
 !              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
 !              Only addons urls are not blocked so that extensions can be installed from Firefox Add-ons.
-!              Use with a systemwide Adblocker like Zen Privacy Guard for windows/linux and Adguard for windows/android(as DNS filter) or with a DNS Sinkhole like Adguard Home and Pi-hole.  
+!              Use with a systemwide Adblocker like Zen Privacy Guard for windows/linux and Adguard for windows/android(as DNS filter) or with a DNS Sinkhole like Adguard Home and Pi-hole.
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
-!              
+!
 !              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers on mozilla websites, like Mozilla add-ons.
 !              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
 !
@@ -129,7 +129,7 @@
 ||telemetry-coverage.r53-2.services.mozilla.com^
 ||telemetry-data.r53-2.services.mozilla.com^
 ||telemetry-incoming.r53-2.services.mozilla.com^
-||thunderbird-settings.thunderbird.net^  
+||thunderbird-settings.thunderbird.net^
 ||topsites.services.mozilla.com^
 ||tracking.firefox.com.cn^
 ||tracking.services.mozilla.com^

@@ -16,7 +16,7 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 October 2024
-! Version: 2.01
+! Version: 2.02
 ! Syntax: Adblock
 ! Number of entries: 115
 !

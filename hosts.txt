@@ -13,7 +13,7 @@
 # Adblock and DNS blocklist version - https://github.com/privacyfilters/Mozilla-Blocker/blob/main/adblock_dns.txt
 #
 #
-### External trackers used on mozilla sites...
+### External trackers Mozilla uses on their own sites...
 0.0.0.0 google-analytics.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 www.google-analytics.com

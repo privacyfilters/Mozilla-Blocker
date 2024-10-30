@@ -1,4 +1,4 @@
-! Title: Mozilla Blocker Adblock
+! Title: Mozilla Blocker - Adblock & DNS Blocklist
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 !              Mozilla accounts are blocked, mozilla download cdn and archive is blocked.
 !              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
@@ -6,11 +6,8 @@
 !              Use with a systemwide Adblocker like Zen Privacy Guard for windows/linux and Adguard for windows/android(as DNS filter) or with a DNS Sinkhole like Adguard Home and Pi-hole.  
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 !              
-!              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers mozilla uses on their own sites like Mozilla Add-ons in any modern firefox forked browser.
+!              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers on mozilla websites, like Mozilla add-ons.
 !              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
-!              Mitigations: Among Firefox forks, only unique forks like Palemoon and Basilisk can detect and block google trackers on mozilla websites. So can the rest of the browsers in existence with an adblocker which is not a modern firefox fork.
-!              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond.
-!              Adguard for windows doesn't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
 !
 ! Host version of Mozilla Blocker - https://github.com/privacyfilters/Mozilla-Blocker/blob/main/hosts.txt
 !
@@ -19,7 +16,7 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 October 2024
-! Version: 1.29
+! Version: 2.00
 ! Syntax: Adblock
 ! Number of entries: 115
 !

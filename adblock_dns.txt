@@ -12,14 +12,14 @@
 !              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond.
 !              Adguard for windows doesn't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
 !
-! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
+! Host version of Mozilla Blocker - https://github.com/privacyfilters/Mozilla-Blocker/blob/main/hosts.txt
 !
-! Homepage: https://github.com/gitfilts/Mozilla-Blocker
-! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
-! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
+! Homepage: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/adblock_dns.txt
+! Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
+! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 23 October 2024
-! Version: 1.28
+! Last modified: 30 October 2024
+! Version: 1.29
 ! Syntax: Adblock
 ! Number of entries: 115
 !

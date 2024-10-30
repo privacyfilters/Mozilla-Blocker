@@ -16,14 +16,14 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 30 October 2024
-! Version: 2.00
+! Version: 2.01
 ! Syntax: Adblock
 ! Number of entries: 115
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
-!!! Internal and External Trackers used on all mozilla websites...
+!!! External Trackers Mozilla uses on their own sites...
 ||google-analytics.com^
 ||googletagmanager.com^
 ||omappapi.com^
@@ -31,11 +31,11 @@
 ||sentry.io^
 ||matomo.cloud^
 ||pubmine.com^
-||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !
 !!! Mozilla Accounts
 ||accounts.firefox.com^
@@ -59,7 +59,7 @@
 ||support.mozilla.org^
 !
 !!! Third party dns used in other apps
-!Not-Blocked!@@||mozilla.cloudflare-dns.com^
+!Not-Blocked!||mozilla.cloudflare-dns.com^
 !
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "" tag for Adguard
 ||anonymco.com^

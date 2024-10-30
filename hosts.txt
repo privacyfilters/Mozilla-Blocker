@@ -3,14 +3,14 @@
 # Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
 # Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 # Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
-# Many of the urls are repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
+# Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
-# Homepage: https://github.com/gitfilts/Mozilla-Blocker
-# Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
-# Last modified: 18 Oct 2024
+# Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+# Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts.txt
+# Last modified: 30 Oct 2024
 # Number of entries: 212
 #
-# Adguard/Adgaurd Home version Of Mozilla Blocker for systemwide ads and dns blocking - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerForAdguard.txt
+# Adblock and DNS blocklist version - https://github.com/privacyfilters/Mozilla-Blocker/blob/main/adblock_dns.txt
 #
 #
 ### External trackers used on mozilla sites...

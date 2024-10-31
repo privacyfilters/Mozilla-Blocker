@@ -9,9 +9,9 @@ Adguard Home and Zen Privacy Guard - https://raw.githubusercontent.com/privacyfi
 Windows/Linux host and Android Adaway - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts.txt
 
 ## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons.
-Adguard Home and Zen privacy Guard - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
+Adguard Home and Zen privacy Guard - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla
 
-Windows/Linux host and Android Adaway - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla.txt
+Windows/Linux host and Android Adaway - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla
 
 ## Recommended Methods to Block Mozilla
 DNS Network-wide Adblocker- Adguard Home - https://github.com/AdguardTeam/AdGuardHome

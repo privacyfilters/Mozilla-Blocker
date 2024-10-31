@@ -15,7 +15,9 @@ Windows/Linux host and Android Adaway - https://raw.githubusercontent.com/privac
 
 ## Recommended Methods to Block Mozilla
 DNS Network-wide Adblocker- Adguard Home - https://github.com/AdguardTeam/AdGuardHome
+
 Systemwide Adblocker - Zen Privay Guard - https://github.com/anfragment/zen
+
 These filters works perfectly on Adguard Home.
 Zen privacy guard is still early on development so it is unstable when enforcing the filters.
 I don't know if these rules will work correctly on pi-hole as I use Adguard Home and they works prefectly fine there. 

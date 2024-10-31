@@ -74,7 +74,7 @@
 #
 ### Blocking all mozilla trackers and services
 0.0.0.0 accessfirefox.org
-0.0.0.0 accounts-static.cdn.mozilla.net^
+0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 activations.mozilla.com
 0.0.0.0 activations.mozilla.org
 0.0.0.0 activity-stream-icons.services.mozilla.com

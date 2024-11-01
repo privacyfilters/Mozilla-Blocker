@@ -7,16 +7,17 @@
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 !
 !              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers mozilla uses on their own websites, like Mozilla add-ons.
-!              This is due to Mozilla's policy forced onto extension developers., which should tell you Mozilla's privacy stance as an organization.
+!              Yeah, Mozilla-Addons website have Google analytivcs like google-analytics.com and googletagmanager.com. You can check on any non-mozilla browsers, wireshark or dns filterer.  
+!              This is due to Mozilla's policy forced onto extension developers, which should tell you Mozilla's privacy stance as an organization.
 !
-! Host version for Mozilla Blocker - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts.txt
+! Host version of Mozilla Blocker - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts
 !
 ! Homepage: https://github.com/privacyfilters/Mozilla-Blocker/
 ! Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 31 October 2024
-! Version: 2.04
+! Last modified: 01 November 2024
+! Version: 2.05
 ! Syntax: Adblock
 ! Number of entries: 113
 !

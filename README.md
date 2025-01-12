@@ -1,5 +1,5 @@
 # Mozilla Blocker - The Great Filters to Block All Mozilla Spying
-#### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users. Available on [Github](https://github.com/privacyfilters/Mozilla-Blocker) and [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker).
+#### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 ### Available on [Github](https://github.com/privacyfilters/Mozilla-Blocker) and [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker).
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 

@@ -5,15 +5,17 @@
 # Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
-# Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Github page: https://github.com/privacyfilters/Mozilla-Blocker
-# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
-# Github source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts
-# Last modified: 20 December 2024
+# Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+# Codberg Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
+# Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts
+# Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
+# License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
+# Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+# Last modified: 12 January 2025
 # Number of entries:
 #
-# Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
+# Codeberg Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 #
 #
 ### External trackers Mozilla uses on their own sites...

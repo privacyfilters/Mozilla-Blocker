@@ -10,17 +10,18 @@
 !              Yes, Most of the Mozilla websites including the add-ons site have Google analytivcs like google-analytics.com and googletagmanager.com. You can check with any non-mozilla browsers, wireshark or dns filterer.  
 !              This is due to Mozilla's policy forced onto extension developers, which should tell you Mozilla's privacy stance as an organization.
 !
-! Host version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 ! Github host version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts
+! Codeberg host version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 !
-! Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-! Github page: https://github.com/privacyfilters/Mozilla-Blocker
-! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
-! Github source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
-! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+! Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+! Codberg Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
+! Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
+! Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
+! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
+! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 December 2024
-! Version: 3.16
+! Last modified: 12 January 2025
+! Version: 3.17
 ! Syntax: Adblock
 ! Number of entries:
 !

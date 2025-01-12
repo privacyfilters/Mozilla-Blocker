@@ -138,6 +138,7 @@
 0.0.0.0 color.firefox.com
 0.0.0.0 commonvoice.mozilla.org
 0.0.0.0 components.fenix.mozilla.org
+0.0.0.0 connect.mozilla.org
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 contile.services.mozilla.com

@@ -38,7 +38,6 @@
 #0.0.0.0 versioncheck.addons.thunderbird.net
 #0.0.0.0 versioncheck-bg.addons.mozilla.org
 #0.0.0.0 versioncheck-bg.addons.thunderbird.net
-#0.0.0.0 ftp.mozilla.org
 0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 www.accounts.firefox.com

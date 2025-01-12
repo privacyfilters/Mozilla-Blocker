@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 12 January 2025
+# Last modified: 13 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -44,8 +44,6 @@
 0.0.0.0 services.addons.mozilla.org
 0.0.0.0 services.addons.thunderbird.net
 #
-###### Mozilla Products,Brands and Services Direct Urls ######
-#
 ## Mozilla's major and sub brands and services
 0.0.0.0 firefox.com
 0.0.0.0 getpocket.com
@@ -66,6 +64,7 @@
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.io
 0.0.0.0 i.fakspot.io
+0.0.0.0 orbitbymozilla.com
 0.0.0.0 www.firefox.com
 0.0.0.0 www.extensionworkshop.com
 0.0.0.0 www.getpocket.com
@@ -88,6 +87,7 @@
 0.0.0.0 www.fakespot.com
 0.0.0.0 www.fakespot.io
 0.0.0.0 www.i.fakspot.io
+0.0.0.0 www.orbitbymozilla.com
 #
 ### Mozilla Inovation projects
 0.0.0.0 didthis.app
@@ -173,6 +173,7 @@
 0.0.0.0 en-us.phish-error.mozilla.com
 0.0.0.0 en-us.phish-report.mozilla.com
 0.0.0.0 extensions.allizom.org
+0.0.0.0 fakespot.prod.webservices.mozgcp.net
 0.0.0.0 fenix.mozilla.org
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 firefoxflicks.com
@@ -246,6 +247,7 @@
 0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
 0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 prod.ohttp-gateway.prod.webservices.mozgcp.net
+0.0.0.0 prod.orbit-ml-front-api.fakespot.prod.webservices.mozgcp.net
 0.0.0.0 prod.remote-settings.prod.webservices.mozgcp.net
 0.0.0.0 prod.webservices.mozgcp.net
 0.0.0.0 profile.accounts.firefox.com

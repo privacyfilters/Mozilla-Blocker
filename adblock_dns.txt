@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 12 January 2025
-! Version: 3.17
+! Last modified: 13 January 2025
+! Version: 3.18
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -58,6 +58,7 @@
 ||anonymco.com^
 ||fakespot.com^
 ||fakespot.io^
+||orbitbymozilla.com^
 !
 !! Mozilla's Sub brands and services urls
 ||foundation.mozilla.org^

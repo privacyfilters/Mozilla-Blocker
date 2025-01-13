@@ -376,6 +376,7 @@
 0.0.0.0 webservices.mozgcp.net
 0.0.0.0 wiki.mozilla.org
 0.0.0.0 workflow.telemetry.mozilla.org
+0.0.0.0 www.mozilla.org.cdn.cloudflare.net
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
 #
 ###Tracker and auto update blocking from other firefox forked browsers

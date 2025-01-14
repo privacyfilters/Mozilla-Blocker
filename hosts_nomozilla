@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 13 January 2025
+# Last modified: 14 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -67,7 +67,6 @@
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.io
 0.0.0.0 i.fakspot.io
-0.0.0.0 orbitbymozilla.com
 0.0.0.0 www.firefox.com
 0.0.0.0 www.extensionworkshop.com
 0.0.0.0 www.getpocket.com
@@ -91,14 +90,15 @@
 0.0.0.0 www.fakespot.com
 0.0.0.0 www.fakespot.io
 0.0.0.0 www.i.fakspot.io
-0.0.0.0 www.orbitbymozilla.com
 #
 ### Mozilla Inovation projects
 0.0.0.0 didthis.app
 0.0.0.0 formulaic.app
 0.0.0.0 soloist.ai
+0.0.0.0 orbitbymozilla.com
 0.0.0.0 orcaready.org
 0.0.0.0 subconscious.network
+0.0.0.0 www.orbitbymozilla.com
 #
 ### Blocking all the userless invasive mozilla trackers and services
 0.0.0.0 accessfirefox.org
@@ -112,14 +112,15 @@
 0.0.0.0 affiliates-cdn.mozilla.org
 0.0.0.0 aggregates.telemetry.mozilla.org
 0.0.0.0 ai-guide.future.mozilla.org
+0.0.0.0 air.mozilla.org
 0.0.0.0 analysis.telemetry.mozilla.org
 0.0.0.0 analysis-output.telemetry.mozilla.org
 0.0.0.0 api.accounts.firefox.com
 0.0.0.0 api.getpocket.com
 0.0.0.0 archive.mozilla.org
+0.0.0.0 assets.getpocket.com
 0.0.0.0 assets.mozilla.net
 0.0.0.0 assets.mozilla.org
-0.0.0.0 assets.getpocket.com
 0.0.0.0 attachments.prod.remote-settings.prod.webservices.mozgcp.net
 0.0.0.0 auth.mozilla.auth0.com
 0.0.0.0 auth.services.mozilla.com
@@ -136,13 +137,27 @@
 0.0.0.0 blocked.cdn.mozilla.net
 0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 blocklists.settings.services.mozilla.com
+0.0.0.0 blog.mozillabrasil.org.br
+0.0.0.0 blog.mozillafoundation.org
+0.0.0.0 blog.mozillagaming.org
+0.0.0.0 blog.mozillahispano.org
+0.0.0.0 blog.mozillalabs.com
+0.0.0.0 blog.mozillapocket.org
+0.0.0.0 blog.mozillapolicy.org
+0.0.0.0 blog.mozillapress.org
+0.0.0.0 blog.mozillaprivacy.org
+0.0.0.0 blog.mozillasecurity.org
+0.0.0.0 blog.mozilla-russia.org
+0.0.0.0 blog.mozilla.asia
 0.0.0.0 blog.mozilla.org
+0.0.0.0 blog.thunderbird.net
+0.0.0.0 blogs.mozillaindia.org
 0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
 0.0.0.0 broker-live.mozillamessaging.com
 0.0.0.0 bugzilla.mozilla.org
 0.0.0.0 careers.mozilla.org
-0.0.0.0 cdn.mozilla.net
 0.0.0.0 cdn.mozilla.com
+0.0.0.0 cdn.mozilla.net
 0.0.0.0 cdn.mozilla.org
 0.0.0.0 channelserver.services.mozilla.com
 0.0.0.0 charmed.mozilla.org
@@ -156,12 +171,12 @@
 0.0.0.0 content-signature-chains.prod.autograph.services.mozaws.net
 0.0.0.0 content-signature.cdn.mozilla.net
 0.0.0.0 content.cdn.mozilla.net
-0.0.0.0 contile.services.mozilla.com
 0.0.0.0 contile-images.services.mozilla.com
+0.0.0.0 contile.services.mozilla.com
 0.0.0.0 copy.loop.services.mozilla.com
 0.0.0.0 coverage.mozilla.org
-0.0.0.0 crash-reports.mozilla.com
 0.0.0.0 crash-reports-xpsp2.mozilla.com
+0.0.0.0 crash-reports.mozilla.com
 0.0.0.0 crash-stats.allizom.org
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
@@ -177,23 +192,26 @@
 0.0.0.0 detectportal.prod.mozaws.net
 0.0.0.0 developer.mozilla.org
 0.0.0.0 dictionary.telemetry.mozilla.org
+0.0.0.0 discovershiretoko.org
 0.0.0.0 discourse.mozilla.org
 0.0.0.0 discovery.addons.mozilla.org
 0.0.0.0 docs.telemetry.mozilla.org
 0.0.0.0 donate.mozilla.org
+0.0.0.0 download-installer.cdn.mozilla.net
 0.0.0.0 download.cdn.mozilla.net
 0.0.0.0 download.mozilla.org
-0.0.0.0 download-installer.cdn.mozilla.net
 0.0.0.0 download-stats.mozilla.org
 0.0.0.0 dnt.mozilla.org
 0.0.0.0 dxr.mozilla.org
 0.0.0.0 dynamicua.cdn.mozilla.net
+0.0.0.0 en-US.blog.mozilla.org
 0.0.0.0 en.malware-error.mozilla.com
 0.0.0.0 en.phish-error.mozilla.com
 0.0.0.0 en.phish-report.mozilla.com
 0.0.0.0 en-us.malware-error.mozilla.com
 0.0.0.0 en-us.phish-error.mozilla.com
 0.0.0.0 en-us.phish-report.mozilla.com
+0.0.0.0 eklentiler.mozillazine-tr.org
 0.0.0.0 experiments.mozilla.org
 0.0.0.0 extensions.allizom.org
 0.0.0.0 fakespot.prod.webservices.mozgcp.net
@@ -219,25 +237,26 @@
 0.0.0.0 glam.telemetry.mozilla.org
 0.0.0.0 glean.telemetry.mozilla
 0.0.0.0 glean.telemetry.mozilla.org
+0.0.0.0 gleanMetrics.fenix.mozilla.org
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.com
-0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.net
-0.0.0.0 gleanMetrics.fenix.mozilla.org
+0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
 0.0.0.0 governance.mozilla.org
 0.0.0.0 gud.telemetry.mozilla.org
 0.0.0.0 hang-reports.mozilla.org
 0.0.0.0 hardware.metrics.mozilla.com
 0.0.0.0 hello.firefox.com
 0.0.0.0 hg.mozilla.org
+0.0.0.0 hivenyc.org
 0.0.0.0 hubs.mozilla.com
 0.0.0.0 icecat.settings.services.mozilla.com
 0.0.0.0 icecatmobile-catalog.cdn.mozilla.net
 0.0.0.0 ideas.mozilla.org
 0.0.0.0 identity.mozilla.com
 0.0.0.0 img-getpocket.cdn.mozilla.net
-0.0.0.0 incoming.telemetry.mozilla.org
 0.0.0.0 incoming-telemetry.thunderbird.net
+0.0.0.0 incoming.telemetry.mozilla.org
 0.0.0.0 input.mozilla.org
 0.0.0.0 install.mozilla.org
 0.0.0.0 iot.mozilla.org
@@ -251,13 +270,13 @@
 0.0.0.0 makerparty.org
 0.0.0.0 malware-error.mozilla.com
 0.0.0.0 mana.mozilla.org
-0.0.0.0 merino.services.mozilla.com
 0.0.0.0 mdn.mozillademos.org
+0.0.0.0 merino.services.mozilla.com
+0.0.0.0 metric.mozilla-pontoon-staging.herokuapp.com
 0.0.0.0 metrics.components.fenix.mozilla.org
 0.0.0.0 metrics.mozilla.com
-0.0.0.0 metric.mozilla-pontoon-staging.herokuapp.com
-0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 mixedreality.mozilla.org
+0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 model-hub.mozilla.org
 0.0.0.0 monitor.cdn.mozilla.net
 0.0.0.0 mozamo.wpengine.com
@@ -266,9 +285,7 @@
 0.0.0.0 mozilla-australia.org
 0.0.0.0 mozilla-bolivia.org
 0.0.0.0 mozilla-brazil.org.br
-0.0.0.0 mozilla-ohttp-fakespot.fastly-edge.com
-0.0.0.0 mozilla-ohttp.fastly-edge.com
-0.0.0.0 mozilla-vc-dev.ramotion.agency
+0.0.0.0 mozilla.cn
 0.0.0.0 mozilla.cloudflare-dns.com
 0.0.0.0 mozilla.co.jp
 0.0.0.0 mozilla.dorando.at
@@ -276,10 +293,13 @@
 0.0.0.0 mozilla.in
 0.0.0.0 mozilla.io
 0.0.0.0 mozilla.jp
+0.0.0.0 mozilla-ohttp-fakespot.fastly-edge.com
+0.0.0.0 mozilla-ohttp.fastly-edge.com
 0.0.0.0 mozilla.org.cdn
 0.0.0.0 mozilla.org.cdn.cloudflare.net
 0.0.0.0 mozilla.org.cn
 0.0.0.0 mozilla.social
+0.0.0.0 mozilla-vc-dev.ramotion.agency
 0.0.0.0 mozillaamo.wpengine.com
 0.0.0.0 mozillafestival.org
 0.0.0.0 mozillafoundation.org
@@ -294,9 +314,9 @@
 0.0.0.0 mozsocial.cliqz.com
 0.0.0.0 missioncontrol.telemetry.mozilla.org
 0.0.0.0 nightly.mozilla.org
-0.0.0.0 normandy.cdn.mozilla.net
 0.0.0.0 normandy-cdn.services.mozilla.com
 0.0.0.0 normandy-cloudfront.cdn.mozilla.net
+0.0.0.0 normandy.cdn.mozilla.net
 0.0.0.0 oauth.accounts.firefox.com
 0.0.0.0 observatory.mozilla.org
 0.0.0.0 olympia.prod.mozaws.net
@@ -340,19 +360,19 @@
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 searchfox.org
 0.0.0.0 self-repair.mozilla.org
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.com
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.net
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.com
-0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.org
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.net
+0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.org
+0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla
+0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.com
+0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.net
+0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
 0.0.0.0 service.crash.lib.components.mozilla
-0.0.0.0 service.crashes.lib.components.mozilla.com
-0.0.0.0 service.crashes.lib.components.mozilla.org
-0.0.0.0 service.crashes.lib.components.mozilla.net
 0.0.0.0 service.crash.lib.components.mozilla.com
+0.0.0.0 service.crashes.lib.components.mozilla.com
+0.0.0.0 service.crashes.lib.components.mozilla.net
+0.0.0.0 service.crashes.lib.components.mozilla.org
 0.0.0.0 services.addons.mozilla.org
 0.0.0.0 services.mozilla.com
 0.0.0.0 settings.prod.webservices.mozgcp.net
@@ -364,8 +384,8 @@
 0.0.0.0 snippets.cdn.mozilla.net
 0.0.0.0 snippets.mozilla.com
 0.0.0.0 socorro-collector.services.mozilla.com
-0.0.0.0 socorro-webapp.services.mozilla.com
 0.0.0.0 socorro-webapp-allizom.stage.mozaws.net
+0.0.0.0 socorro-webapp.services.mozilla.com
 0.0.0.0 spocs.getpocket.com
 0.0.0.0 spreadfirefox.com
 0.0.0.0 sql.telemetry.mozilla.org
@@ -386,37 +406,40 @@
 0.0.0.0 talkback.mozilla.org
 0.0.0.0 taskcluster.net
 0.0.0.0 tbpl.mozilla.org
-0.0.0.0 telemetry.gecko.mozilla.org
 0.0.0.0 telemetry-coverage.mozilla.org
 0.0.0.0 telemetry-experiment.cdn.mozilla.net
 0.0.0.0 telemetry-incoming.r53-2.services.mozilla.com
+0.0.0.0 telemetry.gecko.mozilla.org
 0.0.0.0 telemetry.mozilla.org
 0.0.0.0 testpilot.firefox.com
 0.0.0.0 testpilot.mozillalabs.com
+0.0.0.0 thanks.dev
+0.0.0.0 thimble.mozilla.org
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 tiles-cdn.prod.ads.prod.webservices.mozgcp.net
 0.0.0.0 tiles.cdn.mozilla.net
 0.0.0.0 tiles.services.mozilla.com
 0.0.0.0 token.services.mozilla.com
 0.0.0.0 topsites.services.mozilla.com
+0.0.0.0 tracking-protection-issues.herokuapp.com
+0.0.0.0 tracking-protection.cdn.mozilla.net
+0.0.0.0 tracking-protection.prod.mozaws.net
 0.0.0.0 tracking.firefox.com
 0.0.0.0 tracking.firefox.com.cn
 0.0.0.0 tracking.services.mozilla.com
-0.0.0.0 tracking-protection.cdn.mozilla.net
-0.0.0.0 tracking-protection-issues.herokuapp.com
-0.0.0.0 tracking-protection.prod.mozaws.net
 0.0.0.0 updates.push.services.mozilla.com
 0.0.0.0 video-cdn.mozilla.net
 0.0.0.0 videos-cdn.mozilla.net
 0.0.0.0 videos.mozilla.org
 0.0.0.0 webcompat.com
-0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 webmaker.org
 0.0.0.0 webservices.mozgcp.net
+0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 wiki.mozilla.org
 0.0.0.0 workflow.telemetry.mozilla.org
-0.0.0.0 www.mozilla.org.cdn.cloudflare.net
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
+0.0.0.0 www.mozilla.org.cdn.cloudflare.net
+0.0.0.0 zh-tw.add-ons.mozilla.com
 #
 ###Tracker and auto update blocking from other firefox forked browsers
 ## Basilisk

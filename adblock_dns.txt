@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 January 2025
-! Version: 3.18
+! Last modified: 14 January 2025
+! Version: 4.00
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -31,6 +31,7 @@
 !!! External Trackers Mozilla uses on their own sites...
 ||google-analytics.com^
 ||googletagmanager.com^
+||googletagservices.com^
 ||omappapi.com^
 ||braze.com^
 ||sentry.io^
@@ -58,20 +59,21 @@
 ||anonymco.com^
 ||fakespot.com^
 ||fakespot.io^
-||orbitbymozilla.com^
 !
 !! Mozilla's Sub brands and services urls
 ||foundation.mozilla.org^
-||mozilla.design^
 ||monitor.mozilla.org^
+||mozilla.design^
+||mozillafoundation.org^
 ||relay.firefox.com^
 ||vpn.mozilla.org^
 !
 !! Mozilla Inovation projects
 ||didthis.app^
 ||formulaic.app^
-||soloist.ai^
+||orbitbymozilla.com^
 ||orcaready.org^
+||soloist.ai^
 ||subconscious.network^
 !
 !!! Mozilla Accounts
@@ -100,8 +102,10 @@
 ||mozilla.cloudflare-dns.com^
 !
 !!!!!! All Other domains, subdomains related to Mozilla
+||accessfirefox.org^
 ||ai-guide.future.mozilla.org^
 ||allizom.org^
+||analytics.google.com^
 ||api.pocket.com^
 ||assets.mozilla.net^
 ||assets.getpocket.com^
@@ -131,24 +135,53 @@
 ||discourse.mozilla.org^
 ||download.mozilla.org^
 ||download-stats.mozilla.org^
+||firefox.com.cn^
+||firefox.dns.nextdns.io^
 ||firefox-android-home-recommendations.getpocket.com^
 ||firefox-settings-attachments.cdn.mozilla.net^
 ||firefox-source-docs.mozilla.org^
+||firefoxflicks.com^
 ||fls.merino.services.mozilla.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
 ||future.mozilla.org^
+||hivenyc.org^
 ||incoming.telemetry.mozilla.org^
 ||live.mozillamessaging.com^
 ||location.services.mozilla.com^
+||makerparty.org^
 ||merino.services.mozilla.com^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
 ||moz.works^
 ||mozamo.wpengine.com^
 ||mozaws.net^
 ||mozgcp.net^
-||mozorg.moz.works^
-||mozorg.cdn.mozilla.net^
-||mozilla.ai^
+||mozilla-australia.org^
+||mozilla-bolivia.org^
+||mozilla-brazil.org.br^
+||mozilla-ohttp-fakespot.fastly-edge.com^
+||mozilla-ohttp.fastly-edge.com^
+||mozilla.cn^
+||mozilla.co.jp^
+||mozilla.dorando.at^
+||mozilla.formstack.com^
+||mozilla.in^
+||mozilla.io^
+||mozilla.jp^
+||mozilla.tw^
+||mozillabrasil.org.br^
+||mozillagaming.org^
+||mozillahispano.org^
+||mozillalabs.com^
+||mozillapocket.org^
+||mozillapolicy.org^
+||mozillapress.org^
+||mozillaprivacy.org^
+||mozillasecurity.org^
+||mozilla-russia.org^
+||mozilla.asia^
+||mozillaos.org^
+||mozillavr.com^
+||mozillians.org^
 ||mozilla.auth0.com^
 ||mozilla.dorando.at^
 ||mozilla.formstack.com^
@@ -158,17 +191,22 @@
 ||mozillamessaging.com^
 ||mozillaupdates.com^
 ||mozillamaintenanceservice.duckdns.org^
+||mozorg.moz.works^
+||mozorg.cdn.mozilla.net^
 ||mozsocial.cliqz.com^
 ||mware.socorro.stage.webapp.sjc1.mozilla.com^
+||mzl.la^
 ||normandy.cdn.mozilla.net^
 ||normandy.services.mozilla.com^
 ||normandy-cdn.services.mozilla.com^
 ||normandy-cloudfront.cdn.mozilla.net^
 ||normandy-devtools.services.mozilla.com^
+||openbadges.org^
 ||pocket-image-cache.com^
 ||pontoon.mozilla.org^
 ||prod.webservices.mozgcp.net^
 ||push.services.mozilla.com^
+||searchfox.org^
 ||settings.services.mozilla.com^
 ||shavar.services.mozilla.com^
 ||snippets.allizom.org^
@@ -193,6 +231,8 @@
 ||tracking.services.mozilla.com^
 ||tracking-protection.cdn.mozilla.net^
 ||tracking-protection-issues.herokuapp.com^
+||webcompat.com^
+||webmaker.orgv^
 ||webservices.mozgcp.net^
 ||wiki.mozilla.org^
 !

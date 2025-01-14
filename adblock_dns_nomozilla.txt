@@ -19,14 +19,15 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 13 January 2025
-! Version: 2.18
+! Last modified: 14 January 2025
+! Version: 4.00
 ! Syntax: Adblock
 ! Number of entries:
 !
 !!! External Trackers Mozilla uses on their own sites...
 ||google-analytics.com^
 ||googletagmanager.com^
+||googletagservices.com^
 ||omappapi.com^
 ||braze.com^
 ||sentry.io^
@@ -40,7 +41,7 @@
 !
 !!!!!! Mozilla Products, Brands and Services Direct Urls !!!!!!
 !
-!! Mozilla's Major brands and services
+! Mozilla's Major brands and services
 ||firefox.com*^
 ||extensionworkshop.com^
 ||mozilla.com*^
@@ -54,32 +55,66 @@
 ||anonymco.com^
 ||fakespot.com^
 ||fakespot.io^
-||orbitbymozilla.com^
 !
 !! Mozilla's Sub brands and services urls
 ||foundation.mozilla.org^
-||mozilla.design^
 ||monitor.mozilla.org^
+||mozilla.design^
+||mozillafoundation.org^
 ||relay.firefox.com^
 ||vpn.mozilla.org^
 !
 !! Mozilla Inovation projects
 ||didthis.app^
 ||formulaic.app^
-||soloist.ai^
+||orbitbymozilla.com^
 ||orcaready.org^
+||soloist.ai^
 ||subconscious.network^
 !
 !!!!!! Urls not covered by the blanket url block
+||accessfirefox.org^
 ||allizom.org^
 ||dap-09-3.api.divviup.org^
 ||webservices.mozgcp.net^
 ||mozilla.cloudflare-dns.com^
+||firefox.com.cn^
+||firefox.dns.nextdns.io^
+||firefoxflicks.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
+||hivenyc.org^
+||makerparty.org^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
 ||moz.works^
 ||mozaws.net^
 ||mozgcp.net^
+||mozilla-australia.org^
+||mozilla-bolivia.org^
+||mozilla-brazil.org.br^
+||mozilla-ohttp-fakespot.fastly-edge.com^
+||mozilla-ohttp.fastly-edge.com^
+||mozilla.cn^
+||mozilla.co.jp^
+||mozilla.dorando.at^
+||mozilla.formstack.com^
+||mozilla.in^
+||mozilla.io^
+||mozilla.jp^
+||mozilla.tw^
+||mozillabrasil.org.br^
+||mozillagaming.org^
+||mozillahispano.org^
+||mozillalabs.com^
+||mozillapocket.org^
+||mozillapolicy.org^
+||mozillapress.org^
+||mozillaprivacy.org^
+||mozillasecurity.org^
+||mozilla-russia.org^
+||mozilla.asia^
+||mozillaos.org^
+||mozillavr.com^
+||mozillians.org^
 ||mozorg.moz.works^
 ||mozamo.wpengine.com^
 ||mozilla.auth0.com^
@@ -93,8 +128,13 @@
 ||mozillaupdates.com^
 ||mozillamaintenanceservice.duckdns.org^
 ||mozsocial.cliqz.com^
+||mzl.la^
+||openbadges.org^
 ||pocket-image-cache.com^
+||searchfox.org^
 ||snippets.allizom.org^
 ||tracking.firefox.com.cn^
 ||tracking-protection-issues.herokuapp.com^
+||webcompat.com^
+||webmaker.orgv^
 !

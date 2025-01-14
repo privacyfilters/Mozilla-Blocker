@@ -21,7 +21,7 @@
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 14 January 2025
-! Version: 4.00
+! Version: 4.01
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -87,7 +87,7 @@
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla download and tracking script containing servers/cdn
-@@||ftp.mozilla.org^
+||ftp.mozilla.org^
 ||cdn.mozilla.net^
 ||archive.mozilla.org^
 !

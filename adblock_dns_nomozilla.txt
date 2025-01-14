@@ -20,37 +20,43 @@
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 14 January 2025
-! Version: 4.00
+! Version: 4.01
 ! Syntax: Adblock
 ! Number of entries:
 !
 !!! External Trackers Mozilla uses on their own sites...
+||analytics.google.com^
+||analytics.query.yahoo.com^
+||api2.amplitude.com^
+||app-measurement.com^
+||braze.com^
+||data.flurry.com^
 ||google-analytics.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||omappapi.com^
-||braze.com^
-||sentry.io^
 ||matomo.cloud^
+||nativesdks.mparticle.com^
+||omappapi.com^
 ||pubmine.com^
+||sentry.io^
 !Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !
-!!!!!! Mozilla Products, Brands and Services Direct Urls !!!!!!
+!!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 !
-! Mozilla's Major brands and services
+!! Mozilla's Major brands and services
 ||firefox.com*^
 ||extensionworkshop.com^
+||mozilla.ai^
+||getpocket.com^
 ||mozilla.com*^
 ||mozilla.net*^
 ||mozilla.org*^
-||getpocket.com^
-||pocket.com^
-||mozilla.ai^
 ||mozilla.vc^
+||pocket.com^
 ||thunderbird.net*^
 ||anonymco.com^
 ||fakespot.com^

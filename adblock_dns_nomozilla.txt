@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 14 January 2025
-! Version: 4.01
+! Last modified: 18 January 2025
+! Version: 4.03
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -29,16 +29,20 @@
 ||analytics.query.yahoo.com^
 ||api2.amplitude.com^
 ||app-measurement.com^
+||adjust.com^
 ||braze.com^
+||buysellads.com^
 ||data.flurry.com^
 ||google-analytics.com^
 ||googletagmanager.com^
 ||googletagservices.com^
 ||matomo.cloud^
+||matomo.php^
 ||nativesdks.mparticle.com^
 ||omappapi.com^
 ||pubmine.com^
 ||sentry.io^
+||typeform.com^
 !Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
@@ -89,6 +93,8 @@
 ||firefoxflicks.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
 ||hivenyc.org^
+||leanplum.com^
+||leanprivacy.com^
 ||makerparty.org^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
 ||moz.works^

@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 14 January 2025
+# Last modified: 18 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -23,12 +23,15 @@
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 api2.amplitude.com
 0.0.0.0 app-measurement.com
+0.0.0.0 app.adjust.com
 0.0.0.0 braze.com
+0.0.0.0 buysellads.com
 0.0.0.0 data.flurry.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 matomo.cloud
+0.0.0.0 matomo.php
 0.0.0.0 nativesdks.mparticle.com
 0.0.0.0 omappapi.com
 0.0.0.0 pubmine.com
@@ -36,6 +39,7 @@
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 sentry.io
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 typeform.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
@@ -127,6 +131,7 @@
 0.0.0.0 air.mozilla.org
 0.0.0.0 analysis.telemetry.mozilla.org
 0.0.0.0 analysis-output.telemetry.mozilla.org
+0.0.0.0 analytics.mozilla.org
 0.0.0.0 antenna-prod.socorro.prod.webservices.mozgcp.net
 0.0.0.0 antenna-stage.socorro.nonprod.webservices.mozgcp.net
 0.0.0.0 api.accounts.firefox.com
@@ -191,6 +196,7 @@
 0.0.0.0 copy.loop.services.mozilla.com
 0.0.0.0 coverage.mozilla.org
 0.0.0.0 crash-analysis.mozilla.com
+0.0.0.0 crash-reports-dev.allizom.org
 0.0.0.0 crash-reports-xpsp2.mozilla.com
 0.0.0.0 crash-reports-xpsp2s.mozilla.com
 0.0.0.0 crash-reports.allizom.org
@@ -265,6 +271,7 @@
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 firefox-android-home-recommendations.getpocket.com
 0.0.0.0 firefox-api-proxy.cdn.mozilla.net
+0.0.0.0 firefox-ci-tc.services.mozilla.com
 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 0.0.0.0 firefox-source-docs.mozilla.org
 0.0.0.0 firefox.dns.nextdns.io
@@ -300,10 +307,12 @@
 0.0.0.0 identity.mozilla.com
 0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 incoming-telemetry.thunderbird.net
+0.0.0.0 incoming.ingestion.cloudops.mozgcp.net
 0.0.0.0 incoming.telemetry.mozilla.org
 0.0.0.0 input.mozilla.org
 0.0.0.0 install.mozilla.org
 0.0.0.0 iot.mozilla.org
+0.0.0.0 leanplum.com
 0.0.0.0 leanprivacy.com
 0.0.0.0 live.mozillamessaging.com
 0.0.0.0 live.thunderbird.net
@@ -478,6 +487,7 @@
 0.0.0.0 tracking.firefox.com
 0.0.0.0 tracking.firefox.com.cn
 0.0.0.0 tracking.services.mozilla.com
+0.0.0.0 trackingprotection.services.mozilla.com
 0.0.0.0 updates.push.services.mozilla.com
 0.0.0.0 video-cdn.mozilla.net
 0.0.0.0 videos-cdn.mozilla.net

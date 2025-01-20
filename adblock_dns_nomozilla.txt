@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 18 January 2025
-! Version: 4.03
+! Last modified: 20 January 2025
+! Version: 4.04
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -43,11 +43,7 @@
 ||pubmine.com^
 ||sentry.io^
 ||typeform.com^
-!Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||cookielaw.org^
 !
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 !
@@ -85,11 +81,15 @@
 !!!!!! Urls not covered by the blanket url block
 ||accessfirefox.org^
 ||allizom.org^
+||community-tc.services.mozilla.com^
+||contile.services.mozilla.com^
 ||dap-09-3.api.divviup.org^
-||webservices.mozgcp.net^
-||mozilla.cloudflare-dns.com^
+||data.mozilla.com^
+||docs.telemetry.mozilla.org^
+||fhr.r53-2.services.mozilla.com^
 ||firefox.com.cn^
 ||firefox.dns.nextdns.io^
+||firefox.settings.services.mozilla.com^
 ||firefoxflicks.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
 ||hivenyc.org^
@@ -98,6 +98,7 @@
 ||makerparty.org^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
 ||moz.works^
+||mozamo.wpengine.com^
 ||mozaws.net^
 ||mozgcp.net^
 ||mozilla-australia.org^
@@ -105,6 +106,11 @@
 ||mozilla-brazil.org.br^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
+||mozilla-russia.org^
+||mozilla-vc-dev.ramotion.agency^
+||mozilla.asia^
+||mozilla.auth0.com^
+||mozilla.cloudflare-dns.com^
 ||mozilla.cn^
 ||mozilla.co.jp^
 ||mozilla.dorando.at^
@@ -112,41 +118,35 @@
 ||mozilla.in^
 ||mozilla.io^
 ||mozilla.jp^
+||mozilla.org.cdn.cloudflare.net^
 ||mozilla.tw^
 ||mozillabrasil.org.br^
 ||mozillagaming.org^
 ||mozillahispano.org^
 ||mozillalabs.com^
+||mozillamaintenanceservice.duckdns.org^
+||mozillamessaging.com^
+||mozillaos.org^
 ||mozillapocket.org^
 ||mozillapolicy.org^
 ||mozillapress.org^
 ||mozillaprivacy.org^
 ||mozillasecurity.org^
-||mozilla-russia.org^
-||mozilla.asia^
-||mozillaos.org^
+||mozillaupdates.com^
 ||mozillavr.com^
 ||mozillians.org^
 ||mozorg.moz.works^
-||mozamo.wpengine.com^
-||mozilla.auth0.com^
-||mozilla.cloudflare-dns.com^
-||mozilla.dorando.at^
-||mozilla.formstack.com^
-||mozilla.org.cdn.cloudflare.net^
-||mozilla-ohttp.fastly-edge.com^
-||mozilla-vc-dev.ramotion.agency^
-||mozillamessaging.com^
-||mozillaupdates.com^
-||mozillamaintenanceservice.duckdns.org^
 ||mozsocial.cliqz.com^
 ||mzl.la^
 ||openbadges.org^
 ||pocket-image-cache.com^
 ||searchfox.org^
 ||snippets.allizom.org^
-||tracking.firefox.com.cn^
+||symbolication.services.mozilla.com^
+||symbols.mozilla.org^
+||telemetry-incoming.r53-2.services.mozilla.com^
 ||tracking-protection-issues.herokuapp.com^
+||tracking.firefox.com.cn^
 ||webcompat.com^
 ||webmaker.orgv^
-!
+||webservices.mozgcp.net^

@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 18 January 2025
-! Version: 4.03
+! Last modified: 20 January 2025
+! Version: 4.04
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -47,11 +47,7 @@
 ||pubmine.com^
 ||sentry.io^
 ||typeform.com^
-!Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
-!Not Blocked!||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||cookielaw.org^
 !
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 !
@@ -117,24 +113,25 @@
 ||allizom.org^
 ||analytics.google.com^
 ||api.pocket.com^
-||assets.mozilla.net^
 ||assets.getpocket.com^
-||aus5.mozilla.org^
+||assets.mozilla.net^
+||aus*.basilisk-browser.org^
 ||aus*.mozilla.org^
+||aus5.mozilla.org^
 ||blog.mozilla.org^
 ||bugzilla.mozilla.org^
 ||careers.mozilla.org^
-||contile.services.mozilla.com^
-||contile-images.services.mozilla.com^
 ||classify-client.services.mozilla.com^
 ||commonvoice.mozilla.org^
-||content-signature-2.cdn.mozilla.net^
+||community-tc.services.mozilla.com^
 ||content-signature*.cdn.mozilla.net^
+||content-signature-2.cdn.mozilla.net^
 ||contile-images.services.mozilla.com^
-||crash-reports.mozilla.com^
+||contile.services.mozilla.com^
 ||crash-reports-xpsp2.mozilla.com^
-||crash-stats.allizom.org^
+||crash-reports.mozilla.com^
 ||crash-stacks.mozilla.com^
+||crash-stats.allizom.org^
 ||crash-stats.mozilla.com^
 ||crash-stats.mozilla.org^
 ||dap-09-3.api.divviup.org^
@@ -143,13 +140,16 @@
 ||detectportal.firefox.com^
 ||developer.mozilla.org^
 ||discourse.mozilla.org^
-||download.mozilla.org^
+||docs.telemetry.mozilla.org^
 ||download-stats.mozilla.org^
-||firefox.com.cn^
-||firefox.dns.nextdns.io^
+||download.mozilla.org^
+||fhr.r53-2.services.mozilla.com^
 ||firefox-android-home-recommendations.getpocket.com^
 ||firefox-settings-attachments.cdn.mozilla.net^
 ||firefox-source-docs.mozilla.org^
+||firefox.com.cn^
+||firefox.dns.nextdns.io^
+||firefox.settings.services.mozilla.com^
 ||firefoxflicks.com^
 ||fls.merino.services.mozilla.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
@@ -172,6 +172,10 @@
 ||mozilla-brazil.org.br^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
+||mozilla-russia.org^
+||mozilla-vc-dev.ramotion.agency^
+||mozilla.asia^
+||mozilla.auth0.com^
 ||mozilla.cn^
 ||mozilla.co.jp^
 ||mozilla.dorando.at^
@@ -179,40 +183,33 @@
 ||mozilla.in^
 ||mozilla.io^
 ||mozilla.jp^
+||mozilla.org.cdn.cloudflare.net^
 ||mozilla.tw^
 ||mozillabrasil.org.br^
 ||mozillagaming.org^
 ||mozillahispano.org^
 ||mozillalabs.com^
+||mozillamaintenanceservice.duckdns.org^
+||mozillamessaging.com^
+||mozillaos.org^
 ||mozillapocket.org^
 ||mozillapolicy.org^
 ||mozillapress.org^
 ||mozillaprivacy.org^
 ||mozillasecurity.org^
-||mozilla-russia.org^
-||mozilla.asia^
-||mozillaos.org^
+||mozillaupdates.com^
 ||mozillavr.com^
 ||mozillians.org^
-||mozilla.auth0.com^
-||mozilla.dorando.at^
-||mozilla.formstack.com^
-||mozilla.org.cdn.cloudflare.net^
-||mozilla-ohttp.fastly-edge.com^
-||mozilla-vc-dev.ramotion.agency^
-||mozillamessaging.com^
-||mozillaupdates.com^
-||mozillamaintenanceservice.duckdns.org^
-||mozorg.moz.works^
 ||mozorg.cdn.mozilla.net^
+||mozorg.moz.works^
 ||mozsocial.cliqz.com^
 ||mware.socorro.stage.webapp.sjc1.mozilla.com^
 ||mzl.la^
-||normandy.cdn.mozilla.net^
-||normandy.services.mozilla.com^
 ||normandy-cdn.services.mozilla.com^
 ||normandy-cloudfront.cdn.mozilla.net^
 ||normandy-devtools.services.mozilla.com^
+||normandy.cdn.mozilla.net^
+||normandy.services.mozilla.com^
 ||openbadges.org^
 ||pocket-image-cache.com^
 ||pontoon.mozilla.org^
@@ -225,37 +222,28 @@
 ||snippets.allizom.org^
 ||snippets.cdn.mozilla.net^
 ||snippets.mozilla.com^
-||socorro.services.mozilla.com^
 ||socorro-collector.services.mozilla.com^
 ||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^
 ||socorro-mware-zlb.webapp.phx1.mozilla.com^
-||socorro-webapp.services.mozilla.com^
 ||socorro-webapp-allizom.stage.mozaws.net^
+||socorro-webapp.services.mozilla.com^
+||socorro.services.mozilla.com^
 ||spocs.getpocket.com^
 ||stun.services.mozilla.com^
-||telemetry.mozilla.org^
+||symbolication.services.mozilla.com^
+||symbols.mozilla.org^
 ||telemetry-coverage.mozilla.org^
 ||telemetry-coverage.r53-2.services.mozilla.com^
 ||telemetry-data.r53-2.services.mozilla.com^
 ||telemetry-incoming.r53-2.services.mozilla.com^
+||telemetry.mozilla.org^
 ||thunderbird-settings.thunderbird.net^
 ||topsites.services.mozilla.com^
+||tracking-protection-issues.herokuapp.com^
+||tracking-protection.cdn.mozilla.net^
 ||tracking.firefox.com.cn^
 ||tracking.services.mozilla.com^
-||tracking-protection.cdn.mozilla.net^
-||tracking-protection-issues.herokuapp.com^
 ||webcompat.com^
 ||webmaker.orgv^
 ||webservices.mozgcp.net^
 ||wiki.mozilla.org^
-!
-!!!!!! home calls and auto update urls of firefox forked Browsers
-!! Basilisk Browser
-||aus*.basilisk-browser.org^
-!
-!! Floorp Browser
-!Not Blocked!||floorp-update.ablaze.one^
-!
-!! Zen Browser
-!Not Blocked!||updates.zen-browser.app^
-!

@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 January 2025
-! Version: 4.04
+! Last modified: 22 January 2025
+! Version: 4.05
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -86,9 +86,12 @@
 ||accounts.firefox.com^
 ||accounts-static.cdn.mozilla.net^
 !
-!!! Mozilla Addons is allowed
+!!! Mozilla Addons
 @@||addons.mozilla.org^
 @@||addons.thunderbird.net^
+||crash.addons.mozilla.org^$important
+||crashplan.addons.mozilla.org^$important
+||discovery.addons.mozilla.org^$important
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
 !

@@ -21,7 +21,7 @@
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 22 January 2025
-! Version: 4.06
+! Version: 4.07
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -109,6 +109,7 @@
 !
 !!! Third party dns used in other apps
 ||mozilla.cloudflare-dns.com^
+||mozilla.org.cdn.cloudflare.net^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
 ||accessfirefox.org^
@@ -118,8 +119,6 @@
 ||aus.basilisk-browser.org^
 ||auth0.com^
 ||cliqz.com^
-||cloudflare-dns.com^
-||cloudflare.net^
 ||discovershiretoko.org^
 ||dorando.at^
 ||firefox.com.cn^
@@ -151,6 +150,7 @@
 ||mozilla-vc-dev.ramotion.agency^
 ||mozilla.ai^
 ||mozilla.asia^
+||mozilla.cloudflare-dns.com^
 ||mozilla.cn^
 ||mozilla.co.jp^
 ||mozilla.com^
@@ -160,6 +160,7 @@
 ||mozilla.io^
 ||mozilla.jp^
 ||mozilla.net^
+||mozilla.org.cdn.cloudflare.net^
 ||mozilla.org.cn^
 ||mozilla.org^
 ||mozilla.social^

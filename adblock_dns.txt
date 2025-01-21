@@ -128,6 +128,7 @@
 ||accessfirefox.org^
 ||allizom.org^
 ||amazonaws.com^
+||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||badg.us^
 ||cliqz.com^
 ||discovershiretoko.org^
@@ -180,6 +181,7 @@
 ||mozilla.com.cn^
 ||mozilla.com^
 ||mozilla.community^
+||mozilla.de^
 ||mozilla.dev^
 ||mozilla.developer.it^
 ||mozilla.events^
@@ -278,10 +280,12 @@
 ||openbadges.net^
 ||openbadges.org^
 ||opennews.org^
+||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||pocket-image-cache.com^
 ||searchfox.org^
 ||spreadfirefox.com^
 ||taskcluster.net^
+||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
 ||thanks.dev^
 ||thunderbird.net^
 ||tracking-protection-issues.herokuapp.com^

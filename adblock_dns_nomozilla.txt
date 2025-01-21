@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 January 2025
-! Version: 4.04
+! Last modified: 22 January 2025
+! Version: 4.05
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -78,25 +78,32 @@
 ||soloist.ai^
 ||subconscious.network^
 !
-!!!!!! Urls not covered by the blanket url block
+!!!!!! Blocklist: Simplied list from hosts !!!!!!
 ||accessfirefox.org^
 ||allizom.org^
-||community-tc.services.mozilla.com^
-||contile.services.mozilla.com^
-||dap-09-3.api.divviup.org^
-||data.mozilla.com^
-||docs.telemetry.mozilla.org^
-||fhr.r53-2.services.mozilla.com^
+||amazonaws.com^
+||api.divviup.org^
+||aus.basilisk-browser.org^
+||auth0.com^
+||cliqz.com^
+||cloudflare-dns.com^
+||cloudflare.net^
+||discovershiretoko.org^
+||dorando.at^
 ||firefox.com.cn^
-||firefox.dns.nextdns.io^
-||firefox.settings.services.mozilla.com^
+||firefox.com^
+||firefox.org^
 ||firefoxflicks.com^
-||foundation.mozilla.org.cdn.cloudflare.net^
+||formstack.com^
+||getfirefox.com^
+||getpocket.com^
+||getpocket.dev^
 ||hivenyc.org^
+||jsbin.com^
+||lcip.org^
 ||leanplum.com^
 ||leanprivacy.com^
 ||makerparty.org^
-||metric.mozilla-pontoon-staging.herokuapp.com^
 ||moz.works^
 ||mozamo.wpengine.com^
 ||mozaws.net^
@@ -106,47 +113,66 @@
 ||mozilla-brazil.org.br^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
+||mozilla-pontoon-staging.herokuapp.com^
+||mozilla-pulse.org^
 ||mozilla-russia.org^
 ||mozilla-vc-dev.ramotion.agency^
+||mozilla.ai^
 ||mozilla.asia^
-||mozilla.auth0.com^
-||mozilla.cloudflare-dns.com^
 ||mozilla.cn^
 ||mozilla.co.jp^
-||mozilla.dorando.at^
-||mozilla.formstack.com^
+||mozilla.com^
+||mozilla.community^
+||mozilla.events^
 ||mozilla.in^
 ||mozilla.io^
 ||mozilla.jp^
-||mozilla.org.cdn.cloudflare.net^
-||mozilla.tw^
+||mozilla.net^
+||mozilla.org.cn^
+||mozilla.org^
+||mozilla.social^
+||mozillaamo.wpengine.com^
+||mozillablog.org^
 ||mozillabrasil.org.br^
+||mozillademos.org^
+||mozillafestival.org^
+||mozillafoundation.eu^
+||mozillafoundation.jp^
+||mozillafoundation.net^
+||mozillafoundation.org^
 ||mozillagaming.org^
 ||mozillahispano.org^
+||mozillaindia.org^
+||mozillainvite.org^
 ||mozillalabs.com^
 ||mozillamaintenanceservice.duckdns.org^
 ||mozillamessaging.com^
+||mozillamobile.org^
 ||mozillaos.org^
 ||mozillapocket.org^
 ||mozillapolicy.org^
 ||mozillapress.org^
 ||mozillaprivacy.org^
+||mozillapulse.org^
+||mozillascience.org^
 ||mozillasecurity.org^
-||mozillaupdates.com^
 ||mozillavr.com^
+||mozillavr.org^
+||mozillawebmaker.org^
+||mozillazine-tr.org^
 ||mozillians.org^
-||mozorg.moz.works^
-||mozsocial.cliqz.com^
+||mozillignite.org^
+||mozspace.org^
 ||mzl.la^
+||nextdns.io^
 ||openbadges.org^
+||opennews.org^
 ||pocket-image-cache.com^
 ||searchfox.org^
-||snippets.allizom.org^
-||symbolication.services.mozilla.com^
-||symbols.mozilla.org^
-||telemetry-incoming.r53-2.services.mozilla.com^
+||spreadfirefox.com^
+||taskcluster.net^
+||thanks.dev^
+||thunderbird.net^
 ||tracking-protection-issues.herokuapp.com^
-||tracking.firefox.com.cn^
 ||webcompat.com^
-||webmaker.orgv^
-||webservices.mozgcp.net^
+||webmaker.org^

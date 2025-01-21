@@ -1,17 +1,18 @@
 # Mozilla Blocker - The Great Filters to Block All Mozilla Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
-### Available on [Github](https://github.com/privacyfilters/Mozilla-Blocker) and [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker).
+### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the main regularly updated repository for Mozilla Blocker.
+### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker).
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
-## Filters which allows firefox forks to install and update add-ons from mozilla extension store
-#### Adguard Home and Zen Adblocker - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt)
+## Regualr Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
+#### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt)
 
-#### Windows/Linux host, Opensnitch and Android Adaway - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts)
+#### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts)
 
-## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons
-#### Adguard Home and Zen Adblocker - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt)
+## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons
+#### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt)
 
-#### Windows/Linux host, Opensnitch and Android Adaway - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla)
+#### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla)
 
 ## Recommended Methods to Block Mozilla
 1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome

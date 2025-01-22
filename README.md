@@ -1,4 +1,4 @@
-# Mozilla Blocker - The Great Filters to Block All Mozilla Spying
+# Mozilla Blocker - Block all Mozilla/Firefox Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 ### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the main regularly updated repository for Mozilla Blocker.
 ### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker).
@@ -22,7 +22,7 @@
 5. Opensnitch firewall for Linux (foss)(hosts) - https://github.com/evilsocket/opensnitch
 6. personelDNSfilter for Android (stable)(no-root)(foss)(hosts)(dns) - https://github.com/IngoZenz/personaldnsfilter
 7. Netguard firewall for Android (stable)(no-root)(foss)(hosts) - https://github.com/M66B/NetGuard
-8. Adaway for Android (root)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
+8. Adaway for Android (root)(no-root)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
 9. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(dns) - https://adguard.com/en/adguard-android/overview.html
 
 The adblock filter format works perfectly on Adguard Home.

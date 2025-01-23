@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 January 2025
-! Version: 4.09
+! Last modified: 23 January 2025
+! Version: 4.10
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -107,32 +107,43 @@
 !!! Mozilla Support and blogs
 ||support.mozilla.org^
 !
-!!! Externel subdomains to block
+!!! Externel domains & subdomains
 ||api.divviup.org^
+||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||aus.basilisk-browser.org^
 ||auth.mozilla.auth0.com^
+||cliqz.com^
+||discovershiretoko.org^
+||dorando.at^
 ||firefox-test-accounts.auth0.com^
 ||firefox.dns.nextdns.io^
 ||fxa-auth0.auth0.com^
 ||fxa-stage.auth0.com ^
+||hivelearningnetworks.org^
 ||mozamo.wpengine.com^
+||mozilla-pontoon-staging.herokuapp.com^
 ||mozilla-vc-dev.ramotion.agency^
 ||mozilla.cloudflare-dns.com^
 ||mozilla.community.br^
 ||mozilla.dev.services^
 ||mozilla.formstack.com^
 ||mozilla.org.cdn.cloudflare.net^
+||mozilla.slack.com^
 ||mozillaamo.wpengine.com^
+||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
+||s3-us-west-2.amazonaws.com^
+||taskcluster.net^
+||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
+||thanks.dev^
+||tracking-protection-issues.herokuapp.com^
+||webcompat.com^
+||webmaker.me^
+||webmaker.org^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
 ||accessfirefox.org^
 ||allizom.org^
-||amazonaws.com^
-||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||badg.us^
-||cliqz.com^
-||discovershiretoko.org^
-||dorando.at^
 ||firefox.com.cn^
 ||firefox.com^
 ||firefox.org^
@@ -140,7 +151,6 @@
 ||getfirefox.com^
 ||getpocket.com^
 ||getpocket.dev^
-||hivelearningnetworks.org^
 ||hivenyc.org^
 ||jsbin.com^
 ||lcip.org^
@@ -167,7 +177,6 @@
 ||mozilla-nimbus.org^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
-||mozilla-pontoon-staging.herokuapp.com^
 ||mozilla-pulse.org^
 ||mozilla-research.net^
 ||mozilla-russia.org^
@@ -194,7 +203,6 @@
 ||mozilla.org.za^
 ||mozilla.org^
 ||mozilla.rw^
-||mozilla.slack.com^
 ||mozilla.social^
 ||mozillablog.org^
 ||mozillabot.org^
@@ -280,15 +288,7 @@
 ||openbadges.net^
 ||openbadges.org^
 ||opennews.org^
-||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||pocket-image-cache.com^
 ||searchfox.org^
 ||spreadfirefox.com^
-||taskcluster.net^
-||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
-||thanks.dev^
 ||thunderbird.net^
-||tracking-protection-issues.herokuapp.com^
-||webcompat.com^
-||webmaker.me^
-||webmaker.org^

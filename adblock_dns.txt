@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 23 January 2025
-! Version: 4.10
+! Last modified: 26 January 2025
+! Version: 4.11
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -29,115 +29,205 @@
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! External Trackers Mozilla uses on their own sites...
+! Google's main analytics tracker
 ||analytics.google.com^
+! Yahoo's analytics service
 ||analytics.query.yahoo.com^
+! Amplitude's analytics API
 ||api2.amplitude.com^
+! Firebase analytics by Google
 ||app-measurement.com^
+! Mobile analytics and attribution
 ||adjust.com^
+! Marketing automation platform
 ||braze.com^
+! Advertising network
 ||buysellads.com^
+! Mobile app analytics by Yahoo
 ||data.flurry.com^
+! Core Google Analytics service
 ||google-analytics.com^
+! Google's tag management system
 ||googletagmanager.com^
+! Google's ad-serving infrastructure
 ||googletagservices.com^
+! Cloud-hosted Matomo analytics
 ||matomo.cloud^
+! Server-side Matomo analytics
 ||matomo.php^
+! mParticle's SDK for data integration
 ||nativesdks.mparticle.com^
+! Another analytics service
 ||omappapi.com^
+! Ad tech platform
 ||pubmine.com^
+! Error tracking and monitoring
 ||sentry.io^
+! Online form creation and data collection
 ||typeform.com^
+! Cookie consent management
 ||cookielaw.org^
 !
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 !
 !! Mozilla's Major brands and services
+! Firefox browser main domain
 ||firefox.com*^
+! Extension workshop for Firefox add-ons
 ||extensionworkshop.com^
+! Mozilla's AI initiatives
 ||mozilla.ai^
+! Pocket save-for-later service
 ||getpocket.com^
+! Mozilla's commercial domain
 ||mozilla.com*^
+! Mozilla's network domain
 ||mozilla.net*^
+! Mozilla's main domain
 ||mozilla.org*^
+! Mozilla's video conferencing service
 ||mozilla.vc^
+! Pocket's main domain
 ||pocket.com^
+! Thunderbird email client domain
 ||thunderbird.net*^
+! Anonymco for privacy services
 ||anonymco.com^
+! Fakespot for detecting fake reviews
 ||fakespot.com^
+! Fakespot's additional domain
 ||fakespot.io^
 !
 !! Mozilla's Sub brands and services urls
+! Mozilla Foundation's main site
 ||foundation.mozilla.org^
+! Monitor service for data breaches
 ||monitor.mozilla.org^
+! Mozilla's design system and resources
 ||mozilla.design^
+! Mozilla Foundation's alternative domain
 ||mozillafoundation.org^
+! Firefox Relay for email privacy
 ||relay.firefox.com^
+! Mozilla VPN service
 ||vpn.mozilla.org^
 !
 !! Mozilla Inovation projects
+! Privacy-focused analytics tool
 ||didthis.app^
+! Form creation service
 ||formulaic.app^
+! Mozilla's Orbit project for user interaction
 ||orbitbymozilla.com^
+! Likely related to Mozilla's ORCA project
 ||orcaready.org^
+! AI-driven analytics or service
 ||soloist.ai^
+! Possibly related to AI or network analytics
 ||subconscious.network^
 !
 !!! Mozilla Accounts
+! Firefox Accounts service
 ||accounts.firefox.com^
+! Static content for Firefox Accounts
 ||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
+! Allow listing for Mozilla add-ons site
 @@||addons.mozilla.org^
+! Allow listing for Thunderbird add-ons site
 @@||addons.thunderbird.net^
+! Crash reporting for Mozilla add-ons, marked as important
 ||crash.addons.mozilla.org^$important
+! CrashPlan service for Mozilla add-ons, marked as important
 ||crashplan.addons.mozilla.org^$important
+! Discovery service for Mozilla add-ons, marked as important
 ||discovery.addons.mozilla.org^$important
+! Services for Mozilla add-ons, marked as important
 ||services.addons.mozilla.org^$important
+! Services for Thunderbird add-ons, marked as important
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla download and tracking script containing servers/cdn
+! Mozilla's FTP server
 ||ftp.mozilla.org^
+! Mozilla's CDN network
 ||cdn.mozilla.net^
+! Mozilla's archive server
 ||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which will cause automatic config not to work
+! Live server for Thunderbird
 ||live.thunderbird.net^
+! Auto-configuration for Thunderbird
 ||autoconfig.thunderbird.net^
 !
 !!! Mozilla Support and blogs
+! Mozilla's support knowledge base
 ||support.mozilla.org^
 !
 !!! Externel domains & subdomains
+! Divviup API for data privacy
 ||api.divviup.org^
+! Asan Nightly frontend for testing
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
+! Update server for Basilisk browser
 ||aus.basilisk-browser.org^
+! Authentication for Mozilla services
 ||auth.mozilla.auth0.com^
+! Cliqz search engine, associated with Mozilla
 ||cliqz.com^
+! Discover Shiretoko project
 ||discovershiretoko.org^
+! Dorando project, possibly related to Mozilla
 ||dorando.at^
+! Test accounts for Firefox
 ||firefox-test-accounts.auth0.com^
+! DNS service for Firefox
 ||firefox.dns.nextdns.io^
+! Firefox Account authentication
 ||fxa-auth0.auth0.com^
-||fxa-stage.auth0.com ^
+! Staging environment for Firefox Account
+||fxa-stage.auth0.com^
+! Hive Learning Networks
 ||hivelearningnetworks.org^
+! Mozilla's WordPress engine site
 ||mozamo.wpengine.com^
+! Staging for Mozilla's Pontoon translation tool
 ||mozilla-pontoon-staging.herokuapp.com^
+! Mozilla's video conferencing development
 ||mozilla-vc-dev.ramotion.agency^
+! Mozilla's DNS service via Cloudflare
 ||mozilla.cloudflare-dns.com^
+! Mozilla community in Brazil
 ||mozilla.community.br^
+! Development services for Mozilla
 ||mozilla.dev.services^
+! Formstack forms for Mozilla
 ||mozilla.formstack.com^
+! CDN for Mozilla's content
 ||mozilla.org.cdn.cloudflare.net^
+! Mozilla's Slack workspace
 ||mozilla.slack.com^
+! AMO's WordPress engine site
 ||mozillaamo.wpengine.com^
+! Pipeline incoming production server
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
+! AWS S3 storage, likely used by Mozilla
 ||s3-us-west-2.amazonaws.com^
+! TaskCluster for task automation
 ||taskcluster.net^
+! Telemetry production server
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
+! Dev site for thanks
 ||thanks.dev^
+! Tracking protection issues reporting
 ||tracking-protection-issues.herokuapp.com^
+! Web compatibility issues reporting
 ||webcompat.com^
+! Webmaker project site
 ||webmaker.me^
+! Webmaker project's main domain
 ||webmaker.org^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!

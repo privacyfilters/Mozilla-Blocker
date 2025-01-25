@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 22 January 2025
+# Last modified: 26 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -18,84 +18,93 @@
 #
 #
 ### External trackers Mozilla uses on their own sites, and also used by them to collect user data...
-0.0.0.0 analytics.google.com
-0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 api2.amplitude.com
-0.0.0.0 app-measurement.com
-0.0.0.0 app.adjust.com
-0.0.0.0 braze.com
-0.0.0.0 buysellads.com
-0.0.0.0 data.flurry.com
-0.0.0.0 google-analytics.com
-0.0.0.0 googletagmanager.com
-0.0.0.0 googletagservices.com
-0.0.0.0 matomo.cloud
-0.0.0.0 matomo.php
-0.0.0.0 nativesdks.mparticle.com
-0.0.0.0 omappapi.com
-0.0.0.0 pubmine.com
-0.0.0.0 region1.analytics.google.com
-0.0.0.0 region1.google-analytics.com
-0.0.0.0 sentry.io
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 typeform.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 www.googletagservices.com
+0.0.0.0 analytics.google.com   # Google's main analytics tracker
+0.0.0.0 analytics.query.yahoo.com   # Yahoo's analytics service
+0.0.0.0 api2.amplitude.com   # Amplitude's analytics API
+0.0.0.0 app-measurement.com   # Firebase analytics by Google
+0.0.0.0 app.adjust.com   # Mobile analytics and attribution
+0.0.0.0 braze.com   # Marketing automation platform
+0.0.0.0 buysellads.com   # Advertising network
+0.0.0.0 data.flurry.com   # Mobile app analytics by Yahoo
+0.0.0.0 google-analytics.com   # Core Google Analytics service
+0.0.0.0 googletagmanager.com   # Google's tag management system
+0.0.0.0 googletagservices.com   # Google's ad-serving infrastructure
+0.0.0.0 matomo.cloud   # Cloud-hosted Matomo analytics
+0.0.0.0 matomo.php   # Server-side Matomo analytics
+0.0.0.0 nativesdks.mparticle.com   # mParticle's SDK for data integration
+0.0.0.0 omappapi.com   # Another analytics service
+0.0.0.0 pubmine.com   # Ad tech platform
+0.0.0.0 region1.analytics.google.com   # Regional Google Analytics server
+0.0.0.0 region1.google-analytics.com   # Another regional Google Analytics server
+0.0.0.0 sentry.io   # Error tracking and monitoring
+0.0.0.0 ssl.google-analytics.com   # Secure Google Analytics domain
+0.0.0.0 typeform.com   # Online form creation and data collection
+0.0.0.0 www.google-analytics.com   # Main Google Analytics domain
+0.0.0.0 www.googletagmanager.com   # Web version of Google Tag Manager
+0.0.0.0 www.googletagservices.com   # Web version for Google ad services
 #
 ## Mozilla's major and sub brands and services
-0.0.0.0 api.pocket.com
-0.0.0.0 extensionworkshop.com
-0.0.0.0 fakespot.com
-0.0.0.0 fakespot.io
-0.0.0.0 firefox.com
-0.0.0.0 foundation.mozilla.org
-0.0.0.0 getpocket.com
-0.0.0.0 i.fakspot.io
-0.0.0.0 labs.mozilla.org
-0.0.0.0 monitor.firefox.com
-0.0.0.0 mozilla.ai
-0.0.0.0 mozilla.de
-0.0.0.0 mozilla.design
-0.0.0.0 mozilla.net
-0.0.0.0 mozilla.org
-0.0.0.0 mozilla.vc
-0.0.0.0 pocket.com
-0.0.0.0 relay.firefox.com
-0.0.0.0 thunderbird.net
-0.0.0.0 vpn.mozilla.org
-0.0.0.0 www.api.pocket.com
-0.0.0.0 www.extensionworkshop.com
-0.0.0.0 www.fakespot.com
-0.0.0.0 www.fakespot.io
-0.0.0.0 www.firefox.com
-0.0.0.0 www.foundation.mozilla.org
-0.0.0.0 www.getpocket.com
-0.0.0.0 www.i.fakspot.io
-0.0.0.0 www.labs.mozilla.org
-0.0.0.0 www.monitor.firefox.com
-0.0.0.0 www.mozilla.ai
-0.0.0.0 www.mozilla.com
-0.0.0.0 www.mozilla.de
-0.0.0.0 www.mozilla.design
-0.0.0.0 www.mozilla.net
-0.0.0.0 www.mozilla.org
-0.0.0.0 www.mozilla.vc
-0.0.0.0 www.mozaws.net
-0.0.0.0 www.mozgcp.net
-0.0.0.0 www.pocket.com
-0.0.0.0 www.relay.firefox.com
-0.0.0.0 www.thunderbird.net
-0.0.0.0 www.vpn.mozilla.org
+0.0.0.0 accounts.firefox.com   # Firefox Accounts services
+0.0.0.0 addons.mozilla.org   # Firefox Add-ons site
+0.0.0.0 api.pocket.com   # Pocket API endpoint
+0.0.0.0 auth.mozilla.org   # Authentication services
+0.0.0.0 blog.mozilla.org   # Mozilla's blog
+0.0.0.0 crash-stats.mozilla.org   # Mozilla crash reporting
+0.0.0.0 developer.mozilla.org   # Mozilla Developer Network
+0.0.0.0 extensionworkshop.com   # Mozilla Extension Workshop
+0.0.0.0 fakespot.com   # Fake review detector
+0.0.0.0 fakespot.io   # FakeSpot's alternative domain
+0.0.0.0 firefox.com   # Firefox browser main site
+0.0.0.0 foundation.mozilla.org   # Mozilla Foundation's site
+0.0.0.0 getpocket.com   # Pocket save-for-later service
+0.0.0.0 i.fakspot.io   # Likely a typo or variant of fakespot.io
+0.0.0.0 labs.mozilla.org   # Mozilla Labs for experimental projects
+0.0.0.0 monitor.firefox.com   # Firefox Monitor for data breaches
+0.0.0.0 mozilla.ai   # Mozilla's AI initiatives
+0.0.0.0 mozilla.cloudflare-dns.com   # Mozilla's DNS through Cloudflare
+0.0.0.0 mozilla.de   # Mozilla's German site
+0.0.0.0 mozilla.design   # Mozilla Design resources
+0.0.0.0 mozilla.net   # Mozilla network services
+0.0.0.0 mozilla.org   # Mozilla's main site
+0.0.0.0 mozilla.vc   # Mozilla's video conferencing
+0.0.0.0 pocket.com   # Pocket's main domain
+0.0.0.0 relay.firefox.com   # Firefox Relay email privacy
+0.0.0.0 telemetry.mozilla.org   # Mozilla telemetry services
+0.0.0.0 thunderbird.net   # Thunderbird email client
+0.0.0.0 vpn.mozilla.org   # Mozilla VPN service
+0.0.0.0 www.api.pocket.com   # Pocket API's www subdomain
+0.0.0.0 www.extensionworkshop.com   # Extension Workshop's www subdomain
+0.0.0.0 www.fakespot.com   # FakeSpot's www subdomain
+0.0.0.0 www.fakespot.io   # FakeSpot's www subdomain for io
+0.0.0.0 www.firefox.com   # Firefox's www subdomain
+0.0.0.0 www.foundation.mozilla.org   # Mozilla Foundation's www subdomain
+0.0.0.0 www.getpocket.com   # Pocket's www subdomain
+0.0.0.0 www.i.fakspot.io   # Likely a typo or variant's www subdomain
+0.0.0.0 www.labs.mozilla.org   # Mozilla Labs' www subdomain
+0.0.0.0 www.monitor.firefox.com   # Firefox Monitor's www subdomain
+0.0.0.0 www.mozaws.net   # Likely related to AWS services for Mozilla
+0.0.0.0 www.mozgcp.net   # Likely related to Google Cloud Platform for Mozilla
+0.0.0.0 www.mozilla.ai   # Mozilla AI's www subdomain
+0.0.0.0 www.mozilla.com   # Mozilla's commercial site www subdomain
+0.0.0.0 www.mozilla.de   # Mozilla Germany's www subdomain
+0.0.0.0 www.mozilla.design   # Mozilla Design's www subdomain
+0.0.0.0 www.mozilla.net   # Mozilla Network's www subdomain
+0.0.0.0 www.mozilla.org   # Mozilla's main site www subdomain
+0.0.0.0 www.mozilla.vc   # Mozilla VC's www subdomain
+0.0.0.0 www.pocket.com   # Pocket's www subdomain
+0.0.0.0 www.relay.firefox.com   # Firefox Relay's www subdomain
+0.0.0.0 www.support.mozilla.org   # Mozilla Support site
+0.0.0.0 www.thunderbird.net   # Thunderbird's www subdomain
+0.0.0.0 www.vpn.mozilla.org   # Mozilla VPN's www subdomain
 #
 ### Mozilla Inovation projects
-0.0.0.0 didthis.app
-0.0.0.0 formulaic.app
-0.0.0.0 orbitbymozilla.com
-0.0.0.0 orcaready.org
-0.0.0.0 soloist.ai
-0.0.0.0 subconscious.network
-0.0.0.0 www.orbitbymozilla.com
+0.0.0.0 didthis.app   # Privacy-focused analytics tool
+0.0.0.0 formulaic.app   # Form creation service
+0.0.0.0 orbitbymozilla.com   # Mozilla's Orbit project for user interaction
+0.0.0.0 orcaready.org   # Likely related to Mozilla's ORCA project
+0.0.0.0 soloist.ai   # AI-driven analytics or service
+0.0.0.0 subconscious.network   # Possibly related to AI or network analytics
+0.0.0.0 www.orbitbymozilla.com   # Web version of Mozilla's Orbit project
 #
 ### Blocking all the userless invasive mozilla trackers and services
 0.0.0.0 _https._tcp.packages.mozilla.org
@@ -212,6 +221,7 @@
 0.0.0.0 connect.mozilla.org
 0.0.0.0 content-signature-2.cdn.mozilla.net
 0.0.0.0 content-signature-chains.prod.autograph.services.mozaws.net
+0.0.0.0 content-signature-chains.prod.webservices.mozgcp.net
 0.0.0.0 content-signature-dev-services.mozilla.com
 0.0.0.0 content-signature-dev.cdn.mozilla.net
 0.0.0.0 content-signature.cdn.mozilla.net

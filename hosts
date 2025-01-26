@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 26 January 2025
+# Last modified: 27 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -115,6 +115,7 @@
 0.0.0.0 www.orbitbymozilla.com   # Web version of Mozilla's Orbit project
 #
 ### Blocking all the userless invasive mozilla trackers and services
+
 0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 accessfirefox.org
 0.0.0.0 accounts-static.cdn.mozilla.net
@@ -127,6 +128,7 @@
 0.0.0.0 activity-stream-icons.services.mozilla.com
 0.0.0.0 activity-stream.cdn.mozilla.net
 0.0.0.0 activity-stream.services.mozilla.com
+0.0.0.0 addons-amo.cdn.mozilla.net
 0.0.0.0 addons-discovery.cdn.mozilla.net
 0.0.0.0 addons-server.services.mozilla.com    # backend for addons site
 0.0.0.0 addons.allizom.org
@@ -259,6 +261,7 @@
 0.0.0.0 crash-stats.stage.mozaws.net
 0.0.0.0 crash-stats.stage.mozilla.com
 0.0.0.0 crash.addons.mozilla.org
+0.0.0.0 crash.mozilla.com
 0.0.0.0 crash.planet.mozilla.org
 0.0.0.0 crash.reporting.build.mozilla.org
 0.0.0.0 crash.reporting.mozilla.org
@@ -271,6 +274,7 @@
 0.0.0.0 crashplan.planet.mozilla.org
 0.0.0.0 crashplan.svn.mozilla.org
 0.0.0.0 crashplan.vpn.mozilla.org
+0.0.0.0 crashstats.mozilla.com
 0.0.0.0 dap-02.api.divviup.org
 0.0.0.0 dap-09-3.api.divviup.org
 0.0.0.0 dap.nonprod.webservices.mozgcp.net

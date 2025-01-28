@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 27 January 2025
+# Last modified: 28 January 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -211,6 +211,7 @@
 0.0.0.0 cdn.mozilla.org
 0.0.0.0 channelserver.services.mozilla.com
 0.0.0.0 charmed.mozilla.org
+0.0.0.0 chat.mozilla.org
 0.0.0.0 classify-client.services.mozilla.com
 0.0.0.0 classify-clients.services.mozilla.com
 0.0.0.0 climate.mozilla.org    # for Mozilla's Climate Change initiative
@@ -647,6 +648,7 @@
 0.0.0.0 services.addons.mozilla.org
 0.0.0.0 services.addons.thunderbird.net
 0.0.0.0 services.mozilla.com
+0.0.0.0 services.sync.mozilla.org
 0.0.0.0 settings.dev.mozaws.net
 0.0.0.0 settings.prod.webservices.mozgcp.net
 0.0.0.0 setup.services.mozilla.com
@@ -738,6 +740,7 @@
 0.0.0.0 updater.allizom.org
 0.0.0.0 updates.mozilla.org
 0.0.0.0 updates.push.services.mozilla.com
+0.0.0.0 updates.services.mozilla.com
 0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 versioncheck-bg.addons.thunderbird.net
 0.0.0.0 versioncheck.addons.mozilla.org

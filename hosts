@@ -115,7 +115,6 @@
 0.0.0.0 www.orbitbymozilla.com   # Web version of Mozilla's Orbit project
 #
 ### Blocking all the userless invasive mozilla trackers and services
-
 0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 accessfirefox.org
 0.0.0.0 accounts-static.cdn.mozilla.net
@@ -424,6 +423,7 @@
 0.0.0.0 monitor.firefox.com
 0.0.0.0 moz.works
 0.0.0.0 mozamo.wpengine.com
+0.0.0.0 mozaws.com
 0.0.0.0 mozaws.net
 0.0.0.0 mozfest.net    # another domain possibly used for MozFest events or related activities
 0.0.0.0 mozgcp.net
@@ -450,7 +450,9 @@
 0.0.0.0 mozilla-uk.org    # for UK-specific Mozilla activities
 0.0.0.0 mozilla-vc-dev.ramotion.agency
 0.0.0.0 mozilla.ai    # for AI initiatives
+0.0.0.0 mozilla.cloud
 0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 mozilla.cloudfront.net
 0.0.0.0 mozilla.club    # for community clubs or local groups
 0.0.0.0 mozilla.cn
 0.0.0.0 mozilla.cn    # another domain aimed at the Chinese audience
@@ -464,6 +466,7 @@
 0.0.0.0 mozilla.dev.services    # for developer services, possibly less active
 0.0.0.0 mozilla.developer.it    # for Italian developers, possibly less active
 0.0.0.0 mozilla.dorando.at
+0.0.0.0 mozilla.engineering
 0.0.0.0 mozilla.events
 0.0.0.0 mozilla.formstack.com
 0.0.0.0 mozilla.github.io    # GitHub pages for Mozilla projects
@@ -472,6 +475,7 @@
 0.0.0.0 mozilla.io    # used for various smaller projects or experiments
 0.0.0.0 mozilla.jp
 0.0.0.0 mozilla.net
+0.0.0.0 mozilla.nimbus
 0.0.0.0 mozilla.org
 0.0.0.0 mozilla.org.cdn
 0.0.0.0 mozilla.org.cdn.cloudflare.net
@@ -481,6 +485,7 @@
 0.0.0.0 mozilla.rw    # for Rwanda, might be part of broader Mozilla Africa initiatives
 0.0.0.0 mozilla.slack.com    # Mozilla's internal communication platform, not public
 0.0.0.0 mozilla.social
+0.0.0.0 mozilla.srvcs.com
 0.0.0.0 mozilla.stories    # for storytelling projects or campaigns, might be less active
 0.0.0.0 mozillaamo.wpengine.com
 0.0.0.0 mozillablog.org
@@ -546,6 +551,7 @@
 0.0.0.0 mozillaspark.org    # for sparking innovation or community initiatives
 0.0.0.0 mozillasummit.org    # for past Mozilla Summits
 0.0.0.0 mozillateaching.org    # for teaching resources, might be redirected to teaching.mozilla.org
+0.0.0.0 mozillausercontent.com
 0.0.0.0 mozillavpn.net    # related to Mozilla VPN services
 0.0.0.0 mozillavr.com    # for VR projects
 0.0.0.0 mozillavr.org    # for VR projects

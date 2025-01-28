@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 27 January 2025
-! Version: 4.12
+! Last modified: 28 January 2025
+! Version: 4.13
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -190,10 +190,10 @@
 ||accessfirefox.org^
 ||allizom.org^
 ||badg.us^
-||components.mozilla^
 ||components.mozilla.com^
 ||components.mozilla.net^
 ||components.mozilla.org^
+||components.mozilla^
 ||firefox.com.cn^
 ||firefox.com^
 ||firefox.org^
@@ -209,6 +209,7 @@
 ||lightbeam.org^
 ||makerparty.org^
 ||moz.works^
+||mozaws.com^
 ||mozaws.net^
 ||mozfest.net^
 ||mozgcp.net^
@@ -234,6 +235,8 @@
 ||mozilla-uk.org^
 ||mozilla.ai^
 ||mozilla.asia^
+||mozilla.cloud^
+||mozilla.cloudfront.net^
 ||mozilla.club^
 ||mozilla.cn^
 ||mozilla.co.jp^
@@ -243,17 +246,20 @@
 ||mozilla.de^
 ||mozilla.dev^
 ||mozilla.developer.it^
+||mozilla.engineering^
 ||mozilla.events^
 ||mozilla.github.io^
 ||mozilla.in^
 ||mozilla.io^
 ||mozilla.jp^
 ||mozilla.net^
+||mozilla.nimbus^
 ||mozilla.org.cn^
 ||mozilla.org.za^
 ||mozilla.org^
 ||mozilla.rw^
 ||mozilla.social^
+||mozilla.srvcs.com^
 ||mozillablog.org^
 ||mozillabot.org^
 ||mozillabrasil.org.br^
@@ -322,6 +328,7 @@
 ||mozillaspark.org^
 ||mozillasummit.org^
 ||mozillateaching.org^
+||mozillausercontent.com^
 ||mozillavpn.net^
 ||mozillavr.com^
 ||mozillavr.org^

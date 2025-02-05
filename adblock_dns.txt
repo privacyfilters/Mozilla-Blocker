@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 28 January 2025
-! Version: 4.13
+! Last modified: 05 February 2025
+! Version: 4.14
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -229,6 +229,16 @@
 ||webmaker.me^
 ! Webmaker project's main domain
 ||webmaker.org^
+!
+!!!!!! Firefox Forked browser's tracking urls !!!!!!!
+!! basilisk browser
+||aus*.basilisk-browser.org^
+!! floorp Browser
+||floorp-update.ablaze.one^
+!! waterfox
+||aus*.waterfox.net^
+!! zen browser
+||updates.zen-browser.app^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
 ||accessfirefox.org^

@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 03 February 2025
+# Last modified: 05 February 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -114,6 +114,16 @@
 0.0.0.0 subconscious.network   # Possibly related to AI or network analytics
 0.0.0.0 www.orbitbymozilla.com   # Web version of Mozilla's Orbit project
 #
+## Firefox Forked browser's tracking urls ##
+# basilisk browser
+0.0.0.0 aus.basilisk-browser.org
+# floorp Browser
+0.0.0.0 floorp-update.ablaze.one
+# waterfox
+0.0.0.0 aus1.waterfox.net
+# zen browser
+0.0.0.0 updates.zen-browser.app
+#
 ### Blocking all the userless invasive mozilla trackers and services
 0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 accessfirefox.org
@@ -171,7 +181,6 @@
 0.0.0.0 assets.mozilla.net
 0.0.0.0 assets.mozilla.org
 0.0.0.0 attachments.prod.remote-settings.prod.webservices.mozgcp.net
-0.0.0.0 aus.basilisk-browser.org
 0.0.0.0 aus.thunderbird.net
 0.0.0.0 aus4-admin.mozilla.org
 0.0.0.0 aus5.mozilla.org

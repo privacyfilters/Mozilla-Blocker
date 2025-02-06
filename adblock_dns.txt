@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 05 February 2025
-! Version: 4.14
+! Last modified: 06 February 2025
+! Version: 4.15
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -237,6 +237,7 @@
 ||floorp-update.ablaze.one^
 !! waterfox
 ||aus*.waterfox.net^
+||ecb.europa.eu^
 !! zen browser
 ||updates.zen-browser.app^
 !

@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 07 February 2025
+# Last modified: 09 February 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -121,7 +121,6 @@
 0.0.0.0 floorp-update.ablaze.one
 # waterfox
 0.0.0.0 aus1.waterfox.net
-0.0.0.0 www.ecb.europa.eu
 # zen browser
 0.0.0.0 updates.zen-browser.app
 #

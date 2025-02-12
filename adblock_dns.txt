@@ -21,7 +21,7 @@
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 12 February 2025
-! Version: 4.17
+! Version: 4.18
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -323,6 +323,7 @@
 ||mozilla.rw^
 ||mozilla.social^
 ||mozilla.srvcs.com^
+||mozilla-iot.org^
 ||mozillablog.org^
 ||mozillabot.org^
 ||mozillabrasil.org.br^

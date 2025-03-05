@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 12 February 2025
-! Version: 4.18
+! Last modified: 06 March 2025
+! Version: 4.19
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -253,6 +253,7 @@
 ||accessfirefox.org^
 ||allizom.org^
 ||badg.us^
+||cdnmozilla.net^
 ||components.mozilla.com^
 ||components.mozilla.net^
 ||components.mozilla.org^
@@ -260,6 +261,7 @@
 ||firefox.com.cn^
 ||firefox.com^
 ||firefox.org^
+||firefoxcloud.net^
 ||firefoxflicks.com^
 ||getfirefox.com^
 ||getpocket.com^
@@ -323,7 +325,6 @@
 ||mozilla.rw^
 ||mozilla.social^
 ||mozilla.srvcs.com^
-||mozilla-iot.org^
 ||mozillablog.org^
 ||mozillabot.org^
 ||mozillabrasil.org.br^
@@ -401,10 +402,12 @@
 ||mozillawiki.net^
 ||mozillaworkshops.org^
 ||mozillazine-tr.org^
+||mozillazine.org^
 ||mozillians.org^
 ||mozillignite.org^
 ||mozspace.org^
 ||mozsprint.net^
+||mozworks.net^
 ||mzl.la^
 ||openbadges.net^
 ||openbadges.org^

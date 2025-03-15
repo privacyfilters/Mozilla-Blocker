@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 06 March 2025
+# Last modified: 15 March 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -277,7 +277,6 @@
 0.0.0.0 chat.mozilla.org
 0.0.0.0 chat.orbit.mozilla.org
 0.0.0.0 chat.thunderbird.net
-0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 classify-client.services.mozilla.com
 0.0.0.0 classify-clients.services.mozilla.com
 0.0.0.0 cli.build.mozilla.org

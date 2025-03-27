@@ -21,7 +21,7 @@
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 27 March 2025
-! Version: 4.20
+! Version: 4.21
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -67,6 +67,8 @@
 ||typeform.com^
 ! Cookie consent management
 ||cookielaw.org^
+! Other
+||innocraft.cloud^
 !
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 !
@@ -420,3 +422,4 @@
 ||searchfox.org^
 ||spreadfirefox.com^
 ||thunderbird.net^
+||www-mozilla.fastly-edge.com^

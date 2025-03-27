@@ -38,6 +38,7 @@
 0.0.0.0 google-analytics.com   # Core Google Analytics service
 0.0.0.0 googletagmanager.com   # Google's tag management system
 0.0.0.0 googletagservices.com   # Google's ad-serving infrastructure
+0.0.0.0 innocraft.cloud
 0.0.0.0 matomo.cloud   # Cloud-hosted Matomo analytics
 0.0.0.0 matomo.php   # Server-side Matomo analytics
 0.0.0.0 nativesdks.mparticle.com   # mParticle's SDK for data integration
@@ -432,6 +433,7 @@
 0.0.0.0 fhr.cdn.mozilla.net
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 fhr.r53-2.services.mozilla.com
+0.0.0.0 firefox-addons.com
 0.0.0.0 firefox-android-home-recommendations.getpocket.com
 0.0.0.0 firefox-api-proxy.cdn.mozilla.net
 0.0.0.0 firefox-ci-tc.services.mozilla.com
@@ -501,6 +503,7 @@
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.net
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
 0.0.0.0 gooey.mozilla.org
+0.0.0.0 googlecn-firefox.cn
 0.0.0.0 governance.mozilla.org
 0.0.0.0 guardian.services.mozilla.com    # used for privacy enhancements
 0.0.0.0 gud.telemetry.mozilla.org
@@ -579,6 +582,7 @@
 0.0.0.0 mdn.mozilla.net
 0.0.0.0 mdn.mozillademos.org
 0.0.0.0 media.orbit.mozilla.org
+0.0.0.0 merino-images.services.mozilla.com
 0.0.0.0 merino.nonprod.cloudops.mozgcp.net
 0.0.0.0 merino.prod.cloudops.mozgcp.net
 0.0.0.0 merino.services.mozilla.com
@@ -631,6 +635,7 @@
 0.0.0.0 mozilla.ai
 0.0.0.0 mozilla.ai    # for AI initiatives
 0.0.0.0 mozilla.cloud
+0.0.0.0 mozilla.cloud.looker.com
 0.0.0.0 mozilla.cloudflare-dns.com
 0.0.0.0 mozilla.cloudfront.net
 0.0.0.0 mozilla.club    # for community clubs or local groups
@@ -665,6 +670,7 @@
 0.0.0.0 mozilla.org.cn    # for China, though this might be outdated or less used
 0.0.0.0 mozilla.org.za    # for Mozilla activities in South Africa
 0.0.0.0 mozilla.rw    # for Rwanda, might be part of broader Mozilla Africa initiatives
+0.0.0.0 mozilla.sentry.io
 0.0.0.0 mozilla.slack.com    # Mozilla's internal communication platform, not public
 0.0.0.0 mozilla.social
 0.0.0.0 mozilla.srvcs.com
@@ -1013,7 +1019,9 @@
 0.0.0.0 thimble.mozilla.org
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 thunderbird.cdn.mozilla.net
+0.0.0.0 thunderbird.innocraft.cloud
 0.0.0.0 thunderbird.net
+0.0.0.0 thunderbird.top
 0.0.0.0 tile.services.mozilla.com
 0.0.0.0 tiles-cdn.prod.ads.prod.webservices.mozgcp.net
 0.0.0.0 tiles-cloudfront.cdn.mozilla.net
@@ -1064,11 +1072,15 @@
 0.0.0.0 wiki.developer.mozilla.org
 0.0.0.0 wiki.mozilla.org
 0.0.0.0 workflow.telemetry.mozilla.org
+0.0.0.0 www-mozilla.fastly-edge.com
 0.0.0.0 www.accounts.firefox.com
+0.0.0.0 www.anonymco.com
 0.0.0.0 www.fakespot.com
+0.0.0.0 www.firefox-addons.com
 0.0.0.0 www.firefox.com
 0.0.0.0 www.firefoxflicks.com
 0.0.0.0 www.firefoxusercontent.com
+0.0.0.0 www.googlecn-firefox.cn
 0.0.0.0 www.moz.works
 0.0.0.0 www.mozilla-iot.org
 0.0.0.0 www.mozilla.com
@@ -1081,6 +1093,7 @@
 0.0.0.0 www.mozorg.moz.works
 0.0.0.0 www.telemetry.mozilla.org
 0.0.0.0 www.thunderbird.net
+0.0.0.0 www.thunderbird.top
 0.0.0.0 www.us.mozilla.org
 0.0.0.0 www.webcompat.com
 0.0.0.0 www.webmaker.org

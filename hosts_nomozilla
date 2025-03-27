@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 15 March 2025
+# Last modified: 27 March 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -117,7 +117,8 @@
 0.0.0.0 updates.zen-browser.app
 #
 ### Blocking all the userless invasive mozilla trackers and services
-0.0.0.0 11.maven.mozilla.org
+00.0.0.0 11.maven.mozilla.org
+0.0.0.0 250analytics.com
 0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 about.mozilla.org
 0.0.0.0 aboutaddons.cdn.mozilla.net
@@ -174,6 +175,7 @@
 0.0.0.0 analytics.mozilla.com
 0.0.0.0 analytics.mozilla.org
 0.0.0.0 angular.build.mozilla.org
+0.0.0.0 anonymco.com
 0.0.0.0 antenna-prod.socorro.prod.webservices.mozgcp.net
 0.0.0.0 antenna-stage.socorro.nonprod.webservices.mozgcp.net
 0.0.0.0 api.accounts.firefox.com
@@ -414,6 +416,7 @@
 0.0.0.0 experiments.mozilla.org
 0.0.0.0 extension-finder.thunderbird.net
 0.0.0.0 extensions.allizom.org
+0.0.0.0 fakespot.com
 0.0.0.0 fakespot.prod.webservices.mozgcp.net
 0.0.0.0 feed.services.mozilla.com
 0.0.0.0 feedback.mozilla.com
@@ -439,6 +442,7 @@
 0.0.0.0 firefox.dns.nextdns.io
 0.0.0.0 firefox.private.network
 0.0.0.0 firefox.settings.services.mozilla.com
+0.0.0.0 firefox.sourceforge-docs.mozilla.org
 0.0.0.0 firefoxflicks.com
 0.0.0.0 firefoxusercontent.com
 0.0.0.0 flux.mozilla.org
@@ -479,6 +483,7 @@
 0.0.0.0 geo.services.mozilla.com
 0.0.0.0 getfirefox.com
 0.0.0.0 getpocket.cdn.mozilla.net
+0.0.0.0 getpocket.com
 0.0.0.0 github.com/mozilla
 0.0.0.0 glam.telemetry.mozilla.org
 0.0.0.0 glean-debug.firefox.com
@@ -996,6 +1001,7 @@
 0.0.0.0 telemetry.services.mozilla.com
 0.0.0.0 telemetry.services.mozilla.org
 0.0.0.0 telemetry.staging.mozilla.com
+0.0.0.0 telemetry.thunderbird.net
 0.0.0.0 template.build.mozilla.org
 0.0.0.0 test.ai.mozilla.org
 0.0.0.0 testpilot.firefox.com
@@ -1061,6 +1067,7 @@
 0.0.0.0 workflow.telemetry.mozilla.org
 0.0.0.0 www.accounts.firefox.com
 0.0.0.0 www.addons.mozilla.org
+0.0.0.0 www.fakespot.com
 0.0.0.0 www.firefox.com
 0.0.0.0 www.firefoxflicks.com
 0.0.0.0 www.firefoxusercontent.com

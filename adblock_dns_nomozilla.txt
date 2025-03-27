@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 06 March 2025
-! Version: 4.19
+! Last modified: 27 March 2025
+! Version: 4.20
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -197,8 +197,10 @@
 ||updates.zen-browser.app^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
+||250analytics.com^
 ||accessfirefox.org^
 ||allizom.org^
+||anonymco.com^
 ||badg.us^
 ||cdnmozilla.net^
 ||components.mozilla.com^
@@ -220,6 +222,7 @@
 ||leanprivacy.com^
 ||lightbeam.org^
 ||makerparty.org^
+||mdn.dev^
 ||moz.works^
 ||mozaws.com^
 ||mozaws.net^
@@ -230,6 +233,7 @@
 ||mozilla-bolivia.org^
 ||mozilla-brazil.org.br^
 ||mozilla-devrel.github.io^
+||mozilla-download.fastly-edge.com^
 ||mozilla-foundation.github.io^
 ||mozilla-games.org^
 ||mozilla-india.org^

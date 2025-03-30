@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 27 March 2025
+# Last modified: 30 March 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -443,6 +443,7 @@
 0.0.0.0 firefox.com
 0.0.0.0 firefox.dns.nextdns.io
 0.0.0.0 firefox.private.network
+0.0.0.0 firefox.settings.services.allizom.org
 0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 firefox.sourceforge-docs.mozilla.org
 0.0.0.0 firefoxflicks.com

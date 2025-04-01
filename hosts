@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 30 March 2025
+# Last modified: 01 April 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -129,6 +129,7 @@
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
 0.0.0.0 _https._tcp.packages.mozilla.org
+0.0.0.0 a.optmnstr.com
 0.0.0.0 about.mozilla.org
 0.0.0.0 aboutaddons.cdn.mozilla.net
 0.0.0.0 accessfirefox.org
@@ -270,6 +271,7 @@
 0.0.0.0 calendar.thunderbird.net
 0.0.0.0 call.orbit.mozilla.org
 0.0.0.0 careers.mozilla.org
+0.0.0.0 cdn.fundraiseup.com
 0.0.0.0 cdn.fxaccounts.firefox.com
 0.0.0.0 cdn.mozilla.com
 0.0.0.0 cdn.mozilla.net
@@ -422,6 +424,7 @@
 0.0.0.0 extensions.allizom.org
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.prod.webservices.mozgcp.net
+0.0.0.0 fast.fonts.net
 0.0.0.0 feed.services.mozilla.com
 0.0.0.0 feedback.mozilla.com
 0.0.0.0 feedback.mozilla.org
@@ -453,6 +456,7 @@
 0.0.0.0 firefoxusercontent.com
 0.0.0.0 flux.mozilla.org
 0.0.0.0 focus.firefox.com
+0.0.0.0 fonts.net
 0.0.0.0 forum.mozilla.org
 0.0.0.0 forums.mozilla.org
 0.0.0.0 foundation.mozilla.ai
@@ -462,6 +466,7 @@
 0.0.0.0 framework.build.mozilla.org
 0.0.0.0 ftp.mozilla.org
 0.0.0.0 functions.build.mozilla.org
+0.0.0.0 fundraiseup.com
 0.0.0.0 future.mozilla.org
 0.0.0.0 fuzzing.mozilla.org
 0.0.0.0 fxa-api.accounts.firefox.com
@@ -795,6 +800,7 @@
 0.0.0.0 openbadges.org
 0.0.0.0 opennews.org    # a Mozilla project for journalism
 0.0.0.0 opensearch.mozilla.org
+0.0.0.0 optmnstr.com
 0.0.0.0 orbit.mozilla.org
 0.0.0.0 org.planet.mozilla.org
 0.0.0.0 packages.mozilla.org

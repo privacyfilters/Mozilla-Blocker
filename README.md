@@ -2,7 +2,7 @@
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 ### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the main regularly updated repository for Mozilla Blocker.
 ### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker).
-# Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
+# Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking. 
 
 ## Regualr Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
 #### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt)

@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 01 April 2025
+# Last modified: 29 April 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -834,6 +834,7 @@
 0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 prod.ohttp-gateway.prod.webservices.mozgcp.net
 0.0.0.0 prod.orbit-ml-front-api.fakespot.prod.webservices.mozgcp.net
+0.0.0.0 prod.outgoing.prod.webservices.mozgcp.net
 0.0.0.0 prod.remote-settings.prod.webservices.mozgcp.net
 0.0.0.0 prod.sumo.prod.webservices.mozgcp.net
 0.0.0.0 prod.telemetry.mozilla.org

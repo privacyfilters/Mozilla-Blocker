@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 01 April 2025
-! Version: 4.22
+! Last modified: 29 April 2025
+! Version: 4.23
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -423,6 +423,7 @@
 ||optmnstr.com^
 ||pocket-image-cache.com^
 ||searchfox.org^
+||services.mozilla.com^
 ||spreadfirefox.com^
 ||thunderbird.net^
 ||www-mozilla.fastly-edge.com^

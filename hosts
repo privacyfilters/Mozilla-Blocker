@@ -130,8 +130,6 @@
 0.0.0.0 250analytics.com
 0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 a.optmnstr.com
-0.0.0.0 a1887.dscq.akamai.net
-0.0.0.0 a19.dscg10.akamai.net
 0.0.0.0 about.mozilla.org
 0.0.0.0 aboutaddons.cdn.mozilla.net
 0.0.0.0 accessfirefox.org
@@ -406,7 +404,6 @@
 0.0.0.0 dxr.mozilla.org
 0.0.0.0 dynamicua.cdn.mozilla.net
 0.0.0.0 e.mozilla.org
-0.0.0.0 e3913.cd.akamaiedge.net
 0.0.0.0 earlybird.thunderbird.net
 0.0.0.0 eklentiler.mozillazine-tr.org
 0.0.0.0 elmo.services.mozilla.com

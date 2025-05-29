@@ -1,6 +1,6 @@
 # Mozilla Blocker - Block all Mozilla/Firefox Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
-### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the main regularly updated repository for Mozilla Blocker.
+### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the home of Mozilla Blocker. Its mirrored at github for backup and availability. Use only one filter source.
 ### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker).
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking. 
 
@@ -9,7 +9,7 @@
 
 #### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts)
 
-## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons
+## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users
 #### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt)
 
 #### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla)
@@ -26,7 +26,7 @@
 9. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(dns) - https://adguard.com/en/adguard-android/overview.html
 
 The adblock filter format works perfectly on Adguard Home.
-Zen privacy guard is still early on development so it is unstable when enforcing the filters.
+Zen adblocker is still early on development so it is unstable when enforcing the filters.
 Host rules will work with anything just as a host file for any platform and with blockers that supports host format.
 I don't know if the adblock_dns formate of rules will work correctly on pi-hole as I only used Adguard Home and they works fine there. 
 

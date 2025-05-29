@@ -1,7 +1,7 @@
 # Mozilla Blocker - Block all Mozilla/Firefox Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 ### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the home of Mozilla Blocker. Its mirrored at github for backup and availability. Use only one filter source.
-### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker).
+### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker)(mirror).
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking. 
 
 ## Regualr Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store

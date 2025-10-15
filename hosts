@@ -11,7 +11,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 29 April 2025
+# Last modified: 15 Oct 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
@@ -582,6 +582,7 @@
 0.0.0.0 malware-error.mozilla.com
 0.0.0.0 mana.mozilla.org
 0.0.0.0 management.build.mozilla.org
+0.0.0.0 mozilla.map.fastly.net
 0.0.0.0 market.mozilla.org
 0.0.0.0 marketplace.firefox.com
 0.0.0.0 mc.prod.ads.prod.webservices.mozgcp.net

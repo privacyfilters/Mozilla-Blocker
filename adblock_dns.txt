@@ -20,8 +20,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 15 October 2025
-! Version: 4.24
+! Last modified: 19 October 2025
+! Version: 4.25
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -252,20 +252,28 @@
 ||updates.zen-browser.app^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
+!!!
 ||mozilla*.*fastly.net^
 ||mozilla*.*fastly-edge.com^
+!!!
 ||250analytics.com^
 ||accessfirefox.org^
+||ads-track-digest256.dummytracker.org^
 ||allizom.org^
+||amo-test-1048344596.us-west-2.elb.amazonaws.com
+||analytics-track-digest256.dummytracker.org^
 ||anonymco.com^
+||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com
 ||badg.us^
 ||cdnmozilla.net^
 ||components.mozilla.com^
 ||components.mozilla.net^
 ||components.mozilla.org^
 ||components.mozilla^
+||dummytracker.org^^
 ||firefox.com.cn^
 ||firefox.com^
+||firefox.etp^
 ||firefox.org^
 ||firefoxcloud.net^
 ||firefoxflicks.com^
@@ -289,6 +297,7 @@
 ||mozgcp.net^
 ||mozilla-australia.org^
 ||mozilla-b2g.org^
+||mozilla-backup.org^
 ||mozilla-bolivia.org^
 ||mozilla-brazil.org.br^
 ||mozilla-devrel.github.io^
@@ -424,9 +433,13 @@
 ||openbadges.org^
 ||opennews.org^
 ||optmnstr.com^
+||pdfjs.robwu.nl^
+||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||pocket-image-cache.com^
 ||searchfox.org^
 ||services.mozilla.com^
 ||spreadfirefox.com^
+||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
 ||thunderbird.net^
+||trackertest.org^
 ||www-mozilla.fastly-edge.com^

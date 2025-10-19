@@ -44,7 +44,7 @@ uBlock Origin Legacy(ublock fork) and nuMatrix(uMtrix fork) can block google tra
 
 # Userful Infos and Resources for firefox and firefox based browsers
 
-## 1. [Hagezi Dns-blocklists](https://github.com/hagezi/dns-blocklists) - Currently the best maintained collection of filters for privacy, security and to block ads and trackers. Must have for any blocking system.
+## 1. [Hagezi Dns-blocklists](https://github.com/hagezi/dns-blocklists) - Currently the best maintained collection of filters for privacy, security and blocking ads and trackers. Must have for any blocking system.
 I use several Hagezi filters on my AdguardHome server, Adguard for android, Adaway, in all adblockers on the browsers I use. For most people, the Pro and  Threat Intelligence Feeds along will cover all your ads, tracking and security concern. You can use the Ultimate filter if you don't mind ublocking specific domains of the services you use which are blocked.
 
 ## 3. [yokoffing filterlists](https://github.com/yokoffing/filterlists) - Recommened for most general Users. A balanced sets of adblocking and privacy filteres for adblockers are Ublock Origin, Adguard and Brave browser.

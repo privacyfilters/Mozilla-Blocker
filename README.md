@@ -42,4 +42,21 @@ Among all the firfox forks, only unique forks like Palemoon and Basilisk doesn't
 
 uBlock Origin Legacy(ublock fork) and nuMatrix(uMtrix fork) can block google tracking scripts from google-analytics.com and googletagmanager.com on mozilla websites on Palemoon and Basilisk. Blocking these google trackers with a dns adblocker like adguard home and pi-hole should be enough to prevent tracking, but those can't prevent those scripts from running on mozilla websites in firefox or all standard firefox forked browser. For more security and privacy aware people, this can be an issue where regular users would be just fine blocking mozilla systemwide with dns/host blocking.
 
+# Userful Infos and Resources for firefox and firefox based browsers
 
+## 1. [Phoenix](https://codeberg.org/celenity/Phoenix) - Phoenix is a suite of configurations & advanced modifications for Mozilla Firefox. Only for people who wants the maximum privacy. For performance, instead of this, use a good firefox fork by manually changing browser settingsand ublock origin filters.
+This is mostly automated for linux distros. You just need to install it once using your packag manager. You can also install firefox official browser using package manager of your linux distro, you don't need to access to mozilla servers. For windows users, you need access to mozilla ftp to download the installer, which I kept blocked because mozilla also use their ftp urls for tracing calls! You should just use a firefox fork if you won't use Phoenix.
+
+## 2. [yokoffing filterlists](https://github.com/yokoffing/filterlists) - Recommened for most general Users. A balanced sets of adblocking and privacy filteres for adblockers are Ublock Origin, Adguard and Brave browser.
+Just configure your adblocker like ublock origin and adguard for any browsers and enjoy a cleaner, faster internet with most of tracking from websites blocked, without sacrificing any browser performance which can be caused by some privacy enhacing methods.
+
+## 3. [BadBlock](https://codeberg.org/celenity/BadBlock) - According to celenity, both Phoenix and BadBlock's author - "BadBlock is a collection of comprehensive blocklists that I personally maintain covering a variety of different services, applications, & platforms with the goal of blocking... well, as the name suggests, stuff that is bad™".
+A good collection of privacy focused filter lists, which are not covered by yokoffing. You can use them to enhance your privacy and security if you are interested.
+## 4. [LibreWolf](https://librewolf.net/) - A custom version of Firefox, focused on privacy, security and freedom.
+Probably the most mozilla tracking free firefox fork out of the box. It still calls some mozilla connections, which are minimal. For privacy conscious people, I will mostly suggest to use either firefox official+Phoenix or libreewolf+Ublock origin with yokoffing filters. Phoenix for librewolf would have been wonderful, I do hope someday [celenity](https://codeberg.org/celenity) will start supporting librewolf browser alongside with firefox.
+
+## 5. [Zen Browser](https://zen-browser.app/) - Trending firefox fork with tones of features and sidetab by default. Currently one of two most good looking and performant firefox forks. Not privacy focused.
+Makes tones of home calls to zen browser domain. you should just block zen-broser.app domain, and install the borwser with a package manager of your linux distro, UnigetUi for microsoft widnows(winget,chocoletey) or just directly download the installer from their [github releases](https://github.com/zen-browser/desktop/releases).
+
+## 6. [Floorp Browser](https://floorp.app/) - A very good looking, customizable and performant firefox fork. Used to be called vivaldi of firefox. Not Privacy focused.
+It is very fast, it was a delight to use as my default browser before I switched to Brave browser. It has many customization options but not as many as zen browser. It calls home less than zen browser, which is a good thing. But it does call home for occasional updates. You can just block floorp domains like floorp.app and others and use package managers to install and update the browser, or directly download the installer from their [github releases](https://github.com/Floorp-Projects/Floorp/releases).

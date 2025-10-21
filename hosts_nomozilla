@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 19 October 2025
+# Last modified: 21 October 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -18,94 +18,170 @@
 #
 #
 ### External trackers Mozilla uses on their own sites, and also used by them to collect user data...
-0.0.0.0 analytics.google.com   # Google's main analytics tracker
-0.0.0.0 analytics.query.yahoo.com   # Yahoo's analytics service
-0.0.0.0 api2.amplitude.com   # Amplitude's analytics API
-0.0.0.0 app-measurement.com   # Firebase analytics by Google
-0.0.0.0 app.adjust.com   # Mobile analytics and attribution
-0.0.0.0 braze.com   # Marketing automation platform
-0.0.0.0 buysellads.com   # Advertising network
-0.0.0.0 data.flurry.com   # Mobile app analytics by Yahoo
-0.0.0.0 google-analytics.com   # Core Google Analytics service
-0.0.0.0 googletagmanager.com   # Google's tag management system
-0.0.0.0 googletagservices.com   # Google's ad-serving infrastructure
+# Google's main analytics tracker
+0.0.0.0 analytics.google.com
+# Yahoo's analytics service
+0.0.0.0 analytics.query.yahoo.com
+# Amplitude's analytics API
+0.0.0.0 api2.amplitude.com
+# Firebase analytics by Google
+0.0.0.0 app-measurement.com
+# Mobile analytics and attribution
+0.0.0.0 app.adjust.com
+# Marketing automation platform
+0.0.0.0 braze.com
+# Advertising network
+0.0.0.0 buysellads.com
+# Mobile app analytics by Yahoo
+0.0.0.0 data.flurry.com
+# Core Google Analytics service
+0.0.0.0 google-analytics.com
+# Google's tag management system
+0.0.0.0 googletagmanager.com
+# Google's ad-serving infrastructure
+0.0.0.0 googletagservices.com
 0.0.0.0 innocraft.cloud
-0.0.0.0 matomo.cloud   # Cloud-hosted Matomo analytics
-0.0.0.0 matomo.php   # Server-side Matomo analytics
-0.0.0.0 nativesdks.mparticle.com   # mParticle's SDK for data integration
-0.0.0.0 omappapi.com   # Another analytics service
-0.0.0.0 pubmine.com   # Ad tech platform
-0.0.0.0 region1.analytics.google.com   # Regional Google Analytics server
-0.0.0.0 region1.google-analytics.com   # Another regional Google Analytics server
-0.0.0.0 sentry.io   # Error tracking and monitoring
-0.0.0.0 ssl.google-analytics.com   # Secure Google Analytics domain
-0.0.0.0 typeform.com   # Online form creation and data collection
-0.0.0.0 www.google-analytics.com   # Main Google Analytics domain
-0.0.0.0 www.googletagmanager.com   # Web version of Google Tag Manager
-0.0.0.0 www.googletagservices.com   # Web version for Google ad services
+# Cloud-hosted Matomo analytics
+0.0.0.0 matomo.cloud
+# Server-side Matomo analytics
+0.0.0.0 matomo.php
+# mParticle's SDK for data integration
+0.0.0.0 nativesdks.mparticle.com
+# Another analytics service
+0.0.0.0 omappapi.com
+# Ad tech platform
+0.0.0.0 pubmine.com
+# Regional Google Analytics server
+0.0.0.0 region1.analytics.google.com
+0.0.0.0 region1.google-analytics.com
+# Error tracking and monitoring
+0.0.0.0 sentry.io
+# Secure Google Analytics domain
+0.0.0.0 ssl.google-analytics.com
+# Online form creation and data collection
+0.0.0.0 typeform.com
+# Main Google Analytics domain
+0.0.0.0 www.google-analytics.com
+# Web version of Google Tag Manager
+0.0.0.0 www.googletagmanager.com
+# Web version for Google ad services
+0.0.0.0 www.googletagservices.com
 #
 ## Mozilla's major and sub brands and services
-0.0.0.0 accounts.firefox.com   # Firefox Accounts services
-0.0.0.0 addons.mozilla.org   # Firefox Add-ons site
-0.0.0.0 api.pocket.com   # Pocket API endpoint
-0.0.0.0 auth.mozilla.org   # Authentication services
-0.0.0.0 blog.mozilla.org   # Mozilla's blog
-0.0.0.0 crash-stats.mozilla.org   # Mozilla crash reporting
-0.0.0.0 developer.mozilla.org   # Mozilla Developer Network
-0.0.0.0 extensionworkshop.com   # Mozilla Extension Workshop
-0.0.0.0 fakespot.com   # Fake review detector
-0.0.0.0 fakespot.io   # FakeSpot's alternative domain
-0.0.0.0 firefox.com   # Firefox browser main site
-0.0.0.0 foundation.mozilla.org   # Mozilla Foundation's site
-0.0.0.0 getpocket.com   # Pocket save-for-later service
-0.0.0.0 i.fakspot.io   # Likely a typo or variant of fakespot.io
-0.0.0.0 labs.mozilla.org   # Mozilla Labs for experimental projects
-0.0.0.0 monitor.firefox.com   # Firefox Monitor for data breaches
-0.0.0.0 mozilla.ai   # Mozilla's AI initiatives
-0.0.0.0 mozilla.cloudflare-dns.com   # Mozilla's DNS through Cloudflare
-0.0.0.0 mozilla.de   # Mozilla's German site
-0.0.0.0 mozilla.design   # Mozilla Design resources
-0.0.0.0 mozilla.net   # Mozilla network services
-0.0.0.0 mozilla.org   # Mozilla's main site
-0.0.0.0 mozilla.vc   # Mozilla's video conferencing
-0.0.0.0 pocket.com   # Pocket's main domain
-0.0.0.0 relay.firefox.com   # Firefox Relay email privacy
-0.0.0.0 telemetry.mozilla.org   # Mozilla telemetry services
-0.0.0.0 thunderbird.net   # Thunderbird email client
-0.0.0.0 vpn.mozilla.org   # Mozilla VPN service
-0.0.0.0 www.api.pocket.com   # Pocket API's www subdomain
-0.0.0.0 www.extensionworkshop.com   # Extension Workshop's www subdomain
-0.0.0.0 www.fakespot.com   # FakeSpot's www subdomain
-0.0.0.0 www.fakespot.io   # FakeSpot's www subdomain for io
-0.0.0.0 www.firefox.com   # Firefox's www subdomain
-0.0.0.0 www.foundation.mozilla.org   # Mozilla Foundation's www subdomain
-0.0.0.0 www.getpocket.com   # Pocket's www subdomain
-0.0.0.0 www.i.fakspot.io   # Likely a typo or variant's www subdomain
-0.0.0.0 www.labs.mozilla.org   # Mozilla Labs' www subdomain
-0.0.0.0 www.monitor.firefox.com   # Firefox Monitor's www subdomain
-0.0.0.0 www.mozaws.net   # Likely related to AWS services for Mozilla
-0.0.0.0 www.mozgcp.net   # Likely related to Google Cloud Platform for Mozilla
-0.0.0.0 www.mozilla.ai   # Mozilla AI's www subdomain
-0.0.0.0 www.mozilla.com   # Mozilla's commercial site www subdomain
-0.0.0.0 www.mozilla.de   # Mozilla Germany's www subdomain
-0.0.0.0 www.mozilla.design   # Mozilla Design's www subdomain
-0.0.0.0 www.mozilla.net   # Mozilla Network's www subdomain
-0.0.0.0 www.mozilla.org   # Mozilla's main site www subdomain
-0.0.0.0 www.mozilla.vc   # Mozilla VC's www subdomain
-0.0.0.0 www.pocket.com   # Pocket's www subdomain
-0.0.0.0 www.relay.firefox.com   # Firefox Relay's www subdomain
-0.0.0.0 www.support.mozilla.org   # Mozilla Support site
-0.0.0.0 www.thunderbird.net   # Thunderbird's www subdomain
-0.0.0.0 www.vpn.mozilla.org   # Mozilla VPN's www subdomain
+# Firefox Accounts services
+0.0.0.0 accounts.firefox.com
+# Pocket API endpoint
+0.0.0.0 api.pocket.com
+# Authentication services
+0.0.0.0 auth.mozilla.org
+# Mozilla's blog
+0.0.0.0 blog.mozilla.org
+# Mozilla crash reporting
+0.0.0.0 crash-stats.mozilla.org
+# Mozilla Developer Network
+0.0.0.0 developer.mozilla.org
+# Mozilla Extension Workshop
+0.0.0.0 extensionworkshop.com
+# Fake review detector
+0.0.0.0 fakespot.com
+0.0.0.0 fakespot.io
+0.0.0.0 i.fakspot.io
+# Firefox browser main site
+0.0.0.0 firefox.com
+# Mozilla Foundation's site
+0.0.0.0 foundation.mozilla.org
+# Pocket save-for-later service
+0.0.0.0 getpocket.com
+# Mozilla Labs for experimental projects
+0.0.0.0 labs.mozilla.org
+# Firefox Monitor for data breaches
+0.0.0.0 monitor.firefox.com
+# Mozilla's AI initiatives
+0.0.0.0 mozilla.ai
+# Mozilla's DNS through Cloudflare
+0.0.0.0 mozilla.cloudflare-dns.com
+# Mozilla's German site
+0.0.0.0 mozilla.de
+# Mozilla Design resources
+0.0.0.0 mozilla.design
+# Mozilla network services
+0.0.0.0 mozilla.net
+# Mozilla's main site
+0.0.0.0 mozilla.org
+# Mozilla's video conferencing
+0.0.0.0 mozilla.vc
+# Pocket's main domain
+0.0.0.0 pocket.com
+# Firefox Relay email privacy
+0.0.0.0 relay.firefox.com
+# Mozilla telemetry services
+0.0.0.0 telemetry.mozilla.org
+# Thunderbird email client
+0.0.0.0 thunderbird.net
+# Mozilla VPN service
+0.0.0.0 vpn.mozilla.org
+# Pocket API's www subdomain
+0.0.0.0 www.api.pocket.com
+# Extension Workshop's www subdomain
+0.0.0.0 www.extensionworkshop.com
+# FakeSpot's www subdomain
+0.0.0.0 www.fakespot.com
+0.0.0.0 www.fakespot.io
+0.0.0.0 www.i.fakspot.io
+# Firefox's www subdomain
+0.0.0.0 www.firefox.com
+# Mozilla Foundation's www subdomain
+0.0.0.0 www.foundation.mozilla.org
+# Pocket's www subdomain
+0.0.0.0 www.getpocket.com
+# Mozilla Labs' www subdomain
+0.0.0.0 www.labs.mozilla.org
+# Firefox Monitor's www subdomain
+0.0.0.0 www.monitor.firefox.com
+# Likely related to AWS services for Mozilla
+0.0.0.0 www.mozaws.net
+# Likely related to Google Cloud Platform for Mozilla
+0.0.0.0 www.mozgcp.net
+# Mozilla AI's www subdomain
+0.0.0.0 www.mozilla.ai
+# Mozilla's commercial site www subdomain
+0.0.0.0 www.mozilla.com
+# Mozilla Germany's www subdomain
+0.0.0.0 www.mozilla.de
+# Mozilla Design's www subdomain
+0.0.0.0 www.mozilla.design
+# Mozilla Network's www subdomain
+0.0.0.0 www.mozilla.net
+# Mozilla's main site www subdomain
+0.0.0.0 www.mozilla.org
+# Mozilla VC's www subdomain
+0.0.0.0 www.mozilla.vc
+# Pocket's www subdomain
+0.0.0.0 www.pocket.com
+# Firefox Relay's www subdomain
+0.0.0.0 www.relay.firefox.com
+# Mozilla Support site
+0.0.0.0 www.support.mozilla.org
+# Thunderbird's www subdomain
+0.0.0.0 www.thunderbird.net
+# Mozilla VPN's www subdomain
+0.0.0.0 www.vpn.mozilla.org
 #
 ### Mozilla Inovation projects
-0.0.0.0 didthis.app   # Privacy-focused analytics tool
+# Privacy-focused analytics tool
+0.0.0.0 didthis.app
+# Form creation service
 0.0.0.0 formulaic.app   # Form creation service
-0.0.0.0 orbitbymozilla.com   # Mozilla's Orbit project for user interaction
-0.0.0.0 orcaready.org   # Likely related to Mozilla's ORCA project
-0.0.0.0 soloist.ai   # AI-driven analytics or service
-0.0.0.0 subconscious.network   # Possibly related to AI or network analytics
-0.0.0.0 www.orbitbymozilla.com   # Web version of Mozilla's Orbit project
+# Mozilla's Orbit project for user interaction
+0.0.0.0 orbitbymozilla.com
+# Likely related to Mozilla's ORCA project
+0.0.0.0 orcaready.org
+# AI-driven analytics or service
+0.0.0.0 soloist.ai
+# Possibly related to AI or network analytics
+0.0.0.0 subconscious.network
+# Web version of Mozilla's Orbit project
+0.0.0.0 www.orbitbymozilla.com
 #
 ## Firefox Forked browser's tracking urls ##
 # basilisk browser
@@ -126,7 +202,7 @@
 0.0.0.0 aboutaddons.cdn.mozilla.net
 0.0.0.0 accessfirefox.org
 0.0.0.0 accounts-static.cdn.mozilla.net
-0.0.0.0 accounts.firefox.org    # redirects to accounts.firefox.com
+0.0.0.0 accounts.firefox.org
 0.0.0.0 activations.cdn.mozilla.net
 0.0.0.0 activations.mozilla.com
 0.0.0.0 activations.mozilla.org
@@ -140,7 +216,7 @@
 0.0.0.0 addon.mozilla.org
 0.0.0.0 addons-amo.cdn.mozilla.net
 0.0.0.0 addons-discovery.cdn.mozilla.net
-0.0.0.0 addons-server.services.mozilla.com    # backend for addons site
+0.0.0.0 addons-server.services.mozilla.com
 0.0.0.0 addons-stage.thunderbird.net
 0.0.0.0 addons.allizom.org
 0.0.0.0 addons.cdn.mozilla.net
@@ -166,7 +242,7 @@
 0.0.0.0 ai.mozilla.org
 0.0.0.0 ai.services.mozilla.com
 0.0.0.0 air.mozilla.org
-0.0.0.0 alerts.mozilla.org    # operational alerts for Mozilla infrastructure
+0.0.0.0 alerts.mozilla.org
 0.0.0.0 amo-test-1048344596.us-west-2.elb.amazonaws.com
 0.0.0.0 amo.cdn.mozilla.net
 0.0.0.0 amofileserver-eu-central-1.prod.mozaws.net
@@ -228,9 +304,9 @@
 0.0.0.0 autoconfig.thunderbird.net
 0.0.0.0 autodiscovery.addons.mozilla.org
 0.0.0.0 autograph.services.mozaws.net
-0.0.0.0 autoland.stage.mozaws.net    # for automated landing of patches
+0.0.0.0 autoland.stage.mozaws.net
 0.0.0.0 autopush.prod.mozaws.net
-0.0.0.0 badg.us    # an early URL for Open Badges
+0.0.0.0 badg.us
 0.0.0.0 balrog-admin-static-prod.prod.mozaws.net
 0.0.0.0 balrog-admin-static-stage.stage.mozaws.net
 0.0.0.0 balrog-admin.dev.mozaws.net
@@ -272,7 +348,7 @@
 0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
 0.0.0.0 bouncer.telemetry.mozilla.org
 0.0.0.0 broker-live.mozillamessaging.com
-0.0.0.0 bugzilla.allizom.org    # alternate domain for Bugzilla
+0.0.0.0 bugzilla.allizom.org
 0.0.0.0 bugzilla.mozilla.org
 0.0.0.0 builder.build.mozilla.org
 0.0.0.0 calendar.thunderbird.net
@@ -296,7 +372,7 @@
 0.0.0.0 cli.build.mozilla.org
 0.0.0.0 click.e.mozilla.org
 0.0.0.0 client.build.mozilla.org
-0.0.0.0 climate.mozilla.org    # for Mozilla's Climate Change initiative
+0.0.0.0 climate.mozilla.org
 0.0.0.0 code.cdn.mozilla.net
 0.0.0.0 color.firefox.com
 0.0.0.0 com.maven.mozilla.org
@@ -395,7 +471,7 @@
 0.0.0.0 dictionary.telemetry.mozilla.org
 0.0.0.0 directory.mozilla.org
 0.0.0.0 discourse.mozilla.org
-0.0.0.0 discover.firefox.com    # for Firefox Discover
+0.0.0.0 discover.firefox.com
 0.0.0.0 discovershiretoko.org
 0.0.0.0 discovery.addons-dev.allizom.org
 0.0.0.0 discovery.addons.allizom.org
@@ -433,7 +509,6 @@
 0.0.0.0 experimenter.nonprod.webservices.mozgcp.net
 0.0.0.0 experimenter.prod.webservices.mozgcp.net
 0.0.0.0 experimenter.services.mozilla.com
-0.0.0.0 experimenter.services.mozilla.com    # for A/B testing
 0.0.0.0 experiments.mozilla.org
 0.0.0.0 extension-finder.thunderbird.net
 0.0.0.0 extensions.allizom.org
@@ -446,7 +521,7 @@
 0.0.0.0 feedback.orbit.mozilla.org
 0.0.0.0 feeds.mozilla.org
 0.0.0.0 fenix.mozilla.org
-0.0.0.0 fenix.settings.services.mozilla.com    # settings for Fenix, the Android version of Firefox
+0.0.0.0 fenix.settings.services.mozilla.com
 0.0.0.0 fennec-catalog-cdn.prod.mozaws.net
 0.0.0.0 fennec-catalog.cdn.mozilla.net
 0.0.0.0 fhr.cdn.mozilla.net
@@ -494,20 +569,20 @@
 0.0.0.0 fuzzing.mozilla.org
 0.0.0.0 fxa-api.accounts.firefox.com
 0.0.0.0 fxa-auth-server.mozilla.org
-0.0.0.0 fxa-auth0.auth0.com    # used for Firefox Accounts
+0.0.0.0 fxa-auth0.auth0.com
 0.0.0.0 fxa-content-server.mozilla.org
 0.0.0.0 fxa-content.services.mozilla.com
 0.0.0.0 fxa-oauth.services.mozilla.com
 0.0.0.0 fxa-profile.services.mozilla.com
 0.0.0.0 fxa-settings.services.mozilla.com
 0.0.0.0 fxa-shared.firefox.com
-0.0.0.0 fxa-stage.auth0.com    # staging environment for Firefox Accounts
+0.0.0.0 fxa-stage.auth0.com
 0.0.0.0 fxa.auth.services.mozilla.com
 0.0.0.0 fxa.content.services.mozilla.com
 0.0.0.0 fxa.profile.services.mozilla.com
 0.0.0.0 fxa.provider.firefoxcloud.net
 0.0.0.0 fxaccounts-services.mozilla.com
-0.0.0.0 fxprivaterelay.nonprod.webservices.mozgcp.net    # test environment for Relay
+0.0.0.0 fxprivaterelay.nonprod.webservices.mozgcp.net
 0.0.0.0 gateway.build.mozilla.org
 0.0.0.0 gecko-dev.mozilla.org
 0.0.0.0 gecko.mozilla.org
@@ -534,13 +609,13 @@
 0.0.0.0 gooey.mozilla.org
 0.0.0.0 googlecn-firefox.cn
 0.0.0.0 governance.mozilla.org
-0.0.0.0 guardian.services.mozilla.com    # used for privacy enhancements
+0.0.0.0 guardian.services.mozilla.com
 0.0.0.0 gud.telemetry.mozilla.org
 0.0.0.0 guide.build.mozilla.org
 0.0.0.0 hang-reports.mozilla.org
 0.0.0.0 hardware.metrics.mozilla.com
 0.0.0.0 healthreport.services.mozilla.com
-0.0.0.0 heka.socorro.mozilla.org    # historical crash reporting tool
+0.0.0.0 heka.socorro.mozilla.org
 0.0.0.0 hello.firefox.com
 0.0.0.0 help.mozilla.org
 0.0.0.0 hg-edge-mozilla.fastly-edge.com
@@ -548,9 +623,8 @@
 0.0.0.0 hg.cdn.mozilla.net
 0.0.0.0 hg.mozilla.org
 0.0.0.0 hg.public.mdc1.mozilla.com
-0.0.0.0 hg.srcd.mozilla.org    # Mercurial repositories for Mozilla source code
-0.0.0.0 hg.srcd.mozilla.org    # alternative for Mercurial source control
-0.0.0.0 hivelearningnetworks.org    # for the Hive Learning Networks, part of Mozilla's education efforts
+0.0.0.0 hg.srcd.mozilla.org
+0.0.0.0 hivelearningnetworks.org
 0.0.0.0 hivenyc.org
 0.0.0.0 hq.mozilla.org
 0.0.0.0 https://ai.mozilla.org
@@ -585,7 +659,7 @@
 0.0.0.0 jitsi.mozilla.org
 0.0.0.0 js.maven.mozilla.org
 0.0.0.0 js.planet.mozilla.org
-0.0.0.0 jsbin.com    # a project once under Mozilla Labs
+0.0.0.0 jsbin.com
 0.0.0.0 kinto.prod.mozaws.net
 0.0.0.0 lab.mozilla.org
 0.0.0.0 labs.mozilla.org
@@ -594,11 +668,11 @@
 0.0.0.0 leanprivacy.com
 0.0.0.0 learning.mozilla.org
 0.0.0.0 learningsystem.mozilla.org
-0.0.0.0 lightbeam.org    # historical project for visualizing tracking
+0.0.0.0 lightbeam.org
 0.0.0.0 live.mozillamessaging.com
 0.0.0.0 live.thunderbird.net
 0.0.0.0 location.services.mozilla.com
-0.0.0.0 lockbox.firefox.com    # historical, for Firefox Lockbox
+0.0.0.0 lockbox.firefox.com
 0.0.0.0 lockwise.firefox.com
 0.0.0.0 locprod1-elb-eu-west-1.prod.mozaws.net
 0.0.0.0 locprod2-elb-us-west-2.prod.mozaws.net
@@ -644,60 +718,55 @@
 0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.com
 0.0.0.0 mozaws.net
-0.0.0.0 mozfest.net    # another domain possibly used for MozFest events or related activities
+0.0.0.0 mozfest.net
 0.0.0.0 mozgcp.net
 0.0.0.0 mozilla-australia.org
-0.0.0.0 mozilla-b2g.org    # historical, for Boot to Gecko, now known as Firefox OS
+0.0.0.0 mozilla-b2g.org
 0.0.0.0 mozilla-bolivia.org
 0.0.0.0 mozilla-brazil.org.br
-0.0.0.0 mozilla-central.irc.mozilla.org    # IRC for developers, though IRC usage has decreased
-0.0.0.0 mozilla-central.svn.mozilla.org    # historical SVN repository for Mozilla Central
-0.0.0.0 mozilla-devrel.github.io    # GitHub pages for Mozilla Developer Relations
+0.0.0.0 mozilla-central.irc.mozilla.org
+0.0.0.0 mozilla-central.svn.mozilla.org
+0.0.0.0 mozilla-devrel.github.io
 0.0.0.0 mozilla-download.fastly-edge.com
-0.0.0.0 mozilla-foundation.github.io    # GitHub pages for Mozilla Foundation projects
-0.0.0.0 mozilla-games.org    # historical, for gaming-related experiments
-0.0.0.0 mozilla-india.org    # for activities in India, might be outdated
-0.0.0.0 mozilla-iot.github.io    # GitHub page for Mozilla IoT projects
+0.0.0.0 mozilla-foundation.github.io
+0.0.0.0 mozilla-games.org
+0.0.0.0 mozilla-india.org
+0.0.0.0 mozilla-iot.github.io
 0.0.0.0 mozilla-iot.org
-0.0.0.0 mozilla-iot.org    # for IoT projects, though this might be less active
-0.0.0.0 mozilla-knight.org    # related to the Knight-Mozilla OpenNews project
-0.0.0.0 mozilla-learning.org    # alternative domain for Mozilla's learning initiatives
-0.0.0.0 mozilla-nimbus.org    # for Mozilla's experimentation platform
+0.0.0.0 mozilla-knight.org
+0.0.0.0 mozilla-learning.org
+0.0.0.0 mozilla-nimbus.org
 0.0.0.0 mozilla-ohttp-fakespot.fastly-edge.com
 0.0.0.0 mozilla-ohttp.fastly-edge.com
 0.0.0.0 mozilla-pulse.org
-0.0.0.0 mozilla-research.net    # for past or ongoing research projects
-0.0.0.0 mozilla-taiwan.org    # for Mozilla activities in Taiwan
-0.0.0.0 mozilla-uk.org    # for UK-specific Mozilla activities
+0.0.0.0 mozilla-research.net
+0.0.0.0 mozilla-taiwan.org
+0.0.0.0 mozilla-uk.org
 0.0.0.0 mozilla-vc-dev.ramotion.agency
 0.0.0.0 mozilla.ai
-0.0.0.0 mozilla.ai    # for AI initiatives
 0.0.0.0 mozilla.cloud
 0.0.0.0 mozilla.cloud.looker.com
 0.0.0.0 mozilla.cloudflare-dns.com
 0.0.0.0 mozilla.cloudfront.net
-0.0.0.0 mozilla.club    # for community clubs or local groups
+0.0.0.0 mozilla.club
 0.0.0.0 mozilla.cn
-0.0.0.0 mozilla.cn    # another domain aimed at the Chinese audience
 0.0.0.0 mozilla.co.jp
 0.0.0.0 mozilla.com
-0.0.0.0 mozilla.com.cn    # another Chinese domain, possibly for branding or redirects
+0.0.0.0 mozilla.com.cn
 0.0.0.0 mozilla.community
-0.0.0.0 mozilla.community.br    # for the Brazilian community, might be outdated
-0.0.0.0 mozilla.dev    # used for developer-related discussions or services
-0.0.0.0 mozilla.dev.labs    # historical project for experimental developer tools
-0.0.0.0 mozilla.dev.services    # for developer services, possibly less active
-0.0.0.0 mozilla.developer.it    # for Italian developers, possibly less active
+0.0.0.0 mozilla.community.br
+0.0.0.0 mozilla.dev
+0.0.0.0 mozilla.dev.labs
+0.0.0.0 mozilla.dev.services
+0.0.0.0 mozilla.developer.it
 0.0.0.0 mozilla.dorando.at
 0.0.0.0 mozilla.engineering
 0.0.0.0 mozilla.events
 0.0.0.0 mozilla.formstack.com
 0.0.0.0 mozilla.foundation
 0.0.0.0 mozilla.github.io
-0.0.0.0 mozilla.github.io    # GitHub pages for Mozilla projects
 0.0.0.0 mozilla.in
 0.0.0.0 mozilla.io
-0.0.0.0 mozilla.io    # used for various smaller projects or experiments
 0.0.0.0 mozilla.jp
 0.0.0.0 mozilla.map.fastly.net
 0.0.0.0 mozilla.net
@@ -706,97 +775,93 @@
 0.0.0.0 mozilla.org.cdn
 0.0.0.0 mozilla.org.cdn.cloudflare.net
 0.0.0.0 mozilla.org.cn
-0.0.0.0 mozilla.org.cn    # for China, though this might be outdated or less used
-0.0.0.0 mozilla.org.za    # for Mozilla activities in South Africa
-0.0.0.0 mozilla.rw    # for Rwanda, might be part of broader Mozilla Africa initiatives
+0.0.0.0 mozilla.org.za
+0.0.0.0 mozilla.rw
 0.0.0.0 mozilla.sentry.io
-0.0.0.0 mozilla.slack.com    # Mozilla's internal communication platform, not public
+0.0.0.0 mozilla.slack.com
 0.0.0.0 mozilla.social
 0.0.0.0 mozilla.srvcs.com
-0.0.0.0 mozilla.stories    # for storytelling projects or campaigns, might be less active
+0.0.0.0 mozilla.stories
 0.0.0.0 mozilla.vpn.net
 0.0.0.0 mozillaamo.wpengine.com
 0.0.0.0 mozillablog.org
-0.0.0.0 mozillabot.org    # historical, for a Mozilla-themed IRC bot
-0.0.0.0 mozilladevelopers.net    # for developer-focused content, might redirect
-0.0.0.0 mozilladevtools.org    # for developer tools, might redirect to MDN
-0.0.0.0 mozilladrumbeat.org    # historical initiative for open web learning
-0.0.0.0 mozillaeurope.org    # historical, for European Mozilla activities
+0.0.0.0 mozillabot.org
+0.0.0.0 mozilladevelopers.net
+0.0.0.0 mozilladevtools.org
+0.0.0.0 mozilladrumbeat.org
+0.0.0.0 mozillaeurope.org
 0.0.0.0 mozillafestival.org
-0.0.0.0 mozillafestival.org    # for MozFest, though already mentioned, this might be for a different subdomain or feature
-0.0.0.0 mozillafirefox.org    # an older domain, likely for redirects
+0.0.0.0 mozillafirefox.org
 0.0.0.0 mozillafoundation.eu
 0.0.0.0 mozillafoundation.jp
 0.0.0.0 mozillafoundation.net
 0.0.0.0 mozillafoundation.org
-0.0.0.0 mozillagrants.org    # for Mozilla's grant programs, might be redirected
-0.0.0.0 mozillahack.com    # related to hackathons or coding events
-0.0.0.0 mozillahackweek.org    # for Hack Weeks, possibly historical
-0.0.0.0 mozillahangout.com    # for community hangouts or events, potentially outdated
-0.0.0.0 mozillahispano.net    # another domain for the Spanish-speaking community
-0.0.0.0 mozillahubs.com    # alternative domain for Mozilla Hubs
-0.0.0.0 mozillaignite.net    # another domain related to Mozilla Ignite
-0.0.0.0 mozillaignite.org    # for the Ignite program, though this might be included in broader Mozilla initiatives
-0.0.0.0 mozillaim.org    # for Instant Messaging, historical
+0.0.0.0 mozillagrants.org
+0.0.0.0 mozillahack.com
+0.0.0.0 mozillahackweek.org
+0.0.0.0 mozillahangout.com
+0.0.0.0 mozillahispano.net
+0.0.0.0 mozillahubs.com
+0.0.0.0 mozillaignite.net
+0.0.0.0 mozillaignite.org
+0.0.0.0 mozillaim.org
 0.0.0.0 mozillainvite.org
-0.0.0.0 mozillal10n.org    # for localization efforts, might be less used
-0.0.0.0 mozillalabs.com    # historical, but still sometimes referenced
-0.0.0.0 mozillalabs.eu    # European version of Mozilla Labs, possibly historical
-0.0.0.0 mozillalabs.jp    # historical Japanese site for Mozilla Labs
-0.0.0.0 mozillalabs.jp    # historical Japanese site for exploring new technologies
-0.0.0.0 mozillalabs.net    # another domain for Mozilla Labs experiments
-0.0.0.0 mozillalabs.org    # historical, for innovation in education and web technologies
-0.0.0.0 mozillalearning.org    # another domain for Mozilla's educational efforts
-0.0.0.0 mozillalove.org    # a campaign site, historic in nature
-0.0.0.0 mozillamail.org    # historical domain related to email services
+0.0.0.0 mozillal10n.org
+0.0.0.0 mozillalabs.com
+0.0.0.0 mozillalabs.eu
+0.0.0.0 mozillalabs.jp
+0.0.0.0 mozillalabs.net
+0.0.0.0 mozillalabs.org
+0.0.0.0 mozillalearning.org
+0.0.0.0 mozillalove.org
+0.0.0.0 mozillamail.org
 0.0.0.0 mozillamaintenanceservice.duckdns.org
-0.0.0.0 mozillameetups.org    # for organizing community meetups
+0.0.0.0 mozillameetups.org
 0.0.0.0 mozillamessaging.com
-0.0.0.0 mozillamexico.org    # for Mozilla activities in Mexico
-0.0.0.0 mozillamobile.org    # for mobile development
-0.0.0.0 mozillaopenbadges.org    # historical, for the Open Badges project
+0.0.0.0 mozillamexico.org
+0.0.0.0 mozillamobile.org
+0.0.0.0 mozillaopenbadges.org
 0.0.0.0 mozillaos.org
-0.0.0.0 mozillaparty.org    # for Maker Party events, historical
-0.0.0.0 mozillapersona.net    # another domain for the discontinued Persona service
-0.0.0.0 mozillapersona.org    # for the discontinued Persona authentication system
-0.0.0.0 mozillapersonas.org    # for browser personas, a precursor to themes
-0.0.0.0 mozillaplanet.org    # historical aggregation of Mozilla blogs
-0.0.0.0 mozillapolicy.org    # for policy work
-0.0.0.0 mozillapopcorn.org    # historical project for video remixing
-0.0.0.0 mozillapopcornjs.org    # for Popcorn.js, a JavaScript library for video annotation
+0.0.0.0 mozillaparty.org
+0.0.0.0 mozillapersona.net
+0.0.0.0 mozillapersona.org
+0.0.0.0 mozillapersonas.org
+0.0.0.0 mozillaplanet.org
+0.0.0.0 mozillapolicy.org
+0.0.0.0 mozillapopcorn.org
+0.0.0.0 mozillapopcornjs.org
 0.0.0.0 mozillapress.org
-0.0.0.0 mozillaprivacy.net    # for privacy-focused initiatives
+0.0.0.0 mozillaprivacy.net
 0.0.0.0 mozillaprivacy.org
-0.0.0.0 mozillaprivacyday.org    # for Data Privacy Day campaigns
-0.0.0.0 mozillaprivacytools.org    # for broader privacy tools, might be less used
-0.0.0.0 mozillaprivatebrowser.org    # historical, related to privacy-focused browsing
-0.0.0.0 mozillaprivaterelay.org    # for Firefox Private Relay, though the primary domain is known
-0.0.0.0 mozillaresearch.org    # for Mozilla's research initiatives, possibly less used now
-0.0.0.0 mozillascience.github.io    # for Mozilla Science Lab's GitHub presence
-0.0.0.0 mozillascience.org    # Mozilla Science Lab
-0.0.0.0 mozillasecurity.net    # for security-related projects
-0.0.0.0 mozillasecurity.org    # security information
-0.0.0.0 mozillaspark.org    # for sparking innovation or community initiatives
-0.0.0.0 mozillasummit.org    # for past Mozilla Summits
-0.0.0.0 mozillateaching.org    # for teaching resources, might be redirected to teaching.mozilla.org
+0.0.0.0 mozillaprivacyday.org
+0.0.0.0 mozillaprivacytools.org
+0.0.0.0 mozillaprivatebrowser.org
+0.0.0.0 mozillaprivaterelay.org
+0.0.0.0 mozillaresearch.org
+0.0.0.0 mozillascience.github.io
+0.0.0.0 mozillascience.org
+0.0.0.0 mozillasecurity.net
+0.0.0.0 mozillasecurity.org
+0.0.0.0 mozillaspark.org
+0.0.0.0 mozillasummit.org
+0.0.0.0 mozillateaching.org
 0.0.0.0 mozillausercontent.com
 0.0.0.0 mozillavpn.net
-0.0.0.0 mozillavpn.net    # related to Mozilla VPN services
-0.0.0.0 mozillavr.com    # for VR projects
-0.0.0.0 mozillavr.org    # for VR projects
-0.0.0.0 mozillawebmaker.net    # another domain for the Webmaker project
-0.0.0.0 mozillawebmaker.org    # historical, for webmaker project
-0.0.0.0 mozillawiki.net    # alternative domain for Mozilla Wiki, likely redirects
-0.0.0.0 mozillaworkshops.org    # for educational workshops, possibly historical
+0.0.0.0 mozillavr.com
+0.0.0.0 mozillavr.org
+0.0.0.0 mozillawebmaker.net
+0.0.0.0 mozillawebmaker.org
+0.0.0.0 mozillawiki.net
+0.0.0.0 mozillaworkshops.org
 0.0.0.0 mozillazine.org
-0.0.0.0 mozillians.allizom.org    # an alternative domain for the Mozillians platform
+0.0.0.0 mozillians.allizom.org
 0.0.0.0 mozillians.org
 0.0.0.0 mozillignite.org
 0.0.0.0 mozorg.moz.works
 0.0.0.0 mozsocial.cliqz.com
 0.0.0.0 mozspace.org
-0.0.0.0 mozsprint.net    # for Mozilla's Global Sprint event
-0.0.0.0 mq042.stage.mozaws.net    # message queue service
+0.0.0.0 mozsprint.net
+0.0.0.0 mq042.stage.mozaws.net
 0.0.0.0 mtg.mozilla.org
 0.0.0.0 mxr.mozilla.org
 0.0.0.0 native.build.mozilla.org
@@ -809,7 +874,7 @@
 0.0.0.0 normandy-admin.stage.mozaws.net
 0.0.0.0 normandy-cdn.services.mozilla.com
 0.0.0.0 normandy-cloudfront.cdn.mozilla.net
-0.0.0.0 normandy-dev.services.mozilla.com    # experiment management system
+0.0.0.0 normandy-dev.services.mozilla.com
 0.0.0.0 normandy.cdn.mozilla.net
 0.0.0.0 normandy.dev.mozaws.net
 0.0.0.0 normandy.mozilla.org
@@ -825,13 +890,13 @@
 0.0.0.0 ohttp-fakespot.nonprod.webservices.mozgcp.net
 0.0.0.0 ohttp.nonprod.webservices.mozgcp.net
 0.0.0.0 ohttp.prod.webservices.mozgcp.net
-0.0.0.0 ohttp.services.mozilla.com    # Oblivious HTTP for privacy
+0.0.0.0 ohttp.services.mozilla.com
 0.0.0.0 olympia.prod.mozaws.net
-0.0.0.0 oneanddone.mozilla.org    # for community contributions
+0.0.0.0 oneanddone.mozilla.org
 0.0.0.0 onyx_tiles.stage.mozaws.net
-0.0.0.0 openbadges.net    # for the Open Badges initiative, less used now but still exists
+0.0.0.0 openbadges.net
 0.0.0.0 openbadges.org
-0.0.0.0 opennews.org    # a Mozilla project for journalism
+0.0.0.0 opennews.org
 0.0.0.0 opensearch.mozilla.org
 0.0.0.0 optmnstr.com
 0.0.0.0 orbit.mozilla.org
@@ -844,20 +909,20 @@
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 phish-report.mozilla.com
 0.0.0.0 pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com
-0.0.0.0 pipeline.telemetry.mozilla.org    # data processing for telemetry
+0.0.0.0 pipeline.telemetry.mozilla.org
 0.0.0.0 planet.mozilla.org
 0.0.0.0 pocket-image-cache.com
 0.0.0.0 pocket.cdn.mozilla.net
 0.0.0.0 pocket.mozilla.com
 0.0.0.0 pocket.stage.mozaws.net
-0.0.0.0 pontoon.allizom.org    # alternative domain for Pontoon, the localization platform
+0.0.0.0 pontoon.allizom.org
 0.0.0.0 pontoon.mozilla.org
 0.0.0.0 predictions.services.mozilla.com
 0.0.0.0 preferences.services.mozilla.com
 0.0.0.0 prefs.firefox.com
 0.0.0.0 privacy.mozilla.org
-0.0.0.0 privacybadger.org    # a privacy tool not directly owned but supported by Mozilla
-0.0.0.0 privacydashboard.org    # a historical project related to privacy tools
+0.0.0.0 privacybadger.org
+0.0.0.0 privacydashboard.org
 0.0.0.0 probeinfo.telemetry.mozilla.org
 0.0.0.0 probes.telemetry.mozilla.org
 0.0.0.0 prod.ads.prod.webservices.mozgcp.net
@@ -894,8 +959,7 @@
 0.0.0.0 reality.open.mozilla.org
 0.0.0.0 recommendations.services.mozilla.com
 0.0.0.0 relay.firefox.com
-0.0.0.0 relay.firefox.com    # Firefox Relay for email privacy
-0.0.0.0 relay.stage.mozaws.net    # Firefox Relay staging
+0.0.0.0 relay.stage.mozaws.net
 0.0.0.0 releases.mozilla.com
 0.0.0.0 releases.mozilla.org
 0.0.0.0 remote-settings-dev.allizom.org
@@ -904,17 +968,17 @@
 0.0.0.0 remote-settings.mozilla.org
 0.0.0.0 remote-settings.nonprod.webservices.mozgcp.net
 0.0.0.0 remote-settings.prod.webservices.mozgcp.net
-0.0.0.0 remote-settings.stage.mozaws.net    # for testing remote settings
+0.0.0.0 remote-settings.stage.mozaws.net
 0.0.0.0 reporter.mozilla.org
 0.0.0.0 repository.prod.productdelivery.prod.webservices.mozgcp.net
 0.0.0.0 repository.stage.productdelivery.nonprod.webservices.mozgcp.net
 0.0.0.0 reps.mozilla.org
-0.0.0.0 research-hub.mozilla.org    # for showcasing research projects
+0.0.0.0 research-hub.mozilla.org
 0.0.0.0 research.mozilla.org
 0.0.0.0 rhino-dev.mozilla.org
 0.0.0.0 rhino.mozilla.org
-0.0.0.0 s3-us-west-2.amazonaws.amo    # used for AMO assets
-0.0.0.0 s3-us-west-2.amazonaws.com    # used for AMO assets
+0.0.0.0 s3-us-west-2.amazonaws.amo
+0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 safe-browsing.services.mozilla.com
 0.0.0.0 screen.tracking.mozilla.org
 0.0.0.0 screenshots.firefox.com
@@ -935,7 +999,7 @@
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
 0.0.0.0 sentry.nonprod.cloudops.mozgcp.net
 0.0.0.0 sentry.prod.cloudops.mozgcp.net
-0.0.0.0 sentry.prod.mozaws.net    # for error tracking and crash reporting
+0.0.0.0 sentry.prod.mozaws.net
 0.0.0.0 sentry.prod.mozilla.com
 0.0.0.0 service.build.mozilla.org
 0.0.0.0 service.crash.lib.components.mozilla
@@ -969,9 +1033,9 @@
 0.0.0.0 smartblock-test.mozilla.com
 0.0.0.0 smartblock.cdn.mozilla.net
 0.0.0.0 smartblock.firefox.etp
-0.0.0.0 sniff.mozilla.org    # historical project for packet analysis
+0.0.0.0 sniff.mozilla.org
 0.0.0.0 sniffer.mozilla.org
-0.0.0.0 snippets-migration-cdn-stage.snippets-stage.mozaws.net    # testing environment for snippets
+0.0.0.0 snippets-migration-cdn-stage.snippets-stage.mozaws.net
 0.0.0.0 snippets-prod.frankfurt.moz.works
 0.0.0.0 snippets-prod.moz.works
 0.0.0.0 snippets-prod.oregon-b.moz.works
@@ -1044,7 +1108,7 @@
 0.0.0.0 talkback.mozilla.org
 0.0.0.0 taskcluster.net
 0.0.0.0 tbpl.mozilla.org
-0.0.0.0 teaching.mozilla.org    # resources for teaching web literacy
+0.0.0.0 teaching.mozilla.org
 0.0.0.0 teams.orbit.mozilla.org
 0.0.0.0 telemetry-api.services.mozilla.com
 0.0.0.0 telemetry-coverage.mozilla.org
@@ -1138,7 +1202,7 @@
 0.0.0.0 webcompat.com
 0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 webmail.e.mozilla.org
-0.0.0.0 webmaker.me    # historical, part of the Webmaker project
+0.0.0.0 webmaker.me
 0.0.0.0 webmaker.mozillalabs.com
 0.0.0.0 webmaker.org
 0.0.0.0 webrtc.services.mozilla.com

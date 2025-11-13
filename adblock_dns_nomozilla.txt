@@ -19,8 +19,8 @@
 ! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 19 October 2025
-! Version: 4.26
+! Last modified: 14 November 2025
+! Version: 4.27
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -193,6 +193,7 @@
 ||aus*.basilisk-browser.org^
 !! floorp Browser
 ||floorp-update.ablaze.one^
+||updates.floorp.app^
 !! libreWolf browser
 ||updates.librewolf.net^ 
 !! waterfox

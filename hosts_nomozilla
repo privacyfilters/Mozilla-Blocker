@@ -10,7 +10,7 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 14 November 2025
+# Last modified: 15 November 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -236,6 +236,7 @@
 0.0.0.0 accounts.firefox.co.jp
 0.0.0.0 accounts.firefox.co.kr
 0.0.0.0 accounts.firefox.co.uk
+0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts.firefox.com.cn
 0.0.0.0 accounts.firefox.de
 0.0.0.0 accounts.firefox.es
@@ -446,6 +447,7 @@
 0.0.0.0 behavior-tracking.mozilla.org
 0.0.0.0 beta.mozilla.org
 0.0.0.0 bg.addons.mozilla.org
+0.0.0.0 billionaireblastoff.firefox.com
 0.0.0.0 blocked.cdn.mozilla.net
 0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 blocklist.services.mozilla.com
@@ -511,6 +513,7 @@
 0.0.0.0 chat.mozilla.org
 0.0.0.0 chat.orbit.mozilla.org
 0.0.0.0 chat.thunderbird.net
+0.0.0.0 chatbot.mozilla.org
 0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 classify-client.nonprod.webservices.mozgcp.net
 0.0.0.0 classify-client.prod.webservices.mozgcp.net
@@ -615,6 +618,7 @@
 0.0.0.0 dap.services.mozilla.com
 0.0.0.0 data.commonvoice.mozilla.org
 0.0.0.0 data.corp.mozilla.com
+0.0.0.0 data.firefox.com
 0.0.0.0 data.mozilla.com
 0.0.0.0 data.mozilla.org
 0.0.0.0 data.telemetry.mozilla.org
@@ -623,10 +627,13 @@
 0.0.0.0 dataservices.mozgcp.net
 0.0.0.0 datasets.mozilla.ai
 0.0.0.0 de.malware-error.mozilla.com
+0.0.0.0 de.malware-report.mozilla.com
 0.0.0.0 de.mozilla.org
 0.0.0.0 de.phish-error.mozilla.com
+0.0.0.0 de.phish-generic.mozilla.com
 0.0.0.0 de.phish-report.mozilla.com
 0.0.0.0 debug-ping-preview.firebaseapp.com
+0.0.0.0 dectportal.firefox.com
 0.0.0.0 deep-speech.mozilla.org
 0.0.0.0 deepspeech-api.mozilla.org
 0.0.0.0 deepspeech-models.mozilla.org
@@ -635,8 +642,10 @@
 0.0.0.0 demo.mozilla.ai
 0.0.0.0 demo.mozilla.org
 0.0.0.0 depersonalized.services.mozilla.com
+0.0.0.0 design.firefox.com
 0.0.0.0 detectportal.firefox.com
 0.0.0.0 detectportal.prod.mozaws.net
+0.0.0.0 detectportall.firefox.com
 0.0.0.0 dev.accounts.firefox.com
 0.0.0.0 dev.mozilla.ai
 0.0.0.0 developer.mozilla.cn
@@ -691,10 +700,14 @@
 0.0.0.0 embeddings.mozilla.ai
 0.0.0.0 en-US.blog.mozilla.org
 0.0.0.0 en-us.malware-error.mozilla.com
+0.0.0.0 en-us.malware-report.mozilla.com
 0.0.0.0 en-us.phish-error.mozilla.com
+0.0.0.0 en-us.phish-generic.mozilla.com
 0.0.0.0 en-us.phish-report.mozilla.com
 0.0.0.0 en.malware-error.mozilla.com
+0.0.0.0 en.malware-report.mozilla.com
 0.0.0.0 en.phish-error.mozilla.com
+0.0.0.0 en.phish-generic.mozilla.com
 0.0.0.0 en.phish-report.mozilla.com
 0.0.0.0 engagement.mozilla.org
 0.0.0.0 es.mozilla.org
@@ -757,6 +770,7 @@
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 fhr.r53-2.services.mozilla.com
 0.0.0.0 files.mdn.mozillademos.org
+0.0.0.0 find.firefox.com
 0.0.0.0 firefox-addons.com
 0.0.0.0 firefox-android-home-recommendations.getpocket.com
 0.0.0.0 firefox-api-proxy.cdn.mozilla.net
@@ -809,6 +823,7 @@
 0.0.0.0 firefox.tw
 0.0.0.0 firefoxflicks.com
 0.0.0.0 firefoxusercontent.com
+0.0.0.0 firstlook.firefox.com
 0.0.0.0 flurry.com
 0.0.0.0 flux.mozilla.org
 0.0.0.0 focus.firefox.com
@@ -855,6 +870,7 @@
 0.0.0.0 fxa.provider.firefoxcloud.net
 0.0.0.0 fxaccounts-services.mozilla.com
 0.0.0.0 fxprivaterelay.nonprod.webservices.mozgcp.net
+0.0.0.0 gaming.mozillalabs.com
 0.0.0.0 gateway.build.mozilla.org
 0.0.0.0 gcp.mozilla.com
 0.0.0.0 gecko-api.mozilla.org
@@ -907,6 +923,7 @@
 0.0.0.0 hang-reports.mozilla.org
 0.0.0.0 hardware.metrics.mozilla.com
 0.0.0.0 healthreport.services.mozilla.com
+0.0.0.0 heatmap.mozillalabs.com
 0.0.0.0 heka.socorro.mozilla.org
 0.0.0.0 hello.firefox.com
 0.0.0.0 help.mozilla.org
@@ -988,6 +1005,7 @@
 0.0.0.0 lightbeam-reports.mozilla.org
 0.0.0.0 lightbeam-visualization.mozilla.org
 0.0.0.0 lightbeam.org
+0.0.0.0 live.firefox.com
 0.0.0.0 live.mozillamessaging.com
 0.0.0.0 live.thunderbird.net
 0.0.0.0 llama-api.mozilla.org
@@ -1015,6 +1033,7 @@
 0.0.0.0 loop-us.mozilla.org
 0.0.0.0 loop-webrtc.mozilla.org
 0.0.0.0 loop.services.mozilla.com
+0.0.0.0 m.firefox.com
 0.0.0.0 machine-learning.mozilla.org
 0.0.0.0 machinelearning.mozilla.org
 0.0.0.0 machinelearningmoz.com
@@ -1022,6 +1041,7 @@
 0.0.0.0 mail.maven.mozilla.org
 0.0.0.0 makerparty.org
 0.0.0.0 malware-error.mozilla.com
+0.0.0.0 malware-report.mozilla.com
 0.0.0.0 mana.mozilla.org
 0.0.0.0 management.build.mozilla.org
 0.0.0.0 market.mozilla.org
@@ -1415,6 +1435,7 @@
 0.0.0.0 org.planet.mozilla.org
 0.0.0.0 packages.mozilla.org
 0.0.0.0 paste.mozilla.org
+0.0.0.0 payments.firefox.com
 0.0.0.0 pdfjs.robwu.nl
 0.0.0.0 people.mozilla.org
 0.0.0.0 perf-events.mozilla.org
@@ -1424,6 +1445,7 @@
 0.0.0.0 performance.mozilla.org
 0.0.0.0 pfs.mozilla.org
 0.0.0.0 phish-error.mozilla.com
+0.0.0.0 phish-generic.mozilla.com
 0.0.0.0 phish-report.mozilla.com
 0.0.0.0 ping-africa.telemetry.mozilla.org
 0.0.0.0 ping-asia.telemetry.mozilla.org
@@ -1446,6 +1468,7 @@
 0.0.0.0 pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com
 0.0.0.0 pipeline.telemetry.mozilla.org
 0.0.0.0 pl.mozilla.org
+0.0.0.0 planet.firefox.com
 0.0.0.0 planet.mozilla.org
 0.0.0.0 pocket-ai.com
 0.0.0.0 pocket-ai.mozilla.com
@@ -1486,9 +1509,11 @@
 0.0.0.0 predictions.services.mozilla.com
 0.0.0.0 preferences.services.mozilla.com
 0.0.0.0 prefs.firefox.com
+0.0.0.0 premium.firefox.com
 0.0.0.0 privacy.mozilla.org
 0.0.0.0 privacybadger.org
 0.0.0.0 privacydashboard.org
+0.0.0.0 private-network.firefox.com
 0.0.0.0 probeinfo.telemetry.mozilla.org
 0.0.0.0 probes.telemetry.mozilla.org
 0.0.0.0 prod.ads.prod.webservices.mozgcp.net
@@ -1527,6 +1552,7 @@
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 qsurvey.mozilla.com
 0.0.0.0 quality.mozilla.org
+0.0.0.0 quiz.firefox.com
 0.0.0.0 rails.build.mozilla.org
 0.0.0.0 rally-api.mozilla.org
 0.0.0.0 rally-data.com
@@ -1642,6 +1668,7 @@
 0.0.0.0 settings.services.mozilla.com
 0.0.0.0 setup.services.mozilla.com
 0.0.0.0 sh.maven.mozilla.org
+0.0.0.0 share.firefox.com
 0.0.0.0 shavar.developer-services.mozilla.com
 0.0.0.0 shavar.prod.mozaws.net
 0.0.0.0 shavar.services.mozilla.com
@@ -1728,6 +1755,7 @@
 0.0.0.0 stubdownloader.prod.mozaws.net
 0.0.0.0 stun.services.mozilla.com
 0.0.0.0 subconscious.network
+0.0.0.0 subscriptions.firefox.com
 0.0.0.0 suggest-api.mozilla.com
 0.0.0.0 suggest-asia.mozilla.com
 0.0.0.0 suggest-eu.mozilla.com
@@ -1890,7 +1918,10 @@
 0.0.0.0 training.mozilla.ai
 0.0.0.0 transcribe.mozilla.org
 0.0.0.0 transformers.mozilla.ai
+0.0.0.0 translate.firefox.com
 0.0.0.0 translate.mozilla.org
+0.0.0.0 truecolours.firefox.com
+0.0.0.0 turningred.firefox.com
 0.0.0.0 tw.mozilla.org
 0.0.0.0 typeform.com
 0.0.0.0 unsafebrowsing.services.mozilla.com

@@ -279,17 +279,6 @@
 0.0.0.0 addons-us.mozilla.org
 0.0.0.0 addons.allizom.org
 0.0.0.0 addons.cdn.mozilla.net
-0.0.0.0 addons.mozilla-backup.org
-0.0.0.0 addons.mozilla.cn
-0.0.0.0 addons.mozilla.de
-0.0.0.0 addons.mozilla.es
-0.0.0.0 addons.mozilla.fr
-0.0.0.0 addons.mozilla.jp
-0.0.0.0 addons.mozilla.net.ru
-0.0.0.0 addons.mozilla.org
-0.0.0.0 addons.mozilla.pl
-0.0.0.0 addons.mozilla.ru
-0.0.0.0 addons.mozilla.tw
 0.0.0.0 addons.services.mozilla.com
 0.0.0.0 admin-stage.balrog.nonprod.cloudops.mozgcp.net
 0.0.0.0 ads-eu.services.mozilla.com
@@ -1947,7 +1936,6 @@
 0.0.0.0 ventures.mozilla.org
 0.0.0.0 versioncheck-dev.allizom.org
 0.0.0.0 versioncheck.addons.allizom.org
-0.0.0.0 versioncheck.addons.mozilla.org
 0.0.0.0 versioncheck.allizom.org
 0.0.0.0 versioncheck.dev.mozaws.net
 0.0.0.0 versioncheck.prod.mozaws.net

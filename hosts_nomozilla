@@ -10,12 +10,15 @@
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 15 November 2025
+# Last modified: 16 November 2025
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
 # Codeberg Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 #
+#
+### Not blocked: External urls that are used by other services
+##0.0.0.0 ciscobinary.openh264.org   # H264 codec from cisco
 #
 ### External trackers Mozilla uses on their own sites, and also used by them to collect user data...
 # Google's main analytics tracker
@@ -514,7 +517,6 @@
 0.0.0.0 chat.orbit.mozilla.org
 0.0.0.0 chat.thunderbird.net
 0.0.0.0 chatbot.mozilla.org
-0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 classify-client.nonprod.webservices.mozgcp.net
 0.0.0.0 classify-client.prod.webservices.mozgcp.net
 0.0.0.0 classify-client.services.mozilla.com

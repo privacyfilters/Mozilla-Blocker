@@ -9,7 +9,7 @@
 
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
 
-#### Domains - Adblock-lean(OpenWrt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
+#### Domains - Adblock-lean(OpenWrt)(Warning:Addons need to be manually allowed) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
 ## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users
 #### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt)

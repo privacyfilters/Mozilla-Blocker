@@ -6,11 +6,11 @@
 #
 # Homepage: https://github.com/privacyfilters/Mozilla-Blocker
 # Codberg Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla
+# Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla
 # Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 16 November 2025
+# Last modified: 17 April 2026
 # Number of entries:
 #
 # Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
@@ -18,7 +18,8 @@
 #
 #
 ### Not blocked: External urls that are used by other services
-##0.0.0.0 ciscobinary.openh264.org   # H264 codec from cisco
+# H264 codec from cisco
+##0.0.0.0 ciscobinary.openh264.org
 #
 ### External trackers Mozilla uses on their own sites, and also used by them to collect user data...
 # Google's main analytics tracker
@@ -226,7 +227,6 @@
 0.0.0.0 52.85.61.79
 0.0.0.0 52.85.61.9
 0.0.0.0 52.89.191.21
-0.0.0.0 _https._tcp.packages.mozilla.org
 0.0.0.0 a.optmnstr.com
 0.0.0.0 about.mozilla.org
 0.0.0.0 aboutaddons.cdn.mozilla.net
@@ -341,6 +341,7 @@
 0.0.0.0 analytics.getpocket.com
 0.0.0.0 analytics.mozilla.com
 0.0.0.0 analytics.mozilla.org
+0.0.0.0 anf1.fuzzing.mozilla.org
 0.0.0.0 angular.build.mozilla.org
 0.0.0.0 anonymco-analytics.com
 0.0.0.0 anonymco-data.com
@@ -680,6 +681,7 @@
 0.0.0.0 dnt.mozilla.org
 0.0.0.0 docs.orbit.mozilla.org
 0.0.0.0 docs.telemetry.mozilla.org
+0.0.0.0 domain.glass
 0.0.0.0 donate.commonvoice.mozilla.org
 0.0.0.0 donate.mozilla.org
 0.0.0.0 download-asia.cdn.mozilla.net
@@ -693,6 +695,7 @@
 0.0.0.0 download-us.cdn.mozilla.net
 0.0.0.0 download.cdn.mozilla.net
 0.0.0.0 download.mozilla.org
+0.0.0.0 downloadstats.mozilla.com
 0.0.0.0 dxr.mozilla.org
 0.0.0.0 dynamicua.cdn.mozilla.net
 0.0.0.0 e.mozilla.org
@@ -716,6 +719,7 @@
 0.0.0.0 eu.accounts.firefox.com
 0.0.0.0 event-tracking.mozilla.org
 0.0.0.0 experimenter-stage.nonprod.webservices.mozgcp.net
+0.0.0.0 experimenter.info
 0.0.0.0 experimenter.nonprod.webservices.mozgcp.net
 0.0.0.0 experimenter.prod.webservices.mozgcp.net
 0.0.0.0 experimenter.services.mozilla.com
@@ -889,10 +893,11 @@
 0.0.0.0 geo.mozilla.org
 0.0.0.0 geo.services.mozilla.com
 0.0.0.0 getfirefox.com
+0.0.0.0 getpocket-cdn.prod.mozaws.net
 0.0.0.0 getpocket.cdn.mozilla.net
 0.0.0.0 getpocket.co
 0.0.0.0 getpocket.com
-0.0.0.0 github.com/mozilla
+0.0.0.0 getpocket.dev
 0.0.0.0 glam.telemetry.mozilla.org
 0.0.0.0 glean-api.mozilla.org
 0.0.0.0 glean-asia.mozilla.org
@@ -938,7 +943,6 @@
 0.0.0.0 hivelearningnetworks.org
 0.0.0.0 hivenyc.org
 0.0.0.0 hq.mozilla.org
-0.0.0.0 https://ai.mozilla.org
 0.0.0.0 hubs-platform.com
 0.0.0.0 hubs-platform.net
 0.0.0.0 hubs-platform.org
@@ -960,6 +964,7 @@
 0.0.0.0 image.e.mozilla.org
 0.0.0.0 images.ctfassets.net
 0.0.0.0 imap.e.mozilla.org
+0.0.0.0 img-getpocket-cdn.prod.mozaws.net
 0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 in.mozilla.org
 0.0.0.0 inbound.healthreport.services.mozilla.com
@@ -1406,7 +1411,6 @@
 0.0.0.0 olympia.prod.mozaws.net
 0.0.0.0 omappapi.com
 0.0.0.0 oneanddone.mozilla.org
-0.0.0.0 onyx_tiles.stage.mozaws.net
 0.0.0.0 openbadges.net
 0.0.0.0 openbadges.org
 0.0.0.0 opennews.org
@@ -1435,6 +1439,7 @@
 0.0.0.0 orbitbymozilla.com
 0.0.0.0 orcaready.org
 0.0.0.0 org.planet.mozilla.org
+0.0.0.0 ostats.mozilla.com
 0.0.0.0 packages.mozilla.org
 0.0.0.0 paste.mozilla.org
 0.0.0.0 payments.firefox.com
@@ -1496,6 +1501,7 @@
 0.0.0.0 pocket.co
 0.0.0.0 pocket.com
 0.0.0.0 pocket.mozilla.com
+0.0.0.0 pocket.prod.cloudops.mozgcp.net
 0.0.0.0 pocket.stage.mozaws.net
 0.0.0.0 pocketapi.com
 0.0.0.0 pocketapp.com
@@ -1518,18 +1524,23 @@
 0.0.0.0 private-network.firefox.com
 0.0.0.0 probeinfo.telemetry.mozilla.org
 0.0.0.0 probes.telemetry.mozilla.org
+0.0.0.0 prod-classifyclient.normandy.prod.cloudops.mozgcp.net
 0.0.0.0 prod.ads.prod.webservices.mozgcp.net
 0.0.0.0 prod.autograph.services.mozaws.net
 0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
 0.0.0.0 prod.classify-client.prod.webservices.mozgcp.net
 0.0.0.0 prod.content-signature-chains.prod.webservices.mozgcp.net
+0.0.0.0 prod.dap.prod.webservices.mozgcp.net
+0.0.0.0 prod.data-ingestion.prod.dataops.mozgcp.net
 0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
+0.0.0.0 prod.experimenter.prod.webservices.mozgcp.net
 0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 prod.ohttp-gateway.prod.webservices.mozgcp.net
 0.0.0.0 prod.orbit-ml-front-api.fakespot.prod.webservices.mozgcp.net
 0.0.0.0 prod.outgoing.prod.webservices.mozgcp.net
 0.0.0.0 prod.productdelivery.prod.webservices.mozgcp.net
 0.0.0.0 prod.remote-settings.prod.webservices.mozgcp.net
+0.0.0.0 prod.sentry.prod.cloudops.mozgcp.net
 0.0.0.0 prod.sumo.prod.webservices.mozgcp.net
 0.0.0.0 prod.telemetry.mozilla.org
 0.0.0.0 prod.webservices.mozgcp.net
@@ -1724,6 +1735,7 @@
 0.0.0.0 socorro.prod.webservices.mozgcp.net
 0.0.0.0 soft-start.loop.services.mozilla.com
 0.0.0.0 soloist.ai
+0.0.0.0 sostats.mozilla.com
 0.0.0.0 speech.mozilla.org
 0.0.0.0 spidermonkey-api.mozilla.org
 0.0.0.0 spidermonkey-docs.mozilla.org
@@ -1739,9 +1751,11 @@
 0.0.0.0 stage.accounts.firefox.com
 0.0.0.0 stage.balrog.nonprod.cloudops.mozgcp.net
 0.0.0.0 stage.content-signature-chains.nonprod.webservices.mozgcp.net
+0.0.0.0 stage.mozaws.net
 0.0.0.0 stage.mozilla.ai
 0.0.0.0 stage.productdelivery.nonprod.webservices.mozgcp.net
 0.0.0.0 stage.remote-settings.nonprod.webservices.mozgcp.net
+0.0.0.0 stage.sentry.nonprod.cloudops.mozgcp.net
 0.0.0.0 stage.thunderbird.net
 0.0.0.0 start-stage.thunderbird.net
 0.0.0.0 start.mozilla.org
@@ -1825,6 +1839,7 @@
 0.0.0.0 taskcluster-secrets.mozilla.org
 0.0.0.0 taskcluster.net
 0.0.0.0 tbpl.mozilla.org
+0.0.0.0 tcp.packages.mozilla.org
 0.0.0.0 teaching.mozilla.org
 0.0.0.0 teams.orbit.mozilla.org
 0.0.0.0 telemetry-api.services.mozilla.com

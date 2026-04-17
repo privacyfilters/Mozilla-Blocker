@@ -5,25 +5,27 @@
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking. 
 
 ## Regualr Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
-#### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt)
+#### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt)
 
-#### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts)
+#### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
+
+#### Domains - Adblock-lean(OpenWrt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
 ## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users
-#### Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt)
+#### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt)
 
-#### Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla)
+#### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla)
 
 ## Recommended Methods to Block Mozilla
-1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
-2. Systemwide Adblocker for Widnows/Linux- Zen Adblocker (stable)(foss)(adblock)- https://github.com/anfragment/zen
-3. SwitchHosts for Windows (unstable)(foss)(hosts) - https://github.com/oldj/SwitchHosts
+1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns) - https://github.com/AdguardTeam/AdGuardHome
+2. Systemwide Adblocker for Widnows/Linux- Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen
+3. Adblock-lean on routers flashed with OpenWrt (stable)(foss)(domains) - https://github.com/lynxthecat/adblock-lean
 4. hosty for Linux (stable)(foss)(hosts) - https://github.com/astrovm/hosty
 5. Opensnitch firewall for Linux (foss)(hosts) - https://github.com/evilsocket/opensnitch
-6. personelDNSfilter for Android (stable)(no-root)(foss)(hosts)(dns) - https://github.com/IngoZenz/personaldnsfilter
-7. Netguard firewall for Android (stable)(no-root)(foss)(hosts) - https://github.com/M66B/NetGuard
+6. personelDNSfilter for Android (stable)(no-root)(foss)(hosts)(adblock_dns) - https://github.com/IngoZenz/personaldnsfilter
+7. BlockAds for Android (semi-stable)(no-root)(foss)(hosts)(adblock_dns) - https://github.com/pass-with-high-score/blockads-android
 8. Adaway for Android (root)(no-root)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
-9. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(dns) - https://adguard.com/en/adguard-android/overview.html
+9. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/en/adguard-android/overview.html
 
 The adblock filter format works perfectly on Adguard Home.
 Zen adblocker is still early on development so it is unstable when enforcing the filters.

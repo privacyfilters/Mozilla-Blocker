@@ -4,17 +4,14 @@
 # Don't use this filter if you want to install and update add-ons from mozilla add-ons website on firefox forks.
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
-# Homepage: https://github.com/privacyfilters/Mozilla-Blocker
-# Codberg Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla
-# Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
-# License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
-# Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+# Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
+# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
+# License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+# Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+# Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla
+# Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Last modified: 17 April 2026
 # Number of entries:
-#
-# Github Adblock/DNS bloclist version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
-# Codeberg Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 #
 #
 # ## Not blocked: External urls that are used by other services

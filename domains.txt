@@ -6,12 +6,14 @@
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains
-# Last modified: 17 Apri
+# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
+# License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+# Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+# Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt
+# Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
+# Last modified: 17 April 2026
+# Syntax: domains
 # Number of entries:
-#
-# Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
-# Host blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 #
 #
 ### External trackers Mozilla uses on their own sites...

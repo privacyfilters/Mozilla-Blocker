@@ -17,11 +17,11 @@
 # Codeberg Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 #
 #
-### Not blocked: External urls that are used by other services
+# ## Not blocked: External urls that are used by other services
 # H264 codec from cisco
-##0.0.0.0 ciscobinary.openh264.org
+# #0.0.0.0 ciscobinary.openh264.org
 #
-### External trackers Mozilla uses on their own sites, and also used by them to collect user data...
+# ## External trackers Mozilla uses on their own sites, and also used by them to collect user data...
 # Google's main analytics tracker
 0.0.0.0 analytics.google.com
 # Yahoo's analytics service
@@ -71,7 +71,7 @@
 # Web version for Google ad services
 0.0.0.0 www.googletagservices.com
 #
-## Mozilla's major and sub brands and services
+# # Mozilla's major and sub brands and services
 # Firefox Accounts services
 0.0.0.0 accounts.firefox.com
 # Pocket API endpoint
@@ -171,7 +171,7 @@
 # Mozilla VPN's www subdomain
 0.0.0.0 www.vpn.mozilla.org
 #
-### Mozilla Inovation projects
+# ## Mozilla Inovation projects
 # Privacy-focused analytics tool
 0.0.0.0 didthis.app
 # Form creation service
@@ -187,7 +187,7 @@
 # Web version of Mozilla's Orbit project
 0.0.0.0 www.orbitbymozilla.com
 #
-## Firefox Forked browser's tracking urls ##
+# # Firefox Forked browser's tracking urls ##
 # basilisk browser
 0.0.0.0 aus.basilisk-browser.org
 # floorp Browser
@@ -200,7 +200,7 @@
 # zen browser
 0.0.0.0 updates.zen-browser.app
 #
-### Strict Mozilla Blocker list
+# ## Strict Mozilla Blocker list
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
 0.0.0.0 a.optmnstr.com

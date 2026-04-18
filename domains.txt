@@ -759,8 +759,7 @@ developer.mozilla.org
 developer.mozilla.pl
 developer.mozilla.ru
 developer.mozilla.tw
-developer.mozilla.zh-CN
-developer.mozilla.zh-TW
+developer.mozilla.zh
 dialogue.mozilla.org
 dictionary.telemetry.mozilla.org
 didthis.app

@@ -5,22 +5,15 @@
 !              Use with a network/systemwide blocker. Adguard Home and Pi-hole for DNS blocking and Zen Privacy Guard from github in windows/linux.
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 !
-!              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers mozilla uses on their website - Mozilla add-ons.
-!              Yes, Most of the Mozilla websites including the add-ons site have Google analytivcs like google-analytics.com and googletagmanager.com. You can check with any non-mozilla browsers, wireshark or dns filterer.  
-!              This is due to Mozilla's policy forced onto extension developers, which should tell you Mozilla's privacy stance as an organization.
-!
-! Github host version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla
-! Codeberg host version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
-!
-! Homepage: https://github.com/privacyfilters/Mozilla-Blocker
-! Codberg Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-! Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt
-! Codeberg Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
-! License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
-! Codeberg License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+! Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
+! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
+! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+! Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
+! Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt
+! Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 15 November 2025
-! Version: 4.28
+! Last modified: 19 April 2026
+! Version: 4.29
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -202,10 +195,13 @@
 ||updates.zen-browser.app^
 !
 !!!!!! Blocklist: Simplied list from hosts !!!!!!
+!
 !!! Wildcard rules
 ||mozilla*.*fastly.net^
 ||mozilla*.*fastly-edge.com^
+!
 !!! Domain rules
+
 ||250analytics.com^
 ||accessfirefox.org^
 ||ads-track-digest256.dummytracker.org^
@@ -214,7 +210,9 @@
 ||amo-extensions.net^
 ||amo-extensions.org^
 ||amo-test-1048344596.us-west-2.elb.amazonaws.com
+||amo-test-1048344596.us-west-2.elb.amazonaws.com^
 ||analytics-track-digest256.dummytracker.org^
+||analytics.getpocket.com^
 ||anonymco-analytics.com^
 ||anonymco-data.com^
 ||anonymco.ai^
@@ -222,9 +220,30 @@
 ||anonymco.io^
 ||anonymco.net^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com
+||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
+||assets.getpocket.com^
+||auth.mozilla.auth0.com^
+||aws.mozilla.com^
+||azure.mozilla.com^
 ||badg.us^
+||blog.mozilla-russia.org^
+||blog.mozilla.asia^
+||blog.mozillabrasil.org.br^
+||blog.mozillafoundation.org^
+||blog.mozillagaming.org^
+||blog.mozillahispano.org^
+||blog.mozillalabs.com^
+||blog.mozillapocket.org^
+||blog.mozillapolicy.org^
+||blog.mozillapress.org^
+||blog.mozillaprivacy.org^
+||blog.mozillasecurity.org^
+||blogs.mozillaindia.org^
 ||braze.com^
 ||buysellads.com^
+||cdn.fakespot.com^
+||cdn.fakespot.io^
+||cdn.fundraiseup.com^
 ||cdnmozilla.net^
 ||commonvoice.ai^
 ||commonvoice.com^
@@ -235,9 +254,18 @@
 ||components.mozilla.net^
 ||components.mozilla.org^
 ||components.mozilla^
+||data.corp.mozilla.com^
+||debug-ping-preview.firebaseapp.com^
+||detectportal.prod.mozaws.net^
 ||didthis.app^
+||discovershiretoko.org^
 ||divviup.org^
+||doh1.mozilla-dns.net^
+||doh2.mozilla-dns.net^
+||domain.glass^
 ||dummytracker.org^^
+||eklentiler.mozillazine-tr.org^
+||experimenter.info^
 ||extensionworkshop.com^
 ||fakespot-ai.com^
 ||fakespot-analytics.com^
@@ -270,6 +298,7 @@
 ||fakespotlabs.com^
 ||fakespotpro.com^
 ||fakespottech.com^
+||firefox-dns-perf-test.net^
 ||firefox-extensions.com^
 ||firefox-extensions.net^
 ||firefox-extensions.org^
@@ -279,6 +308,7 @@
 ||firefox-relay.com^
 ||firefox-relay.net^
 ||firefox-relay.org^
+||firefox-test-accounts.auth0.com^
 ||firefox-vpn.com^
 ||firefox-vpn.net^
 ||firefox-vpn.org^
@@ -303,36 +333,56 @@
 ||firefox.tw^
 ||firefoxcloud.net^
 ||firefoxflicks.com^
+||firefoxusercontent.com^
 ||flurry.com^
 ||fonts.net^
 ||formulaic.app^
+||foundation.mozilla.ai^
+||foundation.mozilla.eu^
+||foundation.mozilla.jp^
+||foundation.mozilla.org.uk^
+||foundation.mozilla.org^
 ||fpn-vpn.com^
 ||fundraiseup.com^
+||fxa.provider.firefoxcloud.net^
+||gaming.mozillalabs.com^
 ||getfirefox.com^
+||getpocket.co^
 ||getpocket.com^
 ||getpocket.dev^
+||googlecn-firefox.cn^
+||heatmap.mozillalabs.com^
+||hg-edge-mozilla.fastly-edge.com^
+||hivelearningnetworks.org^
 ||hivenyc.org^
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^
+||hubs.mozilla.com^
 ||iam.mozilla.com^
 ||iam.mozilla.org^
 ||innocraft.cloud^
 ||itisatracker.com^
 ||itisatracker.org^
-||jsbin.com^
 ||lcip.org^
 ||leanplum.com^
 ||leanprivacy.com^
 ||lightbeam.org^
+||llamafile.dev^
+||lockbox.firefox.com^
+||lockwise.firefox.com^
+||machinelearningmoz.com^
 ||makerparty.org^
 ||matomo.cloud^
 ||mdn-labs.com^
 ||mdn-labs.net^
 ||mdn-labs.org^
 ||mdn.dev^
+||metric.mozilla-pontoon-staging.herokuapp.com^
+||mlo Mozilla.org^
 ||monitor.firefox.com^
 ||moz.works^
+||mozamo.wpengine.com^
 ||mozaws.com^
 ||mozaws.net^
 ||mozdev.com^
@@ -364,6 +414,7 @@
 ||mozilla-llc.com^
 ||mozilla-llc.net^
 ||mozilla-llc.org^
+||mozilla-llms.github.io^
 ||mozilla-ml.com^
 ||mozilla-ml.org^
 ||mozilla-monitor.com^
@@ -376,12 +427,14 @@
 ||mozilla-relay.com^
 ||mozilla-relay.net^
 ||mozilla-relay.org^
+||mozilla-research.ai^
 ||mozilla-research.net^
 ||mozilla-russia.org^
 ||mozilla-speech.org^
 ||mozilla-taiwan.org^
 ||mozilla-translate.org^
 ||mozilla-uk.org^
+||mozilla-vc-dev.ramotion.agency^
 ||mozilla-vision.org^
 ||mozilla-vpn.com^
 ||mozilla-vpn.io^
@@ -390,6 +443,8 @@
 ||mozilla.asia^
 ||mozilla.auth0.com^
 ||mozilla.ch^
+||mozilla.chat^
+||mozilla.cloud.looker.com^
 ||mozilla.cloud^
 ||mozilla.cloudflare-dns.com^
 ||mozilla.cloudfront.net^
@@ -404,17 +459,24 @@
 ||mozilla.com.tr^
 ||mozilla.com.vn^
 ||mozilla.com^
+||mozilla.community.br^
 ||mozilla.community^
 ||mozilla.cz^
 ||mozilla.de^
+||mozilla.dev.labs^
+||mozilla.dev.services^
 ||mozilla.dev^
 ||mozilla.developer.it^
 ||mozilla.dk^
+||mozilla.dns.nextdns.io^
+||mozilla.dorando.at^
 ||mozilla.engineering^
 ||mozilla.es^
 ||mozilla.eu^
 ||mozilla.events^
 ||mozilla.fi^
+||mozilla.formstack.com^
+||mozilla.foundation^
 ||mozilla.fr^
 ||mozilla.github.io^
 ||mozilla.gr^
@@ -447,11 +509,14 @@
 ||mozilla.ru^
 ||mozilla.rw^
 ||mozilla.se^
+||mozilla.sentry.io^
 ||mozilla.sg^
 ||mozilla.si^
 ||mozilla.sk^
+||mozilla.slack.com^
 ||mozilla.social^
 ||mozilla.srvcs.com^
+||mozilla.stories^
 ||mozilla.tw^
 ||mozilla.ua^
 ||mozilla.uz^
@@ -459,6 +524,7 @@
 ||mozilla.za^
 ||mozillaadvocacy.com^
 ||mozillaadvocacy.org^
+||mozillaamo.wpengine.com^
 ||mozillablog.org^
 ||mozillabot.org^
 ||mozillabrasil.org.br^
@@ -468,6 +534,7 @@
 ||mozillademos.org^
 ||mozilladevelopers.net^
 ||mozilladevtools.org^
+||mozilladotcom-prod.mozgcp.net^
 ||mozilladrumbeat.org^
 ||mozillaedtech.com^
 ||mozillaedtech.org^
@@ -562,15 +629,18 @@
 ||mozillazine.org^
 ||mozillians.org^
 ||mozillignite.org^
+||mozorg.moz.works^
+||mozsocial.cliqz.com^
 ||mozspace.org^
 ||mozsprint.net^
 ||mozworks.net^
 ||mparticle.com^
+||mullvad.mozilla.org^
 ||mzl.la^
+||network-services.mozilla.com^
 ||omappapi.com^
 ||openbadges.net^
 ||openbadges.org^
-||openh264.org^
 ||opennews.org^
 ||optmnstr.com^
 ||orbit-app.com^
@@ -579,6 +649,8 @@
 ||orbit-community.org^
 ||orbit-platform.com^
 ||orbit-platform.net^
+||orbit.mozilla.com^
+||orbit.mozilla.net^
 ||orbitbymozilla.com^
 ||orcaready.org^
 ||pdfjs.robwu.nl^
@@ -591,19 +663,27 @@
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||pocket-ai.com^
 ||pocket-ai.mozilla.com^
+||pocket-analytics.com^
 ||pocket-content.com^
 ||pocket-discovery.com^
+||pocket-events.com^
 ||pocket-image-cache.com^
 ||pocket-labs.com^
+||pocket-metrics.com^
 ||pocket-ml.com^
 ||pocket-personalization.com^
 ||pocket-recommendations.com^
 ||pocket-recs-api.com^
+||pocket-recs.com^
 ||pocket-recs.mozilla.com^
+||pocket-spocs.com^
 ||pocket-suggest.com^
 ||pocket-suggest.mozilla.com^
+||pocket-tracking.com^
+||pocket-userdata.com^
 ||pocket.co^
 ||pocket.com^
+||pocket.mozilla.com^
 ||pocketapi.com^
 ||pocketapp.com^
 ||pocketapps.com^
@@ -613,6 +693,8 @@
 ||pocketcdn.net^
 ||pocketimages.com^
 ||pocketstatic.com^
+||privacybadger.org^
+||privacydashboard.org^
 ||pubmine.com^
 ||rally-data.com^
 ||rally-data.org^
@@ -626,17 +708,32 @@
 ||relay.firefox.com^
 ||relayemail.com^
 ||relayemail.net^
+||s3-us-west-2.amazonaws.amo^
 ||searchfox.org^
 ||sentry.io^
 ||services.mozilla.com^
 ||servo.mozilla.org^
 ||soloist.ai^
 ||spidermonkey.mozilla.org^
+||spocs.getpocket.com^
+||spocs.getpocket.dev^
 ||spreadfirefox.com^
+||stage.mozaws.net^
+||static.fakespot.com^
+||static.fakespot.io^
 ||subconscious.network^
+||support.mozilla.com^
+||support.mozilla.org^
+||support.mozillamessaging.com^
+||taskcluster.net^
+||tbpl.mozilla.org^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
 ||testpilot.mozilla.org^
+||testpilot.mozillalabs.com^
+||thanks.dev^
+||thunderbird.innocraft.cloud^
 ||thunderbird.net^
+||thunderbird.top^
 ||thunderbirdemail.com^
 ||thunderbirdemail.net^
 ||thunderbirdemail.org^
@@ -644,17 +741,22 @@
 ||thunderbirdfoundation.org^
 ||thunderbirdmail.com^
 ||thunderbirdmail.org^
+||toolkit.coverage.endpoint.base^
 ||trackertest.org^
+||tracking-protection-issues.herokuapp.com^
 ||typeform.com^
 ||voice-ai.com^
 ||voice-ai.org^
+||vpn-mozilla.com^
 ||vpn.mozilla.org^
 ||waterfox.net^
 ||webcompat.com^
 ||webmaker.me^
+||webmaker.mozillalabs.com^
 ||webmaker.org^
 ||webmakerfoundation.com^
 ||webmakerfoundation.org^
+||webservices.mozgcp.net^
 ||webthingsplatform.com^
 ||webthingsplatform.net^
 ||webthingsplatform.org^

@@ -171,7 +171,7 @@ www.vpn.mozilla.org
 # Privacy-focused analytics tool
 didthis.app
 # Form creation service
-formulaic.app   # Form creation service
+formulaic.app
 # Mozilla's Orbit project for user interaction
 orbitbymozilla.com
 # Likely related to Mozilla's ORCA project

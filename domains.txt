@@ -18,15 +18,183 @@
 #
 #
 ### External trackers Mozilla uses on their own sites...
-google-analytics.com
-googletagmanager.com
-www.google-analytics.com
-www.googletagmanager.com
-omappapi.com
+# Google's main analytics tracker
+analytics.google.com
+# Yahoo's analytics service
+analytics.query.yahoo.com
+# Amplitude's analytics API
+api2.amplitude.com
+# Firebase analytics by Google
+app-measurement.com
+# Mobile analytics and attribution
+app.adjust.com
+# Marketing automation platform
 braze.com
-sentry.io
+# Advertising network
+buysellads.com
+# Mobile app analytics by Yahoo
+data.flurry.com
+# Core Google Analytics service
+google-analytics.com
+# Google's tag management system
+googletagmanager.com
+# Google's ad-serving infrastructure
+googletagservices.com
+innocraft.cloud
+# Cloud-hosted Matomo analytics
 matomo.cloud
+# Server-side Matomo analytics
+matomo.php
+# mParticle's SDK for data integration
+nativesdks.mparticle.com
+# Another analytics service
+omappapi.com
+# Ad tech platform
 pubmine.com
+# Regional Google Analytics server
+region1.analytics.google.com
+region1.google-analytics.com
+# Error tracking and monitoring
+sentry.io
+# Secure Google Analytics domain
+ssl.google-analytics.com
+# Online form creation and data collection
+typeform.com
+# Main Google Analytics domain
+www.google-analytics.com
+# Web version of Google Tag Manager
+www.googletagmanager.com
+# Web version for Google ad services
+www.googletagservices.com
+#
+# # Mozilla's major and sub brands and services
+# Firefox Accounts services
+accounts.firefox.com
+# Pocket API endpoint
+api.pocket.com
+# Authentication services
+auth.mozilla.org
+# Mozilla's blog
+blog.mozilla.org
+# Mozilla crash reporting
+crash-stats.mozilla.org
+# Mozilla Developer Network
+developer.mozilla.org
+# Mozilla Extension Workshop
+extensionworkshop.com
+# Fake review detector
+fakespot.com
+fakespot.io
+i.fakspot.io
+# Firefox browser main site
+firefox.com
+# Mozilla Foundation's site
+foundation.mozilla.org
+# Pocket save-for-later service
+getpocket.com
+# Mozilla Labs for experimental projects
+labs.mozilla.org
+# Firefox Monitor for data breaches
+monitor.firefox.com
+# Mozilla's AI initiatives
+mozilla.ai
+# Mozilla's DNS through Cloudflare
+mozilla.cloudflare-dns.com
+# Mozilla's German site
+mozilla.de
+# Mozilla Design resources
+mozilla.design
+# Mozilla network services
+mozilla.net
+# Mozilla's main site
+mozilla.org
+# Mozilla's video conferencing
+mozilla.vc
+# Pocket's main domain
+pocket.com
+# Firefox Relay email privacy
+relay.firefox.com
+# Mozilla telemetry services
+telemetry.mozilla.org
+# Thunderbird email client
+thunderbird.net
+# Mozilla VPN service
+vpn.mozilla.org
+# Pocket API's www subdomain
+www.api.pocket.com
+# Extension Workshop's www subdomain
+www.extensionworkshop.com
+# FakeSpot's www subdomain
+www.fakespot.com
+www.fakespot.io
+www.i.fakspot.io
+# Firefox's www subdomain
+www.firefox.com
+# Mozilla Foundation's www subdomain
+www.foundation.mozilla.org
+# Pocket's www subdomain
+www.getpocket.com
+# Mozilla Labs' www subdomain
+www.labs.mozilla.org
+# Firefox Monitor's www subdomain
+www.monitor.firefox.com
+# Likely related to AWS services for Mozilla
+www.mozaws.net
+# Likely related to Google Cloud Platform for Mozilla
+www.mozgcp.net
+# Mozilla AI's www subdomain
+www.mozilla.ai
+# Mozilla's commercial site www subdomain
+www.mozilla.com
+# Mozilla Germany's www subdomain
+www.mozilla.de
+# Mozilla Design's www subdomain
+www.mozilla.design
+# Mozilla Network's www subdomain
+www.mozilla.net
+# Mozilla's main site www subdomain
+www.mozilla.org
+# Mozilla VC's www subdomain
+www.mozilla.vc
+# Pocket's www subdomain
+www.pocket.com
+# Firefox Relay's www subdomain
+www.relay.firefox.com
+# Mozilla Support site
+www.support.mozilla.org
+# Thunderbird's www subdomain
+www.thunderbird.net
+# Mozilla VPN's www subdomain
+www.vpn.mozilla.org
+#
+# ## Mozilla Inovation projects
+# Privacy-focused analytics tool
+didthis.app
+# Form creation service
+formulaic.app   # Form creation service
+# Mozilla's Orbit project for user interaction
+orbitbymozilla.com
+# Likely related to Mozilla's ORCA project
+orcaready.org
+# AI-driven analytics or service
+soloist.ai
+# Possibly related to AI or network analytics
+subconscious.network
+# Web version of Mozilla's Orbit project
+www.orbitbymozilla.com
+#
+# # Firefox Forked browser's tracking urls ##
+# basilisk browser
+aus.basilisk-browser.org
+# floorp Browser
+floorp-update.ablaze.one
+updates.floorp.app
+# LibreWolf
+updates.librewolf.net
+# waterfox
+aus1.waterfox.net
+# zen browser
+updates.zen-browser.app
 #
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #addons.mozilla.org
@@ -2153,7 +2321,6 @@ vpn.fpn.firefox.com
 vpn.mozilla.org
 vr.mozilla.org
 wasm-ml.mozilla.org
-waterfox.net
 wav2vec.mozilla.org
 web-llm.mozilla.org
 web.orbit.mozilla.org

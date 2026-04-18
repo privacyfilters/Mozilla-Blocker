@@ -14,7 +14,7 @@
 ! Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 19 April 2026
-! Version: 4.29
+! Version: 4.30
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -430,7 +430,7 @@
 ||mdn-labs.org^
 ||mdn.dev^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
-||mlo Mozilla.org^
+||mls.Mozilla.org^
 ||monitor.firefox.com^
 ||moz.works^
 ||mozamo.wpengine.com^

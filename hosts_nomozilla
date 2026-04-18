@@ -173,7 +173,7 @@
 # Privacy-focused analytics tool
 0.0.0.0 didthis.app
 # Form creation service
-0.0.0.0 formulaic.app   # Form creation service
+0.0.0.0 formulaic.app
 # Mozilla's Orbit project for user interaction
 0.0.0.0 orbitbymozilla.com
 # Likely related to Mozilla's ORCA project
@@ -1040,7 +1040,7 @@
 0.0.0.0 hivelearningnetworks.org
 0.0.0.0 hivenyc.org
 0.0.0.0 hq.mozilla.org
-0.0.0.0 hu bert.mozilla.org
+0.0.0.0 hubert.mozilla.org
 0.0.0.0 hubs-platform.com
 0.0.0.0 hubs-platform.net
 0.0.0.0 hubs-platform.org
@@ -1225,7 +1225,7 @@
 0.0.0.0 ml.mozilla.org
 0.0.0.0 ml.services.mozilla.com
 0.0.0.0 mlc-llm.mozilla.org
-0.0.0.0 mlo Mozilla.org
+0.0.0.0 mls.Mozilla.org
 0.0.0.0 mlops.mozilla.org
 0.0.0.0 mobileai.mozilla.org
 0.0.0.0 mobilebert.mozilla.org

@@ -1279,7 +1279,7 @@ ml.js.mozilla.org
 ml.mozilla.org
 ml.services.mozilla.com
 mlc-llm.mozilla.org
-mlo Mozilla.org
+mls.Mozilla.org
 mlops.mozilla.org
 mobileai.mozilla.org
 mobilebert.mozilla.org

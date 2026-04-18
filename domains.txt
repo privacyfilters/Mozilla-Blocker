@@ -1094,7 +1094,7 @@ hg.srcd.mozilla.org
 hivelearningnetworks.org
 hivenyc.org
 hq.mozilla.org
-hu bert.mozilla.org
+hubert.mozilla.org
 hubs-platform.com
 hubs-platform.net
 hubs-platform.org

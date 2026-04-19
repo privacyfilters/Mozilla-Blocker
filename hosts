@@ -121,8 +121,7 @@
 0.0.0.0 updates.floorp.app
 0.0.0.0 updates.librewolf.net
 0.0.0.0 updates.zen-browser.app
-#
-# Strict Mozilla Blocker list - excluding mozilla firefox thunderbird addons
+# # Strict Mozilla blcoker list allowing addons
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
 0.0.0.0 3dgs.mozilla.org

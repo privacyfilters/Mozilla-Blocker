@@ -150,7 +150,7 @@
 0.0.0.0 www.foundation.mozilla.org
 # Pocket www subdomain
 0.0.0.0 www.getpocket.com
-# Mozilla Labs' www subdomain
+# Mozilla Labs www subdomain
 0.0.0.0 www.labs.mozilla.org
 # Firefox Monitor www subdomain
 0.0.0.0 www.monitor.firefox.com

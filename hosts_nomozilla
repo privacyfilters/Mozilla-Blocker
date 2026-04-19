@@ -1,7 +1,7 @@
 # Mozilla Blocker hosts - No Mozilla #
 # This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 # Nothing from Mozilla will be allowed. Everything will be blocked, inclding mozilla add-ons.
-# Don't use this filter if you want to install and update add-ons from mozilla add-ons website on firefox forks.
+# Dont use this filter if you want to install and update add-ons from mozilla add-ons website on firefox forks.
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
@@ -16,186 +16,103 @@
 #
 #
 # ## Not blocked: External urls that are used by other services
-# H264 codec from cisco
 # 0.0.0.0 ciscobinary.openh264.org
 #
-# ## External trackers Mozilla uses on their own sites, and also used by them to collect user data...
-# Google's main analytics tracker
+# External trackers Mozilla uses on their own sites, and also used by them to collect user data...
 0.0.0.0 analytics.google.com
-# Yahoo's analytics service
 0.0.0.0 analytics.query.yahoo.com
-# Amplitude's analytics API
 0.0.0.0 api2.amplitude.com
-# Firebase analytics by Google
 0.0.0.0 app-measurement.com
-# Mobile analytics and attribution
 0.0.0.0 app.adjust.com
-# Marketing automation platform
 0.0.0.0 braze.com
-# Advertising network
 0.0.0.0 buysellads.com
-# Mobile app analytics by Yahoo
 0.0.0.0 data.flurry.com
-# Core Google Analytics service
 0.0.0.0 google-analytics.com
-# Google's tag management system
 0.0.0.0 googletagmanager.com
-# Google's ad-serving infrastructure
 0.0.0.0 googletagservices.com
 0.0.0.0 innocraft.cloud
-# Cloud-hosted Matomo analytics
 0.0.0.0 matomo.cloud
-# Server-side Matomo analytics
 0.0.0.0 matomo.php
-# mParticle's SDK for data integration
 0.0.0.0 nativesdks.mparticle.com
-# Another analytics service
 0.0.0.0 omappapi.com
-# Ad tech platform
 0.0.0.0 pubmine.com
-# Regional Google Analytics server
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 region1.google-analytics.com
-# Error tracking and monitoring
 0.0.0.0 sentry.io
-# Secure Google Analytics domain
 0.0.0.0 ssl.google-analytics.com
-# Online form creation and data collection
 0.0.0.0 typeform.com
-# Main Google Analytics domain
 0.0.0.0 www.google-analytics.com
-# Web version of Google Tag Manager
 0.0.0.0 www.googletagmanager.com
-# Web version for Google ad services
 0.0.0.0 www.googletagservices.com
 #
-# # Mozilla's major and sub brands and services
-# Firefox Accounts services
+# Mozilla major and sub brands and services
 0.0.0.0 accounts.firefox.com
-# Pocket API endpoint
 0.0.0.0 api.pocket.com
-# Authentication services
 0.0.0.0 auth.mozilla.org
-# Mozilla's blog
 0.0.0.0 blog.mozilla.org
-# Mozilla crash reporting
 0.0.0.0 crash-stats.mozilla.org
-# Mozilla Developer Network
 0.0.0.0 developer.mozilla.org
-# Mozilla Extension Workshop
 0.0.0.0 extensionworkshop.com
-# Fake review detector
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.io
-0.0.0.0 i.fakspot.io
-# Firefox browser main site
 0.0.0.0 firefox.com
-# Mozilla Foundation's site
 0.0.0.0 foundation.mozilla.org
-# Pocket save-for-later service
 0.0.0.0 getpocket.com
-# Mozilla Labs for experimental projects
+0.0.0.0 i.fakspot.io
 0.0.0.0 labs.mozilla.org
-# Firefox Monitor for data breaches
 0.0.0.0 monitor.firefox.com
-# Mozilla's AI initiatives
 0.0.0.0 mozilla.ai
-# Mozilla's DNS through Cloudflare
 0.0.0.0 mozilla.cloudflare-dns.com
-# Mozilla's German site
 0.0.0.0 mozilla.de
-# Mozilla Design resources
 0.0.0.0 mozilla.design
-# Mozilla network services
 0.0.0.0 mozilla.net
-# Mozilla's main site
 0.0.0.0 mozilla.org
-# Mozilla's video conferencing
 0.0.0.0 mozilla.vc
-# Pocket's main domain
 0.0.0.0 pocket.com
-# Firefox Relay email privacy
 0.0.0.0 relay.firefox.com
-# Mozilla telemetry services
 0.0.0.0 telemetry.mozilla.org
-# Thunderbird email client
 0.0.0.0 thunderbird.net
-# Mozilla VPN service
 0.0.0.0 vpn.mozilla.org
-# Pocket API's www subdomain
 0.0.0.0 www.api.pocket.com
-# Extension Workshop's www subdomain
 0.0.0.0 www.extensionworkshop.com
-# FakeSpot's www subdomain
 0.0.0.0 www.fakespot.com
 0.0.0.0 www.fakespot.io
-0.0.0.0 www.i.fakspot.io
-# Firefox's www subdomain
 0.0.0.0 www.firefox.com
-# Mozilla Foundation's www subdomain
 0.0.0.0 www.foundation.mozilla.org
-# Pocket's www subdomain
 0.0.0.0 www.getpocket.com
-# Mozilla Labs' www subdomain
+0.0.0.0 www.i.fakspot.io
 0.0.0.0 www.labs.mozilla.org
-# Firefox Monitor's www subdomain
 0.0.0.0 www.monitor.firefox.com
-# Likely related to AWS services for Mozilla
 0.0.0.0 www.mozaws.net
-# Likely related to Google Cloud Platform for Mozilla
 0.0.0.0 www.mozgcp.net
-# Mozilla AI's www subdomain
 0.0.0.0 www.mozilla.ai
-# Mozilla's commercial site www subdomain
 0.0.0.0 www.mozilla.com
-# Mozilla Germany's www subdomain
 0.0.0.0 www.mozilla.de
-# Mozilla Design's www subdomain
 0.0.0.0 www.mozilla.design
-# Mozilla Network's www subdomain
 0.0.0.0 www.mozilla.net
-# Mozilla's main site www subdomain
 0.0.0.0 www.mozilla.org
-# Mozilla VC's www subdomain
 0.0.0.0 www.mozilla.vc
-# Pocket's www subdomain
 0.0.0.0 www.pocket.com
-# Firefox Relay's www subdomain
 0.0.0.0 www.relay.firefox.com
-# Mozilla Support site
 0.0.0.0 www.support.mozilla.org
-# Thunderbird's www subdomain
 0.0.0.0 www.thunderbird.net
-# Mozilla VPN's www subdomain
 0.0.0.0 www.vpn.mozilla.org
 #
-# ## Mozilla Inovation projects
-# Privacy-focused analytics tool
+# Mozilla Inovation projects
 0.0.0.0 didthis.app
-# Form creation service
 0.0.0.0 formulaic.app
-# Mozilla's Orbit project for user interaction
 0.0.0.0 orbitbymozilla.com
-# Likely related to Mozilla's ORCA project
 0.0.0.0 orcaready.org
-# AI-driven analytics or service
 0.0.0.0 soloist.ai
-# Possibly related to AI or network analytics
 0.0.0.0 subconscious.network
-# Web version of Mozilla's Orbit project
 0.0.0.0 www.orbitbymozilla.com
 #
-# # Firefox Forked browser's tracking urls ##
-# basilisk browser
+# Firefox Forked browsers tracking auto update urls ##
 0.0.0.0 aus.basilisk-browser.org
-# floorp Browser
+0.0.0.0 aus1.waterfox.net
 0.0.0.0 floorp-update.ablaze.one
 0.0.0.0 updates.floorp.app
-# LibreWolf
 0.0.0.0 updates.librewolf.net
-# waterfox
-0.0.0.0 aus1.waterfox.net
-# zen browser
 0.0.0.0 updates.zen-browser.app
 #
 # ## Strict Mozilla Blocker list

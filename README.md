@@ -9,7 +9,11 @@
 
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
 
-#### Hosts-Clean - Cleaner hosts with different name(Adblock-lean)(Warning:Addons needs to be manually allowed on Adblock-lean) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
+#### Hosts-Clean - Cleaner hosts with different name(Adblock-lean, Recommended for OpenWrt)(Warning:Addons needs to be manually allowed on Adblock-lean) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
+
+
+#### DNSMasq - Adblock-fast on OpenWrt(addons are allowed by default) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
+
 
 ## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users
 #### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt)

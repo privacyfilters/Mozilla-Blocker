@@ -1224,8 +1224,8 @@
 0.0.0.0 ml.mozilla.org
 0.0.0.0 ml.services.mozilla.com
 0.0.0.0 mlc-llm.mozilla.org
-0.0.0.0 mls.Mozilla.org
 0.0.0.0 mlops.mozilla.org
+0.0.0.0 mls.Mozilla.org
 0.0.0.0 mobileai.mozilla.org
 0.0.0.0 mobilebert.mozilla.org
 0.0.0.0 mobilenet.mozilla.org

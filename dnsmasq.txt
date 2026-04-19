@@ -132,9 +132,6 @@ local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
 #
 # # Blocklist: Simplified rules from hosts
-# Wildcard Rules
-local=/*mozilla.*fastly.net/
-local=/*mozilla.*fastly-edge.com/
 # Domain Rules
 local=/250analytics.com/
 local=/accessfirefox.org/

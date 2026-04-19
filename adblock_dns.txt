@@ -240,7 +240,7 @@
 ||floorp-update.ablaze.one^
 ||updates.floorp.app^
 !! libreWolf browser
-||updates.librewolf.net^ 
+||updates.librewolf.net^
 !! waterfox
 ||aus*.waterfox.net^
 !! zen browser

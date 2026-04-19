@@ -21,20 +21,31 @@
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla)
 
 ## Recommended Methods to Block Mozilla
-1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns) - https://github.com/AdguardTeam/AdGuardHome
-2. Systemwide Adblocker for Widnows/Linux- Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen
-3. Adblock-lean on routers flashed with OpenWrt (stable)(foss)(domains) - https://github.com/lynxthecat/adblock-lean
-4. hosty for Linux (stable)(foss)(hosts) - https://github.com/astrovm/hosty
-5. Opensnitch firewall for Linux (foss)(hosts) - https://github.com/evilsocket/opensnitch
-6. personelDNSfilter for Android (stable)(no-root)(foss)(hosts)(adblock_dns) - https://github.com/IngoZenz/personaldnsfilter
-7. BlockAds for Android (semi-stable)(no-root)(foss)(hosts)(adblock_dns) - https://github.com/pass-with-high-score/blockads-android
-8. Adaway for Android (root)(no-root)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
-9. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/en/adguard-android/overview.html
+### Best Local network systemwide blockers(Most Recommended):
+1. DNS Local Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns)(windows,linux,openwrt,mac) - https://github.com/AdguardTeam/AdGuardHome
+3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt (stable)(foss)(hosts-clean)(domains)(dnsmasq)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
+### Device level systemwide blocker options:
+#### Windows:
+1. Systemwide Adblocker - Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen
+2. Systenwide Adblocker and DNS filterer - Adguard for windows - using DNS filtering option (sable)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/en/adguard-windows/overview.html
+3. Host changer and editor - SwitchHosts (warning:unstable!)(foss)(hosts) - https://github.com/oldj/SwitchHosts
+4. Good old hosts file editing with notepad, the manual way(warning:caution!).
+#### Linux:
+1. Systemwide Adblocker - Zen Adblocker (stable)(gui)(foss)(adblock_dns)- https://github.com/anfragment/zen
+2. Systemwide firewall - Opensnitch using blocking rules (sable)(gui)(foss)(hosts) - https://github.com/evilsocket/opensnitch/wiki/block-lists
+3. Host based blocker - Hosty (stable)(foss)(cli)(hosts) - https://github.com/astrovm/hosty
+4. Editing hosts(/etc/hosts) manually with terminal text editor(warning:caution!)(cli)
+5. Systemwide Adblocker and DNS filterer - Adguard-CLI (warning:unstable!)(cli)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/kb/adguard-for-linux/installation
+#### Android
+1. Systemwide Adblocker - BlockAds for Android (semi-stable)(no-root,local_vpn)(root,local_proxy)(foss)(hosts)(adblock_dns) - https://github.com/pass-with-high-score/blockads-android
+2. Systenwide Adblocker and DNS filterer - Adguard for Android as Dns protection (no-root,local_vpn)(root,local_proxy)(stable)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/en/adguard-android/overview.html
+3. DNS filterer - personelDNSfilter for Android (stable)(no-root,local_vpn)(foss)(hosts)(adblock_dns) - https://github.com/IngoZenz/personaldnsfilter
+4. Host based adblcoker - Adaway for Android (root,hosts)(no-root,local_vpn)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
 
 The adblock filter format works perfectly on Adguard Home.
 Zen adblocker is still early on development so it is unstable when enforcing the filters.
 Host rules will work with anything just as a host file for any platform and with blockers that supports host format.
-I don't know if the adblock_dns formate of rules will work correctly on pi-hole as I only used Adguard Home and they works fine there. 
+I don't know if the adblock_dns formated rules will work correctly on pi-hole(specificaly the $important rules). It works fine on Adbguard home.
 
 ## All Sources and mirrors of Mozilla Blocker
 ## Codeberg Version - https://codeberg.org/privacyfilters/Mozilla-Blocker <br>Github Version - https://github.com/privacyfilters/Mozilla-Blocker

@@ -17,23 +17,23 @@
 # Number of entries:
 #
 #
-# ## Allowlist: for Extensions, Extenstion Updates & Account to work
+# # Allowlist: for Extensions, Extenstion Updates & Account to work
 # Firefox Add-ons
-# 0.0.0.0 addons.mozilla.org
+#0.0.0.0 addons.mozilla.org
 # Thunderbird Add-ons
-# 0.0.0.0 addons.thunderbird.net
+#0.0.0.0 addons.thunderbird.net
 # Firefox Add-on Updates
-# 0.0.0.0 versioncheck.addons.mozilla.org
+#0.0.0.0 versioncheck.addons.mozilla.org
 # Thunderbird Add-on Updates
-# 0.0.0.0 versioncheck.addons.thunderbird.net
+#0.0.0.0 versioncheck.addons.thunderbird.net
 # Firefox BG Updates
-# 0.0.0.0 versioncheck-bg.addons.mozilla.org
+#0.0.0.0 versioncheck-bg.addons.mozilla.org
 # Thunderbird BG Updates
-# 0.0.0.0 versioncheck-bg.addons.thunderbird.net
+#0.0.0.0 versioncheck-bg.addons.thunderbird.net
 # H264 codec from cisco
-# 0.0.0.0 ciscobinary.openh264.org
+#0.0.0.0 ciscobinary.openh264.org
 #
-# ## External trackers Mozilla uses on their own sites, and also used by them to collect user data...
+# # External trackers Mozilla uses on their own sites, and also used by them to collect user data...
 # Google main analytics tracker
 0.0.0.0 analytics.google.com
 # Yahoo analytics service
@@ -183,7 +183,7 @@
 # Mozilla VPN www subdomain
 0.0.0.0 www.vpn.mozilla.org
 #
-# ## Mozilla Inovation projects
+# # Mozilla Inovation projects
 # Privacy-focused analytics tool
 0.0.0.0 didthis.app
 # Form creation service
@@ -212,7 +212,7 @@
 # zen browser
 0.0.0.0 updates.zen-browser.app
 #
-# ## Strict Mozilla Blocker list - excluding mozilla/firefox/thunderbird addons
+# # Strict Mozilla Blocklist allowing addons
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
 0.0.0.0 3dgs.mozilla.org

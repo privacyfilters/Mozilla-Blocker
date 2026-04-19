@@ -1,22 +1,16 @@
-# Title: Mozilla Blocker - DNSMasq Filter
-# Description: This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-#              Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
-#              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
-#              Only addons urls are not blocked so that extensions can be installed from Mozilla Add-ons.
-#              Use with a network/systemwide blocker. Adguard Home and Pi-hole for DNS blocking and Zen Privacy Guard from github in windows/linux.
-#              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
-#
+# Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
+# Description: Regualar version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
+# Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
-# Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt
-# Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Expires: 1 day
-# Last modified: 19 April 2026
-# Version: 4.30
+# Last modified: 20 April 2026
+# Version: 4.31
 # Syntax: DNSMasq
 # Number of entries:
+#
 #
 # Mozilla Addons
 server=/addons.mozilla.org/

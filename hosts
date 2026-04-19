@@ -1,19 +1,13 @@
-# Mozilla Blocker hosts #
-# This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
+# Description: Regualar version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 # Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
-# Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
-# Only addons/extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
-# Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
-#
+# Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
-# Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts
-# Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 # Expires: 1 day
-# Last modified: 19 April 2026
-# Syntax: hosts
+# Last modified: 20 April 2026
+# Syntax: host
 # Number of entries:
 #
 #

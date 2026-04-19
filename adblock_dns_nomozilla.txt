@@ -1,19 +1,13 @@
-! Title: Mozilla Blocker - No Mozilla - Adblock & DNS Blocklist
-! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Nothing from Mozilla will be allowed. Everything will be blocked, inclding mozilla add-ons.
-!              Don't use this filter if you want to install and update add-ons from mozilla website on firefox forks.
-!              Use with a network/systemwide blocker. Adguard Home and Pi-hole for DNS blocking and Zen Privacy Guard from github in windows/linux.
-!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
-!
+! Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
+! Description: No Mozilla version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+! Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
+! Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox.
 ! Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-! Github Homepage: https://github.com/privacyfilters/Mozilla-Blocker
-! Github Source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt
-! Github License: https://github.com/privacyfilters/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 19 April 2026
-! Version: 4.30
+! Last modified: 20 April 2026
+! Version: 4.31
 ! Syntax: Adblock
 ! Number of entries:
 !

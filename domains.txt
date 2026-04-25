@@ -1,16 +1,23 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regualar version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 # Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 25 April 2026
-# Version: 4.33
+# Last modified: 25 April 2026 22:13:34 UTC
+# Version: 4.34
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2297
+# Number of entries: 2296
 #
+# # Allowlist: for Addons/Extensions installs & updates
+#addons.mozilla.org
+#addons.thunderbird.net
+#versioncheck.addons.mozilla.org
+#versioncheck.addons.thunderbird.net
+#versioncheck-bg.addons.thunderbird.net
+#ciscobinary.openh264.org
 # # External trackers Mozilla uses on their own sites...
 analytics.google.com
 analytics.query.yahoo.com
@@ -89,20 +96,14 @@ www.relay.firefox.com
 www.support.mozilla.org
 www.thunderbird.net
 www.vpn.mozilla.org
-# # Firefox Forked browser's tracking urls ##
+# # Firefox Forked browser's auto-update & tracking urls
 aus.basilisk-browser.org
 floorp-update.ablaze.one
 updates.floorp.app
 updates.librewolf.net
 aus1.waterfox.net
 updates.zen-browser.app
-# # Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
-#addons.mozilla.org
-#addons.thunderbird.net
-#versioncheck.addons.mozilla.org
-#versioncheck.addons.thunderbird.net
-#versioncheck-bg.addons.mozilla.org
-#versioncheck-bg.addons.thunderbird.net
+# # Urls related to downloads,addons and accounts
 ftp.mozilla.org
 accounts.firefox.com
 accounts-static.cdn.mozilla.net
@@ -220,7 +221,6 @@ addons.allizom.org
 addons.cdn.mozilla.net
 addons.mozilla-backup.org
 addons.services.mozilla.com
-addons.thunderbird.net
 admin-stage.balrog.nonprod.cloudops.mozgcp.net
 ads-eu.services.mozilla.com
 ads-img.mozilla.org

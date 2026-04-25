@@ -6,7 +6,7 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 April 2026
+# Last modified: 25 April 2026
 # Syntax: domains
 # Number of entries:
 #
@@ -258,6 +258,7 @@ orcaready.org
 subconscious.network
 #
 ### Blocking all the userless invasive mozilla trackers and services
+
 11.maven.mozilla.org
 250analytics.com
 3dgs.mozilla.org
@@ -527,6 +528,7 @@ blog.mozillasecurity.org
 blog.thunderbird.net
 blogs.mozillaindia.org
 bloom.mozilla.org
+bmoattachments.org
 boilerplate.build.mozilla.org
 bot.build.mozilla.org
 bouncer-asia.mozilla.org
@@ -541,8 +543,10 @@ braze.com
 breakpad.mozilla.org
 broker-live.mozillamessaging.com
 browserai.mozilla.org
+bug.bz
 bugzilla.allizom.org
 bugzilla.mozilla.org
+bugzilla.org
 build-api.mozilla.org
 build-asia.mozilla.org
 build-eu.mozilla.org
@@ -567,6 +571,7 @@ cdn-useast.mozilla.net
 cdn-uswest.mozilla.net
 cdn.fakespot.com
 cdn.fakespot.io
+cdn.firefox.com
 cdn.fundraiseup.com
 cdn.fxaccounts.firefox.com
 cdn.mozilla.com
@@ -742,6 +747,7 @@ detectportal.prod.mozaws.net
 detectportall.firefox.com
 dev.accounts.firefox.com
 dev.mozilla.ai
+dev.mozilla.org
 developer.mozilla.cn
 developer.mozilla.com
 developer.mozilla.de
@@ -1092,6 +1098,8 @@ hubs-platform.com
 hubs-platform.net
 hubs-platform.org
 hubs.mozilla.com
+hubs.mozilla.net
+hubs.mozilla.org
 huggingface.js.mozilla.org
 huggingface.mozilla.org
 hyena.mozilla.org
@@ -1115,6 +1123,7 @@ imagebind.mozilla.org
 imap.e.mozilla.org
 img-getpocket-cdn.prod.mozaws.net
 img-getpocket.cdn.mozilla.net
+img.firefox.com
 implicit-neural.mozilla.org
 in.mozilla.org
 inbound.healthreport.services.mozilla.com
@@ -1162,6 +1171,7 @@ knowledge.mozilla.org
 koala.mozilla.org
 kosmos.mozilla.org
 kr.mozilla.org
+l10n.mozilla.org
 lab.mozilla.org
 labs.mozilla.ai
 labs.mozilla.org
@@ -1236,7 +1246,9 @@ mdn-rss.mozilla.org
 mdn-web-docs.mozilla.org
 mdn.dev
 mdn.mozilla.net
+mdn.mozilla.org
 mdn.mozillademos.org
+media.firefox.com
 media.orbit.mozilla.org
 memory-bank.mozilla.org
 memory-bank.services.mozilla.com
@@ -1272,8 +1284,8 @@ ml.js.mozilla.org
 ml.mozilla.org
 ml.services.mozilla.com
 mlc-llm.mozilla.org
-mls.Mozilla.org
 mlops.mozilla.org
+mls.Mozilla.org
 mobileai.mozilla.org
 mobilebert.mozilla.org
 mobilenet.mozilla.org
@@ -1289,6 +1301,7 @@ monitor-us.firefox.com
 monitor.cdn.mozilla.net
 monitor.firefox.com
 monitor.thunderbird.net
+moz.la
 moz.works
 mozamo.wpengine.com
 mozaws.com
@@ -1362,6 +1375,7 @@ mozilla.co.kr
 mozilla.co.uk
 mozilla.com
 mozilla.com.au
+mozilla.com.br
 mozilla.com.cn
 mozilla.com.mx
 mozilla.com.tr
@@ -1405,9 +1419,13 @@ mozilla.nl
 mozilla.no
 mozilla.nz
 mozilla.org
+mozilla.org.au
+mozilla.org.br
 mozilla.org.cdn
 mozilla.org.cdn.cloudflare.net
 mozilla.org.cn
+mozilla.org.nz
+mozilla.org.uk
 mozilla.org.za
 mozilla.ph
 mozilla.pl
@@ -1532,6 +1550,7 @@ mozillazine.org
 mozillians.allizom.org
 mozillians.org
 mozillignite.org
+mozmail.com
 mozorg.moz.works
 mozsocial.cliqz.com
 mozspace.org
@@ -1546,6 +1565,8 @@ multimodal.mozilla.org
 musicgen.mozilla.org
 mx.mozilla.org
 mxr.mozilla.org
+myhubs.net
+mzl.la
 native.build.mozilla.org
 nerf.mozilla.org
 network-services.mozilla.com
@@ -1864,6 +1885,7 @@ repository.stage.productdelivery.nonprod.webservices.mozgcp.net
 reps.mozilla.org
 research-hub.mozilla.org
 research.mozilla.ai
+research.mozilla.com
 research.mozilla.org
 resnet.mozilla.org
 responsibleai.mozilla.org
@@ -1881,6 +1903,7 @@ rollout-services.mozilla.com
 rs-loader.mozilla.org
 ru.mozilla.org
 rust-bert.mozilla.org
+rust.mozilla.org
 rustml.mozilla.org
 rwkv.mozilla.org
 s3-us-west-2.amazonaws.amo
@@ -2033,6 +2056,7 @@ stage.balrog.nonprod.cloudops.mozgcp.net
 stage.content-signature-chains.nonprod.webservices.mozgcp.net
 stage.mozaws.net
 stage.mozilla.ai
+stage.mozilla.org
 stage.productdelivery.nonprod.webservices.mozgcp.net
 stage.remote-settings.nonprod.webservices.mozgcp.net
 stage.sentry.nonprod.cloudops.mozgcp.net
@@ -2047,6 +2071,7 @@ static-san.mozilla.org
 static.addons.mozilla.net
 static.fakespot.com
 static.fakespot.io
+static.firefox.com
 static.mozilla.com
 stats.mozilla.com
 status.mozilla.org

@@ -6,7 +6,7 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 20 April 2026
+# Last modified: 25 April 2026
 # Syntax: host (Adblock-lean & others)
 # Number of entries:
 #
@@ -118,6 +118,7 @@
 0.0.0.0 updates.zen-browser.app
 #
 # # Strict Mozilla Blocker allwoing addons
+
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
 0.0.0.0 3dgs.mozilla.org
@@ -386,6 +387,7 @@
 0.0.0.0 blog.thunderbird.net
 0.0.0.0 blogs.mozillaindia.org
 0.0.0.0 bloom.mozilla.org
+0.0.0.0 bmoattachments.org
 0.0.0.0 boilerplate.build.mozilla.org
 0.0.0.0 bot.build.mozilla.org
 0.0.0.0 bouncer-asia.mozilla.org
@@ -400,8 +402,10 @@
 0.0.0.0 breakpad.mozilla.org
 0.0.0.0 broker-live.mozillamessaging.com
 0.0.0.0 browserai.mozilla.org
+0.0.0.0 bug.bz
 0.0.0.0 bugzilla.allizom.org
 0.0.0.0 bugzilla.mozilla.org
+0.0.0.0 bugzilla.org
 0.0.0.0 build-api.mozilla.org
 0.0.0.0 build-asia.mozilla.org
 0.0.0.0 build-eu.mozilla.org
@@ -426,6 +430,7 @@
 0.0.0.0 cdn-uswest.mozilla.net
 0.0.0.0 cdn.fakespot.com
 0.0.0.0 cdn.fakespot.io
+0.0.0.0 cdn.firefox.com
 0.0.0.0 cdn.fundraiseup.com
 0.0.0.0 cdn.fxaccounts.firefox.com
 0.0.0.0 cdn.mozilla.com
@@ -601,6 +606,7 @@
 0.0.0.0 detectportall.firefox.com
 0.0.0.0 dev.accounts.firefox.com
 0.0.0.0 dev.mozilla.ai
+0.0.0.0 dev.mozilla.org
 0.0.0.0 developer.mozilla.cn
 0.0.0.0 developer.mozilla.com
 0.0.0.0 developer.mozilla.de
@@ -949,6 +955,8 @@
 0.0.0.0 hubs-platform.net
 0.0.0.0 hubs-platform.org
 0.0.0.0 hubs.mozilla.com
+0.0.0.0 hubs.mozilla.net
+0.0.0.0 hubs.mozilla.org
 0.0.0.0 huggingface.js.mozilla.org
 0.0.0.0 huggingface.mozilla.org
 0.0.0.0 hyena.mozilla.org
@@ -972,6 +980,7 @@
 0.0.0.0 imap.e.mozilla.org
 0.0.0.0 img-getpocket-cdn.prod.mozaws.net
 0.0.0.0 img-getpocket.cdn.mozilla.net
+0.0.0.0 img.firefox.com
 0.0.0.0 implicit-neural.mozilla.org
 0.0.0.0 in.mozilla.org
 0.0.0.0 inbound.healthreport.services.mozilla.com
@@ -1019,6 +1028,7 @@
 0.0.0.0 koala.mozilla.org
 0.0.0.0 kosmos.mozilla.org
 0.0.0.0 kr.mozilla.org
+0.0.0.0 l10n.mozilla.org
 0.0.0.0 lab.mozilla.org
 0.0.0.0 labs.mozilla.ai
 0.0.0.0 labs.mozilla.org
@@ -1093,7 +1103,9 @@
 0.0.0.0 mdn-web-docs.mozilla.org
 0.0.0.0 mdn.dev
 0.0.0.0 mdn.mozilla.net
+0.0.0.0 mdn.mozilla.org
 0.0.0.0 mdn.mozillademos.org
+0.0.0.0 media.firefox.com
 0.0.0.0 media.orbit.mozilla.org
 0.0.0.0 memory-bank.mozilla.org
 0.0.0.0 memory-bank.services.mozilla.com
@@ -1146,6 +1158,7 @@
 0.0.0.0 monitor.cdn.mozilla.net
 0.0.0.0 monitor.firefox.com
 0.0.0.0 monitor.thunderbird.net
+0.0.0.0 moz.la
 0.0.0.0 moz.works
 0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.com
@@ -1219,6 +1232,7 @@
 0.0.0.0 mozilla.co.uk
 0.0.0.0 mozilla.com
 0.0.0.0 mozilla.com.au
+0.0.0.0 mozilla.com.br
 0.0.0.0 mozilla.com.cn
 0.0.0.0 mozilla.com.mx
 0.0.0.0 mozilla.com.tr
@@ -1262,9 +1276,13 @@
 0.0.0.0 mozilla.no
 0.0.0.0 mozilla.nz
 0.0.0.0 mozilla.org
+0.0.0.0 mozilla.org.au
+0.0.0.0 mozilla.org.br
 0.0.0.0 mozilla.org.cdn
 0.0.0.0 mozilla.org.cdn.cloudflare.net
 0.0.0.0 mozilla.org.cn
+0.0.0.0 mozilla.org.nz
+0.0.0.0 mozilla.org.uk
 0.0.0.0 mozilla.org.za
 0.0.0.0 mozilla.ph
 0.0.0.0 mozilla.pl
@@ -1389,6 +1407,7 @@
 0.0.0.0 mozillians.allizom.org
 0.0.0.0 mozillians.org
 0.0.0.0 mozillignite.org
+0.0.0.0 mozmail.com
 0.0.0.0 mozorg.moz.works
 0.0.0.0 mozsocial.cliqz.com
 0.0.0.0 mozspace.org
@@ -1403,6 +1422,8 @@
 0.0.0.0 musicgen.mozilla.org
 0.0.0.0 mx.mozilla.org
 0.0.0.0 mxr.mozilla.org
+0.0.0.0 myhubs.net
+0.0.0.0 mzl.la
 0.0.0.0 native.build.mozilla.org
 0.0.0.0 nerf.mozilla.org
 0.0.0.0 network-services.mozilla.com
@@ -1720,6 +1741,7 @@
 0.0.0.0 reps.mozilla.org
 0.0.0.0 research-hub.mozilla.org
 0.0.0.0 research.mozilla.ai
+0.0.0.0 research.mozilla.com
 0.0.0.0 research.mozilla.org
 0.0.0.0 resnet.mozilla.org
 0.0.0.0 responsibleai.mozilla.org
@@ -1737,6 +1759,7 @@
 0.0.0.0 rs-loader.mozilla.org
 0.0.0.0 ru.mozilla.org
 0.0.0.0 rust-bert.mozilla.org
+0.0.0.0 rust.mozilla.org
 0.0.0.0 rustml.mozilla.org
 0.0.0.0 rwkv.mozilla.org
 0.0.0.0 s3-us-west-2.amazonaws.amo
@@ -1889,6 +1912,7 @@
 0.0.0.0 stage.content-signature-chains.nonprod.webservices.mozgcp.net
 0.0.0.0 stage.mozaws.net
 0.0.0.0 stage.mozilla.ai
+0.0.0.0 stage.mozilla.org
 0.0.0.0 stage.productdelivery.nonprod.webservices.mozgcp.net
 0.0.0.0 stage.remote-settings.nonprod.webservices.mozgcp.net
 0.0.0.0 stage.sentry.nonprod.cloudops.mozgcp.net
@@ -1903,6 +1927,7 @@
 0.0.0.0 static.addons.mozilla.net
 0.0.0.0 static.fakespot.com
 0.0.0.0 static.fakespot.io
+0.0.0.0 static.firefox.com
 0.0.0.0 static.mozilla.com
 0.0.0.0 stats.mozilla.com
 0.0.0.0 status.mozilla.org

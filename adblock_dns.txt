@@ -6,8 +6,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 April 2026
-! Version: 4.31
+! Last modified: 25 April 2026
+! Version: 4.32
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -283,7 +283,10 @@
 ||blog.mozillaprivacy.org^
 ||blog.mozillasecurity.org^
 ||blogs.mozillaindia.org^
+||bmoattachments.org^
 ||braze.com^
+||bug.bz^
+||bugzilla.org^
 ||buysellads.com^
 ||cdn.fakespot.com^
 ||cdn.fakespot.io^
@@ -425,6 +428,7 @@
 ||metric.mozilla-pontoon-staging.herokuapp.com^
 ||mls.Mozilla.org^
 ||monitor.firefox.com^
+||moz.la^
 ||moz.works^
 ||mozamo.wpengine.com^
 ||mozaws.com^
@@ -498,6 +502,7 @@
 ||mozilla.co.kr^
 ||mozilla.co.uk^
 ||mozilla.com.au^
+||mozilla.com.br^
 ||mozilla.com.cn^
 ||mozilla.com.mx^
 ||mozilla.com.tr^
@@ -542,7 +547,11 @@
 ||mozilla.nl^
 ||mozilla.no^
 ||mozilla.nz^
+||mozilla.org.au^
+||mozilla.org.br^
 ||mozilla.org.cn^
+||mozilla.org.nz^
+||mozilla.org.uk^
 ||mozilla.org.za^
 ||mozilla.org^
 ||mozilla.ph^
@@ -673,6 +682,7 @@
 ||mozillazine.org^
 ||mozillians.org^
 ||mozillignite.org^
+||mozmail.com^
 ||mozorg.moz.works^
 ||mozsocial.cliqz.com^
 ||mozspace.org^
@@ -680,6 +690,7 @@
 ||mozworks.net^
 ||mparticle.com^
 ||mullvad.mozilla.org^
+||myhubs.net^
 ||mzl.la^
 ||network-services.mozilla.com^
 ||omappapi.com^

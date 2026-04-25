@@ -9,13 +9,13 @@
 
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
 
-#### Hosts-Clean - Cleaner hosts with a different name(if 'hosts' creates an error, Recommended for Adblock-lean)  - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
+#### Hosts-Clean - Identical hosts with a different name(if 'hosts' creates an error, Recommended for Adblock-lean)  - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
 
 #### Domains - Raw domains and subdomains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
 #### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
 
-#### Whitelist Domains to allow Addons (for those who needs to manually allow them) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
+#### Whitelist Domains to allow Addons (for those who needs to manually allow them, like on Adblock-lean) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
 
 
 ## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users

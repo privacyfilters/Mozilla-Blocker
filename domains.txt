@@ -7,190 +7,96 @@
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 25 April 2026
-# Syntax: domains
-# Number of entries:
+# Version: 4.33
+# Syntax: domains (including possible subdomains)
+# Number of entries: 2297
 #
-#
-### External trackers Mozilla uses on their own sites...
-# Google's main analytics tracker
+# # External trackers Mozilla uses on their own sites...
 analytics.google.com
-# Yahoo's analytics service
 analytics.query.yahoo.com
-# Amplitude's analytics API
 api2.amplitude.com
-# Firebase analytics by Google
 app-measurement.com
-# Mobile analytics and attribution
 app.adjust.com
-# Marketing automation platform
 braze.com
-# Advertising network
 buysellads.com
-# Mobile app analytics by Yahoo
 data.flurry.com
-# Core Google Analytics service
 google-analytics.com
-# Google's tag management system
 googletagmanager.com
-# Google's ad-serving infrastructure
 googletagservices.com
 innocraft.cloud
-# Cloud-hosted Matomo analytics
 matomo.cloud
-# Server-side Matomo analytics
 matomo.php
-# mParticle's SDK for data integration
 nativesdks.mparticle.com
-# Another analytics service
 omappapi.com
-# Ad tech platform
 pubmine.com
-# Regional Google Analytics server
 region1.analytics.google.com
 region1.google-analytics.com
-# Error tracking and monitoring
 sentry.io
-# Secure Google Analytics domain
 ssl.google-analytics.com
-# Online form creation and data collection
 typeform.com
-# Main Google Analytics domain
 www.google-analytics.com
-# Web version of Google Tag Manager
 www.googletagmanager.com
-# Web version for Google ad services
 www.googletagservices.com
-#
 # # Mozilla's major and sub brands and services
-# Firefox Accounts services
 accounts.firefox.com
-# Pocket API endpoint
 api.pocket.com
-# Authentication services
 auth.mozilla.org
-# Mozilla's blog
 blog.mozilla.org
-# Mozilla crash reporting
 crash-stats.mozilla.org
-# Mozilla Developer Network
 developer.mozilla.org
-# Mozilla Extension Workshop
 extensionworkshop.com
-# Fake review detector
 fakespot.com
 fakespot.io
 i.fakspot.io
-# Firefox browser main site
 firefox.com
-# Mozilla Foundation's site
 foundation.mozilla.org
-# Pocket save-for-later service
 getpocket.com
-# Mozilla Labs for experimental projects
 labs.mozilla.org
-# Firefox Monitor for data breaches
 monitor.firefox.com
-# Mozilla's AI initiatives
 mozilla.ai
-# Mozilla's DNS through Cloudflare
 mozilla.cloudflare-dns.com
-# Mozilla's German site
 mozilla.de
-# Mozilla Design resources
 mozilla.design
-# Mozilla network services
 mozilla.net
-# Mozilla's main site
 mozilla.org
-# Mozilla's video conferencing
 mozilla.vc
-# Pocket's main domain
 pocket.com
-# Firefox Relay email privacy
 relay.firefox.com
-# Mozilla telemetry services
 telemetry.mozilla.org
-# Thunderbird email client
 thunderbird.net
-# Mozilla VPN service
 vpn.mozilla.org
-# Pocket API's www subdomain
 www.api.pocket.com
-# Extension Workshop's www subdomain
 www.extensionworkshop.com
-# FakeSpot's www subdomain
 www.fakespot.com
 www.fakespot.io
 www.i.fakspot.io
-# Firefox's www subdomain
 www.firefox.com
-# Mozilla Foundation's www subdomain
 www.foundation.mozilla.org
-# Pocket's www subdomain
 www.getpocket.com
-# Mozilla Labs' www subdomain
 www.labs.mozilla.org
-# Firefox Monitor's www subdomain
 www.monitor.firefox.com
-# Likely related to AWS services for Mozilla
 www.mozaws.net
-# Likely related to Google Cloud Platform for Mozilla
 www.mozgcp.net
-# Mozilla AI's www subdomain
 www.mozilla.ai
-# Mozilla's commercial site www subdomain
 www.mozilla.com
-# Mozilla Germany's www subdomain
 www.mozilla.de
-# Mozilla Design's www subdomain
 www.mozilla.design
-# Mozilla Network's www subdomain
 www.mozilla.net
-# Mozilla's main site www subdomain
 www.mozilla.org
-# Mozilla VC's www subdomain
 www.mozilla.vc
-# Pocket's www subdomain
 www.pocket.com
-# Firefox Relay's www subdomain
 www.relay.firefox.com
-# Mozilla Support site
 www.support.mozilla.org
-# Thunderbird's www subdomain
 www.thunderbird.net
-# Mozilla VPN's www subdomain
 www.vpn.mozilla.org
-#
-# ## Mozilla Inovation projects
-# Privacy-focused analytics tool
-didthis.app
-# Form creation service
-formulaic.app
-# Mozilla's Orbit project for user interaction
-orbitbymozilla.com
-# Likely related to Mozilla's ORCA project
-orcaready.org
-# AI-driven analytics or service
-soloist.ai
-# Possibly related to AI or network analytics
-subconscious.network
-# Web version of Mozilla's Orbit project
-www.orbitbymozilla.com
-#
 # # Firefox Forked browser's tracking urls ##
-# basilisk browser
 aus.basilisk-browser.org
-# floorp Browser
 floorp-update.ablaze.one
 updates.floorp.app
-# LibreWolf
 updates.librewolf.net
-# waterfox
 aus1.waterfox.net
-# zen browser
 updates.zen-browser.app
-#
-### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+# # Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #addons.mozilla.org
 #addons.thunderbird.net
 #versioncheck.addons.mozilla.org
@@ -206,8 +112,7 @@ mozorg.moz.works
 www.mozorg.moz.works
 services.addons.mozilla.org
 services.addons.thunderbird.net
-#
-## Mozilla's major and sub brands and services
+# # Mozilla's major and sub brands and services
 firefox.com
 getpocket.com
 extensionworkshop.com
@@ -249,16 +154,15 @@ www.thunderbird.net
 www.fakespot.com
 www.fakespot.io
 www.i.fakspot.io
-#
-### Mozilla Inovation projects
+# # Mozilla Inovation projects
 didthis.app
 formulaic.app
-soloist.ai
+orbitbymozilla.com
 orcaready.org
+soloist.ai
 subconscious.network
-#
-### Blocking all the userless invasive mozilla trackers and services
-
+www.orbitbymozilla.com
+# # Blocking all the userless invasive mozilla trackers and services
 11.maven.mozilla.org
 250analytics.com
 3dgs.mozilla.org
@@ -333,21 +237,28 @@ affiliates-cdn.mozilla.org
 affiliates.mozilla.org
 agent.mozilla.org
 aggregates.telemetry.mozilla.org
+ai-api.mozilla.com
 ai-api.mozilla.org
+ai-assistant.mozilla.org
+ai-chat.mozilla.net
 ai-datasets.mozilla.org
 ai-deploy.mozilla.org
 ai-dev.mozilla.org
 ai-experiments.mozilla.org
 ai-guide.future.mozilla.org
 ai-inference.mozilla.org
+ai-models.mozilla.com
 ai-models.mozilla.org
 ai-mozilla.github.io
 ai-profiler.mozilla.org
 ai-projects.mozilla.org
 ai-research.mozilla.org
+ai-search.services.mozilla.com
 ai-services.mozilla.com
 ai-staging.mozilla.org
+ai-tools.mozilla.net
 ai-training.mozilla.org
+ai.firefox.com
 ai.js.mozilla.org
 ai.mozilla.com
 ai.mozilla.org
@@ -1642,6 +1553,7 @@ oneanddone.mozilla.org
 onnx.mozilla.org
 onnxjs.mozilla.org
 onnxruntime.mozilla.org
+onyx_tiles.stage.mozaws.net
 openai.mozilla.org
 openbadges.net
 openbadges.org

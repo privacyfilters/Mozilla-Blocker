@@ -7,9 +7,9 @@
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 25 April 2026
-! Version: 4.32
+! Version: 4.33
 ! Syntax: Adblock
-! Number of entries:
+! Number of entries: 679
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !

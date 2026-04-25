@@ -7,9 +7,9 @@
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 25 April 2026
+# Version: 4.33
 # Syntax: host
-# Number of entries:
-#
+# Number of entries: 2245
 #
 # # Allowlist: for Extensions, Extenstion Updates & Account to work
 # Firefox Add-ons
@@ -280,21 +280,28 @@
 0.0.0.0 affiliates.mozilla.org
 0.0.0.0 agent.mozilla.org
 0.0.0.0 aggregates.telemetry.mozilla.org
+0.0.0.0 ai-api.mozilla.com
 0.0.0.0 ai-api.mozilla.org
+0.0.0.0 ai-assistant.mozilla.org
+0.0.0.0 ai-chat.mozilla.net
 0.0.0.0 ai-datasets.mozilla.org
 0.0.0.0 ai-deploy.mozilla.org
 0.0.0.0 ai-dev.mozilla.org
 0.0.0.0 ai-experiments.mozilla.org
 0.0.0.0 ai-guide.future.mozilla.org
 0.0.0.0 ai-inference.mozilla.org
+0.0.0.0 ai-models.mozilla.com
 0.0.0.0 ai-models.mozilla.org
 0.0.0.0 ai-mozilla.github.io
 0.0.0.0 ai-profiler.mozilla.org
 0.0.0.0 ai-projects.mozilla.org
 0.0.0.0 ai-research.mozilla.org
+0.0.0.0 ai-search.services.mozilla.com
 0.0.0.0 ai-services.mozilla.com
 0.0.0.0 ai-staging.mozilla.org
+0.0.0.0 ai-tools.mozilla.net
 0.0.0.0 ai-training.mozilla.org
+0.0.0.0 ai.firefox.com
 0.0.0.0 ai.js.mozilla.org
 0.0.0.0 ai.mozilla.com
 0.0.0.0 ai.mozilla.org
@@ -1587,6 +1594,7 @@
 0.0.0.0 onnx.mozilla.org
 0.0.0.0 onnxjs.mozilla.org
 0.0.0.0 onnxruntime.mozilla.org
+0.0.0.0 onyx_tiles.stage.mozaws.net
 0.0.0.0 openai.mozilla.org
 0.0.0.0 openbadges.net
 0.0.0.0 openbadges.org

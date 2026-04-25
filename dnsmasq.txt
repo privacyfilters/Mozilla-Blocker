@@ -7,18 +7,21 @@
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 25 April 2026
-# Version: 4.32
+# Version: 4.33
 # Syntax: DNSMasq
-# Number of entries:
+# Number of entries: 590
 #
-# Mozilla Addons
+# # Mozilla Addons
 server=/addons.mozilla.org/
+server=/versioncheck.addons.mozilla.org/
+server=/versioncheck-bg.addons.mozilla.org/
 server=/addons.thunderbird.net/
-# Betterbird Thunderbird urls, blocking will cause automatic config not to work
+server=/versioncheck.addons.thunderbird.net/
+server=/versioncheck-bg.addons.thunderbird.net/
+# # Betterbird Thunderbird urls, blocking will cause automatic config not to work
 server=/autoconfig.thunderbird.net/
 server=/live.thunderbird.net/
-#
-# External Trackers Mozilla uses on their own sites...
+# # External Trackers Mozilla uses on their own sites...
 local=/adjust.com/
 local=/analytics.google.com/
 local=/analytics.query.yahoo.com/
@@ -39,7 +42,7 @@ local=/omappapi.com/
 local=/pubmine.com/
 local=/sentry.io/
 local=/typeform.com/
-# Mozilla Products,Brands and Services Direct Urls
+# # Mozilla Products,Brands and Services Direct Urls
 local=/anonymco.com/
 local=/extensionworkshop.com/
 local=/fakespot.com/
@@ -53,17 +56,16 @@ local=/mozilla.org/
 local=/mozilla.vc/
 local=/pocket.com/
 local=/thunderbird.net/
-# Mozilla's Sub brands and services urls
+# # Mozilla's Sub brands and services urls
 local=/mozilla.design/
 local=/mozillafoundation.org/
-# Mozilla Inovation projects
 local=/didthis.app/
 local=/formulaic.app/
 local=/orbitbymozilla.com/
 local=/orcaready.org/
 local=/soloist.ai/
 local=/subconscious.network/
-# Externel domains & subdomains
+# # Externel domains & subdomains
 local=/api.divviup.org/
 local=/asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com/
 local=/aus.basilisk-browser.org/
@@ -94,17 +96,14 @@ local=/tracking-protection-issues.herokuapp.com/
 local=/webcompat.com/
 local=/webmaker.me/
 local=/webmaker.org/
-#
-# Firefox Forked browser's tracking urls #######
+# #Firefox Forked browser's tracking urls #######
 local=/aus.basilisk-browser.org/
 local=/aus1.waterfox.net/
 local=/floorp-update.ablaze.one/
 local=/updates.floorp.app/
 local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
-#
-# # Blocklist: Simplified rules from hosts
-# Domain Rules
+# # Blocklist: Simplified rules from domains
 local=/250analytics.com/
 local=/accessfirefox.org/
 local=/ads-track-digest256.dummytracker.org/

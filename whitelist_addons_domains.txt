@@ -1,0 +1,9 @@
+# Title: Mozilla Blocker - AddonsExtensions Whitelist
+# Mozilla Addons
+addons.mozilla.org
+versioncheck.addons.mozilla.org
+versioncheck-bg.addons.mozilla.org
+# Thunderbird Addons
+addons.thunderbird.net
+versioncheck.addons.thunderbird.net
+versioncheck-bg.addons.thunderbird.net

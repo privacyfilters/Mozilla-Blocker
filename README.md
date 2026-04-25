@@ -9,11 +9,13 @@
 
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
 
-#### Hosts-Clean - Cleaner hosts with a different name(if 'hosts' creates an error)  - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
+#### Hosts-Clean - Cleaner hosts with a different name(if 'hosts' creates an error, Recommended for Adblock-lean)  - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
 
-#### Domains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
+#### Domains - Raw domains and subdomains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
 #### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
+
+#### Whitelist Domains to allow Addons (for those who needs to manually allow them) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
 
 
 ## No Mozilla Version: Everything is blanket blocked from Mozilla, including Add-ons. Not recommended for Regular users
@@ -24,7 +26,7 @@
 ## Recommended Methods to Block Mozilla
 ### Best Local network systemwide blockers(Most Recommended):
 1. DNS Local Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns)(windows,linux,openwrt,mac) - https://github.com/AdguardTeam/AdGuardHome
-3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt (stable)(foss)(hosts-clean)(domains)(dnsmasq)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
+3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt(addons needs to be manually allowed) (stable)(foss)(hosts-clean)(domains)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
 ### Device level systemwide blocker options:
 #### Windows:
 1. Systemwide Adblocker - Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen

@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 25 April 2026 22:13:34 UTC
-# Version: 4.34
+# Last modified: 26 April 2026 19:41:16 UTC
+# Version: 4.35
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2296
+# Number of entries: 2381
 #
 # # Allowlist: for Addons/Extensions installs & updates
 #addons.mozilla.org
@@ -198,6 +198,7 @@ activations.mozilla.com
 activations.mozilla.org
 activity-stream-amo.cdn.mozilla.net
 activity-stream-icons.services.mozilla.com
+activity-stream-tiles.services.mozilla.com
 activity-stream.cdn.mozilla.net
 activity-stream.services.mozilla.com
 activity-streams.services.mozilla.com
@@ -269,6 +270,7 @@ albert.mozilla.org
 alerts.mozilla.org
 alexa.mozilla.org
 alexnet.mozilla.org
+allizom.org
 alpaca.mozilla.org
 amo-asia.mozilla.org
 amo-eu.mozilla.org
@@ -309,6 +311,7 @@ api.ai.mozilla.org
 api.amo.stage.mozaws.net
 api.fakespot.com
 api.fakespot.io
+api.firefox.ai
 api.firefox.com
 api.fxa-stage.dev.lcip.org
 api.getpocket.com
@@ -332,6 +335,7 @@ asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com
 assets.getpocket.com
 assets.mozilla.net
 assets.mozilla.org
+assistant.firefox.com
 assistant.mozilla.org
 attachments.prod.remote-settings.prod.webservices.mozgcp.net
 attention.mozilla.org
@@ -378,6 +382,8 @@ autopush-us.mozilla.org
 autopush.prod.mozaws.net
 aws.mozilla.com
 azure.mozilla.com
+b2g.mozilla.org
+b2gdev.mozilla.org
 badg.us
 balrog-admin-static-prod.prod.mozaws.net
 balrog-admin-static-stage.stage.mozaws.net
@@ -406,8 +412,16 @@ balrog.prod.mozaws.net
 balrog.services.mozilla.com
 balrog.stage.mozaws.net
 bandit.mozilla.org
+basket.allizom.org
+basket.mozilla.org
 bcd.developer.mozilla.org
+bedrock-demos.mozilla.org
+bedrock-docs.mozilla.org
+bedrock-l10n.mozilla.org
+bedrock-nonprod.allizom.org
+bedrock-stage.allizom.org
 bedrock-stage.nonprod.webservices.mozgcp.net
+bedrock.mozilla.org
 behavior-tracking.mozilla.org
 beit.mozilla.org
 benchmark.mozilla.org
@@ -420,6 +434,7 @@ billionaireblastoff.firefox.com
 blip.mozilla.org
 blocked.cdn.mozilla.net
 blocklist.addons.mozilla.org
+blocklist.mozilla.org
 blocklist.services.mozilla.com
 blocklists.settings.services.mozilla.com
 blocks.orbit.mozilla.org
@@ -451,8 +466,10 @@ bouncer.telemetry.mozilla.org
 br.mozilla.org
 brain.js.mozilla.org
 braze.com
+breach.mozilla.org
 breakpad.mozilla.org
 broker-live.mozillamessaging.com
+browser.services.mozilla.com
 browserai.mozilla.org
 bug.bz
 bugzilla.allizom.org
@@ -491,6 +508,7 @@ cdn.mozilla.org
 cdn.stubdownloader.services.mozilla.com
 channelserver.services.mozilla.com
 charmed.mozilla.org
+chat.mozilla.ai
 chat.mozilla.org
 chat.orbit.mozilla.org
 chat.thunderbird.net
@@ -505,6 +523,7 @@ click.e.mozilla.org
 client.build.mozilla.org
 climate.mozilla.org
 clip.mozilla.org
+cloudsync.mozilla.com
 clustering.mozilla.org
 cn.mozilla.org
 code.cdn.mozilla.net
@@ -540,6 +559,7 @@ content-signature-chains.prod.webservices.mozgcp.net
 content-signature-dev-services.mozilla.com
 content-signature-dev.cdn.mozilla.net
 content-signature.cdn.mozilla.net
+content-signature.mozilla.org
 content.cdn.mozilla.net
 context.mozilla.org
 context.service.mozilla.com
@@ -569,6 +589,7 @@ crash-reports.allizom.org
 crash-reports.build.mozilla.org
 crash-reports.maven.mozilla.org
 crash-reports.mozilla.com
+crash-reports.mozilla.org
 crash-reports.nightly.mozilla.org
 crash-reports.security.mozilla.org
 crash-reports.stage.mozilla.com
@@ -749,6 +770,7 @@ experimenter.info
 experimenter.nonprod.webservices.mozgcp.net
 experimenter.prod.webservices.mozgcp.net
 experimenter.services.mozilla.com
+experiments.firefox.com
 experiments.mozilla.org
 experiments.services.mozilla.com
 exploitation.mozilla.org
@@ -796,16 +818,25 @@ fasterrcnn.mozilla.org
 feature-flags.mozilla.org
 feature-gates.mozilla.org
 feature.mozilla.org
+featuregate.mozilla.org
 federated.mozilla.org
 feed.services.mozilla.com
 feedback.mozilla.com
 feedback.mozilla.org
 feedback.orbit.mozilla.org
 feeds.mozilla.org
+fenix-webapp-updates.allizom.org
 fenix.mozilla.org
 fenix.settings.services.mozilla.com
+fennec-accounts.firefox.com
+fennec-ai.services.mozilla.com
 fennec-catalog-cdn.prod.mozaws.net
 fennec-catalog.cdn.mozilla.net
+fennec-experiments.mozilla.com
+fennec-nightly.cdn.mozilla.net
+fennec-sync.services.mozilla.com
+fennec-webchannel.mozilla.org
+fennec.services.mozilla.com
 fhr.cdn.mozilla.net
 fhr.data.mozilla.com
 fhr.r53-2.services.mozilla.com
@@ -814,16 +845,19 @@ find.firefox.com
 finetune.mozilla.org
 firefly.mozilla.org
 firefox-addons.com
+firefox-ai.mozilla.org
 firefox-android-home-recommendations.getpocket.com
 firefox-api-proxy.cdn.mozilla.net
 firefox-balrog.mozilla.org
 firefox-ci-tc.services.mozilla.com
+firefox-container.service.mozilla.com
 firefox-dns-perf-test.net
 firefox-extensions.com
 firefox-extensions.net
 firefox-extensions.org
 firefox-lockwise.cdn.mozilla.net
 firefox-monitor.com
+firefox-monitor.mozilla.org
 firefox-monitor.net
 firefox-monitor.org
 firefox-normandy.mozilla.org
@@ -834,6 +868,7 @@ firefox-settings-attachments.cdn.mozilla.net
 firefox-settings.cdn.mozilla.net
 firefox-settings.thunderbird.net
 firefox-source-docs.mozilla.org
+firefox-sync.services.mozilla.com
 firefox-test-accounts.auth0.com
 firefox-vpn.com
 firefox-vpn.net
@@ -901,24 +936,43 @@ future.mozilla.org
 fuzzing.mozilla.org
 fxa-api.accounts.firefox.com
 fxa-asia.mozilla.org
+fxa-auth-server.herokuapp.com
 fxa-auth-server.mozilla.org
+fxa-auth-stage.allizom.org
 fxa-auth0.auth0.com
+fxa-content-server-stage.allizom.org
 fxa-content-server.mozilla.org
 fxa-content.services.mozilla.com
+fxa-customs-server.herokuapp.com
+fxa-dev-edamame.allizom.org
+fxa-dev.allizom.org
+fxa-email-service.herokuapp.com
 fxa-eu.mozilla.org
+fxa-management-api.herokuapp.com
+fxa-marketplace.herokuapp.com
+fxa-oauth-server.herokuapp.com
 fxa-oauth.services.mozilla.com
+fxa-prod.us-west-2.elasticbeanstalk.com
+fxa-profile-server.herokuapp.com
 fxa-profile.services.mozilla.com
+fxa-push-server.herokuapp.com
+fxa-rate-limits.herokuapp.com
 fxa-settings.services.mozilla.com
 fxa-shared.firefox.com
+fxa-stage.allizom.org
 fxa-stage.auth0.com
 fxa-stats.firefox.com
+fxa-statsd-exporter.herokuapp.com
 fxa-us.mozilla.org
+fxa-verification-server.herokuapp.com
 fxa.auth.services.mozilla.com
 fxa.content.services.mozilla.com
+fxa.mozilla.org
 fxa.profile.services.mozilla.com
 fxa.provider.firefoxcloud.net
 fxa.staging.mozilla.com
 fxaccounts-services.mozilla.com
+fxdata.mozilla.org
 fxprivaterelay.nonprod.webservices.mozgcp.net
 gameai.mozilla.org
 gaming.mozillalabs.com
@@ -936,6 +990,7 @@ gemini.mozilla.org
 generate.mozilla.org
 generation.mozilla.org
 generative.mozilla.org
+generativeai.mozilla.org
 geo-asia.mozilla.org
 geo-eu.mozilla.org
 geo-us.mozilla.org
@@ -943,6 +998,7 @@ geo.accounts.firefox.com
 geo.api.mozilla.com
 geo.mozilla.org
 geo.services.mozilla.com
+geolocation.service.mozilla.com
 getfirefox.com
 getpocket-cdn.prod.mozaws.net
 getpocket.cdn.mozilla.net
@@ -1027,6 +1083,7 @@ icecatmobile-catalog.cdn.mozilla.net
 ideas.mozilla.org
 identity.fxaccounts.firefox.com
 identity.mozilla.com
+identity.services.mozilla.com
 image-services.mozilla.org
 image.e.mozilla.org
 image2text.mozilla.org
@@ -1051,6 +1108,7 @@ incoming.telemetry.services.mozilla.com
 incoming.thunderbird.net
 infer.mozilla.org
 inference.mozilla.ai
+inference.mozilla.com
 inference.mozilla.org
 inferenceengine.mozilla.org
 infocenter.mozilla.org
@@ -1111,6 +1169,7 @@ llamafile.dev
 llamafile.mozilla.org
 llamatune.mozilla.org
 llm.mozilla.org
+llm.services.mozilla.com
 llms.mozilla.org
 localai.mozilla.org
 location-asia.services.mozilla.com
@@ -1182,7 +1241,9 @@ metrics-streaming.mozilla.org
 metrics.components.fenix.mozilla.org
 metrics.mozilla.com
 metrics.mozilla.org
+metrics.service.mozilla.com
 metrics.services.mozilla.com
+metrics.taini.mozilla.org
 microai.mozilla.org
 midjourney.mozilla.org
 missioncontrol.telemetry.mozilla.org
@@ -1211,6 +1272,7 @@ monitor-eu.firefox.com
 monitor-us.firefox.com
 monitor.cdn.mozilla.net
 monitor.firefox.com
+monitor.mozilla.org
 monitor.thunderbird.net
 moz.la
 moz.works
@@ -1271,6 +1333,7 @@ mozilla-vision.org
 mozilla-vpn.com
 mozilla-vpn.io
 mozilla-vpn.net
+mozilla-vpn.services.mozilla.com
 mozilla.ai
 mozilla.ch
 mozilla.chat
@@ -1471,6 +1534,7 @@ mpt.mozilla.org
 mq042.stage.mozaws.net
 mtg.mozilla.org
 mullvad.mozilla.org
+multiaccountcontainers.services.mozilla.com
 multiagent.mozilla.org
 multimodal.mozilla.org
 musicgen.mozilla.org
@@ -1485,6 +1549,7 @@ network.mozilla.org
 neural-fields.mozilla.org
 neural-radiance.mozilla.org
 neural.mozilla.org
+newtab.mozilla.org
 nfnet.mozilla.org
 nightly.mozilla.org
 nimbus-api.mozilla.org
@@ -1603,9 +1668,11 @@ perf-metrics.mozilla.org
 perf-ops.mozilla.org
 perf-telemetry.mozilla.org
 perf.mozilla.org
+perfherder.telemetry.mozilla.org
 performance.mozilla.org
 personalize.mozilla.org
 pfs.mozilla.org
+phabricator.services.mozilla.com
 phind.mozilla.org
 phish-error.mozilla.com
 phish-generic.mozilla.com
@@ -1621,6 +1688,7 @@ ping-uscentral.telemetry.mozilla.org
 ping-useast.telemetry.mozilla.org
 ping-uswest.telemetry.mozilla.org
 ping.telemetry.mozilla.org
+pings.mozilla.org
 pioneer-api.mozilla.org
 pioneer-data.com
 pioneer-data.org
@@ -1662,6 +1730,7 @@ pocket.co
 pocket.com
 pocket.mozilla.com
 pocket.prod.cloudops.mozgcp.net
+pocket.services.mozilla.com
 pocket.stage.mozaws.net
 pocketapi.com
 pocketapp.com
@@ -1722,8 +1791,10 @@ profile.accounts.firefox.com
 profile.firefox.com
 profile.stage.mozaws.net
 profiler.firefox.com
+profiles.firefox.com
 profiling.mozilla.org
 profiling.services.mozilla.com
+prompt.services.mozilla.com
 prune.mozilla.org
 public-data.telemetry.mozilla.org
 pubmine.com
@@ -1764,6 +1835,7 @@ reality.open.mozilla.org
 realtime.mozilla.org
 reasoning.mozilla.org
 recommendation.mozilla.org
+recommendations.mozilla.org
 recommendations.services.mozilla.com
 redpajama.mozilla.org
 regnet.mozilla.org
@@ -1771,6 +1843,7 @@ reinforcement.mozilla.org
 relay-asia.firefox.com
 relay-eu.firefox.com
 relay-us.firefox.com
+relay.allizom.org
 relay.firefox.com
 relay.stage.mozaws.net
 relayemail.com
@@ -1778,6 +1851,7 @@ relayemail.net
 release-api.mozilla.org
 release-eu.mozilla.org
 release-us.mozilla.org
+release.mozilla.org
 releases.mozilla.com
 releases.mozilla.org
 remote-settings-api.mozilla.org
@@ -1812,6 +1886,7 @@ rhino.mozilla.org
 rl.mozilla.org
 roberta.mozilla.org
 rollout-services.mozilla.com
+rollout.mozilla.org
 rs-loader.mozilla.org
 ru.mozilla.org
 rust-bert.mozilla.org
@@ -1827,6 +1902,7 @@ santacoder.mozilla.org
 scikit.mozilla.org
 screen.tracking.mozilla.org
 screenshots.firefox.com
+search-telemetry.mozilla.org
 search.r53-2.services.mozilla.com
 search.services.mozilla.com
 searchai.mozilla.org
@@ -1892,6 +1968,7 @@ shield-asia.mozilla.org
 shield-content.mozilla.org
 shield-eu.mozilla.org
 shield-recipe-client.readthedocs.io
+shield-recipes.mozilla.org
 shield-studies.mozilla.org
 shield-us.mozilla.org
 shield.mozilla.org
@@ -1905,6 +1982,7 @@ silent.mozilla.com
 siri.mozilla.org
 skywriter.mozilla.org
 sls.services.mozilla.com
+smart-block.firefox.com
 smart.mozilla.org
 smartblock-test.mozilla.com
 smartblock.cdn.mozilla.net
@@ -1932,6 +2010,7 @@ snippets.mozilla.com
 snippets.mozilla.org
 snippets.prod.mozaws.net
 snippets.stage.mozaws.net
+sns-api.mozilla.org
 socorro-collector.services.mozilla.com
 socorro-prod.socorro.prod.webservices.mozgcp.net
 socorro-stage.socorro.nonprod.webservices.mozgcp.net
@@ -1973,6 +2052,7 @@ stage.productdelivery.nonprod.webservices.mozgcp.net
 stage.remote-settings.nonprod.webservices.mozgcp.net
 stage.sentry.nonprod.cloudops.mozgcp.net
 stage.thunderbird.net
+stagecraft.mozilla.org
 starcode.mozilla.org
 starcoder.mozilla.org
 start-stage.thunderbird.net
@@ -1991,6 +2071,7 @@ streaming.mozilla.org
 stt.mozilla.org
 stubdownloader.prod.mozaws.net
 stubdownloader.services.mozilla.com
+study.mozilla.org
 stun.services.mozilla.com
 stylegan.mozilla.org
 subconscious.network
@@ -2083,6 +2164,7 @@ telemetry-dev.mozilla.org
 telemetry-eu.mozilla.org
 telemetry-experiment.cdn.mozilla.net
 telemetry-experimental.services.mozilla.com
+telemetry-experiments.mozilla.org
 telemetry-incoming-a.r53-2.services.mozilla.com
 telemetry-incoming-b.r53-2.services.mozilla.com
 telemetry-incoming.mozilla.org
@@ -2106,6 +2188,7 @@ telemetry.firefox.com
 telemetry.fn.mozilla.com
 telemetry.gecko.mozilla.org
 telemetry.mozilla.com
+telemetry.mozilla.net
 telemetry.mozilla.org
 telemetry.services.mozilla.com
 telemetry.services.mozilla.org
@@ -2184,6 +2267,7 @@ transformers.mozilla.org
 transformersjs.mozilla.org
 translate.firefox.com
 translate.mozilla.org
+treeherder.mozilla.org
 trpo.mozilla.org
 truecolours.firefox.com
 tts.mozilla.org
@@ -2247,6 +2331,7 @@ vpn-eu.mozilla.org
 vpn-global.mozilla.org
 vpn-mozilla.com
 vpn-us.mozilla.org
+vpn.firefox.com
 vpn.fpn.firefox.com
 vpn.mozilla.org
 vr.mozilla.org

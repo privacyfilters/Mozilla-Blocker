@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 April 2026 19:43:32 UTC
-# Version: 4.35
+# Last modified: 28 April 2026 15:46:08 UTC
+# Version: 4.36
 # Syntax: hosts (identical hosts file with a different name, if 'hosts' gives an error)
-# Number of entries: 2381
+# Number of entries: 2382
 #
 # # Allowlist: for Addons/Extensions installs & updates
 #0.0.0.0 addons.mozilla.org
@@ -2298,6 +2298,7 @@
 0.0.0.0 vector.mozilla.org
 0.0.0.0 vectors.mozilla.ai
 0.0.0.0 ventures.mozilla.org
+0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 versioncheck-dev.allizom.org
 0.0.0.0 versioncheck.addons.allizom.org
 0.0.0.0 versioncheck.allizom.org

@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 April 2026 19:41:16 UTC
-# Version: 4.35
+# Last modified: 28 April 2026 15:44:53 UTC
+# Version: 4.36
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2381
+# Number of entries: 2382
 #
 # # Allowlist: for Addons/Extensions installs & updates
 #addons.mozilla.org
@@ -164,6 +164,7 @@ soloist.ai
 subconscious.network
 www.orbitbymozilla.com
 # # Blocking all the userless invasive mozilla trackers and services
+
 11.maven.mozilla.org
 250analytics.com
 3dgs.mozilla.org
@@ -2298,6 +2299,7 @@ value.mozilla.org
 vector.mozilla.org
 vectors.mozilla.ai
 ventures.mozilla.org
+versioncheck-bg.addons.mozilla.org
 versioncheck-dev.allizom.org
 versioncheck.addons.allizom.org
 versioncheck.allizom.org

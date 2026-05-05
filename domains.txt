@@ -6,17 +6,24 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 28 April 2026 15:44:53 UTC
-# Version: 4.36
+# Last modified: 05 May 2026 23:23:27 UTC
+# Version: 4.37
 # Syntax: domains (including possible subdomains)
 # Number of entries: 2382
 #
-# # Allowlist: for Addons/Extensions installs & updates
+# # Custom Rules: Addons/Extensions and others
+# Addons(allowed)
 #addons.mozilla.org
 #addons.thunderbird.net
 #versioncheck.addons.mozilla.org
 #versioncheck.addons.thunderbird.net
 #versioncheck-bg.addons.thunderbird.net
+# Betterbird autoconfig(blocked)
+autoconfig.thunderbird.net
+live.thunderbird.net
+# DoH canary domain(allowed)
+#use-application-dns.net
+# Cisco openh264 plugin(allowed)
 #ciscobinary.openh264.org
 # # External trackers Mozilla uses on their own sites...
 analytics.google.com
@@ -371,7 +378,6 @@ auth0.firefox.com
 autocompleteai.mozilla.org
 autoconfig-live.mozillamessaging.com
 autoconfig.mozilla.org
-autoconfig.thunderbird.net
 autodiscovery.addons.mozilla.org
 autoencoder.mozilla.org
 autograph.services.mozaws.net
@@ -1159,7 +1165,6 @@ lightbeam.org
 lightweight.mozilla.org
 live.firefox.com
 live.mozillamessaging.com
-live.thunderbird.net
 llama-api.mozilla.org
 llama-chat.mozilla.org
 llama-models.mozilla.org

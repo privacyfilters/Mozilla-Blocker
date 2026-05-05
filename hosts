@@ -6,17 +6,24 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 28 April 2026 15:46:08 UTC
-# Version: 4.36
+# Last modified: 05 May 2026 23:23:57 UTC
+# Version: 4.37
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 2382
 #
-# # Allowlist: for Addons/Extensions installs & updates
+# # Custom Rules: Addons/Extensions and others
+# Addons(allowed)
 #0.0.0.0 addons.mozilla.org
 #0.0.0.0 addons.thunderbird.net
 #0.0.0.0 versioncheck.addons.mozilla.org
 #0.0.0.0 versioncheck.addons.thunderbird.net
 #0.0.0.0 versioncheck-bg.addons.thunderbird.net
+# Betterbird autoconfig(blocked)
+0.0.0.0 autoconfig.thunderbird.net
+0.0.0.0 live.thunderbird.net
+# DoH canary domain(allowed)
+#0.0.0.0 use-application-dns.net
+# Cisco openh264 plugin(allowed)
 #0.0.0.0 ciscobinary.openh264.org
 # # External trackers Mozilla uses on their own sites...
 0.0.0.0 analytics.google.com
@@ -370,7 +377,6 @@
 0.0.0.0 autocompleteai.mozilla.org
 0.0.0.0 autoconfig-live.mozillamessaging.com
 0.0.0.0 autoconfig.mozilla.org
-0.0.0.0 autoconfig.thunderbird.net
 0.0.0.0 autodiscovery.addons.mozilla.org
 0.0.0.0 autoencoder.mozilla.org
 0.0.0.0 autograph.services.mozaws.net
@@ -1158,7 +1164,6 @@
 0.0.0.0 lightweight.mozilla.org
 0.0.0.0 live.firefox.com
 0.0.0.0 live.mozillamessaging.com
-0.0.0.0 live.thunderbird.net
 0.0.0.0 llama-api.mozilla.org
 0.0.0.0 llama-chat.mozilla.org
 0.0.0.0 llama-models.mozilla.org

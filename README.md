@@ -2,18 +2,18 @@
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 ### [Codeberg](https://github.com/privacyfilters/Mozilla-Blocker) is the home of Mozilla Blocker. Its mirrored at github for backup and availability. Use only one filter source.
 ### Available on both [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker) and [Github](https://github.com/privacyfilters/Mozilla-Blocker)(mirror).
-# Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking. 
+# Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
-## Regualr Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
+## Regular Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
 #### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt)
-
-#### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
-
-#### Hosts-Clean - Identical hosts with a different name(if 'hosts' creates an error, Recommended for Adblock-lean)  - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
 
 #### Domains - Raw domains and subdomains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
 #### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
+
+#### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
+
+#### Hosts-Clean - Identical hosts with a different name(if 'hosts' causes an error) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
 
 #### Whitelist Domains to allow Addons (for those who needs to manually allow them, like on Adblock-lean) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
 
@@ -26,7 +26,7 @@
 ## Recommended Methods to Block Mozilla
 ### Best Local network systemwide blockers(Most Recommended):
 1. DNS Local Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns)(windows,linux,openwrt,mac) - https://github.com/AdguardTeam/AdGuardHome
-3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt(addons needs to be manually allowed) (stable)(foss)(hosts-clean)(domains)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
+3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt(addons needs to be manually allowed) (stable)(foss)(domains)(dnsmasq)(hosts-clean)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
 ### Device level systemwide blocker options:
 #### Windows:
 1. Systemwide Adblocker - Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen
@@ -49,6 +49,7 @@ The adblock filter format works perfectly on Adguard Home.
 Zen adblocker is still early on development so it is unstable when enforcing the filters.
 Host rules will work with anything just as a host file for any platform and with blockers that supports host format.
 I don't know if the adblock_dns formated rules will work correctly on pi-hole(specificaly the $important rules). It works fine on Adbguard home.
+For adblock-lean on OpenWrt - domains, dnsmasq and hosts-clean(hosts gives error), any one of them will work, but in all cases, you need to manually allow the domains using allowlist since they won't be allowed automatically due to adblock-lean feature limitaiton.
 
 ## All Sources and mirrors of Mozilla Blocker
 ## Codeberg Version - https://codeberg.org/privacyfilters/Mozilla-Blocker <br>Github Version - https://github.com/privacyfilters/Mozilla-Blocker

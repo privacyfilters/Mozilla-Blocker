@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 05 May 2026 23:23:27 UTC
-# Version: 4.37
+# Last modified: 23 May 2026 03:58:02 UTC
+# Version: 4.38
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2382
+# Number of entries: 2381
 #
 # # Custom Rules: Addons/Extensions and others
 # Addons(allowed)
@@ -717,7 +717,6 @@ discussion.mozilla.org
 distilbert.mozilla.org
 distill.mozilla.org
 divviup.org
-dns.cloudflare.com
 dnt.mozilla.org
 docs.orbit.mozilla.org
 docs.telemetry.mozilla.org

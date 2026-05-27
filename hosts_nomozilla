@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 25 April 2026
-# Version: 4.33
-# Syntax: host
-# Number of entries: 2263
+# Last modified: 27 May 2026 13:59:26 UTC
+# Version: 4.39
+# Syntax: hosts (including possible subdomains)
+# Number of entries: 2369
 #
 # # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -1583,8 +1583,6 @@
 0.0.0.0 observatory-scan.mozilla.org
 0.0.0.0 observatory-us.mozilla.org
 0.0.0.0 observatory.mozilla.org
-0.0.0.0 ocsp.digicert.com
-0.0.0.0 ocsp.pki.goog
 0.0.0.0 ohttp-fakespot.nonprod.webservices.mozgcp.net
 0.0.0.0 ohttp.nonprod.webservices.mozgcp.net
 0.0.0.0 ohttp.prod.webservices.mozgcp.net

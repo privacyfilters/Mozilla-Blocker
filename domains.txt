@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 23 May 2026 03:58:02 UTC
-# Version: 4.38
+# Last modified: 27 May 2026 13:59:06 UTC
+# Version: 4.39
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2381
+# Number of entries: 2379
 #
 # # Custom Rules: Addons/Extensions and others
 # Addons(allowed)
@@ -1610,8 +1610,6 @@ observatory-results.mozilla.org
 observatory-scan.mozilla.org
 observatory-us.mozilla.org
 observatory.mozilla.org
-ocsp.digicert.com
-ocsp.pki.goog
 ohttp-fakespot.nonprod.webservices.mozgcp.net
 ohttp.nonprod.webservices.mozgcp.net
 ohttp.prod.webservices.mozgcp.net

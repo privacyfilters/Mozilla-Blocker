@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 27 May 2026 13:59:06 UTC
-# Version: 4.39
+# Last modified: 23 May 2026 03:58:02 UTC
+# Version: 4.40
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2379
+# Number of entries: 2381
 #
 # # Custom Rules: Addons/Extensions and others
 # Addons(allowed)
@@ -171,7 +171,6 @@ soloist.ai
 subconscious.network
 www.orbitbymozilla.com
 # # Blocking all the userless invasive mozilla trackers and services
-
 11.maven.mozilla.org
 250analytics.com
 3dgs.mozilla.org
@@ -867,6 +866,7 @@ firefox-monitor.mozilla.org
 firefox-monitor.net
 firefox-monitor.org
 firefox-normandy.mozilla.org
+firefox-portal-detection.com
 firefox-relay.com
 firefox-relay.net
 firefox-relay.org

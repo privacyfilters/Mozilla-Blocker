@@ -6,8 +6,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 25 April 2026
-! Version: 4.33
+! Last modified: 18 September 2026
+! Version: 4.34
 ! Syntax: Adblock
 ! Number of entries: 654
 !
@@ -301,6 +301,7 @@
 ||firefox-monitor.com^
 ||firefox-monitor.net^
 ||firefox-monitor.org^
+||firefox-portal-detection.com^
 ||firefox-relay.com^
 ||firefox-relay.net^
 ||firefox-relay.org^

@@ -6,10 +6,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 27 May 2026 13:59:26 UTC
-# Version: 4.39
+# Last modified: 17 September 2026 20:15:11 UTC
+# Version: 4.40
 # Syntax: hosts (identical hosts file with a different name, if 'hosts' gives an error)
-# Number of entries: 2379
+# Number of entries: 2380
 #
 # # Custom Rules: Addons/Extensions and others
 # Addons(allowed)
@@ -866,6 +866,7 @@
 0.0.0.0 firefox-monitor.net
 0.0.0.0 firefox-monitor.org
 0.0.0.0 firefox-normandy.mozilla.org
+0.0.0.0 firefox-portal-detection.com
 0.0.0.0 firefox-relay.com
 0.0.0.0 firefox-relay.net
 0.0.0.0 firefox-relay.org

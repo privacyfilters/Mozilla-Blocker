@@ -1,7 +1,7 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Description: Clean version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Same rules as the hosts file.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
+# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 30 September 2026 23:18:13 UTC

@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 30 September 2026 23:10:57 UTC
-# Version: 4.48
+# Last modified: 30 September 2026 23:18:13 UTC
+# Version: 4.49
 # Syntax: DNSMasq
 # Number of entries: 547
 #
@@ -15,11 +15,9 @@ server=/addons.thunderbird.net/
 server=/versioncheck-bg.addons.thunderbird.net/
 server=/versioncheck.addons.mozilla.org/
 server=/versioncheck.addons.thunderbird.net/
-
 # # Betterbird Thunderbird urls
 server=/autoconfig.thunderbird.net/
 server=/live.thunderbird.net/
-
 # # External Trackers Mozilla uses on their own sites...
 local=/adjust.com/
 local=/analytics.google.com/
@@ -39,7 +37,6 @@ local=/omappapi.com/
 local=/pubmine.com/
 local=/sentry.io/
 local=/typeform.com/
-
 # # Mozilla Products,Brands and Services Direct Urls
 local=/extensionworkshop.com/
 local=/fakespot.com/
@@ -56,7 +53,6 @@ local=/mozilla.org/
 local=/mozilla.vc/
 local=/pocket.com/
 local=/thunderbird.net/
-
 # # Mozilla Innovation projects
 local=/didthis.app/
 local=/formulaic.app/
@@ -64,7 +60,6 @@ local=/orbitbymozilla.com/
 local=/orcaready.org/
 local=/soloist.ai/
 local=/subconscious.network/
-
 # # Firefox Forked browser's tracking urls
 local=/aus.basilisk-browser.org/
 local=/aus1.waterfox.net/
@@ -72,10 +67,8 @@ local=/floorp-update.ablaze.one/
 local=/updates.floorp.app/
 local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
-
 # # Urls related to downloads,addons and accounts
 local=/moz.works/
-
 # # Blocklist: Simplified rules from domains
 local=/250analytics.com/
 local=/accessfirefox.org/

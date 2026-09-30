@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 30 September 2026 23:10:57 UTC
-! Version: 4.48
+! Last modified: 30 September 2026 23:18:13 UTC
+! Version: 4.49
 ! Syntax: Adblock
 ! Number of entries: 559
 !
@@ -20,7 +20,6 @@
 ||discovery.addons.thunderbird.net^$important
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
-
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||firefox.com*^
@@ -30,7 +29,6 @@
 ||mozilla.net*^
 ||mozilla.org*^
 ||thunderbird.net*^
-
 !!! External Trackers Mozilla uses on their own sites...
 ||adjust.com^
 ||analytics.google.com^
@@ -50,7 +48,6 @@
 ||pubmine.com^
 ||sentry.io^
 ||typeform.com^
-
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 ||extensionworkshop.com^
 ||fakespot.com^
@@ -67,7 +64,6 @@
 ||mozilla.vc^
 ||pocket.com^
 ||thunderbird.net^
-
 !! Mozilla Innovation projects
 ||didthis.app^
 ||formulaic.app^
@@ -75,19 +71,15 @@
 ||orcaready.org^
 ||soloist.ai^
 ||subconscious.network^
-
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
 ||aus.basilisk-browser.org^
 ||floorp-update.ablaze.one^
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
-
 ||addons.mozilla.net.ru^
 ||waterfox.net^
-
 ||moz.works^
-
 !!!!!! Blocklist: Simplified list from hosts !!!!!!
 ||250analytics.com^
 ||accessfirefox.org^

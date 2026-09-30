@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 30 September 2026 23:10:57 UTC
-# Version: 4.48
+# Last modified: 30 September 2026 23:18:13 UTC
+# Version: 4.49
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 2331
 #
@@ -64,7 +64,6 @@
 0.0.0.0 www.googletagmanager.com
 # Web version for Google ad services
 0.0.0.0 www.googletagservices.com
-
 # # Mozilla's major and sub brands and services
 # Firefox Accounts services
 0.0.0.0 accounts.firefox.com
@@ -148,7 +147,6 @@
 0.0.0.0 www.support.mozilla.org
 0.0.0.0 www.thunderbird.net
 0.0.0.0 www.vpn.mozilla.org
-
 # # Mozilla Inovation projects
 # Privacy-focused analytics tool
 0.0.0.0 didthis.app
@@ -164,7 +162,6 @@
 0.0.0.0 subconscious.network
 # Web version of Mozilla's Orbit project
 0.0.0.0 www.orbitbymozilla.com
-
 # # Firefox Forked browser's tracking urls ##
 # basilisk browser
 0.0.0.0 aus.basilisk-browser.org
@@ -177,7 +174,6 @@
 0.0.0.0 updates.librewolf.net
 # zen browser
 0.0.0.0 updates.zen-browser.app
-
 # # Strict Mozilla Blockerlist
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
@@ -2380,13 +2376,11 @@
 0.0.0.0 xulrunner.mozilla.org
 0.0.0.0 yolov.mozilla.org
 0.0.0.0 zh-tw.add-ons.mozilla.com
-
 0.0.0.0 addons.mozilla.org
 0.0.0.0 addons.thunderbird.net
 0.0.0.0 versioncheck-bg.addons.thunderbird.net
 0.0.0.0 versioncheck.addons.mozilla.org
 0.0.0.0 versioncheck.addons.thunderbird.net
-
 0.0.0.0 add-ons.mozilla.com
 0.0.0.0 addon.mozilla.org
 0.0.0.0 addons.mozilla.cn
@@ -2400,10 +2394,8 @@
 0.0.0.0 addons.mozilla.tw
 0.0.0.0 waterfox.net
 0.0.0.0 www.addons.mozilla.org
-
 0.0.0.0 autoconfig.thunderbird.net
 0.0.0.0 live.thunderbird.net
-
 0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 accounts.firefox.com
 0.0.0.0 basket.allizom.org

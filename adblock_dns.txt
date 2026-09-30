@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 30 September 2026 23:10:57 UTC
-! Version: 4.48
+! Last modified: 30 September 2026 23:18:13 UTC
+! Version: 4.49
 ! Syntax: Adblock
 ! Number of entries: 564
 !
@@ -15,7 +15,6 @@
 @@||versioncheck-bg.addons.thunderbird.net^
 @@||versioncheck.addons.mozilla.org^
 @@||versioncheck.addons.thunderbird.net^
-
 !! Addon endpoints blocked even though addons are allowlisted
 ||blocklist.addons.mozilla.org^$important
 ||crash.addons.mozilla.org^$important
@@ -27,7 +26,6 @@
 ||discovery.addons.thunderbird.net^$important
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
-
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||aus*.waterfox.net^
@@ -38,7 +36,6 @@
 ||mozilla.net*^
 ||mozilla.org*^
 ||thunderbird.net*^
-
 !!! External Trackers Mozilla uses on their own sites...
 ||adjust.com^
 ! Google's main analytics tracker
@@ -74,7 +71,6 @@
 ||sentry.io^
 ! Online form creation and data collection
 ||typeform.com^
-
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 ||extensionworkshop.com^
 ||fakespot.com^
@@ -91,7 +87,6 @@
 ||mozilla.vc^
 ||pocket.com^
 ||thunderbird.net^
-
 !! Mozilla Innovation projects
 ||didthis.app^
 ||formulaic.app^
@@ -99,7 +94,6 @@
 ||orcaready.org^
 ||soloist.ai^
 ||subconscious.network^
-
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
 ||aus.basilisk-browser.org^
 ||aus1.waterfox.net^
@@ -107,10 +101,8 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
-
 !! Urls related to downloads, addons and accounts
 ||moz.works^
-
 !!!!!! Blocklist: Simplified list from hosts !!!!!!
 ||250analytics.com^
 ||accessfirefox.org^

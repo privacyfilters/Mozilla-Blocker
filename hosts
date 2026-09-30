@@ -1,31 +1,31 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
 # Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-# Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
-# Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
+# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 17 September 2026 20:15:11 UTC
-# Version: 4.40
+# Last modified: 30 September 2026 23:10:57 UTC
+# Version: 4.48
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 2380
+# Number of entries: 2313
 #
-# # Custom Rules: Addons/Extensions and others
-# Addons(allowed)
-#0.0.0.0 addons.mozilla.org
-#0.0.0.0 addons.thunderbird.net
-#0.0.0.0 versioncheck.addons.mozilla.org
-#0.0.0.0 versioncheck.addons.thunderbird.net
-#0.0.0.0 versioncheck-bg.addons.thunderbird.net
-# Betterbird autoconfig(blocked)
-0.0.0.0 autoconfig.thunderbird.net
-0.0.0.0 live.thunderbird.net
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
 # Cisco openh264 plugin(allowed)
 #0.0.0.0 ciscobinary.openh264.org
+# Addons(allowed)
+#0.0.0.0 addons.mozilla.org
+#0.0.0.0 addons.thunderbird.net
+#0.0.0.0 versioncheck-bg.addons.thunderbird.net
+#0.0.0.0 versioncheck.addons.mozilla.org
+#0.0.0.0 versioncheck.addons.thunderbird.net
+
+# Betterbird autoconfig(blocked)
+0.0.0.0 autoconfig.thunderbird.net
+0.0.0.0 live.thunderbird.net
+
 # # External trackers Mozilla uses on their own sites...
+0.0.0.0 adjust.com
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 api2.amplitude.com
@@ -33,6 +33,7 @@
 0.0.0.0 app.adjust.com
 0.0.0.0 braze.com
 0.0.0.0 buysellads.com
+0.0.0.0 cookielaw.org
 0.0.0.0 data.flurry.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googletagmanager.com
@@ -51,6 +52,7 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
+
 # # Mozilla's major and sub brands and services
 0.0.0.0 accounts.firefox.com
 0.0.0.0 api.pocket.com
@@ -61,10 +63,10 @@
 0.0.0.0 extensionworkshop.com
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.io
-0.0.0.0 i.fakspot.io
 0.0.0.0 firefox.com
 0.0.0.0 foundation.mozilla.org
 0.0.0.0 getpocket.com
+0.0.0.0 i.fakspot.io
 0.0.0.0 labs.mozilla.org
 0.0.0.0 monitor.firefox.com
 0.0.0.0 mozilla.ai
@@ -83,10 +85,10 @@
 0.0.0.0 www.extensionworkshop.com
 0.0.0.0 www.fakespot.com
 0.0.0.0 www.fakespot.io
-0.0.0.0 www.i.fakspot.io
 0.0.0.0 www.firefox.com
 0.0.0.0 www.foundation.mozilla.org
 0.0.0.0 www.getpocket.com
+0.0.0.0 www.i.fakspot.io
 0.0.0.0 www.labs.mozilla.org
 0.0.0.0 www.monitor.firefox.com
 0.0.0.0 www.mozaws.net
@@ -103,65 +105,36 @@
 0.0.0.0 www.support.mozilla.org
 0.0.0.0 www.thunderbird.net
 0.0.0.0 www.vpn.mozilla.org
+
 # # Firefox Forked browser's auto-update & tracking urls
 0.0.0.0 aus.basilisk-browser.org
+0.0.0.0 aus1.waterfox.net
 0.0.0.0 floorp-update.ablaze.one
 0.0.0.0 updates.floorp.app
 0.0.0.0 updates.librewolf.net
-0.0.0.0 aus1.waterfox.net
 0.0.0.0 updates.zen-browser.app
+
 # # Urls related to downloads,addons and accounts
-0.0.0.0 ftp.mozilla.org
-0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts-static.cdn.mozilla.net
-0.0.0.0 www.accounts.firefox.com
+0.0.0.0 accounts.firefox.com
+0.0.0.0 basket.allizom.org
+0.0.0.0 basket.mozilla.org
+0.0.0.0 bedrock-demos.mozilla.org
+0.0.0.0 bedrock-docs.mozilla.org
+0.0.0.0 bedrock-l10n.mozilla.org
+0.0.0.0 bedrock-nonprod.allizom.org
+0.0.0.0 bedrock-stage.allizom.org
+0.0.0.0 bedrock.mozilla.org
+0.0.0.0 ftp.mozilla.org
 0.0.0.0 moz.works
 0.0.0.0 mozorg.moz.works
-0.0.0.0 www.mozorg.moz.works
+0.0.0.0 search-telemetry.mozilla.org
 0.0.0.0 services.addons.mozilla.org
 0.0.0.0 services.addons.thunderbird.net
-# # Mozilla's major and sub brands and services
-0.0.0.0 firefox.com
-0.0.0.0 getpocket.com
-0.0.0.0 extensionworkshop.com
-0.0.0.0 pocket.com
-0.0.0.0 api.pocket.com
-0.0.0.0 labs.mozilla.org
-0.0.0.0 monitor.firefox.com
-0.0.0.0 mozilla.ai
-0.0.0.0 mozilla.design
-0.0.0.0 mozilla.org
-0.0.0.0 mozilla.net
-0.0.0.0 mozilla.vc
-0.0.0.0 foundation.mozilla.org
-0.0.0.0 vpn.mozilla.org
-0.0.0.0 relay.firefox.com
-0.0.0.0 thunderbird.net
-0.0.0.0 fakespot.com
-0.0.0.0 fakespot.io
-0.0.0.0 i.fakspot.io
-0.0.0.0 www.firefox.com
-0.0.0.0 www.extensionworkshop.com
-0.0.0.0 www.getpocket.com
-0.0.0.0 www.pocket.com
-0.0.0.0 www.api.pocket.com
-0.0.0.0 www.labs.mozilla.org
-0.0.0.0 www.mozilla.ai
-0.0.0.0 www.mozilla.design
-0.0.0.0 www.monitor.firefox.com
-0.0.0.0 www.mozilla.com
-0.0.0.0 www.mozilla.org
-0.0.0.0 www.mozilla.net
-0.0.0.0 www.mozilla.vc
-0.0.0.0 www.foundation.mozilla.org
-0.0.0.0 www.vpn.mozilla.org
-0.0.0.0 www.mozaws.net
-0.0.0.0 www.mozgcp.net
-0.0.0.0 www.relay.firefox.com
-0.0.0.0 www.thunderbird.net
-0.0.0.0 www.fakespot.com
-0.0.0.0 www.fakespot.io
-0.0.0.0 www.i.fakspot.io
+0.0.0.0 smart-block.firefox.com
+0.0.0.0 www.accounts.firefox.com
+0.0.0.0 www.mozorg.moz.works
+
 # # Mozilla Inovation projects
 0.0.0.0 didthis.app
 0.0.0.0 formulaic.app
@@ -170,6 +143,7 @@
 0.0.0.0 soloist.ai
 0.0.0.0 subconscious.network
 0.0.0.0 www.orbitbymozilla.com
+
 # # Blocking all the userless invasive mozilla trackers and services
 0.0.0.0 11.maven.mozilla.org
 0.0.0.0 250analytics.com
@@ -183,12 +157,10 @@
 0.0.0.0 accounts-asia.firefox.com
 0.0.0.0 accounts-eu.firefox.com
 0.0.0.0 accounts-global.firefox.com
-0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 accounts-us.firefox.com
 0.0.0.0 accounts.firefox.co.jp
 0.0.0.0 accounts.firefox.co.kr
 0.0.0.0 accounts.firefox.co.uk
-0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts.firefox.com.cn
 0.0.0.0 accounts.firefox.de
 0.0.0.0 accounts.firefox.es
@@ -328,7 +300,6 @@
 0.0.0.0 api.mozillapulse.org
 0.0.0.0 api.normandy.mozilla.org
 0.0.0.0 api.orbit.mozilla.org
-0.0.0.0 api.pocket.com
 0.0.0.0 api.services.mozilla.com
 0.0.0.0 api.suggest.mozilla.com
 0.0.0.0 api.telemetry.mozilla.org
@@ -418,16 +389,8 @@
 0.0.0.0 balrog.services.mozilla.com
 0.0.0.0 balrog.stage.mozaws.net
 0.0.0.0 bandit.mozilla.org
-0.0.0.0 basket.allizom.org
-0.0.0.0 basket.mozilla.org
 0.0.0.0 bcd.developer.mozilla.org
-0.0.0.0 bedrock-demos.mozilla.org
-0.0.0.0 bedrock-docs.mozilla.org
-0.0.0.0 bedrock-l10n.mozilla.org
-0.0.0.0 bedrock-nonprod.allizom.org
-0.0.0.0 bedrock-stage.allizom.org
 0.0.0.0 bedrock-stage.nonprod.webservices.mozgcp.net
-0.0.0.0 bedrock.mozilla.org
 0.0.0.0 behavior-tracking.mozilla.org
 0.0.0.0 beit.mozilla.org
 0.0.0.0 benchmark.mozilla.org
@@ -446,7 +409,6 @@
 0.0.0.0 blocks.orbit.mozilla.org
 0.0.0.0 blog.mozilla-russia.org
 0.0.0.0 blog.mozilla.asia
-0.0.0.0 blog.mozilla.org
 0.0.0.0 blog.mozillabrasil.org.br
 0.0.0.0 blog.mozillafoundation.org
 0.0.0.0 blog.mozillagaming.org
@@ -471,7 +433,6 @@
 0.0.0.0 bouncer.telemetry.mozilla.org
 0.0.0.0 br.mozilla.org
 0.0.0.0 brain.js.mozilla.org
-0.0.0.0 braze.com
 0.0.0.0 breach.mozilla.org
 0.0.0.0 breakpad.mozilla.org
 0.0.0.0 broker-live.mozillamessaging.com
@@ -486,7 +447,6 @@
 0.0.0.0 build-eu.mozilla.org
 0.0.0.0 build-us.mozilla.org
 0.0.0.0 builder.build.mozilla.org
-0.0.0.0 buysellads.com
 0.0.0.0 calendar.thunderbird.net
 0.0.0.0 call.orbit.mozilla.org
 0.0.0.0 candle.mozilla.org
@@ -512,6 +472,7 @@
 0.0.0.0 cdn.mozilla.net
 0.0.0.0 cdn.mozilla.org
 0.0.0.0 cdn.stubdownloader.services.mozilla.com
+0.0.0.0 cdnmozilla.net
 0.0.0.0 channelserver.services.mozilla.com
 0.0.0.0 charmed.mozilla.org
 0.0.0.0 chat.mozilla.ai
@@ -529,6 +490,7 @@
 0.0.0.0 client.build.mozilla.org
 0.0.0.0 climate.mozilla.org
 0.0.0.0 clip.mozilla.org
+0.0.0.0 cliqz.com
 0.0.0.0 cloudsync.mozilla.com
 0.0.0.0 clustering.mozilla.org
 0.0.0.0 cn.mozilla.org
@@ -550,6 +512,7 @@
 0.0.0.0 community.mozilla.org
 0.0.0.0 components.build.mozilla.org
 0.0.0.0 components.fenix.mozilla.org
+0.0.0.0 components.mozilla
 0.0.0.0 compute-shaders.mozilla.org
 0.0.0.0 compute.mozilla.org
 0.0.0.0 config-eu.services.mozilla.com
@@ -610,7 +573,6 @@
 0.0.0.0 crash-stats.allizom.org
 0.0.0.0 crash-stats.dev.mozaws.net
 0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 crash-stats.mozilla.org
 0.0.0.0 crash-stats.stage.mozaws.net
 0.0.0.0 crash-stats.stage.mozilla.com
 0.0.0.0 crash.addons.mozilla.org
@@ -632,7 +594,7 @@
 0.0.0.0 css.maven.mozilla.org
 0.0.0.0 css.planet.mozilla.org
 0.0.0.0 cuda.mozilla.org
-0.0.0.0 cycleGAN.mozilla.org
+0.0.0.0 cyclegan.mozilla.org
 0.0.0.0 daily.thunderbird.net
 0.0.0.0 dall-e.mozilla.org
 0.0.0.0 dap-02.api.divviup.org
@@ -693,14 +655,12 @@
 0.0.0.0 developer.mozilla.fr
 0.0.0.0 developer.mozilla.jp
 0.0.0.0 developer.mozilla.kr
-0.0.0.0 developer.mozilla.org
 0.0.0.0 developer.mozilla.pl
 0.0.0.0 developer.mozilla.ru
 0.0.0.0 developer.mozilla.tw
 0.0.0.0 developer.mozilla.zh
 0.0.0.0 dialogue.mozilla.org
 0.0.0.0 dictionary.telemetry.mozilla.org
-0.0.0.0 didthis.app
 0.0.0.0 diffusion.mozilla.org
 0.0.0.0 directory.mozilla.org
 0.0.0.0 discourse.mozilla.org
@@ -725,6 +685,7 @@
 0.0.0.0 domain.glass
 0.0.0.0 donate.commonvoice.mozilla.org
 0.0.0.0 donate.mozilla.org
+0.0.0.0 dorando.at
 0.0.0.0 download-asia.cdn.mozilla.net
 0.0.0.0 download-cdn.prod.mozaws.net
 0.0.0.0 download-eu.cdn.mozilla.net
@@ -738,6 +699,7 @@
 0.0.0.0 download.mozilla.org
 0.0.0.0 downloadstats.mozilla.com
 0.0.0.0 dqn.mozilla.org
+0.0.0.0 dummytracker.org
 0.0.0.0 dxr.mozilla.org
 0.0.0.0 dynamic.mozilla.org
 0.0.0.0 dynamicua.cdn.mozilla.net
@@ -753,7 +715,7 @@
 0.0.0.0 embedded.mozilla.org
 0.0.0.0 embeddings.mozilla.ai
 0.0.0.0 embeddings.mozilla.org
-0.0.0.0 en-US.blog.mozilla.org
+0.0.0.0 en-us.blog.mozilla.org
 0.0.0.0 en-us.malware-error.mozilla.com
 0.0.0.0 en-us.malware-report.mozilla.com
 0.0.0.0 en-us.phish-error.mozilla.com
@@ -783,7 +745,6 @@
 0.0.0.0 extension-finder.thunderbird.net
 0.0.0.0 extensionai.mozilla.org
 0.0.0.0 extensions.allizom.org
-0.0.0.0 extensionworkshop.com
 0.0.0.0 fakespot-ai.com
 0.0.0.0 fakespot-analytics.com
 0.0.0.0 fakespot-api.com
@@ -805,8 +766,6 @@
 0.0.0.0 fakespot-static.com
 0.0.0.0 fakespot-static.net
 0.0.0.0 fakespot-us.com
-0.0.0.0 fakespot.com
-0.0.0.0 fakespot.io
 0.0.0.0 fakespot.prod.webservices.mozgcp.net
 0.0.0.0 fakespotbusiness.com
 0.0.0.0 fakespotcorp.com
@@ -884,7 +843,6 @@
 0.0.0.0 firefox.co.kr
 0.0.0.0 firefox.co.uk
 0.0.0.0 firefox.co.za
-0.0.0.0 firefox.com
 0.0.0.0 firefox.com.cn
 0.0.0.0 firefox.com.hk
 0.0.0.0 firefox.com.tw
@@ -897,6 +855,7 @@
 0.0.0.0 firefox.it
 0.0.0.0 firefox.jp
 0.0.0.0 firefox.net.ru
+0.0.0.0 firefox.org
 0.0.0.0 firefox.pl
 0.0.0.0 firefox.private.network
 0.0.0.0 firefox.pt
@@ -905,6 +864,7 @@
 0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 firefox.sourceforge-docs.mozilla.org
 0.0.0.0 firefox.tw
+0.0.0.0 firefoxcloud.net
 0.0.0.0 firefoxflicks.com
 0.0.0.0 firefoxsuggestions.mozilla.org
 0.0.0.0 firefoxusercontent.com
@@ -917,13 +877,11 @@
 0.0.0.0 focus.firefox.com
 0.0.0.0 fonts.net
 0.0.0.0 forecast.mozilla.org
-0.0.0.0 formulaic.app
 0.0.0.0 forum.mozilla.org
 0.0.0.0 forums.mozilla.org
 0.0.0.0 foundation.mozilla.ai
 0.0.0.0 foundation.mozilla.eu
 0.0.0.0 foundation.mozilla.jp
-0.0.0.0 foundation.mozilla.org
 0.0.0.0 foundation.mozilla.org.cdn.cloudflare.net
 0.0.0.0 foundation.mozilla.org.uk
 0.0.0.0 fpn-vpn.com
@@ -933,7 +891,6 @@
 0.0.0.0 ftp-ssl.mozilla.org
 0.0.0.0 ftp-test.mozilla.org
 0.0.0.0 ftp.eu.mozilla.org
-0.0.0.0 ftp.mozilla.org
 0.0.0.0 ftp.prod.mozaws.net
 0.0.0.0 ftp.prod.mozilla.org
 0.0.0.0 functions.build.mozilla.org
@@ -1009,7 +966,6 @@
 0.0.0.0 getpocket-cdn.prod.mozaws.net
 0.0.0.0 getpocket.cdn.mozilla.net
 0.0.0.0 getpocket.co
-0.0.0.0 getpocket.com
 0.0.0.0 getpocket.dev
 0.0.0.0 ghostnet.mozilla.org
 0.0.0.0 glam.telemetry.mozilla.org
@@ -1029,11 +985,11 @@
 0.0.0.0 glean.services.mozilla.com
 0.0.0.0 glean.telemetry.mozilla
 0.0.0.0 glean.telemetry.mozilla.org
-0.0.0.0 gleanMetrics.fenix.mozilla.org
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.com
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.net
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
+0.0.0.0 gleanmetrics.fenix.mozilla.org
 0.0.0.0 gooey.mozilla.org
 0.0.0.0 googleassistant.mozilla.org
 0.0.0.0 googlecn-firefox.cn
@@ -1118,7 +1074,6 @@
 0.0.0.0 inference.mozilla.org
 0.0.0.0 inferenceengine.mozilla.org
 0.0.0.0 infocenter.mozilla.org
-0.0.0.0 innocraft.cloud
 0.0.0.0 input.mozilla.org
 0.0.0.0 insights.mozilla.org
 0.0.0.0 install.mozilla.org
@@ -1149,7 +1104,6 @@
 0.0.0.0 l10n.mozilla.org
 0.0.0.0 lab.mozilla.org
 0.0.0.0 labs.mozilla.ai
-0.0.0.0 labs.mozilla.org
 0.0.0.0 lcip.org
 0.0.0.0 leanplum.com
 0.0.0.0 leanprivacy.com
@@ -1212,7 +1166,6 @@
 0.0.0.0 market.mozilla.org
 0.0.0.0 marketplace.firefox.com
 0.0.0.0 maskrcnn.mozilla.org
-0.0.0.0 matomo.cloud
 0.0.0.0 mc.prod.ads.prod.webservices.mozgcp.net
 0.0.0.0 mdn-labs.com
 0.0.0.0 mdn-labs.net
@@ -1262,7 +1215,7 @@
 0.0.0.0 ml.services.mozilla.com
 0.0.0.0 mlc-llm.mozilla.org
 0.0.0.0 mlops.mozilla.org
-0.0.0.0 mls.Mozilla.org
+0.0.0.0 mls.mozilla.org
 0.0.0.0 mobileai.mozilla.org
 0.0.0.0 mobilebert.mozilla.org
 0.0.0.0 mobilenet.mozilla.org
@@ -1276,11 +1229,9 @@
 0.0.0.0 monitor-eu.firefox.com
 0.0.0.0 monitor-us.firefox.com
 0.0.0.0 monitor.cdn.mozilla.net
-0.0.0.0 monitor.firefox.com
 0.0.0.0 monitor.mozilla.org
 0.0.0.0 monitor.thunderbird.net
 0.0.0.0 moz.la
-0.0.0.0 moz.works
 0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.com
 0.0.0.0 mozaws.net
@@ -1294,6 +1245,7 @@
 0.0.0.0 mozilla-ai.org
 0.0.0.0 mozilla-australia.org
 0.0.0.0 mozilla-b2g.org
+0.0.0.0 mozilla-backup.org
 0.0.0.0 mozilla-bolivia.org
 0.0.0.0 mozilla-brazil.org.br
 0.0.0.0 mozilla-central.irc.mozilla.org
@@ -1323,12 +1275,14 @@
 0.0.0.0 mozilla-nimbus.org
 0.0.0.0 mozilla-ohttp-fakespot.fastly-edge.com
 0.0.0.0 mozilla-ohttp.fastly-edge.com
+0.0.0.0 mozilla-pontoon-staging.herokuapp.com
 0.0.0.0 mozilla-pulse.org
 0.0.0.0 mozilla-relay.com
 0.0.0.0 mozilla-relay.net
 0.0.0.0 mozilla-relay.org
 0.0.0.0 mozilla-research.ai
 0.0.0.0 mozilla-research.net
+0.0.0.0 mozilla-russia.org
 0.0.0.0 mozilla-speech.org
 0.0.0.0 mozilla-taiwan.org
 0.0.0.0 mozilla-translate.org
@@ -1339,12 +1293,12 @@
 0.0.0.0 mozilla-vpn.io
 0.0.0.0 mozilla-vpn.net
 0.0.0.0 mozilla-vpn.services.mozilla.com
-0.0.0.0 mozilla.ai
+0.0.0.0 mozilla.asia
+0.0.0.0 mozilla.auth0.com
 0.0.0.0 mozilla.ch
 0.0.0.0 mozilla.chat
 0.0.0.0 mozilla.cloud
 0.0.0.0 mozilla.cloud.looker.com
-0.0.0.0 mozilla.cloudflare-dns.com
 0.0.0.0 mozilla.cloudflare-dns.com.cdn.cloudflare.net
 0.0.0.0 mozilla.cloudfront.net
 0.0.0.0 mozilla.club
@@ -1392,12 +1346,10 @@
 0.0.0.0 mozilla.lv
 0.0.0.0 mozilla.map.fastly.net
 0.0.0.0 mozilla.my
-0.0.0.0 mozilla.net
 0.0.0.0 mozilla.nimbus
 0.0.0.0 mozilla.nl
 0.0.0.0 mozilla.no
 0.0.0.0 mozilla.nz
-0.0.0.0 mozilla.org
 0.0.0.0 mozilla.org.au
 0.0.0.0 mozilla.org.br
 0.0.0.0 mozilla.org.cdn
@@ -1434,9 +1386,11 @@
 0.0.0.0 mozillaamo.wpengine.com
 0.0.0.0 mozillablog.org
 0.0.0.0 mozillabot.org
+0.0.0.0 mozillabrasil.org.br
 0.0.0.0 mozillacommunity.com
 0.0.0.0 mozillacommunity.net
 0.0.0.0 mozillacommunity.org
+0.0.0.0 mozillademos.org
 0.0.0.0 mozilladevelopers.net
 0.0.0.0 mozilladevtools.org
 0.0.0.0 mozilladotcom-prod.mozgcp.net
@@ -1456,17 +1410,20 @@
 0.0.0.0 mozillafoundation.jp
 0.0.0.0 mozillafoundation.net
 0.0.0.0 mozillafoundation.org
+0.0.0.0 mozillagaming.org
 0.0.0.0 mozillagrants.org
 0.0.0.0 mozillahack.com
 0.0.0.0 mozillahackweek.org
 0.0.0.0 mozillahangout.com
 0.0.0.0 mozillahispano.net
+0.0.0.0 mozillahispano.org
 0.0.0.0 mozillahubs.com
 0.0.0.0 mozillahubs.net
 0.0.0.0 mozillahubs.org
 0.0.0.0 mozillaignite.net
 0.0.0.0 mozillaignite.org
 0.0.0.0 mozillaim.org
+0.0.0.0 mozillaindia.org
 0.0.0.0 mozillainnovation.com
 0.0.0.0 mozillainnovation.net
 0.0.0.0 mozillainnovation.org
@@ -1495,6 +1452,7 @@
 0.0.0.0 mozillapersona.org
 0.0.0.0 mozillapersonas.org
 0.0.0.0 mozillaplanet.org
+0.0.0.0 mozillapocket.org
 0.0.0.0 mozillapolicy.com
 0.0.0.0 mozillapolicy.org
 0.0.0.0 mozillapopcorn.org
@@ -1506,6 +1464,7 @@
 0.0.0.0 mozillaprivacytools.org
 0.0.0.0 mozillaprivatebrowser.org
 0.0.0.0 mozillaprivaterelay.org
+0.0.0.0 mozillapulse.org
 0.0.0.0 mozillaresearch.org
 0.0.0.0 mozillascience.github.io
 0.0.0.0 mozillascience.org
@@ -1525,15 +1484,16 @@
 0.0.0.0 mozillawebthings.org
 0.0.0.0 mozillawiki.net
 0.0.0.0 mozillaworkshops.org
+0.0.0.0 mozillazine-tr.org
 0.0.0.0 mozillazine.org
 0.0.0.0 mozillians.allizom.org
 0.0.0.0 mozillians.org
 0.0.0.0 mozillignite.org
 0.0.0.0 mozmail.com
-0.0.0.0 mozorg.moz.works
 0.0.0.0 mozsocial.cliqz.com
 0.0.0.0 mozspace.org
 0.0.0.0 mozsprint.net
+0.0.0.0 mozworks.net
 0.0.0.0 mparticle.com
 0.0.0.0 mpt.mozilla.org
 0.0.0.0 mq042.stage.mozaws.net
@@ -1615,7 +1575,6 @@
 0.0.0.0 ohttp.prod.webservices.mozgcp.net
 0.0.0.0 ohttp.services.mozilla.com
 0.0.0.0 olympia.prod.mozaws.net
-0.0.0.0 omappapi.com
 0.0.0.0 ondevice.mozilla.org
 0.0.0.0 oneanddone.mozilla.org
 0.0.0.0 onnx.mozilla.org
@@ -1625,6 +1584,7 @@
 0.0.0.0 openai.mozilla.org
 0.0.0.0 openbadges.net
 0.0.0.0 openbadges.org
+0.0.0.0 openh264.org
 0.0.0.0 openllama.mozilla.org
 0.0.0.0 opennews.org
 0.0.0.0 opensearch.mozilla.org
@@ -1651,9 +1611,7 @@
 0.0.0.0 orbit.mozilla.com
 0.0.0.0 orbit.mozilla.net
 0.0.0.0 orbit.mozilla.org
-0.0.0.0 orbitbymozilla.com
 0.0.0.0 orca.mozilla.org
-0.0.0.0 orcaready.org
 0.0.0.0 org.planet.mozilla.org
 0.0.0.0 ort-wasm.mozilla.org
 0.0.0.0 ortjs.mozilla.org
@@ -1730,7 +1688,6 @@
 0.0.0.0 pocket.api.firefox.com
 0.0.0.0 pocket.cdn.mozilla.net
 0.0.0.0 pocket.co
-0.0.0.0 pocket.com
 0.0.0.0 pocket.mozilla.com
 0.0.0.0 pocket.prod.cloudops.mozgcp.net
 0.0.0.0 pocket.services.mozilla.com
@@ -1800,7 +1757,6 @@
 0.0.0.0 prompt.services.mozilla.com
 0.0.0.0 prune.mozilla.org
 0.0.0.0 public-data.telemetry.mozilla.org
-0.0.0.0 pubmine.com
 0.0.0.0 push-asia.services.mozilla.com
 0.0.0.0 push-eu.services.mozilla.com
 0.0.0.0 push-notifications.services.mozilla.com
@@ -1847,7 +1803,6 @@
 0.0.0.0 relay-eu.firefox.com
 0.0.0.0 relay-us.firefox.com
 0.0.0.0 relay.allizom.org
-0.0.0.0 relay.firefox.com
 0.0.0.0 relay.stage.mozaws.net
 0.0.0.0 relayemail.com
 0.0.0.0 relayemail.net
@@ -1905,7 +1860,6 @@
 0.0.0.0 scikit.mozilla.org
 0.0.0.0 screen.tracking.mozilla.org
 0.0.0.0 screenshots.firefox.com
-0.0.0.0 search-telemetry.mozilla.org
 0.0.0.0 search.r53-2.services.mozilla.com
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 searchai.mozilla.org
@@ -1922,7 +1876,6 @@
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.com
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.net
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
-0.0.0.0 sentry.io
 0.0.0.0 sentry.nonprod.cloudops.mozgcp.net
 0.0.0.0 sentry.prod.cloudops.mozgcp.net
 0.0.0.0 sentry.prod.mozaws.net
@@ -1940,8 +1893,6 @@
 0.0.0.0 services-us.mozilla.com
 0.0.0.0 services.addons.allizom.org
 0.0.0.0 services.addons.mozilla.com
-0.0.0.0 services.addons.mozilla.org
-0.0.0.0 services.addons.thunderbird.net
 0.0.0.0 services.mozilla.com
 0.0.0.0 services.mozilla.net
 0.0.0.0 services.sync.mozilla.org
@@ -1985,7 +1936,6 @@
 0.0.0.0 siri.mozilla.org
 0.0.0.0 skywriter.mozilla.org
 0.0.0.0 sls.services.mozilla.com
-0.0.0.0 smart-block.firefox.com
 0.0.0.0 smart.mozilla.org
 0.0.0.0 smartblock-test.mozilla.com
 0.0.0.0 smartblock.cdn.mozilla.net
@@ -2024,7 +1974,6 @@
 0.0.0.0 socorro.nonprod.webservices.mozgcp.net
 0.0.0.0 socorro.prod.webservices.mozgcp.net
 0.0.0.0 soft-start.loop.services.mozilla.com
-0.0.0.0 soloist.ai
 0.0.0.0 sostats.mozilla.com
 0.0.0.0 sparse.mozilla.org
 0.0.0.0 speech.mozilla.org
@@ -2077,7 +2026,6 @@
 0.0.0.0 study.mozilla.org
 0.0.0.0 stun.services.mozilla.com
 0.0.0.0 stylegan.mozilla.org
-0.0.0.0 subconscious.network
 0.0.0.0 subscriptions.firefox.com
 0.0.0.0 suggest-api.mozilla.com
 0.0.0.0 suggest-asia.mozilla.com
@@ -2192,7 +2140,6 @@
 0.0.0.0 telemetry.gecko.mozilla.org
 0.0.0.0 telemetry.mozilla.com
 0.0.0.0 telemetry.mozilla.net
-0.0.0.0 telemetry.mozilla.org
 0.0.0.0 telemetry.services.mozilla.com
 0.0.0.0 telemetry.services.mozilla.org
 0.0.0.0 telemetry.staging.mozilla.com
@@ -2224,7 +2171,6 @@
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 thunderbird.cdn.mozilla.net
 0.0.0.0 thunderbird.innocraft.cloud
-0.0.0.0 thunderbird.net
 0.0.0.0 thunderbird.top
 0.0.0.0 thunderbirdemail.com
 0.0.0.0 thunderbirdemail.net
@@ -2278,7 +2224,6 @@
 0.0.0.0 turningred.firefox.com
 0.0.0.0 tvm.mozilla.org
 0.0.0.0 tw.mozilla.org
-0.0.0.0 typeform.com
 0.0.0.0 ultrachat.mozilla.org
 0.0.0.0 unsafebrowsing.services.mozilla.com
 0.0.0.0 update.mozilla.org
@@ -2337,7 +2282,6 @@
 0.0.0.0 vpn-us.mozilla.org
 0.0.0.0 vpn.firefox.com
 0.0.0.0 vpn.fpn.firefox.com
-0.0.0.0 vpn.mozilla.org
 0.0.0.0 vr.mozilla.org
 0.0.0.0 wasm-ml.mozilla.org
 0.0.0.0 wav2vec.mozilla.org
@@ -2378,26 +2322,18 @@
 0.0.0.0 wizardlm.mozilla.org
 0.0.0.0 workflow.telemetry.mozilla.org
 0.0.0.0 www-mozilla.fastly-edge.com
-0.0.0.0 www.accounts.firefox.com
 0.0.0.0 www.anonymco.com
-0.0.0.0 www.fakespot.com
 0.0.0.0 www.firefox-addons.com
-0.0.0.0 www.firefox.com
 0.0.0.0 www.firefoxflicks.com
 0.0.0.0 www.firefoxusercontent.com
 0.0.0.0 www.googlecn-firefox.cn
 0.0.0.0 www.moz.works
 0.0.0.0 www.mozilla-iot.org
-0.0.0.0 www.mozilla.com
 0.0.0.0 www.mozilla.community
-0.0.0.0 www.mozilla.de
-0.0.0.0 www.mozilla.org
 0.0.0.0 www.mozilla.org.cdn.cloudflare.net
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
 0.0.0.0 www.mozillazine.org
-0.0.0.0 www.mozorg.moz.works
 0.0.0.0 www.telemetry.mozilla.org
-0.0.0.0 www.thunderbird.net
 0.0.0.0 www.thunderbird.top
 0.0.0.0 www.us.mozilla.org
 0.0.0.0 www.webcompat.com

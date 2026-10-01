@@ -26,15 +26,15 @@
 ## Recommended Methods to Block Mozilla
 ### Best Local network systemwide blockers(Most Recommended):
 1. DNS Local Network-wide Adblocker- Adguard Home (stable)(foss)(adblock_dns)(windows,linux,openwrt,mac) - https://github.com/AdguardTeam/AdGuardHome
-3. Router Adblocker - Adblock-lean on routers flashed with OpenWrt(addons needs to be manually allowed) (stable)(foss)(domains)(dnsmasq)(hosts-clean)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
+2. Router Adblocker - Adblock-lean on routers flashed with OpenWrt(addons needs to be manually allowed) (stable)(foss)(domains)(dnsmasq)(hosts-clean)(openwrt-exclusive) - https://github.com/lynxthecat/adblock-lean
 ### Device level systemwide blocker options:
 #### Windows:
-1. Systemwide Adblocker - Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/anfragment/zen
+1. Systemwide Adblocker - Zen Adblocker (stable)(foss)(adblock_dns)- https://github.com/irbis-sh/zen-desktop
 2. Systenwide Adblocker and DNS filterer - Adguard for windows - using DNS filtering option (sable)(non-foss)(paid-app)(adblock_dns) - https://adguard.com/en/adguard-windows/overview.html
 3. Host changer and editor - SwitchHosts (warning:unstable!)(foss)(hosts) - https://github.com/oldj/SwitchHosts
 4. Good old hosts file editing with notepad, the manual way(warning:caution!).
 #### Linux:
-1. Systemwide Adblocker - Zen Adblocker (stable)(gui)(foss)(adblock_dns)- https://github.com/anfragment/zen
+1. Systemwide Adblocker - Zen Adblocker (stable)(gui)(foss)(adblock_dns)- https://github.com/irbis-sh/zen-desktop
 2. Systemwide firewall - Opensnitch using blocking rules (sable)(gui)(foss)(hosts) - https://github.com/evilsocket/opensnitch/wiki/block-lists
 3. Host based blocker - Hosty (stable)(foss)(cli)(hosts) - https://github.com/astrovm/hosty
 4. Editing hosts(/etc/hosts) manually with terminal text editor(warning:caution!)(cli)

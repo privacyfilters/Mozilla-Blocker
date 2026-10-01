@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 00:58:22 UTC
-# Version: 4.51
+# Last modified: 01 October 2026 15:59:49 UTC
+# Version: 4.52
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2452
+# Number of entries: 2591
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -158,6 +158,7 @@ www.orbitbymozilla.com
 11.maven.mozilla.org
 250analytics.com
 3dgs.mozilla.org
+a.mozilla.org
 a.optmnstr.com
 a2c.mozilla.org
 about.mozilla.org
@@ -189,6 +190,7 @@ activity-stream-amo.cdn.mozilla.net
 activity-stream-icons.services.mozilla.com
 activity-stream-tiles.services.mozilla.com
 activity-stream.cdn.mozilla.net
+activity-stream.firefox.com
 activity-stream.services.mozilla.com
 activity-streams.services.mozilla.com
 activity.mozilla.org
@@ -321,6 +323,7 @@ api.tiles.services.mozilla.com
 api.voice.mozilla.org
 app.build.mozilla.org
 aramoia.mozilla.org
+archive.mozilla-backup.org
 archive.mozilla.com
 archive.mozilla.net
 archive.mozilla.org
@@ -355,6 +358,7 @@ aus2.mozilla.org
 aus3.mozilla.org
 aus4-admin.mozilla.org
 aus4.mozilla.org
+aus5.mozilla-backup.org
 aus5.mozilla.org
 aus6.mozilla.org
 aus7.mozilla.org
@@ -371,11 +375,13 @@ autodiscovery.addons.mozilla.org
 autoencoder.mozilla.org
 autograph.services.mozaws.net
 autoland.stage.mozaws.net
+automatic-live.mozillamessaging.com
 automl.mozilla.org
 autopush-asia.mozilla.org
 autopush-eu.mozilla.org
 autopush-us.mozilla.org
 autopush.prod.mozaws.net
+autopush.stage.mozaws.net
 aws.mozilla.com
 azure.mozilla.com
 b2g.mozilla.org
@@ -504,6 +510,7 @@ chat.mozilla.org
 chat.orbit.mozilla.org
 chat.thunderbird.net
 chatbot.mozilla.org
+cirrus.services.mozilla.com
 classify-client.nonprod.webservices.mozgcp.net
 classify-client.prod.webservices.mozgcp.net
 classify-client.services.mozilla.com
@@ -543,9 +550,12 @@ config-eu.services.mozilla.com
 config-us.services.mozilla.com
 config.services.mozilla.com
 connect.mozilla.org
+content-autofill.googleapis.com
 content-services.cdn.mozilla.net
 content-services.mozilla.com
+content-signature-2-cdn.mozilla-backup.org
 content-signature-2.cdn.mozilla.net
+content-signature-3.cdn.mozilla.net
 content-signature-chains.nonprod.webservices.mozgcp.net
 content-signature-chains.prod.autograph.services.mozaws.net
 content-signature-chains.prod.webservices.mozgcp.net
@@ -554,6 +564,7 @@ content-signature-dev.cdn.mozilla.net
 content-signature.cdn.mozilla.net
 content-signature.mozilla.org
 content.cdn.mozilla.net
+contentblocking.mozilla.org
 context.mozilla.org
 context.service.mozilla.com
 context.services.mozilla.com
@@ -638,6 +649,7 @@ data.whatever.mozilla.org
 databricks-dolly.mozilla.org
 datahub.mozilla.org
 dataops.mozgcp.net
+datareporting.mozilla.org
 dataservices.mozgcp.net
 dataset.mozilla.org
 datasets.mozilla.ai
@@ -649,6 +661,7 @@ de.phish-error.mozilla.com
 de.phish-generic.mozilla.com
 de.phish-report.mozilla.com
 debug-ping-preview.firebaseapp.com
+debug-ping-viewer.handlebars.prod.cloudops.mozgcp.net
 decision.mozilla.org
 decoder.mozilla.org
 dectportal.firefox.com
@@ -708,6 +721,7 @@ docs.telemetry.mozilla.org
 doh1.mozilla-dns.net
 doh2.mozilla-dns.net
 dolly.mozilla.org
+dom-templates.cdn.mozilla.net
 domain.glass
 donate.commonvoice.mozilla.org
 donate.mozilla.org
@@ -722,6 +736,7 @@ download-stats.mozilla.org
 download-stats.r53-2.services.mozilla.com
 download-us.cdn.mozilla.net
 download.cdn.mozilla.net
+download.mozilla-backup.org
 download.mozilla.org
 downloadstats.mozilla.com
 dqn.mozilla.org
@@ -771,6 +786,7 @@ exploration.mozilla.org
 extension-finder.thunderbird.net
 extensionai.mozilla.org
 extensions.allizom.org
+f3gdev.mozilla.org
 fakespot-ai.com
 fakespot-analytics.com
 fakespot-api.com
@@ -826,7 +842,10 @@ fennec-experiments.mozilla.com
 fennec-nightly.cdn.mozilla.net
 fennec-sync.services.mozilla.com
 fennec-webchannel.mozilla.org
+fennec.fxa-status.service
+fennec.oauth.webchannel
 fennec.services.mozilla.com
+fennec_dos.mozilla.org
 fhr.cdn.mozilla.net
 fhr.data.mozilla.com
 fhr.r53-2.services.mozilla.com
@@ -857,7 +876,9 @@ firefox-relay.com
 firefox-relay.net
 firefox-relay.org
 firefox-settings-attachments.cdn.mozilla.net
+firefox-settings-attachments.mozilla-backup.org
 firefox-settings.cdn.mozilla.net
+firefox-settings.mozilla-backup.org
 firefox-settings.thunderbird.net
 firefox-source-docs.mozilla.org
 firefox-sync.services.mozilla.com
@@ -867,6 +888,7 @@ firefox-vpn.net
 firefox-vpn.org
 firefox.accounts.mozilla.com
 firefox.ai.mozilla.org
+firefox.cloudflare-dns.com
 firefox.co.kr
 firefox.co.uk
 firefox.co.za
@@ -890,6 +912,7 @@ firefox.pt
 firefox.ru
 firefox.settings.services.allizom.org
 firefox.settings.services.mozilla.com
+firefox.settings.services.mozilla.com.edgesuite.net
 firefox.sourceforge-docs.mozilla.org
 firefox.tw
 firefoxcdn.com
@@ -934,6 +957,7 @@ functions.build.mozilla.org
 fundraiseup.com
 future.mozilla.org
 fuzzing.mozilla.org
+fx-repo.services.mozilla.com
 fxa-api.accounts.firefox.com
 fxa-asia.mozilla.org
 fxa-auth-server.herokuapp.com
@@ -941,6 +965,7 @@ fxa-auth-server.mozilla.org
 fxa-auth-stage.allizom.org
 fxa-auth0.auth0.com
 fxa-content-server-stage.allizom.org
+fxa-content-server.herokuapp.com
 fxa-content-server.mozilla.org
 fxa-content.services.mozilla.com
 fxa-customs-server.herokuapp.com
@@ -970,6 +995,7 @@ fxa.content.services.mozilla.com
 fxa.mozilla.org
 fxa.profile.services.mozilla.com
 fxa.provider.firefoxcloud.net
+fxa.services.mozilla.com
 fxa.staging.mozilla.com
 fxaccounts-services.mozilla.com
 fxdata.mozilla.org
@@ -1006,6 +1032,8 @@ getpocket.co
 getpocket.dev
 ghostnet.mozilla.org
 gkeyw.prod.ads.prod.webservices.mozgcp.net
+glam.nonproduction.dataops.mozgcp.net
+glam.production.dataops.mozgcp.net
 glam.telemetry.mozilla.org
 glean-api.mozilla.org
 glean-asia.mozilla.org
@@ -1104,6 +1132,7 @@ incoming-telemetry.thunderbird.net
 incoming-us.telemetry.mozilla.org
 incoming.ingestion.cloudops.mozgcp.net
 incoming.telemetry.mozilla.org
+incoming.telemetry.mozilla.org.edgesuite.net
 incoming.telemetry.services.mozilla.com
 incoming.thunderbird.net
 infer.mozilla.org
@@ -1112,6 +1141,7 @@ inference.mozilla.com
 inference.mozilla.org
 inferenceengine.mozilla.org
 infocenter.mozilla.org
+input.mozilla.cloud
 input.mozilla.org
 insights.mozilla.org
 install.mozilla.org
@@ -1124,6 +1154,7 @@ io.planet.mozilla.org
 ioncheck.prod.mozaws.net
 ios.planet.mozilla.org
 iot.mozilla.org
+ironfox-config.allizom.org
 it.mozilla.org
 itisatracker.com
 itisatracker.org
@@ -1135,6 +1166,7 @@ js.maven.mozilla.org
 js.planet.mozilla.org
 keras.mozilla.org
 kinto.prod.mozaws.net
+kinto.services.mozilla.com
 knowledge.mozilla.org
 koala.mozilla.org
 kosmos.mozilla.org
@@ -1195,6 +1227,7 @@ machinelearningmoz.com
 magicoder.mozilla.org
 mail.e.mozilla.org
 mail.maven.mozilla.org
+main.shared.global.mozilla.akadns.net
 makerparty.org
 malware-error.mozilla.com
 malware-report.mozilla.com
@@ -1665,9 +1698,94 @@ normandy.stage.mozaws.net
 normandy.tombstone.experimenter.prod.webservices.mozgcp.net
 notifications.orbit.mozilla.org
 npu.mozilla.org
+oauth.account.firefox.com
+oauth.account.services.mozilla.com
 oauth.accounts.firefox.com
+oauth.admin.services.mozilla.com
+oauth.analytics.services.mozilla.com
+oauth.api.services.mozilla.com
+oauth.auth-server.services.mozilla.com
+oauth.auth.services.mozilla.com
+oauth.backup.services.mozilla.com
+oauth.cache.services.mozilla.com
+oauth.callback.services.mozilla.com
+oauth.challenge.services.mozilla.com
+oauth.clientlist.services.mozilla.com
+oauth.clients.services.mozilla.com
+oauth.codes.services.mozilla.com
+oauth.content-server.services.mozilla.com
+oauth.customs-server.services.mozilla.com
+oauth.customs.services.mozilla.com
+oauth.db.services.mozilla.com
+oauth.debug.services.mozilla.com
+oauth.deregister.services.mozilla.com
+oauth.dev.services.mozilla.com
+oauth.device.services.mozilla.com
+oauth.devices.services.mozilla.com
+oauth.devtools.services.mozilla.com
+oauth.email.services.mozilla.com
+oauth.error.services.mozilla.com
 oauth.firefox.com
+oauth.gateway.services.mozilla.com
+oauth.grants.services.mozilla.com
+oauth.health.services.mozilla.com
+oauth.help.services.mozilla.com
+oauth.info.services.mozilla.com
+oauth.introspect.services.mozilla.com
+oauth.jwks.services.mozilla.com
+oauth.keys.services.mozilla.com
+oauth.loadbalancer.services.mozilla.com
+oauth.logging.services.mozilla.com
+oauth.login.services.mozilla.com
+oauth.management-api.services.mozilla.com
+oauth.management.services.mozilla.com
+oauth.marketplace.services.mozilla.com
+oauth.metrics.services.mozilla.com
+oauth.migrate.services.mozilla.com
+oauth.monitoring.services.mozilla.com
+oauth.mozilla.com
+oauth.nonce.services.mozilla.com
+oauth.oauth-server.services.mozilla.com
+oauth.ping.services.mozilla.com
+oauth.prod.services.mozilla.com
+oauth.profile-server.services.mozilla.com
+oauth.profile.services.mozilla.com
+oauth.proxy.services.mozilla.com
+oauth.push-server.services.mozilla.com
+oauth.push.services.mozilla.com
+oauth.queue.services.mozilla.com
+oauth.rate-limits.services.mozilla.com
+oauth.reauth.services.mozilla.com
+oauth.redirect.services.mozilla.com
+oauth.redis.services.mozilla.com
+oauth.refresh.services.mozilla.com
+oauth.register.services.mozilla.com
+oauth.response.services.mozilla.com
+oauth.restore.services.mozilla.com
+oauth.revoke.services.mozilla.com
+oauth.scheduler.services.mozilla.com
+oauth.scoped.services.mozilla.com
+oauth.scopes.services.mozilla.com
 oauth.services.mozilla.com
+oauth.session.services.mozilla.com
+oauth.sessions.services.mozilla.com
+oauth.settings.services.mozilla.com
+oauth.signup.services.mozilla.com
+oauth.stage.services.mozilla.com
+oauth.state.services.mozilla.com
+oauth.statsd.services.mozilla.com
+oauth.status.services.mozilla.com
+oauth.storage.services.mozilla.com
+oauth.test.services.mozilla.com
+oauth.tokens.services.mozilla.com
+oauth.tokenserver.services.mozilla.com
+oauth.tracing.services.mozilla.com
+oauth.upgrade.services.mozilla.com
+oauth.validate.services.mozilla.com
+oauth.verification-server.services.mozilla.com
+oauth.verification.services.mozilla.com
+oauth.verifier.services.mozilla.com
+oauth.worker.services.mozilla.com
 observatory-api.mozilla.org
 observatory-asia.mozilla.org
 observatory-eu.mozilla.org
@@ -1678,7 +1796,9 @@ observatory.mozilla.org
 ohttp-fakespot.nonprod.webservices.mozgcp.net
 ohttp-gateway-merino.services.mozilla.com
 ohttp-merino.mozilla.fastly-edge.com
+ohttp.eu-west-1.prod.mozgcp.net
 ohttp.nonprod.webservices.mozgcp.net
+ohttp.prod.mozgcp.net
 ohttp.prod.webservices.mozgcp.net
 ohttp.services.mozilla.com
 olympia.prod.mozaws.net
@@ -1839,6 +1959,7 @@ prod.dap.prod.webservices.mozgcp.net
 prod.data-ingestion.prod.dataops.mozgcp.net
 prod.detectportal.prod.cloudops.mozgcp.net
 prod.experimenter.prod.webservices.mozgcp.net
+prod.flightdeck.nav.services.mozilla.com
 prod.ingestion-edge.prod.dataops.mozgcp.net
 prod.ohttp-gateway.prod.webservices.mozgcp.net
 prod.orbit-ml-front-api.fakespot.prod.webservices.mozgcp.net
@@ -1872,7 +1993,9 @@ push-eu.services.mozilla.com
 push-notifications.services.mozilla.com
 push-us.services.mozilla.com
 push.api.prod.cloudflare.com
+push.prod.mozaws.net
 push.services.mozilla.com
+push.stage.mozaws.net
 pytorch.mozilla.org
 qlearning.mozilla.org
 qsurvey.mozilla.com
@@ -1907,6 +2030,7 @@ recommendation.mozilla.org
 recommendations.mozilla.org
 recommendations.services.mozilla.com
 redpajama.mozilla.org
+region.services.mozilla.com
 regnet.mozilla.org
 reinforcement.mozilla.org
 relay-asia.firefox.com
@@ -1933,11 +2057,14 @@ remote-settings-eu.mozilla.org
 remote-settings-us.mozilla.org
 remote-settings.allizom.org
 remote-settings.content-signature.mozilla.org
+remote-settings.dataops.mozgcp.net
 remote-settings.mozilla.org
 remote-settings.nonprod.webservices.mozgcp.net
 remote-settings.prod.webservices.mozgcp.net
 remote-settings.stage.mozaws.net
+remotesettings.services.mozilla.com
 reporter.mozilla.org
+reports.thunderbird.net
 repository.prod.productdelivery.prod.webservices.mozgcp.net
 repository.stage.productdelivery.nonprod.webservices.mozgcp.net
 reps.mozilla.org
@@ -1980,6 +2107,7 @@ searchai.mozilla.org
 searchfox.org
 security.mozilla.org
 securityservices.services.mozilla.com
+self-contained.telemetry.mozilla.org
 self-repair.mozilla.org
 self-repair.r53-2.services.mozilla.com
 send.firefox.com
@@ -1994,6 +2122,7 @@ sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
 sentry.nonprod.cloudops.mozgcp.net
 sentry.prod.cloudops.mozgcp.net
 sentry.prod.mozaws.net
+sentry.prod.mozgcp.net
 sentry.prod.mozilla.com
 service.build.mozilla.org
 service.crash.lib.components.mozilla
@@ -2108,6 +2237,7 @@ sql.telemetry.mozilla.org
 squeezenet.mozilla.org
 ssd.mozilla.org
 stable-diffusion.mozilla.org
+stable.telemetry.mozilla.org
 stablelm.mozilla.org
 stackwalk.mozilla.org
 stage-thundermail.com
@@ -2145,6 +2275,7 @@ stubdownloader.services.mozilla.com
 study.mozilla.org
 stun.services.mozilla.com
 stylegan.mozilla.org
+subscription.services.mozilla.com
 subscriptions.firefox.com
 suggest-api.mozilla.com
 suggest-asia.mozilla.com
@@ -2153,6 +2284,7 @@ suggest-us.mozilla.com
 suggest.ai.mozilla.org
 suggest.firefox.com
 suggest.mozilla.org
+suggest.services.mozilla.com
 suggestions.mozilla.com
 suggestions.mozilla.net
 suggestions.mozilla.org
@@ -2178,6 +2310,7 @@ support.tb.pro
 support.thunderbird.net
 survey.mozilla.com
 swin.mozilla.org
+switchboard.services.mozilla.com
 symbolication.services.mozilla.com
 symbols.mozilla.org
 synaptic.mozilla.org
@@ -2207,6 +2340,7 @@ sync-singapore.mozilla.org
 sync-useast.mozilla.org
 sync-uswest.mozilla.org
 sync.firefox.com
+sync.firefox.weblibre
 sync.orbit.mozilla.org
 sync.services.mozilla.com
 t5.mozilla.org
@@ -2227,8 +2361,11 @@ tcp.packages.mozilla.org
 td3.mozilla.org
 teaching.mozilla.org
 teams.orbit.mozilla.org
+telemetry-airflow.nonprod.dataservices.mozgcp.net
+telemetry-airflow.prod.dataservices.mozgcp.net
 telemetry-api.services.mozilla.com
 telemetry-asia.mozilla.org
+telemetry-backend.prod.mozgcp.net
 telemetry-batch.mozilla.org
 telemetry-coverage.mozilla.org
 telemetry-coverage.r53-2.services.mozilla.com
@@ -2240,6 +2377,7 @@ telemetry-eu.mozilla.org
 telemetry-experiment.cdn.mozilla.net
 telemetry-experimental.services.mozilla.com
 telemetry-experiments.mozilla.org
+telemetry-inbound.mozilla.org
 telemetry-incoming-a.r53-2.services.mozilla.com
 telemetry-incoming-b.r53-2.services.mozilla.com
 telemetry-incoming.mozilla.org
@@ -2375,6 +2513,7 @@ value.mozilla.org
 vector.mozilla.org
 vectors.mozilla.ai
 ventures.mozilla.org
+versioncheck-addons.mozilla-backup.org
 versioncheck-bg.addons.mozilla.org
 versioncheck-dev.allizom.org
 versioncheck.addons.allizom.org

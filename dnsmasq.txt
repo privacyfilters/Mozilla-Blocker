@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 00:58:22 UTC
-# Version: 4.51
+# Last modified: 01 October 2026 15:59:49 UTC
+# Version: 4.52
 # Syntax: DNSMasq
-# Number of entries: 643
+# Number of entries: 652
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -110,6 +110,7 @@ local=/commonvoice.com/
 local=/commonvoice.net/
 local=/commonvoice.org/
 local=/components.mozilla/
+local=/content-autofill.googleapis.com/
 local=/debug-ping-preview.firebaseapp.com/
 local=/developer.mozilla.zh/
 local=/discovershiretoko.org/
@@ -149,6 +150,8 @@ local=/fakespotinc.com/
 local=/fakespotlabs.com/
 local=/fakespotpro.com/
 local=/fakespottech.com/
+local=/fennec.fxa-status.service/
+local=/fennec.oauth.webchannel/
 local=/firefox-addons.com/
 local=/firefox-dns-perf-test.net/
 local=/firefox-extensions.com/
@@ -166,6 +169,7 @@ local=/firefox-test-accounts.auth0.com/
 local=/firefox-vpn.com/
 local=/firefox-vpn.net/
 local=/firefox-vpn.org/
+local=/firefox.cloudflare-dns.com/
 local=/firefox.co.kr/
 local=/firefox.co.uk/
 local=/firefox.co.za/
@@ -187,6 +191,7 @@ local=/firefox.pl/
 local=/firefox.private.network/
 local=/firefox.pt/
 local=/firefox.ru/
+local=/firefox.settings.services.mozilla.com.edgesuite.net/
 local=/firefox.tw/
 local=/firefoxcdn.com/
 local=/firefoxcdn.net/
@@ -206,6 +211,7 @@ local=/fpn-vpn.com/
 local=/fundraiseup.com/
 local=/fxa-auth-server.herokuapp.com/
 local=/fxa-auth0.auth0.com/
+local=/fxa-content-server.herokuapp.com/
 local=/fxa-customs-server.herokuapp.com/
 local=/fxa-email-service.herokuapp.com/
 local=/fxa-management-api.herokuapp.com/
@@ -230,6 +236,7 @@ local=/hivenyc.org/
 local=/hubs-platform.com/
 local=/hubs-platform.net/
 local=/hubs-platform.org/
+local=/incoming.telemetry.mozilla.org.edgesuite.net/
 local=/itisatracker.com/
 local=/itisatracker.org/
 local=/lcip.org/
@@ -238,6 +245,7 @@ local=/leanprivacy.com/
 local=/lightbeam.org/
 local=/llamafile.dev/
 local=/machinelearningmoz.com/
+local=/main.shared.global.mozilla.akadns.net/
 local=/makerparty.org/
 local=/mdn-labs.com/
 local=/mdn-labs.net/
@@ -629,6 +637,7 @@ local=/searchfox.org/
 local=/shield-recipe-client.readthedocs.io/
 local=/spreadfirefox.com/
 local=/stage-thundermail.com/
+local=/sync.firefox.weblibre/
 local=/taskcluster.net/
 local=/tb.pro/
 local=/telemetry-prod-1054754349.us-east-1.elb.amazonaws.com/

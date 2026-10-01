@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 01 October 2026 00:58:22 UTC
-! Version: 4.51
+! Last modified: 01 October 2026 15:59:49 UTC
+! Version: 4.52
 ! Syntax: Adblock
-! Number of entries: 567
+! Number of entries: 576
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -128,6 +128,7 @@
 ||commonvoice.net^
 ||commonvoice.org^
 ||components.mozilla^
+||content-autofill.googleapis.com^
 ||debug-ping-preview.firebaseapp.com^
 ||developer.mozilla.zh^
 ||discovershiretoko.org^
@@ -167,6 +168,8 @@
 ||fakespotlabs.com^
 ||fakespotpro.com^
 ||fakespottech.com^
+||fennec.fxa-status.service^
+||fennec.oauth.webchannel^
 ||firefox-addons.com^
 ||firefox-dns-perf-test.net^
 ||firefox-extensions.com^
@@ -184,6 +187,7 @@
 ||firefox-vpn.com^
 ||firefox-vpn.net^
 ||firefox-vpn.org^
+||firefox.cloudflare-dns.com^
 ||firefox.co.kr^
 ||firefox.co.uk^
 ||firefox.co.za^
@@ -201,6 +205,7 @@
 ||firefox.private.network^
 ||firefox.pt^
 ||firefox.ru^
+||firefox.settings.services.mozilla.com.edgesuite.net^
 ||firefox.tw^
 ||firefoxcdn.com^
 ||firefoxcdn.net^
@@ -220,6 +225,7 @@
 ||fundraiseup.com^
 ||fxa-auth-server.herokuapp.com^
 ||fxa-auth0.auth0.com^
+||fxa-content-server.herokuapp.com^
 ||fxa-customs-server.herokuapp.com^
 ||fxa-email-service.herokuapp.com^
 ||fxa-management-api.herokuapp.com^
@@ -244,6 +250,7 @@
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^
+||incoming.telemetry.mozilla.org.edgesuite.net^
 ||itisatracker.com^
 ||itisatracker.org^
 ||lcip.org^
@@ -252,6 +259,7 @@
 ||lightbeam.org^
 ||llamafile.dev^
 ||machinelearningmoz.com^
+||main.shared.global.mozilla.akadns.net^
 ||makerparty.org^
 ||mdn-labs.com^
 ||mdn-labs.net^
@@ -570,6 +578,7 @@
 ||shield-recipe-client.readthedocs.io^
 ||spreadfirefox.com^
 ||stage-thundermail.com^
+||sync.firefox.weblibre^
 ||taskcluster.net^
 ||tb.pro^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^

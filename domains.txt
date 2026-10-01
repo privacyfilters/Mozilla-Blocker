@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 30 September 2026 23:18:13 UTC
-# Version: 4.49
+# Last modified: 01 October 2026 00:58:22 UTC
+# Version: 4.51
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2313
+# Number of entries: 2452
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -52,17 +52,34 @@ www.googletagmanager.com
 www.googletagservices.com
 # # Mozilla's major and sub brands and services
 accounts.firefox.com
+advocacy.mozillafoundation.org
 api.pocket.com
 auth.mozilla.org
+awards.mozillafoundation.org
 blog.mozilla.org
 crash-stats.mozilla.org
 developer.mozilla.org
+donate.mozillafoundation.org
 extensionworkshop.com
 fakespot.com
 fakespot.io
+firefox.co.jp
 firefox.com
+firefox.com.ar
+firefox.com.au
+firefox.com.br
+firefox.com.es
+firefox.com.mx
+firefox.com.pl
+firefox.com.tr
+firefox.org.au
+firefox.org.br
+firefox.org.nz
+firefox.org.uk
+firefox.org.za
 foundation.mozilla.org
 getpocket.com
+grants.mozillafoundation.org
 i.fakspot.io
 labs.mozilla.org
 monitor.firefox.com
@@ -189,10 +206,13 @@ addons-discovery.cdn.mozilla.net
 addons-eu.mozilla.org
 addons-server.services.mozilla.com
 addons-stage.thunderbird.net
+addons-staging.allizom.org
+addons-staging.mozilla.org
 addons-us.mozilla.org
 addons.allizom.org
 addons.cdn.mozilla.net
 addons.mozilla-backup.org
+addons.mozilla.dev
 addons.services.mozilla.com
 admin-stage.balrog.nonprod.cloudops.mozgcp.net
 ads-eu.services.mozilla.com
@@ -301,6 +321,8 @@ api.tiles.services.mozilla.com
 api.voice.mozilla.org
 app.build.mozilla.org
 aramoia.mozilla.org
+archive.mozilla.com
+archive.mozilla.net
 archive.mozilla.org
 asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com
 assets.getpocket.com
@@ -326,6 +348,9 @@ aus.europe.mozilla.org
 aus.oceania.mozilla.org
 aus.thunderbird.net
 aus1.mozilla.org
+aus10.mozilla.org
+aus11.mozilla.org
+aus12.mozilla.org
 aus2.mozilla.org
 aus3.mozilla.org
 aus4-admin.mozilla.org
@@ -334,6 +359,7 @@ aus5.mozilla.org
 aus6.mozilla.org
 aus7.mozilla.org
 aus8.mozilla.org
+aus9.mozilla.org
 auth.accounts.firefox.com
 auth.mozilla.auth0.com
 auth.services.mozilla.com
@@ -401,6 +427,7 @@ blocklist.services.mozilla.com
 blocklists.settings.services.mozilla.com
 blocks.orbit.mozilla.org
 blog.mozilla-russia.org
+blog.mozilla.ai
 blog.mozilla.asia
 blog.mozillabrasil.org.br
 blog.mozillafoundation.org
@@ -431,15 +458,19 @@ breakpad.mozilla.org
 broker-live.mozillamessaging.com
 browser.services.mozilla.com
 browserai.mozilla.org
+bug-bounty.mozilla.org
 bug.bz
+bugzilla-dev.allizom.org
 bugzilla.allizom.org
 bugzilla.mozilla.org
+bugzilla.mozillafoundation.org
 bugzilla.org
 build-api.mozilla.org
 build-asia.mozilla.org
 build-eu.mozilla.org
 build-us.mozilla.org
 builder.build.mozilla.org
+builders.mozilla.org
 calendar.thunderbird.net
 call.orbit.mozilla.org
 candle.mozilla.org
@@ -587,6 +618,7 @@ crashstats.mozilla.org
 css.maven.mozilla.org
 css.planet.mozilla.org
 cuda.mozilla.org
+cve.mozilla.org
 cyclegan.mozilla.org
 daily.thunderbird.net
 dall-e.mozilla.org
@@ -670,6 +702,7 @@ distilbert.mozilla.org
 distill.mozilla.org
 divviup.org
 dnt.mozilla.org
+docs.mozilla.ai
 docs.orbit.mozilla.org
 docs.telemetry.mozilla.org
 doh1.mozilla-dns.net
@@ -812,6 +845,7 @@ firefox-dns-perf-test.net
 firefox-extensions.com
 firefox-extensions.net
 firefox-extensions.org
+firefox-games.org
 firefox-lockwise.cdn.mozilla.net
 firefox-monitor.com
 firefox-monitor.mozilla.org
@@ -841,6 +875,7 @@ firefox.com.hk
 firefox.com.tw
 firefox.com.vn
 firefox.de
+firefox.dev
 firefox.dns.nextdns.io
 firefox.es
 firefox.etp
@@ -857,8 +892,17 @@ firefox.settings.services.allizom.org
 firefox.settings.services.mozilla.com
 firefox.sourceforge-docs.mozilla.org
 firefox.tw
+firefoxcdn.com
+firefoxcdn.net
+firefoxcdn.org
 firefoxcloud.net
 firefoxflicks.com
+firefoxos.com
+firefoxos.org
+firefoxosbrasil.org
+firefoxosdevices.com
+firefoxosdevices.net
+firefoxosdevices.org
 firefoxsuggestions.mozilla.org
 firefoxusercontent.com
 firstlook.firefox.com
@@ -961,6 +1005,7 @@ getpocket.cdn.mozilla.net
 getpocket.co
 getpocket.dev
 ghostnet.mozilla.org
+gkeyw.prod.ads.prod.webservices.mozgcp.net
 glam.telemetry.mozilla.org
 glean-api.mozilla.org
 glean-asia.mozilla.org
@@ -1159,6 +1204,7 @@ management.build.mozilla.org
 market.mozilla.org
 marketplace.firefox.com
 maskrcnn.mozilla.org
+mastodon.mozilla.org
 mc.prod.ads.prod.webservices.mozgcp.net
 mdn-labs.com
 mdn-labs.net
@@ -1208,6 +1254,9 @@ ml.mozilla.org
 ml.services.mozilla.com
 mlc-llm.mozilla.org
 mlops.mozilla.org
+mlpa-nonprod-stage-mozilla.global.ssl.fastly.net
+mlpa-prod-prod-mozilla.global.ssl.fastly.net
+mlpa-stage.llm-proxy.nonprod.dataservices.mozgcp.net
 mls.mozilla.org
 mobileai.mozilla.org
 mobilebert.mozilla.org
@@ -1233,14 +1282,19 @@ mozdev.net
 mozdev.org
 mozfest.net
 mozgcp.net
+mozilla-africa.org
 mozilla-ai.com
 mozilla-ai.net
 mozilla-ai.org
 mozilla-australia.org
 mozilla-b2g.org
 mozilla-backup.org
+mozilla-bangladesh.org
 mozilla-bolivia.org
 mozilla-brazil.org.br
+mozilla-build.com
+mozilla-build.net
+mozilla-build.org
 mozilla-central.irc.mozilla.org
 mozilla-central.svn.mozilla.org
 mozilla-corporation.com
@@ -1265,10 +1319,13 @@ mozilla-ml.org
 mozilla-monitor.com
 mozilla-monitor.net
 mozilla-monitor.org
+mozilla-nepal.org
 mozilla-nimbus.org
 mozilla-ohttp-fakespot.fastly-edge.com
 mozilla-ohttp.fastly-edge.com
+mozilla-pakistan.org
 mozilla-pontoon-staging.herokuapp.com
+mozilla-pontoon.herokuapp.com
 mozilla-pulse.org
 mozilla-relay.com
 mozilla-relay.net
@@ -1277,6 +1334,7 @@ mozilla-research.ai
 mozilla-research.net
 mozilla-russia.org
 mozilla-speech.org
+mozilla-srilanka.org
 mozilla-taiwan.org
 mozilla-translate.org
 mozilla-uk.org
@@ -1303,6 +1361,7 @@ mozilla.com
 mozilla.com.au
 mozilla.com.br
 mozilla.com.cn
+mozilla.com.es
 mozilla.com.mx
 mozilla.com.tr
 mozilla.com.vn
@@ -1343,13 +1402,65 @@ mozilla.nimbus
 mozilla.nl
 mozilla.no
 mozilla.nz
+mozilla.org.ad
+mozilla.org.al
+mozilla.org.at
 mozilla.org.au
+mozilla.org.ba
+mozilla.org.be
+mozilla.org.bg
 mozilla.org.br
 mozilla.org.cdn
 mozilla.org.cdn.cloudflare.net
+mozilla.org.ch
 mozilla.org.cn
+mozilla.org.cy
+mozilla.org.cz
+mozilla.org.de
+mozilla.org.dk
+mozilla.org.ee
+mozilla.org.es
+mozilla.org.fi
+mozilla.org.fr
+mozilla.org.gr
+mozilla.org.hk
+mozilla.org.hr
+mozilla.org.hu
+mozilla.org.id
+mozilla.org.ie
+mozilla.org.in
+mozilla.org.is
+mozilla.org.it
+mozilla.org.jp
+mozilla.org.kr
+mozilla.org.li
+mozilla.org.lt
+mozilla.org.lu
+mozilla.org.lv
+mozilla.org.mc
+mozilla.org.mk
+mozilla.org.mt
+mozilla.org.my
+mozilla.org.nl
+mozilla.org.no
 mozilla.org.nz
+mozilla.org.ph
+mozilla.org.pl
+mozilla.org.pt
+mozilla.org.ro
+mozilla.org.rs
+mozilla.org.ru
+mozilla.org.se
+mozilla.org.sg
+mozilla.org.si
+mozilla.org.sk
+mozilla.org.sm
+mozilla.org.th
+mozilla.org.tw
+mozilla.org.ua
 mozilla.org.uk
+mozilla.org.va
+mozilla.org.vn
 mozilla.org.za
 mozilla.ph
 mozilla.pl
@@ -1507,6 +1618,7 @@ network.mozilla.org
 neural-fields.mozilla.org
 neural-radiance.mozilla.org
 neural.mozilla.org
+news.mozilla.org
 newtab.mozilla.org
 nfnet.mozilla.org
 nightly.mozilla.org
@@ -1564,6 +1676,8 @@ observatory-scan.mozilla.org
 observatory-us.mozilla.org
 observatory.mozilla.org
 ohttp-fakespot.nonprod.webservices.mozgcp.net
+ohttp-gateway-merino.services.mozilla.com
+ohttp-merino.mozilla.fastly-edge.com
 ohttp.nonprod.webservices.mozgcp.net
 ohttp.prod.webservices.mozgcp.net
 ohttp.services.mozilla.com
@@ -1695,6 +1809,7 @@ pocketcdn.net
 pocketimages.com
 pocketstatic.com
 policy.mozilla.org
+pontoon-dev.allizom.org
 pontoon.allizom.org
 pontoon.mozilla.org
 ppo.mozilla.org
@@ -1704,6 +1819,8 @@ predictnext.mozilla.org
 preferences.services.mozilla.com
 prefs.firefox.com
 premium.firefox.com
+press.mozilla.com
+press.mozilla.org
 privacy.mozilla.org
 privacyai.mozilla.org
 privacybadger.org
@@ -1794,8 +1911,12 @@ regnet.mozilla.org
 reinforcement.mozilla.org
 relay-asia.firefox.com
 relay-eu.firefox.com
+relay-mozilla.com
+relay-mozilla.net
 relay-us.firefox.com
 relay.allizom.org
+relay.mozilla.com
+relay.mozilla.org
 relay.stage.mozaws.net
 relayemail.com
 relayemail.net
@@ -1857,6 +1978,7 @@ search.r53-2.services.mozilla.com
 search.services.mozilla.com
 searchai.mozilla.org
 searchfox.org
+security.mozilla.org
 securityservices.services.mozilla.com
 self-repair.mozilla.org
 self-repair.r53-2.services.mozilla.com
@@ -1957,6 +2079,7 @@ snippets.mozilla.org
 snippets.prod.mozaws.net
 snippets.stage.mozaws.net
 sns-api.mozilla.org
+social.mozilla.org
 socorro-collector.services.mozilla.com
 socorro-prod.socorro.prod.webservices.mozgcp.net
 socorro-stage.socorro.nonprod.webservices.mozgcp.net
@@ -1987,17 +2110,20 @@ ssd.mozilla.org
 stable-diffusion.mozilla.org
 stablelm.mozilla.org
 stackwalk.mozilla.org
+stage-thundermail.com
 stage.accounts.firefox.com
 stage.balrog.nonprod.cloudops.mozgcp.net
 stage.content-signature-chains.nonprod.webservices.mozgcp.net
 stage.mozaws.net
 stage.mozilla.ai
 stage.mozilla.org
+stage.ohttp-gateway.nonprod.webservices.mozgcp.net
 stage.productdelivery.nonprod.webservices.mozgcp.net
 stage.remote-settings.nonprod.webservices.mozgcp.net
 stage.sentry.nonprod.cloudops.mozgcp.net
 stage.thunderbird.net
 stagecraft.mozilla.org
+staging.vpn.mozilla.org
 starcode.mozilla.org
 starcoder.mozilla.org
 start-stage.thunderbird.net
@@ -2026,6 +2152,9 @@ suggest-eu.mozilla.com
 suggest-us.mozilla.com
 suggest.ai.mozilla.org
 suggest.firefox.com
+suggest.mozilla.org
+suggestions.mozilla.com
+suggestions.mozilla.net
 suggestions.mozilla.org
 suggestions.services.mozilla.com
 summarize.mozilla.org
@@ -2045,6 +2174,7 @@ support.mozilla.ru
 support.mozilla.tw
 support.mozillamessaging.com
 support.orbit.mozilla.org
+support.tb.pro
 support.thunderbird.net
 survey.mozilla.com
 swin.mozilla.org
@@ -2091,6 +2221,7 @@ taskcluster-purge-cache.mozilla.org
 taskcluster-queue.mozilla.org
 taskcluster-secrets.mozilla.org
 taskcluster.net
+tb.pro
 tbpl.mozilla.org
 tcp.packages.mozilla.org
 td3.mozilla.org
@@ -2160,6 +2291,9 @@ tfjs.mozilla.org
 thanks.dev
 thimble.mozilla.org
 thunderbird-balrog.mozilla.org
+thunderbird-mail.com
+thunderbird-mail.net
+thunderbird-mail.org
 thunderbird-normandy.mozilla.org
 thunderbird-settings.thunderbird.net
 thunderbird.cdn.mozilla.net
@@ -2172,6 +2306,7 @@ thunderbirdfoundation.com
 thunderbirdfoundation.org
 thunderbirdmail.com
 thunderbirdmail.org
+thundermail.com
 tile.services.mozilla.com
 tiles-api.services.mozilla.com
 tiles-asia.services.mozilla.com
@@ -2219,6 +2354,7 @@ tvm.mozilla.org
 tw.mozilla.org
 ultrachat.mozilla.org
 unsafebrowsing.services.mozilla.com
+update.mozilla.com
 update.mozilla.org
 updater.allizom.org
 updates-asia.cdn.mozilla.net
@@ -2269,9 +2405,11 @@ voice-web.mozilla.org
 voice.mozilla.org
 voice.services.mozilla.com
 vpn-asia.mozilla.org
+vpn-dev.mozilla.org
 vpn-eu.mozilla.org
 vpn-global.mozilla.org
 vpn-mozilla.com
+vpn-staging.mozilla.org
 vpn-us.mozilla.org
 vpn.firefox.com
 vpn.fpn.firefox.com
@@ -2326,6 +2464,7 @@ www.mozilla.community
 www.mozilla.org.cdn.cloudflare.net
 www.mozillamaintenanceservice.duckdns.org
 www.mozillazine.org
+www.tb.pro
 www.telemetry.mozilla.org
 www.thunderbird.top
 www.us.mozilla.org

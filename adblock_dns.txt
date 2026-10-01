@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 30 September 2026 23:18:13 UTC
-! Version: 4.49
+! Last modified: 01 October 2026 00:58:22 UTC
+! Version: 4.51
 ! Syntax: Adblock
-! Number of entries: 564
+! Number of entries: 567
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -75,18 +75,15 @@
 ||extensionworkshop.com^
 ||fakespot.com^
 ||fakespot.io^
-||firefox.com^
+||firefox.co.jp^
 ||getpocket.com^
 ||i.fakspot.io^
 ||mozilla.ai^
-||mozilla.cloudflare-dns.com^
+||mozilla.cloudflare-dns.com*^
 ||mozilla.de^
 ||mozilla.design^
-||mozilla.net^
-||mozilla.org^
 ||mozilla.vc^
 ||pocket.com^
-||thunderbird.net^
 !! Mozilla Innovation projects
 ||didthis.app^
 ||formulaic.app^
@@ -106,7 +103,6 @@
 !!!!!! Blocklist: Simplified list from hosts !!!!!!
 ||250analytics.com^
 ||accessfirefox.org^
-||accounts.firefox.co.jp^
 ||ai-mozilla.github.io^
 ||allizom.org^
 ||amo-extensions.com^
@@ -176,6 +172,7 @@
 ||firefox-extensions.com^
 ||firefox-extensions.net^
 ||firefox-extensions.org^
+||firefox-games.org^
 ||firefox-monitor.com^
 ||firefox-monitor.net^
 ||firefox-monitor.org^
@@ -190,11 +187,8 @@
 ||firefox.co.kr^
 ||firefox.co.uk^
 ||firefox.co.za^
-||firefox.com.cn^
-||firefox.com.hk^
-||firefox.com.tw^
-||firefox.com.vn^
 ||firefox.de^
+||firefox.dev^
 ||firefox.dns.nextdns.io^
 ||firefox.es^
 ||firefox.etp^
@@ -202,14 +196,23 @@
 ||firefox.it^
 ||firefox.jp^
 ||firefox.net.ru^
-||firefox.org^
+||firefox.org*^
 ||firefox.pl^
 ||firefox.private.network^
 ||firefox.pt^
 ||firefox.ru^
 ||firefox.tw^
+||firefoxcdn.com^
+||firefoxcdn.net^
+||firefoxcdn.org^
 ||firefoxcloud.net^
 ||firefoxflicks.com^
+||firefoxos.com^
+||firefoxos.org^
+||firefoxosbrasil.org^
+||firefoxosdevices.com^
+||firefoxosdevices.net^
+||firefoxosdevices.org^
 ||firefoxusercontent.com^
 ||flurry.com^
 ||fonts.net^
@@ -254,6 +257,8 @@
 ||mdn-labs.net^
 ||mdn-labs.org^
 ||mdn.dev^
+||mlpa-nonprod-stage-mozilla.global.ssl.fastly.net^
+||mlpa-prod-prod-mozilla.global.ssl.fastly.net^
 ||moz.la^
 ||mozamo.wpengine.com^
 ||mozaws.com^
@@ -263,14 +268,19 @@
 ||mozdev.org^
 ||mozfest.net^
 ||mozgcp.net^
+||mozilla-africa.org^
 ||mozilla-ai.com^
 ||mozilla-ai.net^
 ||mozilla-ai.org^
 ||mozilla-australia.org^
 ||mozilla-b2g.org^
 ||mozilla-backup.org^
+||mozilla-bangladesh.org^
 ||mozilla-bolivia.org^
 ||mozilla-brazil.org.br^
+||mozilla-build.com^
+||mozilla-build.net^
+||mozilla-build.org^
 ||mozilla-corporation.com^
 ||mozilla-corporation.net^
 ||mozilla-corporation.org^
@@ -293,10 +303,13 @@
 ||mozilla-monitor.com^
 ||mozilla-monitor.net^
 ||mozilla-monitor.org^
+||mozilla-nepal.org^
 ||mozilla-nimbus.org^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
+||mozilla-pakistan.org^
 ||mozilla-pontoon-staging.herokuapp.com^
+||mozilla-pontoon.herokuapp.com^
 ||mozilla-pulse.org^
 ||mozilla-relay.com^
 ||mozilla-relay.net^
@@ -305,6 +318,7 @@
 ||mozilla-research.net^
 ||mozilla-russia.org^
 ||mozilla-speech.org^
+||mozilla-srilanka.org^
 ||mozilla-taiwan.org^
 ||mozilla-translate.org^
 ||mozilla-uk.org^
@@ -317,28 +331,16 @@
 ||mozilla.auth0.com^
 ||mozilla.ch^
 ||mozilla.chat^
-||mozilla.cloud^
-||mozilla.cloud.looker.com^
-||mozilla.cloudflare-dns.com.cdn.cloudflare.net^
+||mozilla.cloud*^
 ||mozilla.cloudfront.net^
 ||mozilla.club^
 ||mozilla.cn^
 ||mozilla.co.jp^
 ||mozilla.co.kr^
 ||mozilla.co.uk^
-||mozilla.com^
-||mozilla.com.au^
-||mozilla.com.br^
-||mozilla.com.cn^
-||mozilla.com.mx^
-||mozilla.com.tr^
-||mozilla.com.vn^
-||mozilla.community^
-||mozilla.community.br^
+||mozilla.community*^
 ||mozilla.cz^
-||mozilla.dev^
-||mozilla.dev.labs^
-||mozilla.dev.services^
+||mozilla.dev*^
 ||mozilla.developer.it^
 ||mozilla.dk^
 ||mozilla.dns.nextdns.io^
@@ -369,14 +371,6 @@
 ||mozilla.nl^
 ||mozilla.no^
 ||mozilla.nz^
-||mozilla.org.au^
-||mozilla.org.br^
-||mozilla.org.cdn^
-||mozilla.org.cdn.cloudflare.net^
-||mozilla.org.cn^
-||mozilla.org.nz^
-||mozilla.org.uk^
-||mozilla.org.za^
 ||mozilla.ph^
 ||mozilla.pl^
 ||mozilla.pt^
@@ -511,6 +505,7 @@
 ||mparticle.com^
 ||myhubs.net^
 ||mzl.la^
+||ohttp-merino.mozilla.fastly-edge.com^
 ||openbadges.net^
 ||openbadges.org^
 ||openh264.org^
@@ -565,6 +560,8 @@
 ||rally-studies.com^
 ||rally-studies.org^
 ||readitlater.com^
+||relay-mozilla.com^
+||relay-mozilla.net^
 ||relayemail.com^
 ||relayemail.net^
 ||s3-us-west-2.amazonaws.amo^
@@ -572,9 +569,14 @@
 ||searchfox.org^
 ||shield-recipe-client.readthedocs.io^
 ||spreadfirefox.com^
+||stage-thundermail.com^
 ||taskcluster.net^
+||tb.pro^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
 ||thanks.dev^
+||thunderbird-mail.com^
+||thunderbird-mail.net^
+||thunderbird-mail.org^
 ||thunderbird.top^
 ||thunderbirdemail.com^
 ||thunderbirdemail.net^
@@ -583,6 +585,7 @@
 ||thunderbirdfoundation.org^
 ||thunderbirdmail.com^
 ||thunderbirdmail.org^
+||thundermail.com^
 ||toolkit.coverage.endpoint.base^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^

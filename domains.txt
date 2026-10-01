@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 20:19:06 UTC
-# Version: 4.55
+# Last modified: 01 October 2026 20:38:35 UTC
+# Version: 4.56
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2655
+# Number of entries: 2661
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -300,6 +300,8 @@ anonymco.io
 anonymco.net
 antenna-prod.socorro.prod.webservices.mozgcp.net
 antenna-stage.socorro.nonprod.webservices.mozgcp.net
+any-agent.mozilla.ai
+any-llm.mozilla.ai
 ap.accounts.firefox.com
 api.accounts.firefox.com
 api.ai.mozilla.org
@@ -450,6 +452,7 @@ blog.mozillasecurity.org
 blog.thunderbird.net
 blogs.mozillaindia.org
 bloom.mozilla.org
+blueprints.mozilla.ai
 bmoattachments.org
 boilerplate.build.mozilla.org
 bonsai.mozilla.org
@@ -588,6 +591,7 @@ convnextv2.mozilla.org
 copilot.mozilla.org
 copy.loop.services.mozilla.com
 coverage.mozilla.org
+cq.mozilla.ai
 crash-analysis.mozilla.com
 crash-reporter.mozilla.com
 crash-reports-asia.mozilla.org
@@ -1248,6 +1252,7 @@ loop-signaling.mozilla.org
 loop-us.mozilla.org
 loop-webrtc.mozilla.org
 loop.services.mozilla.com
+lumigator.mozilla.ai
 lxr.mozilla.org
 m.firefox.com
 mab.mozilla.org
@@ -1269,6 +1274,7 @@ marketplace.firefox.com
 maskrcnn.mozilla.org
 mastodon.mozilla.org
 mc.prod.ads.prod.webservices.mozgcp.net
+mcpd.mozilla.ai
 mdn-labs.com
 mdn-labs.net
 mdn-labs.org

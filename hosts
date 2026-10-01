@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 20:19:06 UTC
-# Version: 4.55
+# Last modified: 01 October 2026 20:38:35 UTC
+# Version: 4.56
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 2655
+# Number of entries: 2661
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -300,6 +300,8 @@
 0.0.0.0 anonymco.net
 0.0.0.0 antenna-prod.socorro.prod.webservices.mozgcp.net
 0.0.0.0 antenna-stage.socorro.nonprod.webservices.mozgcp.net
+0.0.0.0 any-agent.mozilla.ai
+0.0.0.0 any-llm.mozilla.ai
 0.0.0.0 ap.accounts.firefox.com
 0.0.0.0 api.accounts.firefox.com
 0.0.0.0 api.ai.mozilla.org
@@ -450,6 +452,7 @@
 0.0.0.0 blog.thunderbird.net
 0.0.0.0 blogs.mozillaindia.org
 0.0.0.0 bloom.mozilla.org
+0.0.0.0 blueprints.mozilla.ai
 0.0.0.0 bmoattachments.org
 0.0.0.0 boilerplate.build.mozilla.org
 0.0.0.0 bonsai.mozilla.org
@@ -588,6 +591,7 @@
 0.0.0.0 copilot.mozilla.org
 0.0.0.0 copy.loop.services.mozilla.com
 0.0.0.0 coverage.mozilla.org
+0.0.0.0 cq.mozilla.ai
 0.0.0.0 crash-analysis.mozilla.com
 0.0.0.0 crash-reporter.mozilla.com
 0.0.0.0 crash-reports-asia.mozilla.org
@@ -1248,6 +1252,7 @@
 0.0.0.0 loop-us.mozilla.org
 0.0.0.0 loop-webrtc.mozilla.org
 0.0.0.0 loop.services.mozilla.com
+0.0.0.0 lumigator.mozilla.ai
 0.0.0.0 lxr.mozilla.org
 0.0.0.0 m.firefox.com
 0.0.0.0 mab.mozilla.org
@@ -1269,6 +1274,7 @@
 0.0.0.0 maskrcnn.mozilla.org
 0.0.0.0 mastodon.mozilla.org
 0.0.0.0 mc.prod.ads.prod.webservices.mozgcp.net
+0.0.0.0 mcpd.mozilla.ai
 0.0.0.0 mdn-labs.com
 0.0.0.0 mdn-labs.net
 0.0.0.0 mdn-labs.org

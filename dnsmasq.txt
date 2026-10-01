@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 16:07:54 UTC
-# Version: 4.53
+# Last modified: 01 October 2026 16:16:44 UTC
+# Version: 4.54
 # Syntax: DNSMasq
-# Number of entries: 652
+# Number of entries: 656
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -85,6 +85,7 @@ local=/moz.works/
 # # Blocklist: Simplified rules from domains
 local=/250analytics.com/
 local=/accessfirefox.org/
+local=/admarketplace.com/
 local=/ai-mozilla.github.io/
 local=/allizom.org/
 local=/amo-extensions.com/
@@ -120,6 +121,7 @@ local=/doh2.mozilla-dns.net/
 local=/domain.glass/
 local=/dorando.at/
 local=/dummytracker.org/
+local=/equativ.com/
 local=/experimenter.info/
 local=/fakespot-ai.com/
 local=/fakespot-analytics.com/
@@ -237,6 +239,7 @@ local=/hubs-platform.com/
 local=/hubs-platform.net/
 local=/hubs-platform.org/
 local=/incoming.telemetry.mozilla.org.edgesuite.net/
+local=/indexexchange.com/
 local=/itisatracker.com/
 local=/itisatracker.org/
 local=/lcip.org/
@@ -584,6 +587,7 @@ local=/orbit-community.com/
 local=/orbit-community.org/
 local=/orbit-platform.com/
 local=/orbit-platform.net/
+local=/otari.ai/
 local=/pdfjs.robwu.nl/
 local=/pioneer-data.com/
 local=/pioneer-data.org/

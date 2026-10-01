@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 16:07:54 UTC
-# Version: 4.53
+# Last modified: 01 October 2026 16:16:44 UTC
+# Version: 4.54
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2593
+# Number of entries: 2597
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -216,6 +216,7 @@ addons.cdn.mozilla.net
 addons.mozilla-backup.org
 addons.mozilla.dev
 addons.services.mozilla.com
+admarketplace.com
 admin-stage.balrog.nonprod.cloudops.mozgcp.net
 ads-eu.services.mozilla.com
 ads-img.mozilla.org
@@ -770,6 +771,7 @@ en.phish-generic.mozilla.com
 en.phish-report.mozilla.com
 encoder.mozilla.org
 engagement.mozilla.org
+equativ.com
 es.mozilla.org
 ethicalai.mozilla.org
 eu.accounts.firefox.com
@@ -1136,6 +1138,7 @@ incoming.telemetry.mozilla.org
 incoming.telemetry.mozilla.org.edgesuite.net
 incoming.telemetry.services.mozilla.com
 incoming.thunderbird.net
+indexexchange.com
 infer.mozilla.org
 inference.mozilla.ai
 inference.mozilla.com
@@ -1844,6 +1847,7 @@ org.planet.mozilla.org
 ort-wasm.mozilla.org
 ortjs.mozilla.org
 ostats.mozilla.com
+otari.ai
 outlier.mozilla.org
 packages.mozilla.org
 palm.mozilla.org

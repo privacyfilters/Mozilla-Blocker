@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 01 October 2026 16:07:54 UTC
-! Version: 4.53
+! Last modified: 01 October 2026 16:16:44 UTC
+! Version: 4.54
 ! Syntax: Adblock
-! Number of entries: 576
+! Number of entries: 580
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -103,6 +103,7 @@
 !!!!!! Blocklist: Simplified list from hosts !!!!!!
 ||250analytics.com^
 ||accessfirefox.org^
+||admarketplace.com^
 ||ai-mozilla.github.io^
 ||allizom.org^
 ||amo-extensions.com^
@@ -138,6 +139,7 @@
 ||domain.glass^
 ||dorando.at^
 ||dummytracker.org^
+||equativ.com^
 ||experimenter.info^
 ||fakespot-ai.com^
 ||fakespot-analytics.com^
@@ -251,6 +253,7 @@
 ||hubs-platform.net^
 ||hubs-platform.org^
 ||incoming.telemetry.mozilla.org.edgesuite.net^
+||indexexchange.com^
 ||itisatracker.com^
 ||itisatracker.org^
 ||lcip.org^
@@ -525,6 +528,7 @@
 ||orbit-community.org^
 ||orbit-platform.com^
 ||orbit-platform.net^
+||otari.ai^
 ||pdfjs.robwu.nl^
 ||pioneer-data.com^
 ||pioneer-data.org^

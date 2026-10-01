@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 16:07:54 UTC
-# Version: 4.53
+# Last modified: 01 October 2026 16:16:44 UTC
+# Version: 4.54
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 2593
+# Number of entries: 2597
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -216,6 +216,7 @@
 0.0.0.0 addons.mozilla-backup.org
 0.0.0.0 addons.mozilla.dev
 0.0.0.0 addons.services.mozilla.com
+0.0.0.0 admarketplace.com
 0.0.0.0 admin-stage.balrog.nonprod.cloudops.mozgcp.net
 0.0.0.0 ads-eu.services.mozilla.com
 0.0.0.0 ads-img.mozilla.org
@@ -770,6 +771,7 @@
 0.0.0.0 en.phish-report.mozilla.com
 0.0.0.0 encoder.mozilla.org
 0.0.0.0 engagement.mozilla.org
+0.0.0.0 equativ.com
 0.0.0.0 es.mozilla.org
 0.0.0.0 ethicalai.mozilla.org
 0.0.0.0 eu.accounts.firefox.com
@@ -1136,6 +1138,7 @@
 0.0.0.0 incoming.telemetry.mozilla.org.edgesuite.net
 0.0.0.0 incoming.telemetry.services.mozilla.com
 0.0.0.0 incoming.thunderbird.net
+0.0.0.0 indexexchange.com
 0.0.0.0 infer.mozilla.org
 0.0.0.0 inference.mozilla.ai
 0.0.0.0 inference.mozilla.com
@@ -1844,6 +1847,7 @@
 0.0.0.0 ort-wasm.mozilla.org
 0.0.0.0 ortjs.mozilla.org
 0.0.0.0 ostats.mozilla.com
+0.0.0.0 otari.ai
 0.0.0.0 outlier.mozilla.org
 0.0.0.0 packages.mozilla.org
 0.0.0.0 palm.mozilla.org

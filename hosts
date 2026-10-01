@@ -1,13 +1,13 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 20:38:35 UTC
-# Version: 4.56
+# Last modified: 01 October 2026 21:17:09 UTC
+# Version: 4.57
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 2661
+# Number of entries: 2669
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -301,6 +301,7 @@
 0.0.0.0 antenna-prod.socorro.prod.webservices.mozgcp.net
 0.0.0.0 antenna-stage.socorro.nonprod.webservices.mozgcp.net
 0.0.0.0 any-agent.mozilla.ai
+0.0.0.0 any-guardrail.mozilla.ai
 0.0.0.0 any-llm.mozilla.ai
 0.0.0.0 ap.accounts.firefox.com
 0.0.0.0 api.accounts.firefox.com
@@ -1183,6 +1184,7 @@
 0.0.0.0 ioncheck.prod.mozaws.net
 0.0.0.0 ios.planet.mozilla.org
 0.0.0.0 iot.mozilla.org
+0.0.0.0 irlpodcast.org
 0.0.0.0 ironfox-config.allizom.org
 0.0.0.0 it.mozilla.org
 0.0.0.0 itisatracker.com
@@ -1252,6 +1254,7 @@
 0.0.0.0 loop-us.mozilla.org
 0.0.0.0 loop-webrtc.mozilla.org
 0.0.0.0 loop.services.mozilla.com
+0.0.0.0 lumigator.ai
 0.0.0.0 lumigator.mozilla.ai
 0.0.0.0 lxr.mozilla.org
 0.0.0.0 m.firefox.com
@@ -1284,6 +1287,7 @@
 0.0.0.0 mdn.mozilla.net
 0.0.0.0 mdn.mozilla.org
 0.0.0.0 mdn.mozillademos.org
+0.0.0.0 mdnplay.dev
 0.0.0.0 mecha-mozilla.org
 0.0.0.0 media.firefox.com
 0.0.0.0 media.orbit.mozilla.org
@@ -1986,6 +1990,7 @@
 0.0.0.0 pontoon-dev.allizom.org
 0.0.0.0 pontoon.allizom.org
 0.0.0.0 pontoon.mozilla.org
+0.0.0.0 popcornjs.org
 0.0.0.0 ppo.mozilla.org
 0.0.0.0 predict.mozilla.org
 0.0.0.0 predictions.services.mozilla.com
@@ -2165,6 +2170,7 @@
 0.0.0.0 searchai.mozilla.org
 0.0.0.0 searchfox.org
 0.0.0.0 security.mozilla.org
+0.0.0.0 securityriskahead.eu
 0.0.0.0 securityservices.services.mozilla.com
 0.0.0.0 self-contained.telemetry.mozilla.org
 0.0.0.0 self-repair.mozilla.org
@@ -2322,6 +2328,7 @@
 0.0.0.0 start.thunderbird.net
 0.0.0.0 starter.build.mozilla.org
 0.0.0.0 stateof.mozilla.org
+0.0.0.0 stateofopensource.ai
 0.0.0.0 static-san.mozilla.org
 0.0.0.0 static.addons.mozilla.net
 0.0.0.0 static.fakespot.com
@@ -2637,6 +2644,7 @@
 0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 webgpu-samples.mozilla.org
 0.0.0.0 webgpu.mozilla.org
+0.0.0.0 webmademovies.org
 0.0.0.0 webmail.e.mozilla.org
 0.0.0.0 webmaker.me
 0.0.0.0 webmaker.mozillalabs.com

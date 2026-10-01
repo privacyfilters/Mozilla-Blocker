@@ -1,13 +1,13 @@
 ! Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-! Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+! Description: No Mozilla version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
 ! Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 01 October 2026 20:38:35 UTC
-! Version: 4.56
+! Last modified: 01 October 2026 21:17:09 UTC
+! Version: 4.57
 ! Syntax: Adblock
-! Number of entries: 599
+! Number of entries: 605
 !
 !! Addon endpoints - important override
 ||blocklist.addons.mozilla.org^$important
@@ -242,6 +242,7 @@
 ||incoming.telemetry.mozilla.org.edgesuite.net^
 ||indexexchange.com^
 ||interforest.org^
+||irlpodcast.org^
 ||itisatracker.com^
 ||itisatracker.org^
 ||itisatrap.org^
@@ -251,6 +252,7 @@
 ||learningfreedomandtheweb.org^
 ||lightbeam.org^
 ||llamafile.dev^
+||lumigator.ai^
 ||machinelearningmoz.com^
 ||main.shared.global.mozilla.akadns.net^
 ||makerparty.org^
@@ -258,6 +260,7 @@
 ||mdn-labs.net^
 ||mdn-labs.org^
 ||mdn.dev^
+||mdnplay.dev^
 ||mecha-mozilla.org^
 ||mlpa-nonprod-stage-mozilla.global.ssl.fastly.net^
 ||mlpa-prod-prod-mozilla.global.ssl.fastly.net^
@@ -532,7 +535,6 @@
 ||pioneer-studies.com^
 ||pioneer-studies.org^
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
-||planet.webmademovies.org^
 ||pocket-ai.com^
 ||pocket-analytics.com^
 ||pocket-content.com^
@@ -560,6 +562,7 @@
 ||pocketcdn.net^
 ||pocketimages.com^
 ||pocketstatic.com^
+||popcornjs.org^
 ||privacybadger.org^
 ||privacydashboard.org^
 ||publicsuffix.org^
@@ -578,10 +581,12 @@
 ||s3-us-west-2.amazonaws.amo^
 ||safebrowsing.googleapis.com^
 ||searchfox.org^
+||securityriskahead.eu^
 ||shield-recipe-client.readthedocs.io^
 ||soiree.mozilla-europe.org^
 ||spreadfirefox.com^
 ||stage-thundermail.com^
+||stateofopensource.ai^
 ||sync.firefox.weblibre^
 ||taskcluster.net^
 ||tb.pro^
@@ -606,6 +611,7 @@
 ||voice-ai.org^
 ||vpn-mozilla.com^
 ||webcompat.com^
+||webmademovies.org^
 ||webmaker.me^
 ||webmaker.org^
 ||webmakerfoundation.com^

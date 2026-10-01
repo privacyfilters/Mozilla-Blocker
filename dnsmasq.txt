@@ -1,13 +1,13 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 20:38:35 UTC
-# Version: 4.56
+# Last modified: 01 October 2026 21:17:09 UTC
+# Version: 4.57
 # Syntax: DNSMasq
-# Number of entries: 680
+# Number of entries: 686
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -251,6 +251,7 @@ local=/hubs-platform.org/
 local=/incoming.telemetry.mozilla.org.edgesuite.net/
 local=/indexexchange.com/
 local=/interforest.org/
+local=/irlpodcast.org/
 local=/itisatracker.com/
 local=/itisatracker.org/
 local=/itisatrap.org/
@@ -260,6 +261,7 @@ local=/leanprivacy.com/
 local=/learningfreedomandtheweb.org/
 local=/lightbeam.org/
 local=/llamafile.dev/
+local=/lumigator.ai/
 local=/machinelearningmoz.com/
 local=/main.shared.global.mozilla.akadns.net/
 local=/makerparty.org/
@@ -267,6 +269,7 @@ local=/mdn-labs.com/
 local=/mdn-labs.net/
 local=/mdn-labs.org/
 local=/mdn.dev/
+local=/mdnplay.dev/
 local=/mecha-mozilla.org/
 local=/mlpa-nonprod-stage-mozilla.global.ssl.fastly.net/
 local=/mlpa-prod-prod-mozilla.global.ssl.fastly.net/
@@ -614,7 +617,6 @@ local=/pioneer-data.org/
 local=/pioneer-studies.com/
 local=/pioneer-studies.org/
 local=/pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com/
-local=/planet.webmademovies.org/
 local=/pocket-ai.com/
 local=/pocket-analytics.com/
 local=/pocket-content.com/
@@ -642,6 +644,7 @@ local=/pocketcdn.com/
 local=/pocketcdn.net/
 local=/pocketimages.com/
 local=/pocketstatic.com/
+local=/popcornjs.org/
 local=/privacybadger.org/
 local=/privacydashboard.org/
 local=/publicsuffix.org/
@@ -660,10 +663,12 @@ local=/relayemail.net/
 local=/s3-us-west-2.amazonaws.amo/
 local=/safebrowsing.googleapis.com/
 local=/searchfox.org/
+local=/securityriskahead.eu/
 local=/shield-recipe-client.readthedocs.io/
 local=/soiree.mozilla-europe.org/
 local=/spreadfirefox.com/
 local=/stage-thundermail.com/
+local=/stateofopensource.ai/
 local=/sync.firefox.weblibre/
 local=/taskcluster.net/
 local=/tb.pro/
@@ -688,6 +693,7 @@ local=/voice-ai.com/
 local=/voice-ai.org/
 local=/vpn-mozilla.com/
 local=/webcompat.com/
+local=/webmademovies.org/
 local=/webmaker.me/
 local=/webmaker.org/
 local=/webmakerfoundation.com/

@@ -1,13 +1,13 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 20:38:35 UTC
-# Version: 4.56
+# Last modified: 01 October 2026 21:17:09 UTC
+# Version: 4.57
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2661
+# Number of entries: 2669
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -301,6 +301,7 @@ anonymco.net
 antenna-prod.socorro.prod.webservices.mozgcp.net
 antenna-stage.socorro.nonprod.webservices.mozgcp.net
 any-agent.mozilla.ai
+any-guardrail.mozilla.ai
 any-llm.mozilla.ai
 ap.accounts.firefox.com
 api.accounts.firefox.com
@@ -1183,6 +1184,7 @@ io.planet.mozilla.org
 ioncheck.prod.mozaws.net
 ios.planet.mozilla.org
 iot.mozilla.org
+irlpodcast.org
 ironfox-config.allizom.org
 it.mozilla.org
 itisatracker.com
@@ -1252,6 +1254,7 @@ loop-signaling.mozilla.org
 loop-us.mozilla.org
 loop-webrtc.mozilla.org
 loop.services.mozilla.com
+lumigator.ai
 lumigator.mozilla.ai
 lxr.mozilla.org
 m.firefox.com
@@ -1284,6 +1287,7 @@ mdn.dev
 mdn.mozilla.net
 mdn.mozilla.org
 mdn.mozillademos.org
+mdnplay.dev
 mecha-mozilla.org
 media.firefox.com
 media.orbit.mozilla.org
@@ -1986,6 +1990,7 @@ policy.mozilla.org
 pontoon-dev.allizom.org
 pontoon.allizom.org
 pontoon.mozilla.org
+popcornjs.org
 ppo.mozilla.org
 predict.mozilla.org
 predictions.services.mozilla.com
@@ -2165,6 +2170,7 @@ search.services.mozilla.com
 searchai.mozilla.org
 searchfox.org
 security.mozilla.org
+securityriskahead.eu
 securityservices.services.mozilla.com
 self-contained.telemetry.mozilla.org
 self-repair.mozilla.org
@@ -2322,6 +2328,7 @@ start.mozilla.org
 start.thunderbird.net
 starter.build.mozilla.org
 stateof.mozilla.org
+stateofopensource.ai
 static-san.mozilla.org
 static.addons.mozilla.net
 static.fakespot.com
@@ -2637,6 +2644,7 @@ webcompat.com
 webextensions.settings.services.mozilla.com
 webgpu-samples.mozilla.org
 webgpu.mozilla.org
+webmademovies.org
 webmail.e.mozilla.org
 webmaker.me
 webmaker.mozillalabs.com

@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 01 October 2026 16:16:44 UTC
-! Version: 4.54
+! Last modified: 01 October 2026 20:19:06 UTC
+! Version: 4.55
 ! Syntax: Adblock
-! Number of entries: 575
+! Number of entries: 599
 !
 !! Addon endpoints - important override
 ||blocklist.addons.mozilla.org^$important
@@ -108,6 +108,7 @@
 ||components.mozilla^
 ||content-autofill.googleapis.com^
 ||debug-ping-preview.firebaseapp.com^
+||detodosparatodos.org^
 ||developer.mozilla.zh^
 ||discovershiretoko.org^
 ||divviup.org^
@@ -116,8 +117,10 @@
 ||domain.glass^
 ||dorando.at^
 ||dummytracker.org^
+||ecmascript.org^
 ||equativ.com^
 ||experimenter.info^
+||extendfirefox.com^
 ||fakespot-ai.com^
 ||fakespot-analytics.com^
 ||fakespot-api.com^
@@ -197,9 +200,12 @@
 ||firefoxosdevices.com^
 ||firefoxosdevices.net^
 ||firefoxosdevices.org^
+||firefoxtweetmachine.com^
 ||firefoxusercontent.com^
 ||flurry.com^
 ||fonts.net^
+||foxkeh.com^
+||foxkeh.jp^
 ||fpn-vpn.com^
 ||fundraiseup.com^
 ||fxa-auth-server.herokuapp.com^
@@ -217,12 +223,16 @@
 ||fxa-stage.auth0.com^
 ||fxa-statsd-exporter.herokuapp.com^
 ||fxa-verification-server.herokuapp.com^
+||fxosapps.org^
+||getfirebug.com^
 ||getfirefox.com^
+||getpersonas.com^
 ||getpocket.co^
 ||getpocket.dev^
 ||glean.telemetry.mozilla^
 ||gleandebugactivity.debug.telemetry.mozilla^
 ||googlecn-firefox.cn^
+||hackasaurus.org^
 ||hg-edge-mozilla.fastly-edge.com^
 ||hivelearningnetworks.org^
 ||hivenyc.org^
@@ -231,11 +241,14 @@
 ||hubs-platform.org^
 ||incoming.telemetry.mozilla.org.edgesuite.net^
 ||indexexchange.com^
+||interforest.org^
 ||itisatracker.com^
 ||itisatracker.org^
+||itisatrap.org^
 ||lcip.org^
 ||leanplum.com^
 ||leanprivacy.com^
+||learningfreedomandtheweb.org^
 ||lightbeam.org^
 ||llamafile.dev^
 ||machinelearningmoz.com^
@@ -245,6 +258,7 @@
 ||mdn-labs.net^
 ||mdn-labs.org^
 ||mdn.dev^
+||mecha-mozilla.org^
 ||mlpa-nonprod-stage-mozilla.global.ssl.fastly.net^
 ||mlpa-prod-prod-mozilla.global.ssl.fastly.net^
 ||moz.la^
@@ -383,6 +397,7 @@
 ||mozillaadvocacy.com^
 ||mozillaadvocacy.org^
 ||mozillaamo.wpengine.com^
+||mozillabd.org^
 ||mozillablog.org^
 ||mozillabot.org^
 ||mozillabrasil.org.br^
@@ -401,6 +416,7 @@
 ||mozillaevents.com^
 ||mozillaevents.net^
 ||mozillaevents.org^
+||mozillafactory.org^
 ||mozillafestival.org^
 ||mozillafirefox.org^
 ||mozillafoundation.com^
@@ -463,6 +479,7 @@
 ||mozillaprivatebrowser.org^
 ||mozillaprivaterelay.org^
 ||mozillapulse.org^
+||mozillaquebec.org^
 ||mozillaresearch.org^
 ||mozillascience.github.io^
 ||mozillascience.org^
@@ -483,6 +500,7 @@
 ||mozillawiki.net^
 ||mozillaworkshops.org^
 ||mozillazine-tr.org^
+||mozillazine.jp^
 ||mozillazine.org^
 ||mozillians.org^
 ||mozillignite.org^
@@ -494,10 +512,12 @@
 ||myhubs.net^
 ||mzl.la^
 ||ohttp-merino.mozilla.fastly-edge.com^
+||onemozilla.org^
 ||openbadges.net^
 ||openbadges.org^
 ||openh264.org^
 ||opennews.org^
+||opentimetable.jp^
 ||optmnstr.com^
 ||orbit-app.com^
 ||orbit-app.net^
@@ -512,6 +532,7 @@
 ||pioneer-studies.com^
 ||pioneer-studies.org^
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
+||planet.webmademovies.org^
 ||pocket-ai.com^
 ||pocket-analytics.com^
 ||pocket-content.com^
@@ -541,6 +562,7 @@
 ||pocketstatic.com^
 ||privacybadger.org^
 ||privacydashboard.org^
+||publicsuffix.org^
 ||push.api.prod.cloudflare.com^
 ||rally-data.com^
 ||rally-data.org^
@@ -557,6 +579,7 @@
 ||safebrowsing.googleapis.com^
 ||searchfox.org^
 ||shield-recipe-client.readthedocs.io^
+||soiree.mozilla-europe.org^
 ||spreadfirefox.com^
 ||stage-thundermail.com^
 ||sync.firefox.weblibre^
@@ -591,3 +614,4 @@
 ||webthingsplatform.net^
 ||webthingsplatform.org^
 ||www-mozilla.fastly-edge.com^
+||xn--08jp3vya2q.jp^

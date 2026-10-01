@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 15:59:49 UTC
-# Version: 4.52
+# Last modified: 01 October 2026 16:07:54 UTC
+# Version: 4.53
 # Syntax: domains (including possible subdomains)
-# Number of entries: 2591
+# Number of entries: 2593
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -477,6 +477,7 @@ build-eu.mozilla.org
 build-us.mozilla.org
 builder.build.mozilla.org
 builders.mozilla.org
+cache.getpocket.com
 calendar.thunderbird.net
 call.orbit.mozilla.org
 candle.mozilla.org
@@ -2022,6 +2023,7 @@ rate.mozilla.org
 raytracing.mozilla.org
 rbm.mozilla.org
 react.build.mozilla.org
+read.getpocket.com
 readitlater.com
 reality.open.mozilla.org
 realtime.mozilla.org

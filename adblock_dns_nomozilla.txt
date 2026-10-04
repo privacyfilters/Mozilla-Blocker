@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 October 2026 13:36:27 UTC
-! Version: 4.58
+! Last modified: 04 October 2026 13:52:04 UTC
+! Version: 4.60
 ! Syntax: Adblock
-! Number of entries: 651
+! Number of entries: 634
 !
 !! Addon endpoints - important override
 ||blocklist.addons.mozilla.org^$important
@@ -69,45 +69,29 @@
 ||soloist.ai^
 ||subconscious.network^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
-||addons.basilisk-browser.org^
-||addons7.basilisk-browser.org^
 ||archive9.basilisk-browser.org^
 ||aus.basilisk-browser.org^
 ||autoconfig.librewolf.net^
 ||autodiscover.librewolf.net^
 ||autodiscoverq.librewolf.net^
-||beta.librewolf.net^
 ||betae.librewolf.net^
 ||ci.librewolf.net^
-||deb.librewolf.net^
+||debe.eu.librewolf.net^
 ||debian.librewolf.net^
 ||debiang.librewolf.net^
 ||dev.basilisk-browser.org^
 ||devz.basilisk-browser.org^
-||dl.basilisk-browser.org^
 ||docs7.zen-browser.app^
-||download.librewolf.net^
-||eu.basilisk-browser.org^
-||eu.librewolf.net^
 ||floorp-update.ablaze.one^
-||gpg.librewolf.net^
-||gpgw.librewolf.net^
-||jp.basilisk-browser.org^
 ||kho.librewolf.net^
 ||komodo.librewolf.net^
 ||mail.basilisk-browser.org^
 ||mjolnir.librewolf.net^
-||na.librewolf.net^
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
-||ppa.floorp.app^
 ||private-cdn.zen-browser.app^
-||r2.floorp.app^
-||repo.librewolf.net^
-||repo9.librewolf.net^
-||rpm.librewolf.net^
-||support.librewolf.net^
-||supportc.librewolf.net^
+||staging.deb.librewolf.net^
+||staging.rpm.librewolf.net^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
@@ -119,7 +103,6 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
-||us.basilisk-browser.org^
 ||addons.mozilla.net.ru^
 ||waterfox.net^
 ||moz.works^

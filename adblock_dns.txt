@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 October 2026 13:36:27 UTC
-! Version: 4.58
+! Last modified: 04 October 2026 13:52:04 UTC
+! Version: 4.60
 ! Syntax: Adblock
-! Number of entries: 686
+! Number of entries: 667
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -95,8 +95,6 @@
 ||123-nonexistant-dnsjedi-456.waterfox.net^
 ||accounts.waterfox.net^
 ||accountso.waterfox.net^
-||addons.basilisk-browser.org^
-||addons7.basilisk-browser.org^
 ||analytics.waterfox.net^
 ||analyticse.waterfox.net^
 ||archive9.basilisk-browser.org^
@@ -107,7 +105,6 @@
 ||autoconfig.librewolf.net^
 ||autodiscover.librewolf.net^
 ||autodiscoverq.librewolf.net^
-||beta.librewolf.net^
 ||betae.librewolf.net^
 ||cdn.waterfox.net^
 ||cdn1.waterfox.net^
@@ -118,49 +115,34 @@
 ||clerk.waterfox.net^
 ||commento.waterfox.net^
 ||commentos.waterfox.net^
-||deb.librewolf.net^
+||debe.eu.librewolf.net^
 ||debian.librewolf.net^
 ||debiang.librewolf.net^
 ||dev.basilisk-browser.org^
 ||devz.basilisk-browser.org^
-||dl.basilisk-browser.org^
 ||docs7.zen-browser.app^
 ||dooh.waterfox.net^
-||download.librewolf.net^
-||eu.basilisk-browser.org^
-||eu.librewolf.net^
 ||fetch.waterfox.net^
 ||floorp-update.ablaze.one^
-||gpg.librewolf.net^
-||gpgw.librewolf.net^
 ||hcraes.waterfox.net^
 ||hcraesi.waterfox.net^
-||jp.basilisk-browser.org^
 ||kho.librewolf.net^
 ||komodo.librewolf.net^
 ||mail.basilisk-browser.org^
 ||matomo.waterfox.net^
 ||mjolnir.librewolf.net^
-||na.librewolf.net^
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
 ||odoh.waterfox.net^
-||ph.waterfox.net^
-||pkg.waterfox.net^
-||ppa.floorp.app^
 ||private-cdn.zen-browser.app^
-||r2.floorp.app^
 ||remark.waterfox.net^
-||repo.librewolf.net^
-||repo9.librewolf.net^
-||rpm.librewolf.net^
 ||s1.waterfox.net^
 ||search.waterfox.net^
 ||searche.waterfox.net^
 ||stage.waterfox.net^
+||staging.deb.librewolf.net^
+||staging.rpm.librewolf.net^
 ||stats.waterfox.net^
-||support.librewolf.net^
-||supportc.librewolf.net^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
@@ -173,7 +155,6 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
-||us.basilisk-browser.org^
 !! Urls related to downloads, addons and accounts
 ||moz.works^
 !!!!!! Blocklist: Simplified list from hosts !!!!!!

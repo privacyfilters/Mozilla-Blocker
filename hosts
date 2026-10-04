@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 13:36:27 UTC
-# Version: 4.58
+# Last modified: 04 October 2026 13:52:04 UTC
+# Version: 4.60
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 3795
+# Number of entries: 3748
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -188,8 +188,6 @@
 0.0.0.0 123-nonexistant-dnsjedi-456.waterfox.net
 0.0.0.0 accounts.waterfox.net
 0.0.0.0 accountso.waterfox.net
-0.0.0.0 addons.basilisk-browser.org
-0.0.0.0 addons7.basilisk-browser.org
 0.0.0.0 analytics.waterfox.net
 0.0.0.0 analyticse.waterfox.net
 0.0.0.0 archive9.basilisk-browser.org
@@ -202,7 +200,6 @@
 0.0.0.0 autoconfig.librewolf.net
 0.0.0.0 autodiscover.librewolf.net
 0.0.0.0 autodiscoverq.librewolf.net
-0.0.0.0 beta.librewolf.net
 0.0.0.0 betae.librewolf.net
 0.0.0.0 cdn.waterfox.net
 0.0.0.0 cdn1.waterfox.net
@@ -214,32 +211,20 @@
 0.0.0.0 clerk.waterfox.net
 0.0.0.0 commento.waterfox.net
 0.0.0.0 commentos.waterfox.net
-0.0.0.0 deb.eu.librewolf.net
-0.0.0.0 deb.librewolf.net
-0.0.0.0 deb.na.librewolf.net
 0.0.0.0 debe.eu.librewolf.net
 0.0.0.0 debian.librewolf.net
 0.0.0.0 debiang.librewolf.net
 0.0.0.0 dev.basilisk-browser.org
 0.0.0.0 dev1.dev.basilisk-browser.org
 0.0.0.0 devz.basilisk-browser.org
-0.0.0.0 dl.basilisk-browser.org
-0.0.0.0 dl.dev.basilisk-browser.org
 0.0.0.0 docs7.zen-browser.app
 0.0.0.0 dooh.waterfox.net
-0.0.0.0 download.librewolf.net
-0.0.0.0 eu.basilisk-browser.org
-0.0.0.0 eu.deb.librewolf.net
-0.0.0.0 eu.librewolf.net
 0.0.0.0 fetch.waterfox.net
 0.0.0.0 floorp-update.ablaze.one
-0.0.0.0 gpg.librewolf.net
-0.0.0.0 gpgw.librewolf.net
 0.0.0.0 grpc.ci.librewolf.net
 0.0.0.0 grpci.ci.librewolf.net
 0.0.0.0 hcraes.waterfox.net
 0.0.0.0 hcraesi.waterfox.net
-0.0.0.0 jp.basilisk-browser.org
 0.0.0.0 kho.librewolf.net
 0.0.0.0 komodo.librewolf.net
 0.0.0.0 mail.basilisk-browser.org
@@ -247,20 +232,11 @@
 0.0.0.0 minio.ci.librewolf.net
 0.0.0.0 minio1.ci.librewolf.net
 0.0.0.0 mjolnir.librewolf.net
-0.0.0.0 na.librewolf.net
 0.0.0.0 ns1.librewolf.net
 0.0.0.0 ns2.librewolf.net
 0.0.0.0 odoh.waterfox.net
-0.0.0.0 ph.waterfox.net
-0.0.0.0 pkg.waterfox.net
-0.0.0.0 ppa.floorp.app
 0.0.0.0 private-cdn.zen-browser.app
-0.0.0.0 r2.floorp.app
 0.0.0.0 remark.waterfox.net
-0.0.0.0 repo.librewolf.net
-0.0.0.0 repo9.librewolf.net
-0.0.0.0 rpm.eu.librewolf.net
-0.0.0.0 rpm.librewolf.net
 0.0.0.0 s1.waterfox.net
 0.0.0.0 search.waterfox.net
 0.0.0.0 searche.waterfox.net
@@ -270,8 +246,6 @@
 0.0.0.0 staging.updaterepos.librewolf.net
 0.0.0.0 stats.waterfox.net
 0.0.0.0 storage.ci.librewolf.net
-0.0.0.0 support.librewolf.net
-0.0.0.0 supportc.librewolf.net
 0.0.0.0 test.librewolf.net
 0.0.0.0 test2.librewolf.net
 0.0.0.0 test29.librewolf.net
@@ -284,62 +258,41 @@
 0.0.0.0 updates.floorp.app
 0.0.0.0 updates.librewolf.net
 0.0.0.0 updates.zen-browser.app
-0.0.0.0 us.basilisk-browser.org
 0.0.0.0 www.accounts.waterfox.net
-0.0.0.0 www.addons.basilisk-browser.org
 0.0.0.0 www.artifacts.ci.librewolf.net
 0.0.0.0 www.aus.basilisk-browser.org
 0.0.0.0 www.aus.waterfox.net
 0.0.0.0 www.aus1.waterfox.net
 0.0.0.0 www.autoconfig.librewolf.net
 0.0.0.0 www.autodiscover.librewolf.net
-0.0.0.0 www.beta.librewolf.net
 0.0.0.0 www.cdn.waterfox.net
 0.0.0.0 www.cdn1.waterfox.net
 0.0.0.0 www.ci.librewolf.net
 0.0.0.0 www.clerk.waterfox.net
 0.0.0.0 www.commento.waterfox.net
-0.0.0.0 www.deb.eu.librewolf.net
-0.0.0.0 www.deb.librewolf.net
-0.0.0.0 www.deb.na.librewolf.net
 0.0.0.0 www.dev.basilisk-browser.org
 0.0.0.0 www.dooh.waterfox.net
-0.0.0.0 www.eu.basilisk-browser.org
-0.0.0.0 www.eu.deb.librewolf.net
-0.0.0.0 www.eu.librewolf.net
 0.0.0.0 www.fetch.waterfox.net
-0.0.0.0 www.gpg.librewolf.net
 0.0.0.0 www.grpc.ci.librewolf.net
 0.0.0.0 www.hcraes.waterfox.net
-0.0.0.0 www.jp.basilisk-browser.org
 0.0.0.0 www.kho.librewolf.net
 0.0.0.0 www.komodo.librewolf.net
 0.0.0.0 www.mail.basilisk-browser.org
 0.0.0.0 www.matomo.waterfox.net
 0.0.0.0 www.minio.ci.librewolf.net
-0.0.0.0 www.na.librewolf.net
 0.0.0.0 www.ns1.librewolf.net
 0.0.0.0 www.ns2.librewolf.net
 0.0.0.0 www.odoh.waterfox.net
-0.0.0.0 www.ph.waterfox.net
-0.0.0.0 www.pkg.waterfox.net
-0.0.0.0 www.ppa.floorp.app
 0.0.0.0 www.private-cdn.zen-browser.app
-0.0.0.0 www.r2.floorp.app
-0.0.0.0 www.repo.librewolf.net
-0.0.0.0 www.rpm.eu.librewolf.net
-0.0.0.0 www.rpm.librewolf.net
 0.0.0.0 www.search.waterfox.net
 0.0.0.0 www.staging.deb.librewolf.net
 0.0.0.0 www.staging.rpm.librewolf.net
 0.0.0.0 www.staging.updaterepos.librewolf.net
 0.0.0.0 www.storage.ci.librewolf.net
-0.0.0.0 www.support.librewolf.net
 0.0.0.0 www.updaterepos-new.librewolf.net
 0.0.0.0 www.updaterepos.librewolf.net
 0.0.0.0 www.updates.floorp.app
 0.0.0.0 www.updates.zen-browser.app
-0.0.0.0 www.us.basilisk-browser.org
 # # Urls related to downloads,addons and accounts
 0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 accounts.firefox.com

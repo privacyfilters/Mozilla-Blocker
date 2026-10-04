@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 13:36:27 UTC
-# Version: 4.58
+# Last modified: 04 October 2026 13:52:04 UTC
+# Version: 4.60
 # Syntax: domains (including possible subdomains)
-# Number of entries: 3795
+# Number of entries: 3748
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -188,8 +188,6 @@ www.vpn.mozilla.org
 123-nonexistant-dnsjedi-456.waterfox.net
 accounts.waterfox.net
 accountso.waterfox.net
-addons.basilisk-browser.org
-addons7.basilisk-browser.org
 analytics.waterfox.net
 analyticse.waterfox.net
 archive9.basilisk-browser.org
@@ -202,7 +200,6 @@ auso.waterfox.net
 autoconfig.librewolf.net
 autodiscover.librewolf.net
 autodiscoverq.librewolf.net
-beta.librewolf.net
 betae.librewolf.net
 cdn.waterfox.net
 cdn1.waterfox.net
@@ -214,32 +211,20 @@ clerk.search.waterfox.net
 clerk.waterfox.net
 commento.waterfox.net
 commentos.waterfox.net
-deb.eu.librewolf.net
-deb.librewolf.net
-deb.na.librewolf.net
 debe.eu.librewolf.net
 debian.librewolf.net
 debiang.librewolf.net
 dev.basilisk-browser.org
 dev1.dev.basilisk-browser.org
 devz.basilisk-browser.org
-dl.basilisk-browser.org
-dl.dev.basilisk-browser.org
 docs7.zen-browser.app
 dooh.waterfox.net
-download.librewolf.net
-eu.basilisk-browser.org
-eu.deb.librewolf.net
-eu.librewolf.net
 fetch.waterfox.net
 floorp-update.ablaze.one
-gpg.librewolf.net
-gpgw.librewolf.net
 grpc.ci.librewolf.net
 grpci.ci.librewolf.net
 hcraes.waterfox.net
 hcraesi.waterfox.net
-jp.basilisk-browser.org
 kho.librewolf.net
 komodo.librewolf.net
 mail.basilisk-browser.org
@@ -247,20 +232,11 @@ matomo.waterfox.net
 minio.ci.librewolf.net
 minio1.ci.librewolf.net
 mjolnir.librewolf.net
-na.librewolf.net
 ns1.librewolf.net
 ns2.librewolf.net
 odoh.waterfox.net
-ph.waterfox.net
-pkg.waterfox.net
-ppa.floorp.app
 private-cdn.zen-browser.app
-r2.floorp.app
 remark.waterfox.net
-repo.librewolf.net
-repo9.librewolf.net
-rpm.eu.librewolf.net
-rpm.librewolf.net
 s1.waterfox.net
 search.waterfox.net
 searche.waterfox.net
@@ -270,8 +246,6 @@ staging.rpm.librewolf.net
 staging.updaterepos.librewolf.net
 stats.waterfox.net
 storage.ci.librewolf.net
-support.librewolf.net
-supportc.librewolf.net
 test.librewolf.net
 test2.librewolf.net
 test29.librewolf.net
@@ -284,62 +258,41 @@ updaterepos.librewolf.net
 updates.floorp.app
 updates.librewolf.net
 updates.zen-browser.app
-us.basilisk-browser.org
 www.accounts.waterfox.net
-www.addons.basilisk-browser.org
 www.artifacts.ci.librewolf.net
 www.aus.basilisk-browser.org
 www.aus.waterfox.net
 www.aus1.waterfox.net
 www.autoconfig.librewolf.net
 www.autodiscover.librewolf.net
-www.beta.librewolf.net
 www.cdn.waterfox.net
 www.cdn1.waterfox.net
 www.ci.librewolf.net
 www.clerk.waterfox.net
 www.commento.waterfox.net
-www.deb.eu.librewolf.net
-www.deb.librewolf.net
-www.deb.na.librewolf.net
 www.dev.basilisk-browser.org
 www.dooh.waterfox.net
-www.eu.basilisk-browser.org
-www.eu.deb.librewolf.net
-www.eu.librewolf.net
 www.fetch.waterfox.net
-www.gpg.librewolf.net
 www.grpc.ci.librewolf.net
 www.hcraes.waterfox.net
-www.jp.basilisk-browser.org
 www.kho.librewolf.net
 www.komodo.librewolf.net
 www.mail.basilisk-browser.org
 www.matomo.waterfox.net
 www.minio.ci.librewolf.net
-www.na.librewolf.net
 www.ns1.librewolf.net
 www.ns2.librewolf.net
 www.odoh.waterfox.net
-www.ph.waterfox.net
-www.pkg.waterfox.net
-www.ppa.floorp.app
 www.private-cdn.zen-browser.app
-www.r2.floorp.app
-www.repo.librewolf.net
-www.rpm.eu.librewolf.net
-www.rpm.librewolf.net
 www.search.waterfox.net
 www.staging.deb.librewolf.net
 www.staging.rpm.librewolf.net
 www.staging.updaterepos.librewolf.net
 www.storage.ci.librewolf.net
-www.support.librewolf.net
 www.updaterepos-new.librewolf.net
 www.updaterepos.librewolf.net
 www.updates.floorp.app
 www.updates.zen-browser.app
-www.us.basilisk-browser.org
 # # Urls related to downloads,addons and accounts
 accounts-static.cdn.mozilla.net
 accounts.firefox.com

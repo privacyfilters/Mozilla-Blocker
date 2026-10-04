@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 14:03:28 UTC
-# Version: 4.61
+# Last modified: 04 October 2026 14:12:40 UTC
+# Version: 4.63
 # Syntax: domains (including possible subdomains)
-# Number of entries: 3747
+# Number of entries: 3746
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -16,6 +16,7 @@
 # Addons(allowed)
 #addons.mozilla.org
 #addons.thunderbird.net
+#versioncheck-bg.addons.mozilla.org
 #versioncheck-bg.addons.thunderbird.net
 #versioncheck.addons.mozilla.org
 #versioncheck.addons.thunderbird.net
@@ -3394,7 +3395,6 @@ vector.mozilla.org
 vectors.mozilla.ai
 ventures.mozilla.org
 versioncheck-addons.mozilla-backup.org
-versioncheck-bg.addons.mozilla.org
 versioncheck-cdn.dev.mozaws.net
 versioncheck-cdn.prod.mozaws.net
 versioncheck-cdn.stage.mozaws.net

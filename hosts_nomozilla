@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 14:03:28 UTC
-# Version: 4.61
+# Last modified: 04 October 2026 14:12:40 UTC
+# Version: 4.63
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 3765
 #
@@ -3431,7 +3431,6 @@
 0.0.0.0 vectors.mozilla.ai
 0.0.0.0 ventures.mozilla.org
 0.0.0.0 versioncheck-addons.mozilla-backup.org
-0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 versioncheck-cdn.dev.mozaws.net
 0.0.0.0 versioncheck-cdn.prod.mozaws.net
 0.0.0.0 versioncheck-cdn.stage.mozaws.net
@@ -3812,6 +3811,7 @@
 0.0.0.0 zlb6.ops.scl3.mozilla.com
 0.0.0.0 addons.mozilla.org
 0.0.0.0 addons.thunderbird.net
+0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 versioncheck-bg.addons.thunderbird.net
 0.0.0.0 versioncheck.addons.mozilla.org
 0.0.0.0 versioncheck.addons.thunderbird.net

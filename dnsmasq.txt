@@ -4,14 +4,15 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 14:03:28 UTC
-# Version: 4.61
+# Last modified: 04 October 2026 14:12:40 UTC
+# Version: 4.63
 # Syntax: DNSMasq
-# Number of entries: 742
+# Number of entries: 743
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
 server=/addons.thunderbird.net/
+server=/versioncheck-bg.addons.mozilla.org/
 server=/versioncheck-bg.addons.thunderbird.net/
 server=/versioncheck.addons.mozilla.org/
 server=/versioncheck.addons.thunderbird.net/

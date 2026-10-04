@@ -5,15 +5,15 @@
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
 ## Regular Version : Filters which allows firefox forks to install and update add-ons from mozilla extension store
-#### Adblock_DNS - Adguard Home and Zen Adblocker - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt)
+#### Adblock_DNS - Adguard Home, Zen Adblocker & Adblock-Fast - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt)
 
-#### Domains - Raw domains and subdomains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
+#### Domains - Adblock-lean,PersonalDNSfilter - Raw domains and subdomains - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt)
 
-#### DNSMasq - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
+#### DNSMasq - DNSMasq,Adblock-lean - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt)
 
 #### Hosts - Windows/Linux host, Opensnitch and Android Adaway - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts)
 
-#### Hosts-Clean - Identical hosts with a different name(if 'hosts' causes an error) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
+#### Hosts-Clean - Adblock-lean - Identical hosts with a different name(if 'hosts' causes an error) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean)
 
 #### Whitelist Domains to allow Addons (for those who needs to manually allow them, like on Adblock-lean) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt) - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
 

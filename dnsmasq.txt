@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 01 October 2026 21:17:09 UTC
-# Version: 4.57
+# Last modified: 04 October 2026 13:36:27 UTC
+# Version: 4.58
 # Syntax: DNSMasq
-# Number of entries: 686
+# Number of entries: 762
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -74,12 +74,88 @@ local=/orcaready.org/
 local=/soloist.ai/
 local=/subconscious.network/
 # # Firefox Forked browser's tracking urls
+local=/123-nonexistant-dnsjedi-456.waterfox.net/
+local=/accounts.waterfox.net/
+local=/accountso.waterfox.net/
+local=/addons.basilisk-browser.org/
+local=/addons7.basilisk-browser.org/
+local=/analytics.waterfox.net/
+local=/analyticse.waterfox.net/
+local=/archive9.basilisk-browser.org/
 local=/aus.basilisk-browser.org/
+local=/aus.waterfox.net/
 local=/aus1.waterfox.net/
+local=/auso.waterfox.net/
+local=/autoconfig.librewolf.net/
+local=/autodiscover.librewolf.net/
+local=/autodiscoverq.librewolf.net/
+local=/beta.librewolf.net/
+local=/betae.librewolf.net/
+local=/cdn.waterfox.net/
+local=/cdn1.waterfox.net/
+local=/cdn5.waterfox.net/
+local=/ci.librewolf.net/
+local=/classicg.waterfox.net/
+local=/classicsd.waterfox.net/
+local=/clerk.waterfox.net/
+local=/commento.waterfox.net/
+local=/commentos.waterfox.net/
+local=/deb.librewolf.net/
+local=/debian.librewolf.net/
+local=/debiang.librewolf.net/
+local=/dev.basilisk-browser.org/
+local=/devz.basilisk-browser.org/
+local=/dl.basilisk-browser.org/
+local=/docs7.zen-browser.app/
+local=/dooh.waterfox.net/
+local=/download.librewolf.net/
+local=/eu.basilisk-browser.org/
+local=/eu.librewolf.net/
+local=/fetch.waterfox.net/
 local=/floorp-update.ablaze.one/
+local=/gpg.librewolf.net/
+local=/gpgw.librewolf.net/
+local=/hcraes.waterfox.net/
+local=/hcraesi.waterfox.net/
+local=/jp.basilisk-browser.org/
+local=/kho.librewolf.net/
+local=/komodo.librewolf.net/
+local=/mail.basilisk-browser.org/
+local=/matomo.waterfox.net/
+local=/mjolnir.librewolf.net/
+local=/na.librewolf.net/
+local=/ns1.librewolf.net/
+local=/ns2.librewolf.net/
+local=/odoh.waterfox.net/
+local=/ph.waterfox.net/
+local=/pkg.waterfox.net/
+local=/ppa.floorp.app/
+local=/private-cdn.zen-browser.app/
+local=/r2.floorp.app/
+local=/remark.waterfox.net/
+local=/repo.librewolf.net/
+local=/repo9.librewolf.net/
+local=/rpm.librewolf.net/
+local=/s1.waterfox.net/
+local=/search.waterfox.net/
+local=/searche.waterfox.net/
+local=/stage.waterfox.net/
+local=/stats.waterfox.net/
+local=/support.librewolf.net/
+local=/supportc.librewolf.net/
+local=/test.librewolf.net/
+local=/test2.librewolf.net/
+local=/test29.librewolf.net/
+local=/test3.librewolf.net/
+local=/try4.waterfox.net/
+local=/uma.zen-browser.app/
+local=/uma9.zen-browser.app/
+local=/updaterepos-new.librewolf.net/
+local=/updaterepos.librewolf.net/
 local=/updates.floorp.app/
 local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
+local=/us.basilisk-browser.org/
 # # Urls related to downloads,addons and accounts
 local=/moz.works/
 # # Blocklist: Simplified rules from domains

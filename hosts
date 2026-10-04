@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 13:52:04 UTC
-# Version: 4.60
+# Last modified: 04 October 2026 14:03:28 UTC
+# Version: 4.61
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 3748
+# Number of entries: 3747
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -212,7 +212,6 @@
 0.0.0.0 commento.waterfox.net
 0.0.0.0 commentos.waterfox.net
 0.0.0.0 debe.eu.librewolf.net
-0.0.0.0 debian.librewolf.net
 0.0.0.0 debiang.librewolf.net
 0.0.0.0 dev.basilisk-browser.org
 0.0.0.0 dev1.dev.basilisk-browser.org

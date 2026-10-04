@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 October 2026 13:52:04 UTC
-! Version: 4.60
+! Last modified: 04 October 2026 14:03:28 UTC
+! Version: 4.61
 ! Syntax: Adblock
-! Number of entries: 667
+! Number of entries: 666
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -116,7 +116,6 @@
 ||commento.waterfox.net^
 ||commentos.waterfox.net^
 ||debe.eu.librewolf.net^
-||debian.librewolf.net^
 ||debiang.librewolf.net^
 ||dev.basilisk-browser.org^
 ||devz.basilisk-browser.org^

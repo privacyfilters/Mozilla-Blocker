@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 04 October 2026 13:52:04 UTC
-# Version: 4.60
+# Last modified: 04 October 2026 14:03:28 UTC
+# Version: 4.61
 # Syntax: DNSMasq
-# Number of entries: 743
+# Number of entries: 742
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -98,7 +98,6 @@ local=/clerk.waterfox.net/
 local=/commento.waterfox.net/
 local=/commentos.waterfox.net/
 local=/debe.eu.librewolf.net/
-local=/debian.librewolf.net/
 local=/debiang.librewolf.net/
 local=/dev.basilisk-browser.org/
 local=/devz.basilisk-browser.org/

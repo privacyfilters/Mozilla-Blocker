@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 07 October 2026 11:03:50 UTC
-# Version: 4.67
+# Last modified: 07 October 2026 18:24:57 UTC
+# Version: 4.68
 # Syntax: DNSMasq
-# Number of entries: 834
+# Number of entries: 842
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -27,6 +27,7 @@ local=/anonymous-analytics.tonkeeper.com/
 local=/anonymous.analytics.impalastudios.com/
 local=/api2.amplitude.com/
 local=/app-measurement.com/
+local=/assistant-googlefirefox.com/
 local=/braze.com/
 local=/buysellads.com/
 local=/cookielaw.org/
@@ -55,6 +56,7 @@ local=/firefox.com.mx/
 local=/firefox.com.pl/
 local=/firefox.com.tr/
 local=/firefox.hl.cn/
+local=/firefox.map.fastly.net/
 local=/firefox.org.au/
 local=/firefox.org.br/
 local=/firefox.org.nz/
@@ -70,6 +72,8 @@ local=/mozilla.net/
 local=/mozilla.org/
 local=/mozilla.vc/
 local=/pocket.com/
+local=/telemetry-backend.id.thunderbird.net.edgesuite.net/
+local=/telemetry.api.thunderbird.net.edgesuite.net/
 local=/thunderbird.net/
 # # Mozilla Innovation projects
 local=/adtrack.ovotaris.com/
@@ -212,6 +216,7 @@ local=/anonymsb.com/
 local=/anonymurl.biz/
 local=/api.firefox.ai/
 local=/asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com/
+local=/assistant.firefoxlabs.net/
 local=/badg.us/
 local=/barmanonymity.shop/
 local=/basilisk.community-arts.net/
@@ -219,6 +224,7 @@ local=/basilisk.laosima.com/
 local=/bmoattachments.org/
 local=/bug.bz/
 local=/bugzilla.org/
+local=/builders.mozillaai.org/
 local=/cdnmozilla.net/
 local=/chuki.mozillaupdates.us/
 local=/cliqz.com/
@@ -479,6 +485,7 @@ local=/mozilla.chat/
 local=/mozilla.cloud/
 local=/mozilla.cloud.looker.com/
 local=/mozilla.cloudflare-dns.com.cdn.cloudflare.net/
+local=/mozilla.cloudflare.com/
 local=/mozilla.cloudfront.net/
 local=/mozilla.club/
 local=/mozilla.cn/
@@ -812,6 +819,7 @@ local=/sst.coralsanonymous.com/
 local=/sst.cordcuttersanonymous.com/
 local=/stage-thundermail.com/
 local=/stateofopensource.ai/
+local=/study-mozilla.org/
 local=/supportmozilla.org/
 local=/sync.firefox.weblibre/
 local=/taskcluster.net/

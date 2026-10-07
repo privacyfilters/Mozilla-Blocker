@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 07 October 2026 11:03:50 UTC
-! Version: 4.67
+! Last modified: 07 October 2026 18:24:56 UTC
+! Version: 4.68
 ! Syntax: Adblock
-! Number of entries: 758
+! Number of entries: 766
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -49,6 +49,7 @@
 ||api2.amplitude.com^
 ! Firebase analytics by Google
 ||app-measurement.com^
+||assistant-googlefirefox.com^
 ! Marketing automation platform
 ||braze.com^
 ! Advertising network
@@ -81,6 +82,7 @@
 ||fakespot.io^
 ||firefox.co.jp^
 ||firefox.hl.cn^
+||firefox.map.fastly.net^
 ||getpocket.com^
 ||i.fakspot.io^
 ||mozilla.ai^
@@ -89,6 +91,8 @@
 ||mozilla.design^
 ||mozilla.vc^
 ||pocket.com^
+||telemetry-backend.id.thunderbird.net.edgesuite.net^
+||telemetry.api.thunderbird.net.edgesuite.net^
 !! Mozilla Innovation projects
 ||adtrack.ovotaris.com^
 ||bitnampotaris.digital^
@@ -230,6 +234,7 @@
 ||anonymurl.biz^
 ||api.firefox.ai^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
+||assistant.firefoxlabs.net^
 ||badg.us^
 ||barmanonymity.shop^
 ||basilisk.community-arts.net^
@@ -237,6 +242,7 @@
 ||bmoattachments.org^
 ||bug.bz^
 ||bugzilla.org^
+||builders.mozillaai.org^
 ||cdnmozilla.net^
 ||chuki.mozillaupdates.us^
 ||cliqz.com^
@@ -491,6 +497,7 @@
 ||mozilla.ch^
 ||mozilla.chat^
 ||mozilla.cloud*^
+||mozilla.cloudflare.com^
 ||mozilla.cloudfront.net^
 ||mozilla.club^
 ||mozilla.cn^
@@ -753,6 +760,7 @@
 ||sst.cordcuttersanonymous.com^
 ||stage-thundermail.com^
 ||stateofopensource.ai^
+||study-mozilla.org^
 ||supportmozilla.org^
 ||sync.firefox.weblibre^
 ||taskcluster.net^

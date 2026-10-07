@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 04 October 2026 14:12:40 UTC
-! Version: 4.63
+! Last modified: 07 October 2026 11:03:50 UTC
+! Version: 4.67
 ! Syntax: Adblock
-! Number of entries: 667
+! Number of entries: 758
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -43,6 +43,8 @@
 ||analytics.google.com^
 ! Yahoo's analytics service
 ||analytics.query.yahoo.com^
+||anonymous-analytics.tonkeeper.com^
+||anonymous.analytics.impalastudios.com^
 ! Amplitude's analytics API
 ||api2.amplitude.com^
 ! Firebase analytics by Google
@@ -64,6 +66,7 @@
 ||matomo.cloud^
 ! Server-side Matomo analytics
 ||matomo.php^
+||mozilla-analytics.b-cdn.net^
 ! Another analytics service
 ||omappapi.com^
 ! Ad tech platform
@@ -77,6 +80,7 @@
 ||fakespot.com^
 ||fakespot.io^
 ||firefox.co.jp^
+||firefox.hl.cn^
 ||getpocket.com^
 ||i.fakspot.io^
 ||mozilla.ai^
@@ -86,12 +90,38 @@
 ||mozilla.vc^
 ||pocket.com^
 !! Mozilla Innovation projects
+||adtrack.ovotaris.com^
+||bitnampotaris.digital^
 ||didthis.app^
+||email.everyonesocial.notarize.com^
 ||formulaic.app^
+||kbfunsanotaribihffunsatelrad.weebly.com^
+||lentolumavaromexozavotunotari.life^
+||links.notarize.com^
+||matomo.abb-notaries.com^
+||matomo.notariat.services^
+||notarialsfrespaceaccss.framer.website^
+||notarius40.ru^
+||notariushotel.com^
+||notariusnetwebmail.weebly.com^
 ||orbitbymozilla.com^
 ||orcaready.org^
+||otaries.gaycatfollyerpolity.cyou^
+||pernotarilextren.com^
+||reciocuotario.net^
+||sg3.notarize.com^
 ||soloist.ai^
+||stape.sejaantiotario.com.br^
+||stats.eengoedenotaris.nl^
 ||subconscious.network^
+||tikislifeyotarian.cfd^
+||toadnotaries.com^
+||todeye.otaris.com.au^
+||zlotario-pro.com^
+||zlotario-pro.net^
+||zlotarioproai.com^
+||zlotariopropro.com^
+||zlotarioprotrade.com^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
 ||123-nonexistant-dnsjedi-456.waterfox.net^
 ||accounts.waterfox.net^
@@ -167,20 +197,50 @@
 ||amo-extensions.net^
 ||amo-extensions.org^
 ||amo-test-1048344596.us-west-2.elb.amazonaws.com^
+||anonym.data.funkedigital.de^
+||anonymasiden.cfd^
 ||anonymco-analytics.com^
 ||anonymco-data.com^
 ||anonymco.ai^
 ||anonymco.com^
 ||anonymco.io^
 ||anonymco.net^
+||anonymised.io^
+||anonymitynetworkhub.com^
+||anonymixer.co^
+||anonymized-metrics.rmbl.ws^
+||anonymizer.com^
+||anonymizing.net^
+||anonymous-api.azurewebsites.net^
+||anonymous-casino.fr^
+||anonymous-communication.ghostery.net^
+||anonymous-proxies.net^
+||anonymous-stresser.net^
+||anonymous.ads.brave.com^
+||anonymousads.com^
+||anonymouscasino.fr^
+||anonymouscasino1.fr^
+||anonymousdata.joe.gl^
+||anonymousdemographics.com^
+||anonymoushack.com^
+||anonymousinfo-us-1316693915.cos.na-ashburn.myqcloud.com^
+||anonymousstats.keefox.org^
+||anonymoustribe.com^
+||anonymsb.com^
+||anonymurl.biz^
 ||api.firefox.ai^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||badg.us^
+||barmanonymity.shop^
+||basilisk.community-arts.net^
+||basilisk.laosima.com^
 ||bmoattachments.org^
 ||bug.bz^
 ||bugzilla.org^
 ||cdnmozilla.net^
+||chuki.mozillaupdates.us^
 ||cliqz.com^
+||cloudanonymityhub.com^
 ||commonvoice.ai^
 ||commonvoice.com^
 ||commonvoice.net^
@@ -195,9 +255,11 @@
 ||doh1.mozilla-dns.net^
 ||doh2.mozilla-dns.net^
 ||domain.glass^
+||domozmail.com^
 ||dorando.at^
 ||dummytracker.org^
 ||ecmascript.org^
+||ehmmn.thunderbirdskin.com^
 ||equativ.com^
 ||experimenter.info^
 ||extendfirefox.com^
@@ -232,11 +294,13 @@
 ||fakespottech.com^
 ||fennec.fxa-status.service^
 ||fennec.oauth.webchannel^
+||findanonymous.com^
 ||firefox-addons.com^
 ||firefox-dns-perf-test.net^
 ||firefox-extensions.com^
 ||firefox-extensions.net^
 ||firefox-extensions.org^
+||firefox-firefox.com^
 ||firefox-games.org^
 ||firefox-monitor.com^
 ||firefox-monitor.net^
@@ -249,6 +313,7 @@
 ||firefox-vpn.com^
 ||firefox-vpn.net^
 ||firefox-vpn.org^
+||firefox-zh.com.cn^
 ||firefox.cloudflare-dns.com^
 ||firefox.co.kr^
 ||firefox.co.uk^
@@ -273,6 +338,7 @@
 ||firefoxcdn.net^
 ||firefoxcdn.org^
 ||firefoxcloud.net^
+||firefoxcomt.arkouowi.com^
 ||firefoxflicks.com^
 ||firefoxos.com^
 ||firefoxos.org^
@@ -282,11 +348,13 @@
 ||firefoxosdevices.org^
 ||firefoxtweetmachine.com^
 ||firefoxusercontent.com^
+||floorprada.com^
 ||flurry.com^
 ||fonts.net^
 ||foxkeh.com^
 ||foxkeh.jp^
 ||fpn-vpn.com^
+||ftp.totallyanonymous.com^
 ||fundraiseup.com^
 ||fxa-auth-server.herokuapp.com^
 ||fxa-auth0.auth0.com^
@@ -309,9 +377,11 @@
 ||getpersonas.com^
 ||getpocket.co^
 ||getpocket.dev^
+||getpocketvault.com^
 ||glean.telemetry.mozilla^
 ||gleandebugactivity.debug.telemetry.mozilla^
 ||googlecn-firefox.cn^
+||gyzu.mozillaupdates.us^
 ||hackasaurus.org^
 ||hg-edge-mozilla.fastly-edge.com^
 ||hivelearningnetworks.org^
@@ -319,6 +389,7 @@
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^
+||ikoac.thunderbirdskin.com^
 ||incoming.telemetry.mozilla.org.edgesuite.net^
 ||indexexchange.com^
 ||interforest.org^
@@ -326,13 +397,16 @@
 ||itisatracker.com^
 ||itisatracker.org^
 ||itisatrap.org^
+||lastanonymous.com^
 ||lcip.org^
 ||leanplum.com^
 ||leanprivacy.com^
 ||learningfreedomandtheweb.org^
+||librewolf.fr^
 ||lightbeam.org^
 ||llamafile.dev^
 ||lumigator.ai^
+||m-firefox.com^
 ||machinelearningmoz.com^
 ||main.shared.global.mozilla.akadns.net^
 ||makerparty.org^
@@ -571,6 +645,7 @@
 ||mozillaspark.org^
 ||mozillasummit.org^
 ||mozillateaching.org^
+||mozillaupdates.com^
 ||mozillausercontent.com^
 ||mozillavpn.net^
 ||mozillavr.com^
@@ -596,11 +671,13 @@
 ||mzl.la^
 ||ohttp-merino.mozilla.fastly-edge.com^
 ||onemozilla.org^
+||onlineanonymizer.com^
 ||openbadges.net^
 ||openbadges.org^
 ||openh264.org^
 ||opennews.org^
 ||opentimetable.jp^
+||openx.anonymouse.org^
 ||optmnstr.com^
 ||orbit-app.com^
 ||orbit-app.net^
@@ -615,6 +692,7 @@
 ||pioneer-studies.com^
 ||pioneer-studies.org^
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
+||piwik.anonymox.net^
 ||pocket-ai.com^
 ||pocket-analytics.com^
 ||pocket-content.com^
@@ -645,6 +723,7 @@
 ||popcornjs.org^
 ||privacybadger.org^
 ||privacydashboard.org^
+||pro.thunderbirdskin.com^
 ||publicsuffix.org^
 ||push.api.prod.cloudflare.com^
 ||rally-data.com^
@@ -660,17 +739,26 @@
 ||relayemail.net^
 ||s3-us-west-2.amazonaws.amo^
 ||safebrowsing.googleapis.com^
+||sake.mozillaupdates.us^
+||search.anonymous.brave.com^
+||search.anonymous.bravesoftware.com^
+||searchanonymous.net^
 ||searchfox.org^
 ||securityriskahead.eu^
+||server.thunderbirdskin.com^
 ||shield-recipe-client.readthedocs.io^
 ||soiree.mozilla-europe.org^
 ||spreadfirefox.com^
+||sst.coralsanonymous.com^
+||sst.cordcuttersanonymous.com^
 ||stage-thundermail.com^
 ||stateofopensource.ai^
+||supportmozilla.org^
 ||sync.firefox.weblibre^
 ||taskcluster.net^
 ||tb.pro^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
+||test.sexeanonyme.com^
 ||thanks.dev^
 ||thunderbird-mail.com^
 ||thunderbird-mail.net^
@@ -687,6 +775,7 @@
 ||toolkit.coverage.endpoint.base^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^
+||trk.floorplanner.com^
 ||voice-ai.com^
 ||voice-ai.org^
 ||vpn-mozilla.com^
@@ -701,3 +790,5 @@
 ||webthingsplatform.org^
 ||www-mozilla.fastly-edge.com^
 ||xn--08jp3vya2q.jp^
+||youanonymous.com^
+||zen.mozillaupdates.us^

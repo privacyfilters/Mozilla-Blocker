@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 07 October 2026 18:24:57 UTC
-# Version: 4.68
+# Last modified: 08 October 2026 22:09:17 UTC
+# Version: 4.69
 # Syntax: DNSMasq
 # Number of entries: 842
 #

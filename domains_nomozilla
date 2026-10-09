@@ -1,28 +1,28 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying
-# Description: Regular version - This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Mozilla accounts are blocked, mozilla download cdn is blocked. Use forks, otherwise get firefox from trusted sources like trusted stores and package repositories.
+# Description: No Mozilla version - This blocklist aims to block not just almost, but all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization". Everything from mozilla is blocked including addons. Not recommended for regular users.
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
-# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
+# Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
 # Last modified: 09 October 2026 20:43:44 UTC
 # Version: 4.80
 # Syntax: domains (including possible subdomains)
-# Number of entries: 4050
+# Number of entries: 4074
 #
-# DoH canary domain(allowed)
-#use-application-dns.net
-# Cisco openh264 plugin(allowed)
-#ciscobinary.openh264.org
-# Addons(allowed)
-#addons.mozilla.org
-#addons.thunderbird.net
-#versioncheck-bg.addons.mozilla.org
-#versioncheck-bg.addons.thunderbird.net
-#versioncheck.addons.mozilla.org
-#versioncheck.addons.thunderbird.net
-# Betterbird/Thunderbird autoconfig(allowed)
-#autoconfig.thunderbird.net
-#live.thunderbird.net
+# Not blocked: External urls that are used by other services
+# H264 codec from cisco
+# ciscobinary.openh264.org
+# Addon endpoints - important override
+blocklist.addons.mozilla.org
+crash.addons.mozilla.org
+crash.addons.thunderbird.net
+crashplan.addons.mozilla.org
+crashplan.addons.thunderbird.net
+discovery.addons.allizom.org
+discovery.addons.mozilla.org
+discovery.addons.thunderbird.net
+services.addons.mozilla.org
+services.addons.thunderbird.net
 # # External trackers Mozilla uses on their own sites...
 adjust.com
 analytics.google.com
@@ -336,8 +336,6 @@ ftp.mozilla.org
 moz.works
 mozorg.moz.works
 search-telemetry.mozilla.org
-services.addons.mozilla.org
-services.addons.thunderbird.net
 smart-block.firefox.com
 www.accounts.firefox.com
 www.mozorg.moz.works
@@ -417,6 +415,30 @@ zlotario-pro.net
 zlotarioproai.com
 zlotariopropro.com
 zlotarioprotrade.com
+# Addons (blocked in nomozilla)
+addons.mozilla.org
+addons.thunderbird.net
+versioncheck-bg.addons.mozilla.org
+versioncheck-bg.addons.thunderbird.net
+versioncheck.addons.mozilla.org
+versioncheck.addons.thunderbird.net
+# # Regional addon mirrors and aggressive extras
+add-ons.mozilla.com
+addon.mozilla.org
+addons.mozilla.cn
+addons.mozilla.de
+addons.mozilla.es
+addons.mozilla.fr
+addons.mozilla.jp
+addons.mozilla.net.ru
+addons.mozilla.pl
+addons.mozilla.ru
+addons.mozilla.tw
+waterfox.net
+www.addons.mozilla.org
+# Betterbird/Thunderbird urls (blocked in nomozilla)
+autoconfig.thunderbird.net
+live.thunderbird.net
 # # Blocking all the userless invasive mozilla trackers and services
 11.maven.mozilla.org
 250analytics.com
@@ -836,7 +858,6 @@ biggan.mozilla.org
 billionaireblastoff.firefox.com
 blip.mozilla.org
 blocked.cdn.mozilla.net
-blocklist.addons.mozilla.org
 blocklist.mozilla.org
 blocklist.services.mozilla.com
 blocklist.settings.services.mozilla.org
@@ -1085,7 +1106,6 @@ crash-stats.dev.mozaws.net
 crash-stats.mozilla.com
 crash-stats.stage.mozaws.net
 crash-stats.stage.mozilla.com
-crash.addons.mozilla.org
 crash.mozilla.com
 crash.planet.mozilla.org
 crash.reporting.build.mozilla.org
@@ -1095,7 +1115,6 @@ crash.reporting.svn.mozilla.org
 crash.services.mozilla.com
 crash.svn.mozilla.org
 crash.vpn.mozilla.org
-crashplan.addons.mozilla.org
 crashplan.planet.mozilla.org
 crashplan.svn.mozilla.org
 crashplan.vpn.mozilla.org
@@ -1227,8 +1246,6 @@ discovershiretoko.org
 discovery-api.firefox.com
 discovery-api.mozilla.com
 discovery.addons-dev.allizom.org
-discovery.addons.allizom.org
-discovery.addons.mozilla.org
 discovery.firefox.com
 discussion.mozilla.org
 distilbert.mozilla.org

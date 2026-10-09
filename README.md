@@ -67,6 +67,8 @@ Everything from Mozilla is blanket blocked, **including add-ons**. Not recommend
 | Format | Works with | Codeberg | GitHub | jsDelivr |
 | ------ | ---------- | -------- | ------ | -------- |
 | **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns_nomozilla.txt) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains_nomozilla) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains_nomozilla) |
+| **DNSMasq** | DNSMasq, Adblock-lean | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/dnsmasq_nomozilla.txt) |
 | **Hosts** | Pi-hole, Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts_nomozilla) |
 
 ---

@@ -17,9 +17,12 @@ There are two versions, depending on whether you still want to install add-ons:
 
 * **[Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker)**: primary repository
 * **[GitHub](https://github.com/privacyfilters/Mozilla-Blocker)**: mirror, kept for backup and availability
+* **[jsDelivr](https://www.jsdelivr.com/)**: CDN that serves the GitHub mirror, for faster and more reliable downloads of the filter lists
 
 > **Please use only one copy of each filter.**
-> Both sources have the same lists. Using both doesn't give you extra protection, it just creates duplicate rules.
+> All sources have the same lists. Using more than one doesn't give you extra protection, it just creates duplicate rules.
+
+> **About jsDelivr:** it caches files, so after an update the CDN links can be several hours behind Codeberg and GitHub. If you need the latest version right away, use Codeberg or GitHub.
 
 ---
 
@@ -37,13 +40,13 @@ These filters only make sense with **system-wide ad-blockers, DNS sinkholes, and
 
 Allows Firefox forks to install and update add-ons from the Mozilla extension store.
 
-| Format | Works with | Codeberg | GitHub |
-| ------ | ---------- | -------- | ------ |
-| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt) |
-| **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt) |
-| **DNSMasq** | DNSMasq, Adblock-lean | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt) |
-| **Hosts** | Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts) |
-| **Hosts-Clean** | Adblock-lean. Identical to Hosts, just with a different name (use it if `hosts` causes an error) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean) |
+| Format | Works with | Codeberg | GitHub | jsDelivr |
+| ------ | ---------- | -------- | ------ | -------- |
+| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns.txt) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains.txt) |
+| **DNSMasq** | DNSMasq, Adblock-lean | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/dnsmasq.txt) |
+| **Hosts** | Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts) |
+| **Hosts-Clean** | Adblock-lean. Identical to Hosts, just with a different name (use it if `hosts` causes an error) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts-clean) |
 
 ### ✅ Add-on Whitelist
 
@@ -51,6 +54,7 @@ For tools where you have to allow the add-on domains manually (like Adblock-lean
 
 * [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt)
 * [GitHub](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
+* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/whitelist_addons_domains.txt)
 
 ---
 
@@ -60,10 +64,10 @@ For tools where you have to allow the add-on domains manually (like Adblock-lean
 
 Everything from Mozilla is blanket blocked, **including add-ons**. Not recommended for regular users.
 
-| Format | Works with | Codeberg | GitHub |
-| ------ | ---------- | -------- | ------ |
-| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt) |
-| **Hosts** | Pi-hole, Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla) |
+| Format | Works with | Codeberg | GitHub | jsDelivr |
+| ------ | ---------- | -------- | ------ | -------- |
+| **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns_nomozilla.txt) |
+| **Hosts** | Pi-hole, Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts_nomozilla) |
 
 ---
 
@@ -191,3 +195,4 @@ It's very fast and was a delight to use as my default browser before I switched 
 
 * **Codeberg:** https://codeberg.org/privacyfilters/Mozilla-Blocker
 * **GitHub (mirror):** https://github.com/privacyfilters/Mozilla-Blocker
+* **jsDelivr (CDN for the GitHub mirror):** https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/

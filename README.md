@@ -67,7 +67,7 @@ Everything from Mozilla is blanket blocked, **including add-ons**. Not recommend
 | Format | Works with | Codeberg | GitHub | jsDelivr |
 | ------ | ---------- | -------- | ------ | -------- |
 | **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns_nomozilla.txt) |
-| **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains_nomozilla) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains_nomozilla) |
+| **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains_nomozilla.txt) |
 | **DNSMasq** | DNSMasq, Adblock-lean | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/dnsmasq_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/dnsmasq_nomozilla.txt) |
 | **Hosts** | Pi-hole, Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts_nomozilla) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts_nomozilla) |
 
@@ -124,7 +124,6 @@ Everything from Mozilla is blanket blocked, **including add-ons**. Not recommend
 * **Zen Adblocker** is still early in development, so it can be unstable when enforcing the filters.
 * **Hosts** rules work anywhere that supports the hosts format, on any platform.
 * I don't know if the Adblock / DNS rules work correctly on **Pi-hole**, specifically the `$important` rules. They work fine on AdGuard Home.
-* The **No Mozilla** version is only available as Adblock / DNS and Hosts. If you use OPNsense or another Domains-only tool, use the Hosts list or the Regular Domains list.
 * **pfSense + pfBlockerNG** and **Adblock-Fast** both work with the Adblock / DNS format. Domains and Hosts also work if you prefer them.
 * **OPNsense** works best with the Domains format.
 * **Adblock-lean on OpenWrt:** Domains, DNSMasq and Hosts-Clean all work (plain `hosts` gives an error). In every case you need to allow the add-on domains manually using the allowlist, since Adblock-lean can't do it automatically.

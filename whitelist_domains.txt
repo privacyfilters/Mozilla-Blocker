@@ -1,0 +1,17 @@
+# Title: Mozilla Blocker - Block all Mozilla/Firefox Spying - Domain Whitelist
+# Description: Domains that must stay unblocked for add-on installs/updates
+# and Thunderbird/Betterbird email account setup.
+# Last modified: 09 October 2026 21:17:28 UTC
+# Syntax: plain domains (whitelist)
+# Number of entries: 8
+#
+# Mozilla & Thunderbird add-on endpoints
+addons.mozilla.org
+addons.thunderbird.net
+versioncheck-bg.addons.mozilla.org
+versioncheck-bg.addons.thunderbird.net
+versioncheck.addons.mozilla.org
+versioncheck.addons.thunderbird.net
+# Thunderbird/Betterbird email account autoconfig
+autoconfig.thunderbird.net
+live.thunderbird.net

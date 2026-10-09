@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 20:43:44 UTC
-# Version: 4.80
+# Last modified: 09 October 2026 21:17:28 UTC
+# Version: 4.84
 # Syntax: domains (including possible subdomains)
-# Number of entries: 4050
+# Number of entries: 4051
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -324,6 +324,7 @@ www.updates.floorp.app
 www.updates.zen-browser.app
 # # Urls related to downloads,addons and accounts
 accounts-static.cdn.mozilla.net
+accounts.firefox.com
 basket.allizom.org
 basket.mozilla.org
 bedrock-demos.mozilla.org

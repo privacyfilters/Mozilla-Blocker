@@ -48,13 +48,13 @@ Allows Firefox forks to install and update add-ons from the Mozilla extension st
 | **Hosts** | Windows/Linux hosts file, OpenSnitch, AdAway | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts) |
 | **Hosts-Clean** | Adblock-lean. Identical to Hosts, just with a different name (use it if `hosts` causes an error) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/hosts-clean) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/hosts-clean) |
 
-### ✅ Add-on Whitelist
+### ✅ Whitelist
 
-For tools where you have to allow the add-on domains manually (like Adblock-lean, and likely other tools using the plain Domains format such as Pi-hole and OPNsense), use this list:
+For tools where you have to allow domains manually (like Adblock-lean, and likely other tools using the plain Domains format such as Pi-hole and OPNsense), use this list. It contains the domains the Regular version keeps unblocked: the add-on install/update endpoints and the Thunderbird/Betterbird email account autoconfig. The file is generated from the same allow categories as the filter lists above, so any future whitelist addition is picked up automatically:
 
-* [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_addons_domains.txt)
-* [GitHub](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_addons_domains.txt)
-* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/whitelist_addons_domains.txt)
+* [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_domains.txt)
+* [GitHub](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_domains.txt)
+* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/whitelist_domains.txt)
 
 ---
 

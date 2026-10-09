@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2026 22:09:17 UTC
-! Version: 4.69
+! Last modified: 09 October 2026 01:08:56 UTC
+! Version: 4.71
 ! Syntax: Adblock
-! Number of entries: 766
+! Number of entries: 753
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -65,8 +65,6 @@
 ||innocraft.cloud^
 ! Cloud-hosted Matomo analytics
 ||matomo.cloud^
-! Server-side Matomo analytics
-||matomo.php^
 ||mozilla-analytics.b-cdn.net^
 ! Another analytics service
 ||omappapi.com^
@@ -251,11 +249,9 @@
 ||commonvoice.com^
 ||commonvoice.net^
 ||commonvoice.org^
-||components.mozilla^
 ||content-autofill.googleapis.com^
 ||debug-ping-preview.firebaseapp.com^
 ||detodosparatodos.org^
-||developer.mozilla.zh^
 ||discovershiretoko.org^
 ||divviup.org^
 ||doh1.mozilla-dns.net^
@@ -298,8 +294,6 @@
 ||fakespotlabs.com^
 ||fakespotpro.com^
 ||fakespottech.com^
-||fennec.fxa-status.service^
-||fennec.oauth.webchannel^
 ||findanonymous.com^
 ||firefox-addons.com^
 ||firefox-dns-perf-test.net^
@@ -328,7 +322,6 @@
 ||firefox.dev^
 ||firefox.dns.nextdns.io^
 ||firefox.es^
-||firefox.etp^
 ||firefox.fr^
 ||firefox.it^
 ||firefox.jp^
@@ -384,8 +377,6 @@
 ||getpocket.co^
 ||getpocket.dev^
 ||getpocketvault.com^
-||glean.telemetry.mozilla^
-||gleandebugactivity.debug.telemetry.mozilla^
 ||googlecn-firefox.cn^
 ||gyzu.mozillaupdates.us^
 ||hackasaurus.org^
@@ -533,7 +524,6 @@
 ||mozilla.lv^
 ||mozilla.map.fastly.net^
 ||mozilla.my^
-||mozilla.nimbus^
 ||mozilla.nl^
 ||mozilla.no^
 ||mozilla.nz^
@@ -551,7 +541,6 @@
 ||mozilla.slack.com^
 ||mozilla.social^
 ||mozilla.srvcs.com^
-||mozilla.stories^
 ||mozilla.tw^
 ||mozilla.ua^
 ||mozilla.uz^
@@ -744,7 +733,6 @@
 ||relay-mozilla.net^
 ||relayemail.com^
 ||relayemail.net^
-||s3-us-west-2.amazonaws.amo^
 ||safebrowsing.googleapis.com^
 ||sake.mozillaupdates.us^
 ||search.anonymous.brave.com^
@@ -762,7 +750,6 @@
 ||stateofopensource.ai^
 ||study-mozilla.org^
 ||supportmozilla.org^
-||sync.firefox.weblibre^
 ||taskcluster.net^
 ||tb.pro^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
@@ -780,7 +767,6 @@
 ||thunderbirdmail.com^
 ||thunderbirdmail.org^
 ||thundermail.com^
-||toolkit.coverage.endpoint.base^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^
 ||trk.floorplanner.com^

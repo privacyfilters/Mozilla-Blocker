@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 22:09:17 UTC
-# Version: 4.69
+# Last modified: 09 October 2026 01:08:56 UTC
+# Version: 4.71
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 6603
+# Number of entries: 6584
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -42,7 +42,6 @@
 0.0.0.0 googletagservices.com
 0.0.0.0 innocraft.cloud
 0.0.0.0 matomo.cloud
-0.0.0.0 matomo.php
 0.0.0.0 mozilla-analytics.b-cdn.net
 0.0.0.0 nativesdks.mparticle.com
 0.0.0.0 o0.ingest.sentry.io
@@ -3525,7 +3524,6 @@
 0.0.0.0 communitystore.mozilla.org
 0.0.0.0 components.build.mozilla.org
 0.0.0.0 components.fenix.mozilla.org
-0.0.0.0 components.mozilla
 0.0.0.0 compute-shaders.mozilla.org
 0.0.0.0 compute.mozilla.org
 0.0.0.0 config-eu.services.mozilla.com
@@ -3734,7 +3732,6 @@
 0.0.0.0 developer.mozilla.pl
 0.0.0.0 developer.mozilla.ru
 0.0.0.0 developer.mozilla.tw
-0.0.0.0 developer.mozilla.zh
 0.0.0.0 developers.mozilla.ai
 0.0.0.0 device-telemetry.mozilla.org
 0.0.0.0 devops.mozilla.ai
@@ -3935,8 +3932,6 @@
 0.0.0.0 fennec-nightly.cdn.mozilla.net
 0.0.0.0 fennec-sync.services.mozilla.com
 0.0.0.0 fennec-webchannel.mozilla.org
-0.0.0.0 fennec.fxa-status.service
-0.0.0.0 fennec.oauth.webchannel
 0.0.0.0 fennec.services.mozilla.com
 0.0.0.0 fennec_dos.mozilla.org
 0.0.0.0 ffcitc-artifacts-gcs-cdn.taskcluster.prod.cloudops.mozgcp.net
@@ -4001,7 +3996,6 @@
 0.0.0.0 firefox.dev
 0.0.0.0 firefox.dns.nextdns.io
 0.0.0.0 firefox.es
-0.0.0.0 firefox.etp
 0.0.0.0 firefox.fr
 0.0.0.0 firefox.it
 0.0.0.0 firefox.jp
@@ -4195,9 +4189,7 @@
 0.0.0.0 glean.nonprod.webservices.mozgcp.net
 0.0.0.0 glean.prod.webservices.mozgcp.net
 0.0.0.0 glean.services.mozilla.com
-0.0.0.0 glean.telemetry.mozilla
 0.0.0.0 glean.telemetry.mozilla.org
-0.0.0.0 gleandebugactivity.debug.telemetry.mozilla
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.com
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.net
 0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
@@ -4731,7 +4723,6 @@
 0.0.0.0 mozilla.community.br
 0.0.0.0 mozilla.cz
 0.0.0.0 mozilla.dev
-0.0.0.0 mozilla.dev.labs
 0.0.0.0 mozilla.dev.services
 0.0.0.0 mozilla.developer.it
 0.0.0.0 mozilla.dk
@@ -4760,7 +4751,6 @@
 0.0.0.0 mozilla.lv
 0.0.0.0 mozilla.map.fastly.net
 0.0.0.0 mozilla.my
-0.0.0.0 mozilla.nimbus
 0.0.0.0 mozilla.nl
 0.0.0.0 mozilla.no
 0.0.0.0 mozilla.nz
@@ -4772,7 +4762,6 @@
 0.0.0.0 mozilla.org.be
 0.0.0.0 mozilla.org.bg
 0.0.0.0 mozilla.org.br
-0.0.0.0 mozilla.org.cdn
 0.0.0.0 mozilla.org.cdn.cloudflare.net
 0.0.0.0 mozilla.org.ch
 0.0.0.0 mozilla.org.cn
@@ -4839,7 +4828,6 @@
 0.0.0.0 mozilla.slack.com
 0.0.0.0 mozilla.social
 0.0.0.0 mozilla.srvcs.com
-0.0.0.0 mozilla.stories
 0.0.0.0 mozilla.tw
 0.0.0.0 mozilla.ua
 0.0.0.0 mozilla.uz
@@ -5614,7 +5602,6 @@
 0.0.0.0 rust.mozilla.org
 0.0.0.0 rustml.mozilla.org
 0.0.0.0 rwkv.mozilla.org
-0.0.0.0 s3-us-west-2.amazonaws.amo
 0.0.0.0 sac.mozilla.org
 0.0.0.0 safe-browsing.services.mozilla.com
 0.0.0.0 safebrowsing.googleapis.com
@@ -5661,11 +5648,9 @@
 0.0.0.0 self-repair.mozilla.org
 0.0.0.0 self-repair.r53-2.services.mozilla.com
 0.0.0.0 send.firefox.com
-0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.com
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.net
 0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.org
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.com
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.net
 0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
@@ -5678,7 +5663,6 @@
 0.0.0.0 serve.mozilla.ai
 0.0.0.0 server.thunderbirdskin.com
 0.0.0.0 service.build.mozilla.org
-0.0.0.0 service.crash.lib.components.mozilla
 0.0.0.0 service.crash.lib.components.mozilla.com
 0.0.0.0 service.crashes.lib.components.mozilla.com
 0.0.0.0 service.crashes.lib.components.mozilla.net
@@ -5752,7 +5736,6 @@
 0.0.0.0 smart.mozilla.org
 0.0.0.0 smartblock-test.mozilla.com
 0.0.0.0 smartblock.cdn.mozilla.net
-0.0.0.0 smartblock.firefox.etp
 0.0.0.0 smoke-hubs.mozilla.com
 0.0.0.0 smol.mozilla.ai
 0.0.0.0 smtp.mozilla.com
@@ -5998,7 +5981,6 @@
 0.0.0.0 sync-useast.mozilla.org
 0.0.0.0 sync-uswest.mozilla.org
 0.0.0.0 sync.firefox.com
-0.0.0.0 sync.firefox.weblibre
 0.0.0.0 sync.mozilla.org
 0.0.0.0 sync.orbit.mozilla.org
 0.0.0.0 sync.services.mozilla.com
@@ -6147,7 +6129,6 @@
 0.0.0.0 token.stage.mozaws.net
 0.0.0.0 tokenizers.mozilla.org
 0.0.0.0 tomoshibi.mozilla.jp
-0.0.0.0 toolkit.coverage.endpoint.base
 0.0.0.0 tools.mozilla.org
 0.0.0.0 topsites.services.mozilla.com
 0.0.0.0 torch.mozilla.org

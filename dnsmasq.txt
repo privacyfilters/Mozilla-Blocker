@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 08 October 2026 22:09:17 UTC
-# Version: 4.69
+# Last modified: 09 October 2026 01:08:56 UTC
+# Version: 4.71
 # Syntax: DNSMasq
-# Number of entries: 842
+# Number of entries: 827
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -36,7 +36,6 @@ local=/googletagmanager.com/
 local=/googletagservices.com/
 local=/innocraft.cloud/
 local=/matomo.cloud/
-local=/matomo.php/
 local=/mozilla-analytics.b-cdn.net/
 local=/omappapi.com/
 local=/pubmine.com/
@@ -233,11 +232,9 @@ local=/commonvoice.ai/
 local=/commonvoice.com/
 local=/commonvoice.net/
 local=/commonvoice.org/
-local=/components.mozilla/
 local=/content-autofill.googleapis.com/
 local=/debug-ping-preview.firebaseapp.com/
 local=/detodosparatodos.org/
-local=/developer.mozilla.zh/
 local=/discovershiretoko.org/
 local=/divviup.org/
 local=/doh1.mozilla-dns.net/
@@ -280,8 +277,6 @@ local=/fakespotinc.com/
 local=/fakespotlabs.com/
 local=/fakespotpro.com/
 local=/fakespottech.com/
-local=/fennec.fxa-status.service/
-local=/fennec.oauth.webchannel/
 local=/findanonymous.com/
 local=/firefox-addons.com/
 local=/firefox-dns-perf-test.net/
@@ -314,7 +309,6 @@ local=/firefox.de/
 local=/firefox.dev/
 local=/firefox.dns.nextdns.io/
 local=/firefox.es/
-local=/firefox.etp/
 local=/firefox.fr/
 local=/firefox.it/
 local=/firefox.jp/
@@ -370,8 +364,6 @@ local=/getpersonas.com/
 local=/getpocket.co/
 local=/getpocket.dev/
 local=/getpocketvault.com/
-local=/glean.telemetry.mozilla/
-local=/gleandebugactivity.debug.telemetry.mozilla/
 local=/googlecn-firefox.cn/
 local=/gyzu.mozillaupdates.us/
 local=/hackasaurus.org/
@@ -504,7 +496,6 @@ local=/mozilla.community/
 local=/mozilla.community.br/
 local=/mozilla.cz/
 local=/mozilla.dev/
-local=/mozilla.dev.labs/
 local=/mozilla.dev.services/
 local=/mozilla.developer.it/
 local=/mozilla.dk/
@@ -532,7 +523,6 @@ local=/mozilla.lt/
 local=/mozilla.lv/
 local=/mozilla.map.fastly.net/
 local=/mozilla.my/
-local=/mozilla.nimbus/
 local=/mozilla.nl/
 local=/mozilla.no/
 local=/mozilla.nz/
@@ -544,7 +534,6 @@ local=/mozilla.org.ba/
 local=/mozilla.org.be/
 local=/mozilla.org.bg/
 local=/mozilla.org.br/
-local=/mozilla.org.cdn/
 local=/mozilla.org.cdn.cloudflare.net/
 local=/mozilla.org.ch/
 local=/mozilla.org.cn/
@@ -610,7 +599,6 @@ local=/mozilla.sk/
 local=/mozilla.slack.com/
 local=/mozilla.social/
 local=/mozilla.srvcs.com/
-local=/mozilla.stories/
 local=/mozilla.tw/
 local=/mozilla.ua/
 local=/mozilla.uz/
@@ -803,7 +791,6 @@ local=/relay-mozilla.com/
 local=/relay-mozilla.net/
 local=/relayemail.com/
 local=/relayemail.net/
-local=/s3-us-west-2.amazonaws.amo/
 local=/safebrowsing.googleapis.com/
 local=/sake.mozillaupdates.us/
 local=/search.anonymous.brave.com/
@@ -821,7 +808,6 @@ local=/stage-thundermail.com/
 local=/stateofopensource.ai/
 local=/study-mozilla.org/
 local=/supportmozilla.org/
-local=/sync.firefox.weblibre/
 local=/taskcluster.net/
 local=/tb.pro/
 local=/telemetry-prod-1054754349.us-east-1.elb.amazonaws.com/
@@ -839,7 +825,6 @@ local=/thunderbirdfoundation.org/
 local=/thunderbirdmail.com/
 local=/thunderbirdmail.org/
 local=/thundermail.com/
-local=/toolkit.coverage.endpoint.base/
 local=/trackertest.org/
 local=/tracking-protection-issues.herokuapp.com/
 local=/trk.floorplanner.com/

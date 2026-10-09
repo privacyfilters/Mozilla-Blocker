@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 17:00:24 UTC
-# Version: 4.76
+# Last modified: 09 October 2026 18:42:58 UTC
+# Version: 4.78
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 4072
 #

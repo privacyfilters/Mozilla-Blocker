@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 17:00:24 UTC
-# Version: 4.76
+# Last modified: 09 October 2026 18:42:58 UTC
+# Version: 4.78
 # Syntax: domains (including possible subdomains)
-# Number of entries: 4053
+# Number of entries: 4051
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -20,9 +20,9 @@
 #versioncheck-bg.addons.thunderbird.net
 #versioncheck.addons.mozilla.org
 #versioncheck.addons.thunderbird.net
-# Betterbird autoconfig(blocked)
-autoconfig.thunderbird.net
-live.thunderbird.net
+# Betterbird/Thunderbird autoconfig(allowed)
+#autoconfig.thunderbird.net
+#live.thunderbird.net
 # # External trackers Mozilla uses on their own sites...
 adjust.com
 analytics.google.com

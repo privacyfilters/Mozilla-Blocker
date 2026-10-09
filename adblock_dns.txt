@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 17:00:24 UTC
-! Version: 4.76
+! Last modified: 09 October 2026 18:42:58 UTC
+! Version: 4.78
 ! Syntax: Adblock
-! Number of entries: 758
+! Number of entries: 760
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -37,6 +37,9 @@
 ||mozilla.net*^
 ||mozilla.org*^
 ||thunderbird.net*^
+!! Betterbird/Thunderbird urls (allowed: email account autoconfig)
+@@||autoconfig.thunderbird.net^
+@@||live.thunderbird.net^
 !!! External Trackers Mozilla uses on their own sites...
 ||adjust.com^
 ! Google's main analytics tracker

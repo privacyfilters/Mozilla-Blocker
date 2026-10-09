@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 01:08:56 UTC
-! Version: 4.71
+! Last modified: 09 October 2026 16:26:05 UTC
+! Version: 4.75
 ! Syntax: Adblock
-! Number of entries: 719
+! Number of entries: 723
 !
 !! Addon endpoints - important override
 ||blocklist.addons.mozilla.org^$important
@@ -35,11 +35,13 @@
 ||analytics.query.yahoo.com^
 ||anonymous-analytics.tonkeeper.com^
 ||anonymous.analytics.impalastudios.com^
+||api.amplitude.com^
 ||api2.amplitude.com^
 ||app-measurement.com^
 ||assistant-googlefirefox.com^
 ||braze.com^
 ||buysellads.com^
+||cdn.amplitude.com^
 ||cookielaw.org^
 ||google-analytics.com^
 ||googletagmanager.com^
@@ -168,6 +170,7 @@
 ||anonymous-proxies.net^
 ||anonymous-stresser.net^
 ||anonymous.ads.brave.com^
+||anonymous.qub.ca^
 ||anonymousads.com^
 ||anonymouscasino.fr^
 ||anonymouscasino1.fr^
@@ -332,6 +335,7 @@
 ||hg-edge-mozilla.fastly-edge.com^
 ||hivelearningnetworks.org^
 ||hivenyc.org^
+||hmkpz.thunderbirdskin.com^
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^

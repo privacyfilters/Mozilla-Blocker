@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 01:08:56 UTC
-! Version: 4.71
+! Last modified: 09 October 2026 16:26:05 UTC
+! Version: 4.75
 ! Syntax: Adblock
-! Number of entries: 753
+! Number of entries: 757
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -45,6 +45,8 @@
 ||analytics.query.yahoo.com^
 ||anonymous-analytics.tonkeeper.com^
 ||anonymous.analytics.impalastudios.com^
+! Amplitude API (Firefox iOS / FxA metrics)
+||api.amplitude.com^
 ! Amplitude's analytics API
 ||api2.amplitude.com^
 ! Firebase analytics by Google
@@ -54,6 +56,8 @@
 ||braze.com^
 ! Advertising network
 ||buysellads.com^
+! Amplitude SDK CDN
+||cdn.amplitude.com^
 ! Cookie consent management
 ||cookielaw.org^
 ! Core Google Analytics service
@@ -219,6 +223,7 @@
 ||anonymous-proxies.net^
 ||anonymous-stresser.net^
 ||anonymous.ads.brave.com^
+||anonymous.qub.ca^
 ||anonymousads.com^
 ||anonymouscasino.fr^
 ||anonymouscasino1.fr^
@@ -383,6 +388,7 @@
 ||hg-edge-mozilla.fastly-edge.com^
 ||hivelearningnetworks.org^
 ||hivenyc.org^
+||hmkpz.thunderbirdskin.com^
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^

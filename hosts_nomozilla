@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 01:08:56 UTC
-# Version: 4.71
+# Last modified: 09 October 2026 16:26:05 UTC
+# Version: 4.75
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 6603
+# Number of entries: 6652
 #
 # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -20,6 +20,8 @@
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 anonymous-analytics.tonkeeper.com
 0.0.0.0 anonymous.analytics.impalastudios.com
+# Amplitude API (Firefox iOS / FxA metrics)
+0.0.0.0 api.amplitude.com
 # Amplitude's analytics API
 0.0.0.0 api2.amplitude.com
 # Firebase analytics by Google
@@ -31,6 +33,8 @@
 0.0.0.0 braze.com
 # Advertising network
 0.0.0.0 buysellads.com
+# Amplitude SDK CDN
+0.0.0.0 cdn.amplitude.com
 # Cookie consent management
 0.0.0.0 cookielaw.org
 # Mobile app analytics by Yahoo
@@ -62,6 +66,7 @@
 0.0.0.0 o100763.ingest.sentry.io
 0.0.0.0 o1007654.ingest.sentry.io
 0.0.0.0 o1007939.ingest.sentry.io
+0.0.0.0 o1008121.ingest.sentry.io
 0.0.0.0 o1008655.ingest.sentry.io
 0.0.0.0 o1009310.ingest.sentry.io
 0.0.0.0 o1010732.ingest.sentry.io
@@ -92,6 +97,7 @@
 0.0.0.0 o1031423.ingest.sentry.io
 0.0.0.0 o1036357.ingest.sentry.io
 0.0.0.0 o1036858.ingest.sentry.io
+0.0.0.0 o1037258.ingest.sentry.io
 0.0.0.0 o1037722.ingest.sentry.io
 0.0.0.0 o1037737.ingest.sentry.io
 0.0.0.0 o1038043.ingest.sentry.io
@@ -133,10 +139,12 @@
 0.0.0.0 o1059972.ingest.sentry.io
 0.0.0.0 o1060813.ingest.sentry.io
 0.0.0.0 o1060970.ingest.sentry.io
+0.0.0.0 o1061275.ingest.sentry.io
 0.0.0.0 o1061291.ingest.sentry.io
 0.0.0.0 o1062064.ingest.sentry.io
 0.0.0.0 o106326.ingest.sentry.io
 0.0.0.0 o1063793.ingest.sentry.io
+0.0.0.0 o1064059.ingest.sentry.io
 0.0.0.0 o1064404.ingest.sentry.io
 0.0.0.0 o106442.ingest.sentry.io
 0.0.0.0 o106476.ingest.sentry.io
@@ -218,6 +226,7 @@
 0.0.0.0 o110389.ingest.sentry.io
 0.0.0.0 o1106954.ingest.sentry.io
 0.0.0.0 o1107187.ingest.sentry.io
+0.0.0.0 o1112790.ingest.sentry.io
 0.0.0.0 o1113370.ingest.sentry.io
 0.0.0.0 o1113397.ingest.sentry.io
 0.0.0.0 o1114245.ingest.sentry.io
@@ -227,6 +236,7 @@
 0.0.0.0 o111613.ingest.sentry.io
 0.0.0.0 o1116489.ingest.sentry.io
 0.0.0.0 o111667.ingest.sentry.io
+0.0.0.0 o1117164.ingest.sentry.io
 0.0.0.0 o111996.ingest.sentry.io
 0.0.0.0 o1121605.ingest.sentry.io
 0.0.0.0 o1121657.ingest.sentry.io
@@ -278,6 +288,7 @@
 0.0.0.0 o1147190.ingest.sentry.io
 0.0.0.0 o1147324.ingest.sentry.io
 0.0.0.0 o1147619.ingest.sentry.io
+0.0.0.0 o114898.ingest.sentry.io
 0.0.0.0 o114904.ingest.sentry.io
 0.0.0.0 o1149125.ingest.sentry.io
 0.0.0.0 o1149171.ingest.sentry.io
@@ -332,6 +343,7 @@
 0.0.0.0 o1181724.ingest.sentry.io
 0.0.0.0 o1182800.ingest.sentry.io
 0.0.0.0 o1182977.ingest.sentry.io
+0.0.0.0 o1183510.ingest.sentry.io
 0.0.0.0 o1183537.ingest.sentry.io
 0.0.0.0 o1183551.ingest.sentry.io
 0.0.0.0 o1183673.ingest.sentry.io
@@ -403,6 +415,7 @@
 0.0.0.0 o1243767.ingest.sentry.io
 0.0.0.0 o1245118.ingest.sentry.io
 0.0.0.0 o1246149.ingest.sentry.io
+0.0.0.0 o1246443.ingest.sentry.io
 0.0.0.0 o124661.ingest.sentry.io
 0.0.0.0 o1247281.ingest.sentry.io
 0.0.0.0 o1249002.ingest.sentry.io
@@ -414,6 +427,7 @@
 0.0.0.0 o1255856.ingest.sentry.io
 0.0.0.0 o125761.ingest.sentry.io
 0.0.0.0 o1258316.ingest.sentry.io
+0.0.0.0 o1258815.ingest.sentry.io
 0.0.0.0 o126035.ingest.sentry.io
 0.0.0.0 o1261035.ingest.sentry.io
 0.0.0.0 o1261169.ingest.sentry.io
@@ -436,6 +450,7 @@
 0.0.0.0 o1271931.ingest.sentry.io
 0.0.0.0 o1272383.ingest.sentry.io
 0.0.0.0 o1273208.ingest.sentry.io
+0.0.0.0 o1273508.ingest.sentry.io
 0.0.0.0 o127376.ingest.sentry.io
 0.0.0.0 o127574.ingest.sentry.io
 0.0.0.0 o1277943.ingest.sentry.io
@@ -486,6 +501,7 @@
 0.0.0.0 o1306594.ingest.sentry.io
 0.0.0.0 o1307044.ingest.sentry.io
 0.0.0.0 o1309263.ingest.sentry.io
+0.0.0.0 o131006.ingest.sentry.io
 0.0.0.0 o1310146.ingest.sentry.io
 0.0.0.0 o1310147.ingest.sentry.io
 0.0.0.0 o131099.ingest.sentry.io
@@ -547,6 +563,7 @@
 0.0.0.0 o1367727.ingest.sentry.io
 0.0.0.0 o1368493.ingest.sentry.io
 0.0.0.0 o136934.ingest.sentry.io
+0.0.0.0 o137072.ingest.sentry.io
 0.0.0.0 o137163.ingest.sentry.io
 0.0.0.0 o1371715.ingest.sentry.io
 0.0.0.0 o1372249.ingest.sentry.io
@@ -609,6 +626,7 @@
 0.0.0.0 o1427637.ingest.sentry.io
 0.0.0.0 o1429225.ingest.sentry.io
 0.0.0.0 o142940.ingest.sentry.io
+0.0.0.0 o1429954.ingest.sentry.io
 0.0.0.0 o1430019.ingest.sentry.io
 0.0.0.0 o1430175.ingest.sentry.io
 0.0.0.0 o1432095.ingest.sentry.io
@@ -700,6 +718,7 @@
 0.0.0.0 o168728.ingest.sentry.io
 0.0.0.0 o168947.ingest.sentry.io
 0.0.0.0 o169335.ingest.sentry.io
+0.0.0.0 o16985.ingest.sentry.io
 0.0.0.0 o170101.ingest.sentry.io
 0.0.0.0 o17124.ingest.sentry.io
 0.0.0.0 o171260.ingest.sentry.io
@@ -765,6 +784,7 @@
 0.0.0.0 o192192.ingest.sentry.io
 0.0.0.0 o19233.ingest.sentry.io
 0.0.0.0 o192550.ingest.sentry.io
+0.0.0.0 o193370.ingest.sentry.io
 0.0.0.0 o193734.ingest.sentry.io
 0.0.0.0 o194318.ingest.sentry.io
 0.0.0.0 o19446.ingest.sentry.io
@@ -946,6 +966,7 @@
 0.0.0.0 o249089.ingest.sentry.io
 0.0.0.0 o249264.ingest.sentry.io
 0.0.0.0 o249654.ingest.sentry.io
+0.0.0.0 o250084.ingest.sentry.io
 0.0.0.0 o25032.ingest.sentry.io
 0.0.0.0 o250826.ingest.sentry.io
 0.0.0.0 o250847.ingest.sentry.io
@@ -984,6 +1005,7 @@
 0.0.0.0 o265433.ingest.sentry.io
 0.0.0.0 o265715.ingest.sentry.io
 0.0.0.0 o265775.ingest.sentry.io
+0.0.0.0 o265818.ingest.sentry.io
 0.0.0.0 o26640.ingest.sentry.io
 0.0.0.0 o266934.ingest.sentry.io
 0.0.0.0 o26914.ingest.sentry.io
@@ -1091,7 +1113,9 @@
 0.0.0.0 o308327.ingest.sentry.io
 0.0.0.0 o30871.ingest.sentry.io
 0.0.0.0 o309338.ingest.sentry.io
+0.0.0.0 o309462.ingest.sentry.io
 0.0.0.0 o309874.ingest.sentry.io
+0.0.0.0 o309937.ingest.sentry.io
 0.0.0.0 o310561.ingest.sentry.io
 0.0.0.0 o310729.ingest.sentry.io
 0.0.0.0 o31106.ingest.sentry.io
@@ -1348,6 +1372,7 @@
 0.0.0.0 o404438.ingest.sentry.io
 0.0.0.0 o404451.ingest.sentry.io
 0.0.0.0 o40496.ingest.sentry.io
+0.0.0.0 o405311.ingest.sentry.io
 0.0.0.0 o405346.ingest.sentry.io
 0.0.0.0 o405375.ingest.sentry.io
 0.0.0.0 o405487.ingest.sentry.io
@@ -1361,6 +1386,7 @@
 0.0.0.0 o407766.ingest.sentry.io
 0.0.0.0 o408230.ingest.sentry.io
 0.0.0.0 o408587.ingest.sentry.io
+0.0.0.0 o408736.ingest.sentry.io
 0.0.0.0 o41012.ingest.sentry.io
 0.0.0.0 o411001.ingest.sentry.io
 0.0.0.0 o411139.ingest.sentry.io
@@ -1451,6 +1477,7 @@
 0.0.0.0 o43548.ingest.sentry.io
 0.0.0.0 o435792.ingest.sentry.io
 0.0.0.0 o435883.ingest.sentry.io
+0.0.0.0 o436025.ingest.sentry.io
 0.0.0.0 o436523.ingest.sentry.io
 0.0.0.0 o436887.ingest.sentry.io
 0.0.0.0 o436947.ingest.sentry.io
@@ -1475,6 +1502,7 @@
 0.0.0.0 o441793.ingest.sentry.io
 0.0.0.0 o441978.ingest.sentry.io
 0.0.0.0 o442364.ingest.sentry.io
+0.0.0.0 o442774.ingest.sentry.io
 0.0.0.0 o443016.ingest.sentry.io
 0.0.0.0 o44449.ingest.sentry.io
 0.0.0.0 o445156.ingest.sentry.io
@@ -1483,6 +1511,7 @@
 0.0.0.0 o446007.ingest.sentry.io
 0.0.0.0 o446669.ingest.sentry.io
 0.0.0.0 o447951.ingest.sentry.io
+0.0.0.0 o448085.ingest.sentry.io
 0.0.0.0 o448560.ingest.sentry.io
 0.0.0.0 o448786.ingest.sentry.io
 0.0.0.0 o449562.ingest.sentry.io
@@ -1554,7 +1583,9 @@
 0.0.0.0 o4504242204704768.ingest.sentry.io
 0.0.0.0 o4504246062612480.ingest.sentry.io
 0.0.0.0 o4504255615729664.ingest.sentry.io
+0.0.0.0 o4504257190821888.ingest.sentry.io
 0.0.0.0 o4504258406645760.ingest.sentry.io
+0.0.0.0 o4504281039044608.ingest.sentry.io
 0.0.0.0 o4504284418801664.ingest.sentry.io
 0.0.0.0 o4504284550266880.ingest.sentry.io
 0.0.0.0 o4504286946590720.ingest.sentry.io
@@ -1565,6 +1596,7 @@
 0.0.0.0 o4504327539916800.ingest.sentry.io
 0.0.0.0 o4504327555710976.ingest.sentry.io
 0.0.0.0 o4504333216841728.ingest.sentry.io
+0.0.0.0 o4504335203434496.ingest.sentry.io
 0.0.0.0 o4504355828924416.ingest.sentry.io
 0.0.0.0 o4504359075840000.ingest.sentry.io
 0.0.0.0 o4504361300983809.ingest.sentry.io
@@ -1593,6 +1625,7 @@
 0.0.0.0 o4504526173569024.ingest.sentry.io
 0.0.0.0 o4504530512183296.ingest.sentry.io
 0.0.0.0 o4504533825355776.ingest.sentry.io
+0.0.0.0 o4504554851663872.ingest.sentry.io
 0.0.0.0 o4504565110996992.ingest.sentry.io
 0.0.0.0 o4504565435269120.ingest.sentry.io
 0.0.0.0 o4504565455585280.ingest.sentry.io
@@ -1632,6 +1665,7 @@
 0.0.0.0 o4504767952388096.ingest.sentry.io
 0.0.0.0 o4504768497254400.ingest.sentry.io
 0.0.0.0 o4504769731887104.ingest.sentry.io
+0.0.0.0 o4504772588535808.ingest.sentry.io
 0.0.0.0 o4504791826366464.ingest.sentry.io
 0.0.0.0 o4504798835179520.ingest.sentry.io
 0.0.0.0 o4504802466004992.ingest.sentry.io
@@ -1697,6 +1731,7 @@
 0.0.0.0 o4505188774117376.ingest.sentry.io
 0.0.0.0 o4505191584890880.ingest.sentry.io
 0.0.0.0 o4505204595556352.ingest.sentry.io
+0.0.0.0 o4505205586198528.ingest.sentry.io
 0.0.0.0 o4505209244549120.ingest.sentry.io
 0.0.0.0 o4505209443713024.ingest.sentry.io
 0.0.0.0 o4505212949037056.ingest.sentry.io
@@ -1762,6 +1797,7 @@
 0.0.0.0 o4505624712839168.ingest.sentry.io
 0.0.0.0 o4505628143255552.ingest.sentry.io
 0.0.0.0 o4505632766951424.ingest.sentry.io
+0.0.0.0 o4505633533001728.ingest.sentry.io
 0.0.0.0 o4505635752509440.ingest.sentry.io
 0.0.0.0 o4505636443652096.ingest.sentry.io
 0.0.0.0 o4505639960182784.ingest.sentry.io
@@ -1902,6 +1938,7 @@
 0.0.0.0 o4506389668036608.ingest.sentry.io
 0.0.0.0 o4506393288179712.ingest.sentry.io
 0.0.0.0 o4506398735335424.ingest.sentry.io
+0.0.0.0 o4506416662577152.ingest.sentry.io
 0.0.0.0 o4506427367030784.ingest.sentry.io
 0.0.0.0 o4506427714568192.ingest.sentry.io
 0.0.0.0 o4506434068611072.ingest.sentry.io
@@ -1940,6 +1977,7 @@
 0.0.0.0 o4506710468984832.ingest.sentry.io
 0.0.0.0 o4506711249649664.ingest.sentry.io
 0.0.0.0 o4506712481660928.ingest.sentry.io
+0.0.0.0 o4506730517299200.ingest.sentry.io
 0.0.0.0 o4506737640144896.ingest.sentry.io
 0.0.0.0 o4506746191020032.ingest.sentry.io
 0.0.0.0 o4506752788987904.ingest.sentry.io
@@ -1990,6 +2028,7 @@
 0.0.0.0 o462166.ingest.sentry.io
 0.0.0.0 o462489.ingest.sentry.io
 0.0.0.0 o463841.ingest.sentry.io
+0.0.0.0 o464190.ingest.sentry.io
 0.0.0.0 o464935.ingest.sentry.io
 0.0.0.0 o465048.ingest.sentry.io
 0.0.0.0 o465114.ingest.sentry.io
@@ -2018,6 +2057,7 @@
 0.0.0.0 o473335.ingest.sentry.io
 0.0.0.0 o474963.ingest.sentry.io
 0.0.0.0 o474997.ingest.sentry.io
+0.0.0.0 o475248.ingest.sentry.io
 0.0.0.0 o475284.ingest.sentry.io
 0.0.0.0 o475874.ingest.sentry.io
 0.0.0.0 o47622.ingest.sentry.io
@@ -2051,6 +2091,7 @@
 0.0.0.0 o48589.ingest.sentry.io
 0.0.0.0 o486086.ingest.sentry.io
 0.0.0.0 o486245.ingest.sentry.io
+0.0.0.0 o486415.ingest.sentry.io
 0.0.0.0 o486460.ingest.sentry.io
 0.0.0.0 o486920.ingest.sentry.io
 0.0.0.0 o487278.ingest.sentry.io
@@ -2136,6 +2177,7 @@
 0.0.0.0 o518609.ingest.sentry.io
 0.0.0.0 o518737.ingest.sentry.io
 0.0.0.0 o519482.ingest.sentry.io
+0.0.0.0 o520731.ingest.sentry.io
 0.0.0.0 o520886.ingest.sentry.io
 0.0.0.0 o522023.ingest.sentry.io
 0.0.0.0 o522121.ingest.sentry.io
@@ -2165,11 +2207,13 @@
 0.0.0.0 o530045.ingest.sentry.io
 0.0.0.0 o53023.ingest.sentry.io
 0.0.0.0 o530369.ingest.sentry.io
+0.0.0.0 o532596.ingest.sentry.io
 0.0.0.0 o532654.ingest.sentry.io
 0.0.0.0 o532823.ingest.sentry.io
 0.0.0.0 o532842.ingest.sentry.io
 0.0.0.0 o532877.ingest.sentry.io
 0.0.0.0 o53397.ingest.sentry.io
+0.0.0.0 o53420.ingest.sentry.io
 0.0.0.0 o534453.ingest.sentry.io
 0.0.0.0 o534899.ingest.sentry.io
 0.0.0.0 o53520.ingest.sentry.io
@@ -2251,6 +2295,7 @@
 0.0.0.0 o571954.ingest.sentry.io
 0.0.0.0 o572025.ingest.sentry.io
 0.0.0.0 o572103.ingest.sentry.io
+0.0.0.0 o572484.ingest.sentry.io
 0.0.0.0 o573056.ingest.sentry.io
 0.0.0.0 o573334.ingest.sentry.io
 0.0.0.0 o57398.ingest.sentry.io
@@ -2269,6 +2314,7 @@
 0.0.0.0 o584403.ingest.sentry.io
 0.0.0.0 o58477.ingest.sentry.io
 0.0.0.0 o58632.ingest.sentry.io
+0.0.0.0 o586830.ingest.sentry.io
 0.0.0.0 o587224.ingest.sentry.io
 0.0.0.0 o588651.ingest.sentry.io
 0.0.0.0 o589780.ingest.sentry.io
@@ -2285,6 +2331,7 @@
 0.0.0.0 o60016.ingest.sentry.io
 0.0.0.0 o60449.ingest.sentry.io
 0.0.0.0 o608018.ingest.sentry.io
+0.0.0.0 o609407.ingest.sentry.io
 0.0.0.0 o612922.ingest.sentry.io
 0.0.0.0 o613414.ingest.sentry.io
 0.0.0.0 o613666.ingest.sentry.io
@@ -2349,6 +2396,7 @@
 0.0.0.0 o71952.ingest.sentry.io
 0.0.0.0 o72136.ingest.sentry.io
 0.0.0.0 o72192.ingest.sentry.io
+0.0.0.0 o72233.ingest.sentry.io
 0.0.0.0 o72670.ingest.sentry.io
 0.0.0.0 o727192.ingest.sentry.io
 0.0.0.0 o72905.ingest.sentry.io
@@ -2395,12 +2443,14 @@
 0.0.0.0 o77237.ingest.sentry.io
 0.0.0.0 o773213.ingest.sentry.io
 0.0.0.0 o7749.ingest.sentry.io
+0.0.0.0 o7778.ingest.sentry.io
 0.0.0.0 o77796.ingest.sentry.io
 0.0.0.0 o77844.ingest.sentry.io
 0.0.0.0 o77906.ingest.sentry.io
 0.0.0.0 o783371.ingest.sentry.io
 0.0.0.0 o791023.ingest.sentry.io
 0.0.0.0 o791745.ingest.sentry.io
+0.0.0.0 o79286.ingest.sentry.io
 0.0.0.0 o80279.ingest.sentry.io
 0.0.0.0 o80433.ingest.sentry.io
 0.0.0.0 o80526.ingest.sentry.io
@@ -2411,6 +2461,7 @@
 0.0.0.0 o81227.ingest.sentry.io
 0.0.0.0 o813103.ingest.sentry.io
 0.0.0.0 o813548.ingest.sentry.io
+0.0.0.0 o813775.ingest.sentry.io
 0.0.0.0 o814246.ingest.sentry.io
 0.0.0.0 o816116.ingest.sentry.io
 0.0.0.0 o81612.ingest.sentry.io
@@ -2443,6 +2494,7 @@
 0.0.0.0 o866780.ingest.sentry.io
 0.0.0.0 o86764.ingest.sentry.io
 0.0.0.0 o86925.ingest.sentry.io
+0.0.0.0 o87107.ingest.sentry.io
 0.0.0.0 o87151.ingest.sentry.io
 0.0.0.0 o87400.ingest.sentry.io
 0.0.0.0 o87425.ingest.sentry.io
@@ -2472,6 +2524,7 @@
 0.0.0.0 o90378.ingest.sentry.io
 0.0.0.0 o90715.ingest.sentry.io
 0.0.0.0 o90728.ingest.sentry.io
+0.0.0.0 o910318.ingest.sentry.io
 0.0.0.0 o913412.ingest.sentry.io
 0.0.0.0 o913617.ingest.sentry.io
 0.0.0.0 o914254.ingest.sentry.io
@@ -2494,6 +2547,7 @@
 0.0.0.0 o924249.ingest.sentry.io
 0.0.0.0 o924572.ingest.sentry.io
 0.0.0.0 o924850.ingest.sentry.io
+0.0.0.0 o925258.ingest.sentry.io
 0.0.0.0 o925290.ingest.sentry.io
 0.0.0.0 o9270.ingest.sentry.io
 0.0.0.0 o927254.ingest.sentry.io
@@ -2532,9 +2586,11 @@
 0.0.0.0 o952439.ingest.sentry.io
 0.0.0.0 o953978.ingest.sentry.io
 0.0.0.0 o954198.ingest.sentry.io
+0.0.0.0 o954339.ingest.sentry.io
 0.0.0.0 o955253.ingest.sentry.io
 0.0.0.0 o95654.ingest.sentry.io
 0.0.0.0 o95712.ingest.sentry.io
+0.0.0.0 o960144.ingest.sentry.io
 0.0.0.0 o962083.ingest.sentry.io
 0.0.0.0 o962380.ingest.sentry.io
 0.0.0.0 o962420.ingest.sentry.io
@@ -3072,6 +3128,7 @@
 0.0.0.0 adversarial.mozilla.org
 0.0.0.0 advocacy.mozilla.org
 0.0.0.0 aegis.anonymised.io
+0.0.0.0 aet.prod.mozgcp.net
 0.0.0.0 affiliates-cdn.mozilla.org
 0.0.0.0 affiliates.mozilla.org
 0.0.0.0 agent.mozilla.org
@@ -3190,6 +3247,7 @@
 0.0.0.0 anonymous-proxies.net
 0.0.0.0 anonymous-stresser.net
 0.0.0.0 anonymous.ads.brave.com
+0.0.0.0 anonymous.qub.ca
 0.0.0.0 anonymousads.com
 0.0.0.0 anonymouscasino.fr
 0.0.0.0 anonymouscasino1.fr
@@ -3226,6 +3284,7 @@
 0.0.0.0 api.fxa-stage.dev.lcip.org
 0.0.0.0 api.getpocket.com
 0.0.0.0 api.lando.services.mozilla.com
+0.0.0.0 api.leanplum.com
 0.0.0.0 api.metrics.mozilla.org
 0.0.0.0 api.mozilla.ai
 0.0.0.0 api.mozilla.com
@@ -3492,6 +3551,7 @@
 0.0.0.0 cdn.mozilla.org
 0.0.0.0 cdn.sso.mozilla.com
 0.0.0.0 cdn.stubdownloader.services.mozilla.com
+0.0.0.0 cdn.stubdownloader.services.mozilla.net
 0.0.0.0 cdn1.anonymised.io
 0.0.0.0 cdnmozilla.net
 0.0.0.0 change.api.sso.mozilla.com
@@ -4224,10 +4284,6 @@
 0.0.0.0 glean.nonprod.webservices.mozgcp.net
 0.0.0.0 glean.prod.webservices.mozgcp.net
 0.0.0.0 glean.services.mozilla.com
-0.0.0.0 glean.telemetry.mozilla.org
-0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.com
-0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.net
-0.0.0.0 gleandebugactivity.debug.telemetry.mozilla.org
 0.0.0.0 gleanmetrics.fenix.mozilla.org
 0.0.0.0 go.corp.mozilla.com
 0.0.0.0 go.mozilla.org
@@ -4283,6 +4339,7 @@
 0.0.0.0 hiring.services.mozilla.com
 0.0.0.0 hivelearningnetworks.org
 0.0.0.0 hivenyc.org
+0.0.0.0 hmkpz.thunderbirdskin.com
 0.0.0.0 hopscotch.services.mozilla.com
 0.0.0.0 hq.mozilla.org
 0.0.0.0 http-observatory.security.mozilla.org
@@ -5416,8 +5473,10 @@
 0.0.0.0 press.mozilla.com
 0.0.0.0 press.mozilla.org
 0.0.0.0 preview-api.mozilla.ai
+0.0.0.0 preview-incoming.telemetry.mozilla.com
 0.0.0.0 preview.mozilla.org
 0.0.0.0 print.mozilla.com
+0.0.0.0 prioritized-redirection.prod.webservices.mozgcp.net
 0.0.0.0 privacy-tools.mozilla.ai
 0.0.0.0 privacy.mozilla.ai
 0.0.0.0 privacy.mozilla.org
@@ -5665,6 +5724,7 @@
 0.0.0.0 scikit.mozilla.org
 0.0.0.0 screen.tracking.mozilla.org
 0.0.0.0 screenshots.firefox.com
+0.0.0.0 sdk.leanplum.com
 0.0.0.0 search.anonymous.ads.brave.com
 0.0.0.0 search.anonymous.brave.com
 0.0.0.0 search.anonymous.bravesoftware.com
@@ -5683,12 +5743,6 @@
 0.0.0.0 self-repair.mozilla.org
 0.0.0.0 self-repair.r53-2.services.mozilla.com
 0.0.0.0 send.firefox.com
-0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.com
-0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.net
-0.0.0.0 sendcrashreportservice.service.crash.lib.components.mozilla.org
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.com
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.net
-0.0.0.0 sendcrashtelemetryservice.service.crash.lib.components.mozilla.org
 0.0.0.0 sendto.mozilla.org
 0.0.0.0 sentry.nonprod.cloudops.mozgcp.net
 0.0.0.0 sentry.prod.cloudops.mozgcp.net
@@ -5698,10 +5752,6 @@
 0.0.0.0 serve.mozilla.ai
 0.0.0.0 server.thunderbirdskin.com
 0.0.0.0 service.build.mozilla.org
-0.0.0.0 service.crash.lib.components.mozilla.com
-0.0.0.0 service.crashes.lib.components.mozilla.com
-0.0.0.0 service.crashes.lib.components.mozilla.net
-0.0.0.0 service.crashes.lib.components.mozilla.org
 0.0.0.0 service.metrics.mozilla.com
 0.0.0.0 service.mozilla.org
 0.0.0.0 services-asia.mozilla.com
@@ -5942,6 +5992,7 @@
 0.0.0.0 stt.mozilla.org
 0.0.0.0 stubdownloader.prod.mozaws.net
 0.0.0.0 stubdownloader.services.mozilla.com
+0.0.0.0 stubdownloader.services.mozilla.net
 0.0.0.0 studentreps.stage.mozilla.com
 0.0.0.0 studies.mozilla.org
 0.0.0.0 study-mozilla.org

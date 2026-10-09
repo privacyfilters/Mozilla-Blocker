@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 01:08:56 UTC
-# Version: 4.71
+# Last modified: 09 October 2026 16:26:05 UTC
+# Version: 4.75
 # Syntax: DNSMasq
-# Number of entries: 827
+# Number of entries: 831
 #
 # # Mozilla Addons
 server=/addons.mozilla.org/
@@ -25,11 +25,13 @@ local=/analytics.google.com/
 local=/analytics.query.yahoo.com/
 local=/anonymous-analytics.tonkeeper.com/
 local=/anonymous.analytics.impalastudios.com/
+local=/api.amplitude.com/
 local=/api2.amplitude.com/
 local=/app-measurement.com/
 local=/assistant-googlefirefox.com/
 local=/braze.com/
 local=/buysellads.com/
+local=/cdn.amplitude.com/
 local=/cookielaw.org/
 local=/google-analytics.com/
 local=/googletagmanager.com/
@@ -202,6 +204,7 @@ local=/anonymous-communication.ghostery.net/
 local=/anonymous-proxies.net/
 local=/anonymous-stresser.net/
 local=/anonymous.ads.brave.com/
+local=/anonymous.qub.ca/
 local=/anonymousads.com/
 local=/anonymouscasino.fr/
 local=/anonymouscasino1.fr/
@@ -370,6 +373,7 @@ local=/hackasaurus.org/
 local=/hg-edge-mozilla.fastly-edge.com/
 local=/hivelearningnetworks.org/
 local=/hivenyc.org/
+local=/hmkpz.thunderbirdskin.com/
 local=/hubs-platform.com/
 local=/hubs-platform.net/
 local=/hubs-platform.org/

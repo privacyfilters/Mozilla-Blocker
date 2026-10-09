@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 16:26:05 UTC
-! Version: 4.75
+! Last modified: 09 October 2026 17:00:24 UTC
+! Version: 4.76
 ! Syntax: Adblock
-! Number of entries: 723
+! Number of entries: 724
 !
 !! Addon endpoints - important override
 ||blocklist.addons.mozilla.org^$important
@@ -49,9 +49,9 @@
 ||innocraft.cloud^
 ||matomo.cloud^
 ||mozilla-analytics.b-cdn.net^
+||o1069899.ingest.sentry.io^
 ||omappapi.com^
 ||pubmine.com^
-||sentry.io^
 ||typeform.com^
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 ||extensionworkshop.com^
@@ -488,6 +488,7 @@
 ||mozilla.ru^
 ||mozilla.rw^
 ||mozilla.se^
+||mozilla.sentry.io^
 ||mozilla.sg^
 ||mozilla.si^
 ||mozilla.sk^

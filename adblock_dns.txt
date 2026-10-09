@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 16:26:05 UTC
-! Version: 4.75
+! Last modified: 09 October 2026 17:00:24 UTC
+! Version: 4.76
 ! Syntax: Adblock
-! Number of entries: 757
+! Number of entries: 758
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.mozilla.org^
@@ -70,12 +70,11 @@
 ! Cloud-hosted Matomo analytics
 ||matomo.cloud^
 ||mozilla-analytics.b-cdn.net^
+||o1069899.ingest.sentry.io^
 ! Another analytics service
 ||omappapi.com^
 ! Ad tech platform
 ||pubmine.com^
-! Error tracking and monitoring
-||sentry.io^
 ! Online form creation and data collection
 ||typeform.com^
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
@@ -541,6 +540,7 @@
 ||mozilla.ru^
 ||mozilla.rw^
 ||mozilla.se^
+||mozilla.sentry.io^
 ||mozilla.sg^
 ||mozilla.si^
 ||mozilla.sk^

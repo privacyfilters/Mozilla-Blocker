@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 09 October 2026 21:17:28 UTC
-# Version: 4.84
+# Last modified: 09 October 2026 21:46:23 UTC
+# Version: 4.85
 # Syntax: domains (including possible subdomains)
-# Number of entries: 4082
+# Number of entries: 4074
 #
 # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -324,7 +324,6 @@ www.updates.floorp.app
 www.updates.zen-browser.app
 # # Urls related to downloads,addons and accounts
 accounts-static.cdn.mozilla.net
-accounts.firefox.com
 basket.allizom.org
 basket.mozilla.org
 bedrock-demos.mozilla.org
@@ -337,8 +336,6 @@ ftp.mozilla.org
 moz.works
 mozorg.moz.works
 search-telemetry.mozilla.org
-services.addons.mozilla.org
-services.addons.thunderbird.net
 smart-block.firefox.com
 www.accounts.firefox.com
 www.mozorg.moz.works
@@ -861,7 +858,6 @@ biggan.mozilla.org
 billionaireblastoff.firefox.com
 blip.mozilla.org
 blocked.cdn.mozilla.net
-blocklist.addons.mozilla.org
 blocklist.mozilla.org
 blocklist.services.mozilla.com
 blocklist.settings.services.mozilla.org
@@ -1110,7 +1106,6 @@ crash-stats.dev.mozaws.net
 crash-stats.mozilla.com
 crash-stats.stage.mozaws.net
 crash-stats.stage.mozilla.com
-crash.addons.mozilla.org
 crash.mozilla.com
 crash.planet.mozilla.org
 crash.reporting.build.mozilla.org
@@ -1120,7 +1115,6 @@ crash.reporting.svn.mozilla.org
 crash.services.mozilla.com
 crash.svn.mozilla.org
 crash.vpn.mozilla.org
-crashplan.addons.mozilla.org
 crashplan.planet.mozilla.org
 crashplan.svn.mozilla.org
 crashplan.vpn.mozilla.org
@@ -1252,8 +1246,6 @@ discovershiretoko.org
 discovery-api.firefox.com
 discovery-api.mozilla.com
 discovery.addons-dev.allizom.org
-discovery.addons.allizom.org
-discovery.addons.mozilla.org
 discovery.firefox.com
 discussion.mozilla.org
 distilbert.mozilla.org

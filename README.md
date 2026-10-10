@@ -17,7 +17,6 @@ There are two versions, depending on whether you still want to install add-ons:
 
 * **[Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker)**: primary repository
 * **[GitHub](https://github.com/privacyfilters/Mozilla-Blocker)**: mirror, kept for backup and availability
-* **[jsDelivr](https://www.jsdelivr.com/)**: CDN that serves the GitHub mirror, for faster and more reliable downloads of the filter lists
 
 > **Please use only one copy of each filter.**
 > All sources have the same lists. Using more than one doesn't give you extra protection, it just creates duplicate rules.
@@ -40,7 +39,7 @@ These filters only make sense with **system-wide ad-blockers, DNS sinkholes, and
 
 Allows Firefox forks to install and update add-ons from the Mozilla extension store.
 
-| Format | Works with | Codeberg | GitHub | jsDelivr |
+| Format | Works with | Codeberg | GitHub | CdnjsDelivr |
 | ------ | ---------- | -------- | ------ | -------- |
 | **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns.txt) |
 | **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains.txt) |
@@ -54,7 +53,7 @@ For tools where you have to allow domains manually (like Adblock-lean, and likel
 
 * [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_domains.txt)
 * [GitHub](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/whitelist_domains.txt)
-* [jsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/whitelist_domains.txt)
+* [CdnjsDelivr](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/whitelist_domains.txt)
 
 ---
 
@@ -64,7 +63,7 @@ For tools where you have to allow domains manually (like Adblock-lean, and likel
 
 Everything from Mozilla is blanket blocked, **including add-ons**. Not recommended for regular users.
 
-| Format | Works with | Codeberg | GitHub | jsDelivr |
+| Format | Works with | Codeberg | GitHub | CdnjsDelivr |
 | ------ | ---------- | -------- | ------ | -------- |
 | **Adblock / DNS** | AdGuard Home, Adblock-Fast, pfSense + pfBlockerNG, Zen Adblocker | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/adblock_dns_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/adblock_dns_nomozilla.txt) |
 | **Domains** | Pi-hole, OPNsense, Adblock-lean, personalDNSfilter (raw domains and subdomains) | [Link](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla.txt) | [Link](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/main/domains_nomozilla.txt) | [Link](https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/domains_nomozilla.txt) |
@@ -196,4 +195,4 @@ It's very fast and was a delight to use as my default browser before I switched 
 
 * **Codeberg:** https://codeberg.org/privacyfilters/Mozilla-Blocker
 * **GitHub (mirror):** https://github.com/privacyfilters/Mozilla-Blocker
-* **jsDelivr (CDN for the GitHub mirror):** https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/
+* **CdnjsDelivr (CDN for the GitHub mirror):** https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/

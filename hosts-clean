@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 14:26:44 UTC
-# Version: 4.90
+# Last modified: 10 October 2026 19:01:49 UTC
+# Version: 4.92
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 8577
+# Number of entries: 8585
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -961,12 +961,13 @@
 0.0.0.0 123-nonexistant-dnsjedi-456.waterfox.net
 0.0.0.0 accounts.waterfox.net
 0.0.0.0 accountso.waterfox.net
+0.0.0.0 addons-dev.palemoon.org
 0.0.0.0 analytics.waterfox.net
 0.0.0.0 analyticse.waterfox.net
-0.0.0.0 archive9.basilisk-browser.org
 0.0.0.0 artifacts.ci.librewolf.net
 0.0.0.0 artifactsm.ci.librewolf.net
 0.0.0.0 aus.basilisk-browser.org
+0.0.0.0 aus.palemoon.org
 0.0.0.0 aus.waterfox.net
 0.0.0.0 aus1.waterfox.net
 0.0.0.0 auso.waterfox.net
@@ -974,6 +975,7 @@
 0.0.0.0 autodiscover.librewolf.net
 0.0.0.0 autodiscoverq.librewolf.net
 0.0.0.0 betae.librewolf.net
+0.0.0.0 blocklist.palemoon.org
 0.0.0.0 cdn.waterfox.net
 0.0.0.0 cdn1.waterfox.net
 0.0.0.0 cdn5.waterfox.net
@@ -986,11 +988,13 @@
 0.0.0.0 commentos.waterfox.net
 0.0.0.0 debe.eu.librewolf.net
 0.0.0.0 debiang.librewolf.net
+0.0.0.0 detectportal.palemoon.org
 0.0.0.0 dev.basilisk-browser.org
 0.0.0.0 dev1.dev.basilisk-browser.org
+0.0.0.0 developer.palemoon.org
 0.0.0.0 devz.basilisk-browser.org
-0.0.0.0 docs7.zen-browser.app
 0.0.0.0 dooh.waterfox.net
+0.0.0.0 dua.palemoon.org
 0.0.0.0 fetch.waterfox.net
 0.0.0.0 floorp-update.ablaze.one
 0.0.0.0 grpc.ci.librewolf.net
@@ -1008,6 +1012,7 @@
 0.0.0.0 ns1.librewolf.net
 0.0.0.0 ns2.librewolf.net
 0.0.0.0 odoh.waterfox.net
+0.0.0.0 pmsync.palemoon.org
 0.0.0.0 private-cdn.zen-browser.app
 0.0.0.0 remark.waterfox.net
 0.0.0.0 s1.waterfox.net
@@ -1017,13 +1022,14 @@
 0.0.0.0 staging.deb.librewolf.net
 0.0.0.0 staging.rpm.librewolf.net
 0.0.0.0 staging.updaterepos.librewolf.net
+0.0.0.0 start.palemoon.org
 0.0.0.0 stats.waterfox.net
 0.0.0.0 storage.ci.librewolf.net
 0.0.0.0 test.librewolf.net
 0.0.0.0 test2.librewolf.net
 0.0.0.0 test29.librewolf.net
 0.0.0.0 test3.librewolf.net
-0.0.0.0 try4.waterfox.net
+0.0.0.0 testserver.palemoon.org
 0.0.0.0 uma.zen-browser.app
 0.0.0.0 uma9.zen-browser.app
 0.0.0.0 updaterepos-new.librewolf.net
@@ -1031,6 +1037,7 @@
 0.0.0.0 updates.floorp.app
 0.0.0.0 updates.librewolf.net
 0.0.0.0 updates.zen-browser.app
+0.0.0.0 vmx.palemoon.org
 0.0.0.0 www.accounts.waterfox.net
 0.0.0.0 www.artifacts.ci.librewolf.net
 0.0.0.0 www.aus.basilisk-browser.org
@@ -1066,6 +1073,7 @@
 0.0.0.0 www.updaterepos.librewolf.net
 0.0.0.0 www.updates.floorp.app
 0.0.0.0 www.updates.zen-browser.app
+0.0.0.0 xref.palemoon.org
 # # Urls related to downloads,addons and accounts
 0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 basket.allizom.org

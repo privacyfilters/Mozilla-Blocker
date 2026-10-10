@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 14:26:44 UTC
-# Version: 4.90
+# Last modified: 10 October 2026 19:01:49 UTC
+# Version: 4.92
 # Syntax: domains (including possible subdomains)
-# Number of entries: 8637
+# Number of entries: 8645
 #
 # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -993,12 +993,13 @@ zendesk4c.firefox.com
 123-nonexistant-dnsjedi-456.waterfox.net
 accounts.waterfox.net
 accountso.waterfox.net
+addons-dev.palemoon.org
 analytics.waterfox.net
 analyticse.waterfox.net
-archive9.basilisk-browser.org
 artifacts.ci.librewolf.net
 artifactsm.ci.librewolf.net
 aus.basilisk-browser.org
+aus.palemoon.org
 aus.waterfox.net
 aus1.waterfox.net
 auso.waterfox.net
@@ -1006,6 +1007,7 @@ autoconfig.librewolf.net
 autodiscover.librewolf.net
 autodiscoverq.librewolf.net
 betae.librewolf.net
+blocklist.palemoon.org
 cdn.waterfox.net
 cdn1.waterfox.net
 cdn5.waterfox.net
@@ -1018,11 +1020,13 @@ commento.waterfox.net
 commentos.waterfox.net
 debe.eu.librewolf.net
 debiang.librewolf.net
+detectportal.palemoon.org
 dev.basilisk-browser.org
 dev1.dev.basilisk-browser.org
+developer.palemoon.org
 devz.basilisk-browser.org
-docs7.zen-browser.app
 dooh.waterfox.net
+dua.palemoon.org
 fetch.waterfox.net
 floorp-update.ablaze.one
 grpc.ci.librewolf.net
@@ -1040,6 +1044,7 @@ nextcloud.floorp.app
 ns1.librewolf.net
 ns2.librewolf.net
 odoh.waterfox.net
+pmsync.palemoon.org
 private-cdn.zen-browser.app
 remark.waterfox.net
 s1.waterfox.net
@@ -1049,13 +1054,14 @@ stage.waterfox.net
 staging.deb.librewolf.net
 staging.rpm.librewolf.net
 staging.updaterepos.librewolf.net
+start.palemoon.org
 stats.waterfox.net
 storage.ci.librewolf.net
 test.librewolf.net
 test2.librewolf.net
 test29.librewolf.net
 test3.librewolf.net
-try4.waterfox.net
+testserver.palemoon.org
 uma.zen-browser.app
 uma9.zen-browser.app
 updaterepos-new.librewolf.net
@@ -1063,6 +1069,7 @@ updaterepos.librewolf.net
 updates.floorp.app
 updates.librewolf.net
 updates.zen-browser.app
+vmx.palemoon.org
 www.accounts.waterfox.net
 www.artifacts.ci.librewolf.net
 www.aus.basilisk-browser.org
@@ -1098,6 +1105,7 @@ www.updaterepos-new.librewolf.net
 www.updaterepos.librewolf.net
 www.updates.floorp.app
 www.updates.zen-browser.app
+xref.palemoon.org
 # # Urls related to downloads,addons and accounts
 accounts-static.cdn.mozilla.net
 basket.allizom.org

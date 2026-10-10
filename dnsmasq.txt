@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 14:26:44 UTC
-# Version: 4.90
+# Last modified: 10 October 2026 19:01:49 UTC
+# Version: 4.92
 # Syntax: DNSMasq
-# Number of entries: 864
+# Number of entries: 872
 #
 # # Mozilla Addons
 server=/addons.basilisk-browser.org/
@@ -120,10 +120,11 @@ local=/zlotarioprotrade.com/
 local=/123-nonexistant-dnsjedi-456.waterfox.net/
 local=/accounts.waterfox.net/
 local=/accountso.waterfox.net/
+local=/addons-dev.palemoon.org/
 local=/analytics.waterfox.net/
 local=/analyticse.waterfox.net/
-local=/archive9.basilisk-browser.org/
 local=/aus.basilisk-browser.org/
+local=/aus.palemoon.org/
 local=/aus.waterfox.net/
 local=/aus1.waterfox.net/
 local=/auso.waterfox.net/
@@ -131,6 +132,7 @@ local=/autoconfig.librewolf.net/
 local=/autodiscover.librewolf.net/
 local=/autodiscoverq.librewolf.net/
 local=/betae.librewolf.net/
+local=/blocklist.palemoon.org/
 local=/cdn.waterfox.net/
 local=/cdn1.waterfox.net/
 local=/cdn5.waterfox.net/
@@ -142,10 +144,12 @@ local=/commento.waterfox.net/
 local=/commentos.waterfox.net/
 local=/debe.eu.librewolf.net/
 local=/debiang.librewolf.net/
+local=/detectportal.palemoon.org/
 local=/dev.basilisk-browser.org/
+local=/developer.palemoon.org/
 local=/devz.basilisk-browser.org/
-local=/docs7.zen-browser.app/
 local=/dooh.waterfox.net/
+local=/dua.palemoon.org/
 local=/fetch.waterfox.net/
 local=/floorp-update.ablaze.one/
 local=/hcraes.waterfox.net/
@@ -159,6 +163,7 @@ local=/nextcloud.floorp.app/
 local=/ns1.librewolf.net/
 local=/ns2.librewolf.net/
 local=/odoh.waterfox.net/
+local=/pmsync.palemoon.org/
 local=/private-cdn.zen-browser.app/
 local=/remark.waterfox.net/
 local=/s1.waterfox.net/
@@ -167,12 +172,13 @@ local=/searche.waterfox.net/
 local=/stage.waterfox.net/
 local=/staging.deb.librewolf.net/
 local=/staging.rpm.librewolf.net/
+local=/start.palemoon.org/
 local=/stats.waterfox.net/
 local=/test.librewolf.net/
 local=/test2.librewolf.net/
 local=/test29.librewolf.net/
 local=/test3.librewolf.net/
-local=/try4.waterfox.net/
+local=/testserver.palemoon.org/
 local=/uma.zen-browser.app/
 local=/uma9.zen-browser.app/
 local=/updaterepos-new.librewolf.net/
@@ -180,6 +186,8 @@ local=/updaterepos.librewolf.net/
 local=/updates.floorp.app/
 local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
+local=/vmx.palemoon.org/
+local=/xref.palemoon.org/
 # # Urls related to downloads,addons and accounts
 local=/moz.works/
 # # Blocklist: Simplified rules from domains

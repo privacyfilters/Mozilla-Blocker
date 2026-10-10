@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 10 October 2026 14:26:44 UTC
-! Version: 4.90
+! Last modified: 10 October 2026 19:01:49 UTC
+! Version: 4.92
 ! Syntax: Adblock
-! Number of entries: 826
+! Number of entries: 835
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.basilisk-browser.org^
@@ -65,6 +65,7 @@
 ||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
+||aus*.palemoon.org^
 ||aus*.waterfox.net^
 ||firefox.com*^
 ||mozilla*.*fastly-edge.com^
@@ -175,10 +176,11 @@
 ||123-nonexistant-dnsjedi-456.waterfox.net^
 ||accounts.waterfox.net^
 ||accountso.waterfox.net^
+||addons-dev.palemoon.org^
 ||analytics.waterfox.net^
 ||analyticse.waterfox.net^
-||archive9.basilisk-browser.org^
 ||aus.basilisk-browser.org^
+||aus.palemoon.org^
 ||aus.waterfox.net^
 ||aus1.waterfox.net^
 ||auso.waterfox.net^
@@ -186,6 +188,7 @@
 ||autodiscover.librewolf.net^
 ||autodiscoverq.librewolf.net^
 ||betae.librewolf.net^
+||blocklist.palemoon.org^
 ||cdn.waterfox.net^
 ||cdn1.waterfox.net^
 ||cdn5.waterfox.net^
@@ -197,10 +200,12 @@
 ||commentos.waterfox.net^
 ||debe.eu.librewolf.net^
 ||debiang.librewolf.net^
+||detectportal.palemoon.org^
 ||dev.basilisk-browser.org^
+||developer.palemoon.org^
 ||devz.basilisk-browser.org^
-||docs7.zen-browser.app^
 ||dooh.waterfox.net^
+||dua.palemoon.org^
 ||fetch.waterfox.net^
 ||floorp-update.ablaze.one^
 ||hcraes.waterfox.net^
@@ -214,6 +219,7 @@
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
 ||odoh.waterfox.net^
+||pmsync.palemoon.org^
 ||private-cdn.zen-browser.app^
 ||remark.waterfox.net^
 ||s1.waterfox.net^
@@ -222,12 +228,13 @@
 ||stage.waterfox.net^
 ||staging.deb.librewolf.net^
 ||staging.rpm.librewolf.net^
+||start.palemoon.org^
 ||stats.waterfox.net^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
 ||test3.librewolf.net^
-||try4.waterfox.net^
+||testserver.palemoon.org^
 ||uma.zen-browser.app^
 ||uma9.zen-browser.app^
 ||updaterepos-new.librewolf.net^
@@ -235,6 +242,8 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
+||vmx.palemoon.org^
+||xref.palemoon.org^
 !! Urls related to downloads, addons and accounts
 ||moz.works^
 !!!!!! Blocklist: Simplified list from hosts !!!!!!

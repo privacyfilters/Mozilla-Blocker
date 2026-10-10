@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 10 October 2026 14:26:44 UTC
-! Version: 4.90
+! Last modified: 10 October 2026 19:01:49 UTC
+! Version: 4.92
 ! Syntax: Adblock
-! Number of entries: 790
+! Number of entries: 800
 !
 !! Addon endpoints - important override
 ||aff.addons.mozilla.org^$important
@@ -56,6 +56,7 @@
 ||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
+||aus*.palemoon.org^
 ||firefox.com*^
 ||mozilla*.*fastly-edge.com^
 ||mozilla*.*fastly.net^
@@ -143,18 +144,22 @@
 ||zlotariopropro.com^
 ||zlotarioprotrade.com^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
-||archive9.basilisk-browser.org^
+||addons-dev.palemoon.org^
 ||aus.basilisk-browser.org^
+||aus.palemoon.org^
 ||autoconfig.librewolf.net^
 ||autodiscover.librewolf.net^
 ||autodiscoverq.librewolf.net^
 ||betae.librewolf.net^
+||blocklist.palemoon.org^
 ||ci.librewolf.net^
 ||debe.eu.librewolf.net^
 ||debiang.librewolf.net^
+||detectportal.palemoon.org^
 ||dev.basilisk-browser.org^
+||developer.palemoon.org^
 ||devz.basilisk-browser.org^
-||docs7.zen-browser.app^
+||dua.palemoon.org^
 ||floorp-update.ablaze.one^
 ||kho.librewolf.net^
 ||komodo.librewolf.net^
@@ -163,13 +168,16 @@
 ||nextcloud.floorp.app^
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
+||pmsync.palemoon.org^
 ||private-cdn.zen-browser.app^
 ||staging.deb.librewolf.net^
 ||staging.rpm.librewolf.net^
+||start.palemoon.org^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
 ||test3.librewolf.net^
+||testserver.palemoon.org^
 ||uma.zen-browser.app^
 ||uma9.zen-browser.app^
 ||updaterepos-new.librewolf.net^
@@ -177,6 +185,8 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
+||vmx.palemoon.org^
+||xref.palemoon.org^
 ||addons.basilisk-browser.org^
 ||addons.palemoon.org^
 ||addons.mozilla.net.ru^

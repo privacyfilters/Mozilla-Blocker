@@ -4,22 +4,56 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2026 21:46:22 UTC
-! Version: 4.85
+! Last modified: 10 October 2026 14:26:44 UTC
+! Version: 4.90
 ! Syntax: Adblock
-! Number of entries: 724
+! Number of entries: 790
 !
 !! Addon endpoints - important override
+||aff.addons.mozilla.org^$important
+||amazonkag.addons.mozilla.org^$important
+||aoc.addons.mozilla.org^$important
+||bash-insulterq.addons.mozilla.org^$important
+||blockchain-stuffw.addons.mozilla.org^$important
 ||blocklist.addons.mozilla.org^$important
+||blocklist.addons.thunderbird.net^$important
+||blocklisto.addons.thunderbird.net^$important
+||chaosm-thi.addons.mozilla.org^$important
+||consul-templateu.addons.mozilla.org^$important
 ||crash.addons.mozilla.org^$important
 ||crash.addons.thunderbird.net^$important
 ||crashplan.addons.mozilla.org^$important
 ||crashplan.addons.thunderbird.net^$important
+||dat8.addons.mozilla.org^$important
+||dear-imguik.addons.mozilla.org^$important
+||debuggingi.addons.mozilla.org^$important
+||deepmojig.addons.mozilla.org^$important
+||devi.movie.addons.mozilla.org^$important
 ||discovery.addons.allizom.org^$important
 ||discovery.addons.mozilla.org^$important
 ||discovery.addons.thunderbird.net^$important
+||dx.addons.mozilla.org^$important
+||eduroame.addons.mozilla.org^$important
+||erictreacy.github.io.addons.mozilla.org^$important
+||facebook-messenger.addons.mozilla.org^$important
+||gae-initg.addons.mozilla.org^$important
+||game-devg.addons.mozilla.org^$important
+||git-addonsk.addons.mozilla.org^$important
+||go-web3e.addons.mozilla.org^$important
+||graphqlvizk.addons.mozilla.org^$important
+||reviewers.addons.mozilla.org^$important
+||reviewers.addons.thunderbird.net^$important
+||reviewersm.addons.thunderbird.net^$important
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
+||servicesc.addons.thunderbird.net^$important
+||versionchecka.addons.thunderbird.net^$important
+||www.addons.thunderbird.net^$important
+||www.blocklist.addons.thunderbird.net^$important
+||www.reviewers.addons.thunderbird.net^$important
+||www.services.addons.thunderbird.net^$important
+||www.versioncheck-bg.addons.thunderbird.net^$important
+||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||firefox.com*^
@@ -81,10 +115,15 @@
 ||links.notarize.com^
 ||matomo.abb-notaries.com^
 ||matomo.notariat.services^
+||mlpa-prod-prod-mozilla.freetls.fastly.net^
+||mozilladatacollective.com^
+||mozillaventures.com^
 ||notarialsfrespaceaccss.framer.website^
 ||notarius40.ru^
 ||notariushotel.com^
 ||notariusnetwebmail.weebly.com^
+||octonous.ai^
+||octonous.com^
 ||orbitbymozilla.com^
 ||orcaready.org^
 ||otaries.gaycatfollyerpolity.cyou^
@@ -121,6 +160,7 @@
 ||komodo.librewolf.net^
 ||mail.basilisk-browser.org^
 ||mjolnir.librewolf.net^
+||nextcloud.floorp.app^
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
 ||private-cdn.zen-browser.app^
@@ -137,6 +177,8 @@
 ||updates.floorp.app^
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
+||addons.basilisk-browser.org^
+||addons.palemoon.org^
 ||addons.mozilla.net.ru^
 ||waterfox.net^
 ||moz.works^
@@ -183,8 +225,18 @@
 ||anonymsb.com^
 ||anonymurl.biz^
 ||api.firefox.ai^
+||arewefastyet.com^
+||arewefirstyet.com^
+||arewefunyet.com^
+||arewemobileyet.com^
+||areweprettyyet.com^
+||areweslimyet.com^
+||arewesmallyet.com^
+||arewestableyet.com^
+||artzilla.org^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||assistant.firefoxlabs.net^
+||aviary.pl^
 ||badg.us^
 ||barmanonymity.shop^
 ||basilisk.community-arts.net^
@@ -193,8 +245,9 @@
 ||bug.bz^
 ||bugzilla.org^
 ||builders.mozillaai.org^
+||caminobrowser.org^
 ||cdnmozilla.net^
-||chuki.mozillaupdates.us^
+||chilemoz.org^
 ||cliqz.com^
 ||cloudanonymityhub.com^
 ||commonvoice.ai^
@@ -202,6 +255,7 @@
 ||commonvoice.net^
 ||commonvoice.org^
 ||content-autofill.googleapis.com^
+||czilla.cz^
 ||debug-ping-preview.firebaseapp.com^
 ||detodosparatodos.org^
 ||discovershiretoko.org^
@@ -211,9 +265,10 @@
 ||domain.glass^
 ||domozmail.com^
 ||dorando.at^
+||dromaeo.com^
 ||dummytracker.org^
+||dxr.lanedo.com^
 ||ecmascript.org^
-||ehmmn.thunderbirdskin.com^
 ||equativ.com^
 ||experimenter.info^
 ||extendfirefox.com^
@@ -322,7 +377,9 @@
 ||fxa-stage.auth0.com^
 ||fxa-statsd-exporter.herokuapp.com^
 ||fxa-verification-server.herokuapp.com^
+||fxos.org^
 ||fxosapps.org^
+||geckozone.org^
 ||getfirebug.com^
 ||getfirefox.com^
 ||getpersonas.com^
@@ -330,16 +387,13 @@
 ||getpocket.dev^
 ||getpocketvault.com^
 ||googlecn-firefox.cn^
-||gyzu.mozillaupdates.us^
 ||hackasaurus.org^
 ||hg-edge-mozilla.fastly-edge.com^
 ||hivelearningnetworks.org^
 ||hivenyc.org^
-||hmkpz.thunderbirdskin.com^
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^
-||ikoac.thunderbirdskin.com^
 ||incoming.telemetry.mozilla.org.edgesuite.net^
 ||indexexchange.com^
 ||interforest.org^
@@ -354,6 +408,7 @@
 ||learningfreedomandtheweb.org^
 ||librewolf.fr^
 ||lightbeam.org^
+||lizardwrangler.com^
 ||llamafile.dev^
 ||lumigator.ai^
 ||m-firefox.com^
@@ -365,13 +420,17 @@
 ||mdn-labs.org^
 ||mdn.dev^
 ||mdnplay.dev^
+||mdnyalp.dev^
 ||mecha-mozilla.org^
+||mhafai.com^
 ||mlpa-nonprod-stage-mozilla.global.ssl.fastly.net^
 ||mlpa-prod-prod-mozilla.global.ssl.fastly.net^
+||mofoprod.net^
 ||moz.la^
 ||mozamo.wpengine.com^
 ||mozaws.com^
 ||mozaws.net^
+||mozbrowser.nl^
 ||mozdev.com^
 ||mozdev.net^
 ||mozdev.org^
@@ -395,6 +454,7 @@
 ||mozilla-corporation.org^
 ||mozilla-devrel.github.io^
 ||mozilla-download.fastly-edge.com^
+||mozilla-europe.org^
 ||mozilla-foundation.github.io^
 ||mozilla-games.org^
 ||mozilla-india.org^
@@ -414,6 +474,7 @@
 ||mozilla-monitor.org^
 ||mozilla-nepal.org^
 ||mozilla-nimbus.org^
+||mozilla-ohttp-dap.mozilla.fastly-edge.com^
 ||mozilla-ohttp-fakespot.fastly-edge.com^
 ||mozilla-ohttp.fastly-edge.com^
 ||mozilla-pakistan.org^
@@ -596,6 +657,7 @@
 ||mozillasummit.org^
 ||mozillateaching.org^
 ||mozillaupdates.com^
+||mozillaupdates.us^
 ||mozillausercontent.com^
 ||mozillavpn.net^
 ||mozillavr.com^
@@ -615,10 +677,12 @@
 ||mozmail.com^
 ||mozspace.org^
 ||mozsprint.net^
+||moztw.org^
 ||mozworks.net^
 ||mparticle.com^
 ||myhubs.net^
 ||mzl.la^
+||nextbillionvoices.com^
 ||ohttp-merino.mozilla.fastly-edge.com^
 ||onemozilla.org^
 ||onlineanonymizer.com^
@@ -673,7 +737,7 @@
 ||popcornjs.org^
 ||privacybadger.org^
 ||privacydashboard.org^
-||pro.thunderbirdskin.com^
+||proyectonave.es^
 ||publicsuffix.org^
 ||push.api.prod.cloudflare.com^
 ||rally-data.com^
@@ -688,15 +752,14 @@
 ||relayemail.com^
 ||relayemail.net^
 ||safebrowsing.googleapis.com^
-||sake.mozillaupdates.us^
+||seamonkey-project.org^
 ||search.anonymous.brave.com^
 ||search.anonymous.bravesoftware.com^
 ||searchanonymous.net^
 ||searchfox.org^
 ||securityriskahead.eu^
-||server.thunderbirdskin.com^
 ||shield-recipe-client.readthedocs.io^
-||soiree.mozilla-europe.org^
+||sorbzilla.de^
 ||spreadfirefox.com^
 ||sst.coralsanonymous.com^
 ||sst.cordcuttersanonymous.com^
@@ -720,7 +783,9 @@
 ||thunderbirdfoundation.org^
 ||thunderbirdmail.com^
 ||thunderbirdmail.org^
+||thunderbirdskin.com^
 ||thundermail.com^
+||togetherjs.com^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^
 ||trk.floorplanner.com^
@@ -736,7 +801,8 @@
 ||webthingsplatform.com^
 ||webthingsplatform.net^
 ||webthingsplatform.org^
+||womoz.org^
 ||www-mozilla.fastly-edge.com^
 ||xn--08jp3vya2q.jp^
+||xulfr.org^
 ||youanonymous.com^
-||zen.mozillaupdates.us^

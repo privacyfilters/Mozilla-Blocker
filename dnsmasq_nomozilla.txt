@@ -4,16 +4,18 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 19:01:49 UTC
-# Version: 4.92
+# Last modified: 11 October 2026 22:09:39 UTC
+# Version: 4.94
 # Syntax: DNSMasq
-# Number of entries: 882
+# Number of entries: 909
 #
 # # Addon endpoints - important override
 local=/aff.addons.mozilla.org/
 local=/amazonkag.addons.mozilla.org/
 local=/aoc.addons.mozilla.org/
+local=/autodiscovery.addons.mozilla.org/
 local=/bash-insulterq.addons.mozilla.org/
+local=/bg.addons.mozilla.org/
 local=/blockchain-stuffw.addons.mozilla.org/
 local=/blocklist.addons.mozilla.org/
 local=/blocklist.addons.thunderbird.net/
@@ -52,8 +54,6 @@ local=/www.addons.thunderbird.net/
 local=/www.blocklist.addons.thunderbird.net/
 local=/www.reviewers.addons.thunderbird.net/
 local=/www.services.addons.thunderbird.net/
-local=/www.versioncheck-bg.addons.thunderbird.net/
-local=/www.versioncheck.addons.thunderbird.net/
 # # External Trackers Mozilla uses on their own sites...
 local=/adjust.com/
 local=/analytics.google.com/
@@ -150,35 +150,63 @@ local=/zlotarioproai.com/
 local=/zlotariopropro.com/
 local=/zlotarioprotrade.com/
 # # Firefox Forked browser's tracking urls
+local=/123-nonexistant-dnsjedi-456.waterfox.net/
+local=/accounts.waterfox.net/
+local=/accountso.waterfox.net/
 local=/addons-dev.palemoon.org/
+local=/analytics.waterfox.net/
+local=/analyticse.waterfox.net/
 local=/aus.basilisk-browser.org/
 local=/aus.palemoon.org/
+local=/aus.waterfox.net/
+local=/aus1.waterfox.net/
+local=/auso.waterfox.net/
 local=/autoconfig.librewolf.net/
 local=/autodiscover.librewolf.net/
 local=/autodiscoverq.librewolf.net/
 local=/betae.librewolf.net/
 local=/blocklist.palemoon.org/
+local=/cdn.waterfox.net/
+local=/cdn1.waterfox.net/
+local=/cdn5.waterfox.net/
 local=/ci.librewolf.net/
+local=/classicg.waterfox.net/
+local=/classicsd.waterfox.net/
+local=/clerk.waterfox.net/
+local=/commento.waterfox.net/
+local=/commentos.waterfox.net/
 local=/debe.eu.librewolf.net/
 local=/debiang.librewolf.net/
 local=/detectportal.palemoon.org/
 local=/dev.basilisk-browser.org/
 local=/developer.palemoon.org/
 local=/devz.basilisk-browser.org/
+local=/dooh.waterfox.net/
 local=/dua.palemoon.org/
+local=/fetch.waterfox.net/
 local=/floorp-update.ablaze.one/
+local=/hcraes.waterfox.net/
+local=/hcraesi.waterfox.net/
 local=/kho.librewolf.net/
 local=/komodo.librewolf.net/
 local=/mail.basilisk-browser.org/
+local=/matomo.waterfox.net/
 local=/mjolnir.librewolf.net/
 local=/nextcloud.floorp.app/
 local=/ns1.librewolf.net/
 local=/ns2.librewolf.net/
+local=/odoh.waterfox.net/
 local=/pmsync.palemoon.org/
 local=/private-cdn.zen-browser.app/
+local=/remark.waterfox.net/
+local=/s1.waterfox.net/
+local=/search.waterfox.net/
+local=/searche.waterfox.net/
+local=/stage.waterfox.net/
 local=/staging.deb.librewolf.net/
 local=/staging.rpm.librewolf.net/
 local=/start.palemoon.org/
+local=/stats.waterfox.net/
 local=/test.librewolf.net/
 local=/test2.librewolf.net/
 local=/test29.librewolf.net/
@@ -198,7 +226,6 @@ local=/addons.basilisk-browser.org/
 local=/addons.palemoon.org/
 # # Regional addon mirrors and aggressive extras
 local=/addons.mozilla.net.ru/
-local=/waterfox.net/
 # # Urls related to downloads,addons and accounts
 local=/moz.works/
 # # Blocklist: Simplified rules from domains

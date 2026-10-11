@@ -4,16 +4,18 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 10 October 2026 19:01:49 UTC
-! Version: 4.92
+! Last modified: 11 October 2026 22:09:39 UTC
+! Version: 4.94
 ! Syntax: Adblock
-! Number of entries: 800
+! Number of entries: 828
 !
 !! Addon endpoints - important override
 ||aff.addons.mozilla.org^$important
 ||amazonkag.addons.mozilla.org^$important
 ||aoc.addons.mozilla.org^$important
+||autodiscovery.addons.mozilla.org^$important
 ||bash-insulterq.addons.mozilla.org^$important
+||bg.addons.mozilla.org^$important
 ||blockchain-stuffw.addons.mozilla.org^$important
 ||blocklist.addons.mozilla.org^$important
 ||blocklist.addons.thunderbird.net^$important
@@ -52,11 +54,10 @@
 ||www.blocklist.addons.thunderbird.net^$important
 ||www.reviewers.addons.thunderbird.net^$important
 ||www.services.addons.thunderbird.net^$important
-||www.versioncheck-bg.addons.thunderbird.net^$important
-||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||aus*.palemoon.org^
+||aus*.waterfox.net^
 ||firefox.com*^
 ||mozilla*.*fastly-edge.com^
 ||mozilla*.*fastly.net^
@@ -144,35 +145,63 @@
 ||zlotariopropro.com^
 ||zlotarioprotrade.com^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
+||123-nonexistant-dnsjedi-456.waterfox.net^
+||accounts.waterfox.net^
+||accountso.waterfox.net^
 ||addons-dev.palemoon.org^
+||analytics.waterfox.net^
+||analyticse.waterfox.net^
 ||aus.basilisk-browser.org^
 ||aus.palemoon.org^
+||aus.waterfox.net^
+||aus1.waterfox.net^
+||auso.waterfox.net^
 ||autoconfig.librewolf.net^
 ||autodiscover.librewolf.net^
 ||autodiscoverq.librewolf.net^
 ||betae.librewolf.net^
 ||blocklist.palemoon.org^
+||cdn.waterfox.net^
+||cdn1.waterfox.net^
+||cdn5.waterfox.net^
 ||ci.librewolf.net^
+||classicg.waterfox.net^
+||classicsd.waterfox.net^
+||clerk.waterfox.net^
+||commento.waterfox.net^
+||commentos.waterfox.net^
 ||debe.eu.librewolf.net^
 ||debiang.librewolf.net^
 ||detectportal.palemoon.org^
 ||dev.basilisk-browser.org^
 ||developer.palemoon.org^
 ||devz.basilisk-browser.org^
+||dooh.waterfox.net^
 ||dua.palemoon.org^
+||fetch.waterfox.net^
 ||floorp-update.ablaze.one^
+||hcraes.waterfox.net^
+||hcraesi.waterfox.net^
 ||kho.librewolf.net^
 ||komodo.librewolf.net^
 ||mail.basilisk-browser.org^
+||matomo.waterfox.net^
 ||mjolnir.librewolf.net^
 ||nextcloud.floorp.app^
 ||ns1.librewolf.net^
 ||ns2.librewolf.net^
+||odoh.waterfox.net^
 ||pmsync.palemoon.org^
 ||private-cdn.zen-browser.app^
+||remark.waterfox.net^
+||s1.waterfox.net^
+||search.waterfox.net^
+||searche.waterfox.net^
+||stage.waterfox.net^
 ||staging.deb.librewolf.net^
 ||staging.rpm.librewolf.net^
 ||start.palemoon.org^
+||stats.waterfox.net^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
@@ -190,7 +219,6 @@
 ||addons.basilisk-browser.org^
 ||addons.palemoon.org^
 ||addons.mozilla.net.ru^
-||waterfox.net^
 ||moz.works^
 !!!!!! Blocklist: Simplified list from hosts !!!!!!
 ||250analytics.com^

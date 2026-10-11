@@ -4,8 +4,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 10 October 2026 19:01:49 UTC
-! Version: 4.92
+! Last modified: 11 October 2026 22:09:39 UTC
+! Version: 4.94
 ! Syntax: Adblock
 ! Number of entries: 835
 !
@@ -22,7 +22,9 @@
 ||aff.addons.mozilla.org^$important
 ||amazonkag.addons.mozilla.org^$important
 ||aoc.addons.mozilla.org^$important
+||autodiscovery.addons.mozilla.org^$important
 ||bash-insulterq.addons.mozilla.org^$important
+||bg.addons.mozilla.org^$important
 ||blockchain-stuffw.addons.mozilla.org^$important
 ||blocklist.addons.mozilla.org^$important
 ||blocklist.addons.thunderbird.net^$important
@@ -61,8 +63,6 @@
 ||www.blocklist.addons.thunderbird.net^$important
 ||www.reviewers.addons.thunderbird.net^$important
 ||www.services.addons.thunderbird.net^$important
-||www.versioncheck-bg.addons.thunderbird.net^$important
-||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||aus*.palemoon.org^

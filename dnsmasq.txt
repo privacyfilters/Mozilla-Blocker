@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 19:01:49 UTC
-# Version: 4.92
+# Last modified: 11 October 2026 22:09:39 UTC
+# Version: 4.94
 # Syntax: DNSMasq
-# Number of entries: 872
+# Number of entries: 916
 #
 # # Mozilla Addons
 server=/addons.basilisk-browser.org/
@@ -18,6 +18,51 @@ server=/versioncheck-bg.addons.mozilla.org/
 server=/versioncheck-bg.addons.thunderbird.net/
 server=/versioncheck.addons.mozilla.org/
 server=/versioncheck.addons.thunderbird.net/
+# # Addon endpoints blocked even though addons are allowlisted
+local=/aff.addons.mozilla.org/
+local=/amazonkag.addons.mozilla.org/
+local=/aoc.addons.mozilla.org/
+local=/autodiscovery.addons.mozilla.org/
+local=/bash-insulterq.addons.mozilla.org/
+local=/bg.addons.mozilla.org/
+local=/blockchain-stuffw.addons.mozilla.org/
+local=/blocklist.addons.mozilla.org/
+local=/blocklist.addons.thunderbird.net/
+local=/blocklisto.addons.thunderbird.net/
+local=/chaosm-thi.addons.mozilla.org/
+local=/consul-templateu.addons.mozilla.org/
+local=/crash.addons.mozilla.org/
+local=/crash.addons.thunderbird.net/
+local=/crashplan.addons.mozilla.org/
+local=/crashplan.addons.thunderbird.net/
+local=/dat8.addons.mozilla.org/
+local=/dear-imguik.addons.mozilla.org/
+local=/debuggingi.addons.mozilla.org/
+local=/deepmojig.addons.mozilla.org/
+local=/devi.movie.addons.mozilla.org/
+local=/discovery.addons.allizom.org/
+local=/discovery.addons.mozilla.org/
+local=/discovery.addons.thunderbird.net/
+local=/dx.addons.mozilla.org/
+local=/eduroame.addons.mozilla.org/
+local=/erictreacy.github.io.addons.mozilla.org/
+local=/facebook-messenger.addons.mozilla.org/
+local=/gae-initg.addons.mozilla.org/
+local=/game-devg.addons.mozilla.org/
+local=/git-addonsk.addons.mozilla.org/
+local=/go-web3e.addons.mozilla.org/
+local=/graphqlvizk.addons.mozilla.org/
+local=/reviewers.addons.mozilla.org/
+local=/reviewers.addons.thunderbird.net/
+local=/reviewersm.addons.thunderbird.net/
+local=/services.addons.mozilla.org/
+local=/services.addons.thunderbird.net/
+local=/servicesc.addons.thunderbird.net/
+local=/versionchecka.addons.thunderbird.net/
+local=/www.addons.thunderbird.net/
+local=/www.blocklist.addons.thunderbird.net/
+local=/www.reviewers.addons.thunderbird.net/
+local=/www.services.addons.thunderbird.net/
 # # Betterbird Thunderbird urls
 server=/autoconfig.thunderbird.net/
 server=/live.thunderbird.net/

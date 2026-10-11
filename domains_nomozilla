@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 19:01:49 UTC
-# Version: 4.92
+# Last modified: 11 October 2026 22:09:39 UTC
+# Version: 4.94
 # Syntax: domains (including possible subdomains)
-# Number of entries: 8645
+# Number of entries: 8640
 #
 # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -16,7 +16,9 @@
 aff.addons.mozilla.org
 amazonkag.addons.mozilla.org
 aoc.addons.mozilla.org
+autodiscovery.addons.mozilla.org
 bash-insulterq.addons.mozilla.org
+bg.addons.mozilla.org
 blockchain-stuffw.addons.mozilla.org
 blocklist.addons.mozilla.org
 blocklist.addons.thunderbird.net
@@ -55,8 +57,6 @@ www.addons.thunderbird.net
 www.blocklist.addons.thunderbird.net
 www.reviewers.addons.thunderbird.net
 www.services.addons.thunderbird.net
-www.versioncheck-bg.addons.thunderbird.net
-www.versioncheck.addons.thunderbird.net
 # # External trackers Mozilla uses on their own sites...
 40sentry.prod.mozaws.net
 adjust.com
@@ -713,7 +713,6 @@ www.assets.getpocket.com
 www.aus-stage.thunderbird.net
 www.aus.thunderbird.net
 www.autoconfig-stage.thunderbird.net
-www.autoconfig.thunderbird.net
 www.backstage.getpocket.dev
 www.billionaireblastoff.firefox.com
 www.blog-assets.getpocket.com
@@ -825,7 +824,6 @@ www.labs.mozilla.org
 www.list-api.getpocket.dev
 www.lists.thunderbird.net
 www.live-stage.thunderbird.net
-www.live.thunderbird.net
 www.lockbox.firefox.com
 www.lockwise.firefox.com
 www.mail.firefox.es
@@ -1262,7 +1260,6 @@ addons.mozilla.net.ru
 addons.mozilla.pl
 addons.mozilla.ru
 addons.mozilla.tw
-waterfox.net
 www.addons.mozilla.org
 # Betterbird/Thunderbird urls (blocked in nomozilla)
 autoconfig.thunderbird.net
@@ -2220,7 +2217,6 @@ autoconnect.dev.mozaws.net
 autoconnect.stage.mozaws.net
 autoconnecty.stage.mozaws.net
 autodiscover.mozilla.org
-autodiscovery.addons.mozilla.org
 autoencoder.mozilla.org
 autoendpoint.dev.mozaws.net
 autoendpointe.dev.mozaws.net
@@ -2448,7 +2444,6 @@ beta.webmaker.org
 beta.webrtc1.mdc1.mozilla.com
 beta.webrtc2.mdc2.mozilla.com
 bevs97nhtan5115s971b8k47cpn7qhks.allizom.org
-bg.addons.mozilla.org
 bg2iuiqtbu02k6rrp7v01den70u2djsp.mozilla.net
 biggan.mozilla.org
 billionaireblastoff.firefox.com

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 19:01:49 UTC
-# Version: 4.92
+# Last modified: 11 October 2026 22:09:39 UTC
+# Version: 4.94
 # Syntax: domains (including possible subdomains)
-# Number of entries: 8585
+# Number of entries: 8618
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -22,6 +22,51 @@
 #versioncheck-bg.addons.thunderbird.net
 #versioncheck.addons.mozilla.org
 #versioncheck.addons.thunderbird.net
+# # Addon endpoints blocked even though addons are allowlisted
+aff.addons.mozilla.org
+amazonkag.addons.mozilla.org
+aoc.addons.mozilla.org
+autodiscovery.addons.mozilla.org
+bash-insulterq.addons.mozilla.org
+bg.addons.mozilla.org
+blockchain-stuffw.addons.mozilla.org
+blocklist.addons.mozilla.org
+blocklist.addons.thunderbird.net
+blocklisto.addons.thunderbird.net
+chaosm-thi.addons.mozilla.org
+consul-templateu.addons.mozilla.org
+crash.addons.mozilla.org
+crash.addons.thunderbird.net
+crashplan.addons.mozilla.org
+crashplan.addons.thunderbird.net
+dat8.addons.mozilla.org
+dear-imguik.addons.mozilla.org
+debuggingi.addons.mozilla.org
+deepmojig.addons.mozilla.org
+devi.movie.addons.mozilla.org
+discovery.addons.allizom.org
+discovery.addons.mozilla.org
+discovery.addons.thunderbird.net
+dx.addons.mozilla.org
+eduroame.addons.mozilla.org
+erictreacy.github.io.addons.mozilla.org
+facebook-messenger.addons.mozilla.org
+gae-initg.addons.mozilla.org
+game-devg.addons.mozilla.org
+git-addonsk.addons.mozilla.org
+go-web3e.addons.mozilla.org
+graphqlvizk.addons.mozilla.org
+reviewers.addons.mozilla.org
+reviewers.addons.thunderbird.net
+reviewersm.addons.thunderbird.net
+services.addons.mozilla.org
+services.addons.thunderbird.net
+servicesc.addons.thunderbird.net
+versionchecka.addons.thunderbird.net
+www.addons.thunderbird.net
+www.blocklist.addons.thunderbird.net
+www.reviewers.addons.thunderbird.net
+www.services.addons.thunderbird.net
 # Betterbird/Thunderbird autoconfig(allowed)
 #autoconfig.thunderbird.net
 #live.thunderbird.net
@@ -681,7 +726,6 @@ www.assets.getpocket.com
 www.aus-stage.thunderbird.net
 www.aus.thunderbird.net
 www.autoconfig-stage.thunderbird.net
-www.autoconfig.thunderbird.net
 www.backstage.getpocket.dev
 www.billionaireblastoff.firefox.com
 www.blog-assets.getpocket.com
@@ -793,7 +837,6 @@ www.labs.mozilla.org
 www.list-api.getpocket.dev
 www.lists.thunderbird.net
 www.live-stage.thunderbird.net
-www.live.thunderbird.net
 www.lockbox.firefox.com
 www.lockwise.firefox.com
 www.mail.firefox.es
@@ -1088,8 +1131,6 @@ ftp.mozilla.org
 moz.works
 mozorg.moz.works
 search-telemetry.mozilla.org
-services.addons.mozilla.org
-services.addons.thunderbird.net
 smart-block.firefox.com
 www.accounts.firefox.com
 www.mozorg.moz.works
@@ -2164,7 +2205,6 @@ autoconnect.dev.mozaws.net
 autoconnect.stage.mozaws.net
 autoconnecty.stage.mozaws.net
 autodiscover.mozilla.org
-autodiscovery.addons.mozilla.org
 autoencoder.mozilla.org
 autoendpoint.dev.mozaws.net
 autoendpointe.dev.mozaws.net
@@ -2392,7 +2432,6 @@ beta.webmaker.org
 beta.webrtc1.mdc1.mozilla.com
 beta.webrtc2.mdc2.mozilla.com
 bevs97nhtan5115s971b8k47cpn7qhks.allizom.org
-bg.addons.mozilla.org
 bg2iuiqtbu02k6rrp7v01den70u2djsp.mozilla.net
 biggan.mozilla.org
 billionaireblastoff.firefox.com
@@ -2414,7 +2453,6 @@ blockchain.build.mozilla.org
 blockchain2graphg.build.mozilla.org
 blocked.cdn.mozilla.net
 blocklist.addons-dev.allizom.org
-blocklist.addons.mozilla.org
 blocklist.mozilla.org
 blocklist.services.mozilla.com
 blocklist.settings.services.mozilla.org
@@ -2977,7 +3015,6 @@ crash-stats.dev.mozaws.net
 crash-stats.mozilla.com
 crash-stats.stage.mozaws.net
 crash-stats.stage.mozilla.com
-crash.addons.mozilla.org
 crash.mozilla.com
 crash.planet.mozilla.org
 crash.reporting.build.mozilla.org
@@ -2987,7 +3024,6 @@ crash.reporting.svn.mozilla.org
 crash.services.mozilla.com
 crash.svn.mozilla.org
 crash.vpn.mozilla.org
-crashplan.addons.mozilla.org
 crashplan.planet.mozilla.org
 crashplan.svn.mozilla.org
 crashplan.vpn.mozilla.org
@@ -3274,8 +3310,6 @@ discovershiretoko.org
 discovery-api.firefox.com
 discovery-api.mozilla.com
 discovery.addons-dev.allizom.org
-discovery.addons.allizom.org
-discovery.addons.mozilla.org
 discovery.firefox.com
 discussion.mozilla.org
 distilbert.mozilla.org

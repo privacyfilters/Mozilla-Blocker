@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 10 October 2026 19:01:49 UTC
-# Version: 4.92
+# Last modified: 11 October 2026 22:09:39 UTC
+# Version: 4.94
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 8585
+# Number of entries: 8618
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -22,6 +22,51 @@
 #0.0.0.0 versioncheck-bg.addons.thunderbird.net
 #0.0.0.0 versioncheck.addons.mozilla.org
 #0.0.0.0 versioncheck.addons.thunderbird.net
+# # Addon endpoints blocked even though addons are allowlisted
+0.0.0.0 aff.addons.mozilla.org
+0.0.0.0 amazonkag.addons.mozilla.org
+0.0.0.0 aoc.addons.mozilla.org
+0.0.0.0 autodiscovery.addons.mozilla.org
+0.0.0.0 bash-insulterq.addons.mozilla.org
+0.0.0.0 bg.addons.mozilla.org
+0.0.0.0 blockchain-stuffw.addons.mozilla.org
+0.0.0.0 blocklist.addons.mozilla.org
+0.0.0.0 blocklist.addons.thunderbird.net
+0.0.0.0 blocklisto.addons.thunderbird.net
+0.0.0.0 chaosm-thi.addons.mozilla.org
+0.0.0.0 consul-templateu.addons.mozilla.org
+0.0.0.0 crash.addons.mozilla.org
+0.0.0.0 crash.addons.thunderbird.net
+0.0.0.0 crashplan.addons.mozilla.org
+0.0.0.0 crashplan.addons.thunderbird.net
+0.0.0.0 dat8.addons.mozilla.org
+0.0.0.0 dear-imguik.addons.mozilla.org
+0.0.0.0 debuggingi.addons.mozilla.org
+0.0.0.0 deepmojig.addons.mozilla.org
+0.0.0.0 devi.movie.addons.mozilla.org
+0.0.0.0 discovery.addons.allizom.org
+0.0.0.0 discovery.addons.mozilla.org
+0.0.0.0 discovery.addons.thunderbird.net
+0.0.0.0 dx.addons.mozilla.org
+0.0.0.0 eduroame.addons.mozilla.org
+0.0.0.0 erictreacy.github.io.addons.mozilla.org
+0.0.0.0 facebook-messenger.addons.mozilla.org
+0.0.0.0 gae-initg.addons.mozilla.org
+0.0.0.0 game-devg.addons.mozilla.org
+0.0.0.0 git-addonsk.addons.mozilla.org
+0.0.0.0 go-web3e.addons.mozilla.org
+0.0.0.0 graphqlvizk.addons.mozilla.org
+0.0.0.0 reviewers.addons.mozilla.org
+0.0.0.0 reviewers.addons.thunderbird.net
+0.0.0.0 reviewersm.addons.thunderbird.net
+0.0.0.0 services.addons.mozilla.org
+0.0.0.0 services.addons.thunderbird.net
+0.0.0.0 servicesc.addons.thunderbird.net
+0.0.0.0 versionchecka.addons.thunderbird.net
+0.0.0.0 www.addons.thunderbird.net
+0.0.0.0 www.blocklist.addons.thunderbird.net
+0.0.0.0 www.reviewers.addons.thunderbird.net
+0.0.0.0 www.services.addons.thunderbird.net
 # Betterbird/Thunderbird autoconfig(allowed)
 #0.0.0.0 autoconfig.thunderbird.net
 #0.0.0.0 live.thunderbird.net
@@ -681,7 +726,6 @@
 0.0.0.0 www.aus-stage.thunderbird.net
 0.0.0.0 www.aus.thunderbird.net
 0.0.0.0 www.autoconfig-stage.thunderbird.net
-0.0.0.0 www.autoconfig.thunderbird.net
 0.0.0.0 www.backstage.getpocket.dev
 0.0.0.0 www.billionaireblastoff.firefox.com
 0.0.0.0 www.blog-assets.getpocket.com
@@ -793,7 +837,6 @@
 0.0.0.0 www.list-api.getpocket.dev
 0.0.0.0 www.lists.thunderbird.net
 0.0.0.0 www.live-stage.thunderbird.net
-0.0.0.0 www.live.thunderbird.net
 0.0.0.0 www.lockbox.firefox.com
 0.0.0.0 www.lockwise.firefox.com
 0.0.0.0 www.mail.firefox.es
@@ -1088,8 +1131,6 @@
 0.0.0.0 moz.works
 0.0.0.0 mozorg.moz.works
 0.0.0.0 search-telemetry.mozilla.org
-0.0.0.0 services.addons.mozilla.org
-0.0.0.0 services.addons.thunderbird.net
 0.0.0.0 smart-block.firefox.com
 0.0.0.0 www.accounts.firefox.com
 0.0.0.0 www.mozorg.moz.works
@@ -2164,7 +2205,6 @@
 0.0.0.0 autoconnect.stage.mozaws.net
 0.0.0.0 autoconnecty.stage.mozaws.net
 0.0.0.0 autodiscover.mozilla.org
-0.0.0.0 autodiscovery.addons.mozilla.org
 0.0.0.0 autoencoder.mozilla.org
 0.0.0.0 autoendpoint.dev.mozaws.net
 0.0.0.0 autoendpointe.dev.mozaws.net
@@ -2392,7 +2432,6 @@
 0.0.0.0 beta.webrtc1.mdc1.mozilla.com
 0.0.0.0 beta.webrtc2.mdc2.mozilla.com
 0.0.0.0 bevs97nhtan5115s971b8k47cpn7qhks.allizom.org
-0.0.0.0 bg.addons.mozilla.org
 0.0.0.0 bg2iuiqtbu02k6rrp7v01den70u2djsp.mozilla.net
 0.0.0.0 biggan.mozilla.org
 0.0.0.0 billionaireblastoff.firefox.com
@@ -2414,7 +2453,6 @@
 0.0.0.0 blockchain2graphg.build.mozilla.org
 0.0.0.0 blocked.cdn.mozilla.net
 0.0.0.0 blocklist.addons-dev.allizom.org
-0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 blocklist.mozilla.org
 0.0.0.0 blocklist.services.mozilla.com
 0.0.0.0 blocklist.settings.services.mozilla.org
@@ -2977,7 +3015,6 @@
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.stage.mozaws.net
 0.0.0.0 crash-stats.stage.mozilla.com
-0.0.0.0 crash.addons.mozilla.org
 0.0.0.0 crash.mozilla.com
 0.0.0.0 crash.planet.mozilla.org
 0.0.0.0 crash.reporting.build.mozilla.org
@@ -2987,7 +3024,6 @@
 0.0.0.0 crash.services.mozilla.com
 0.0.0.0 crash.svn.mozilla.org
 0.0.0.0 crash.vpn.mozilla.org
-0.0.0.0 crashplan.addons.mozilla.org
 0.0.0.0 crashplan.planet.mozilla.org
 0.0.0.0 crashplan.svn.mozilla.org
 0.0.0.0 crashplan.vpn.mozilla.org
@@ -3274,8 +3310,6 @@
 0.0.0.0 discovery-api.firefox.com
 0.0.0.0 discovery-api.mozilla.com
 0.0.0.0 discovery.addons-dev.allizom.org
-0.0.0.0 discovery.addons.allizom.org
-0.0.0.0 discovery.addons.mozilla.org
 0.0.0.0 discovery.firefox.com
 0.0.0.0 discussion.mozilla.org
 0.0.0.0 distilbert.mozilla.org

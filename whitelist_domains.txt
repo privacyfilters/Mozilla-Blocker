@@ -1,7 +1,8 @@
 # Title: Mozilla Blocker - Block all Mozilla/Firefox Spying - Domain Whitelist
 # Description: Domains that must stay unblocked for add-on installs/updates
 # and Thunderbird/Betterbird email account setup.
-# Last modified: 10 October 2026 14:22:14 UTC
+# License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
+# Last modified: 11 October 2026 22:09:39 UTC
 # Syntax: plain domains (whitelist)
 # Number of entries: 10
 #

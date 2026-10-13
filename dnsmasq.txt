@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 11 October 2026 22:09:39 UTC
-# Version: 4.94
+# Last modified: 13 October 2026 15:38:43 UTC
+# Version: 4.96
 # Syntax: DNSMasq
-# Number of entries: 916
+# Number of entries: 968
 #
 # # Mozilla Addons
 server=/addons.basilisk-browser.org/
@@ -19,39 +19,73 @@ server=/versioncheck-bg.addons.thunderbird.net/
 server=/versioncheck.addons.mozilla.org/
 server=/versioncheck.addons.thunderbird.net/
 # # Addon endpoints blocked even though addons are allowlisted
+local=/59.addons.mozilla.org/
+local=/ab.addons.mozilla.org/
 local=/aff.addons.mozilla.org/
 local=/amazonkag.addons.mozilla.org/
+local=/animalse.addons.mozilla.org/
+local=/ansible-role-javay.addons.mozilla.org/
 local=/aoc.addons.mozilla.org/
+local=/apc2.addons.mozilla.org/
+local=/asp2.addons.mozilla.org/
+local=/athena.addons.mozilla.org/
 local=/autodiscovery.addons.mozilla.org/
+local=/awesome-iotao.addons.mozilla.org/
+local=/b11.addons.mozilla.org/
 local=/bash-insulterq.addons.mozilla.org/
+local=/bastione.addons.mozilla.org/
 local=/bg.addons.mozilla.org/
 local=/blockchain-stuffw.addons.mozilla.org/
 local=/blocklist.addons.mozilla.org/
 local=/blocklist.addons.thunderbird.net/
 local=/blocklisto.addons.thunderbird.net/
+local=/bsd0.addons.mozilla.org/
+local=/ccp7.addons.mozilla.org/
+local=/certificatesc.addons.mozilla.org/
 local=/chaosm-thi.addons.mozilla.org/
+local=/cloudproberm.addons.mozilla.org/
+local=/compressg.addons.mozilla.org/
+local=/compute-1i.addons.mozilla.org/
 local=/consul-templateu.addons.mozilla.org/
 local=/crash.addons.mozilla.org/
 local=/crash.addons.thunderbird.net/
 local=/crashplan.addons.mozilla.org/
 local=/crashplan.addons.thunderbird.net/
+local=/criu.addons.mozilla.org/
+local=/dagger2e.addons.mozilla.org/
 local=/dat8.addons.mozilla.org/
 local=/dear-imguik.addons.mozilla.org/
 local=/debuggingi.addons.mozilla.org/
 local=/deepmojig.addons.mozilla.org/
+local=/dehydratedk.addons.mozilla.org/
 local=/devi.movie.addons.mozilla.org/
 local=/discovery.addons.allizom.org/
 local=/discovery.addons.mozilla.org/
 local=/discovery.addons.thunderbird.net/
+local=/dockbixe.addons.mozilla.org/
+local=/dockpromg.addons.mozilla.org/
+local=/documentation-tool.addons.mozilla.org/
+local=/dotnetcorek.addons.mozilla.org/
+local=/downloadbuttons.addons.mozilla.org/
 local=/dx.addons.mozilla.org/
 local=/eduroame.addons.mozilla.org/
+local=/elektrae.addons.mozilla.org/
 local=/erictreacy.github.io.addons.mozilla.org/
 local=/facebook-messenger.addons.mozilla.org/
+local=/fde.addons.mozilla.org/
+local=/fdk.addons.mozilla.org/
+local=/flightsimi.addons.mozilla.org/
+local=/framework7k.addons.mozilla.org/
+local=/fst.addons.mozilla.org/
 local=/gae-initg.addons.mozilla.org/
 local=/game-devg.addons.mozilla.org/
+local=/gas.addons.mozilla.org/
 local=/git-addonsk.addons.mozilla.org/
+local=/gnu-linuxi.addons.mozilla.org/
 local=/go-web3e.addons.mozilla.org/
+local=/graphite-webo.addons.mozilla.org/
 local=/graphqlvizk.addons.mozilla.org/
+local=/gxb.addons.mozilla.org/
 local=/reviewers.addons.mozilla.org/
 local=/reviewers.addons.thunderbird.net/
 local=/reviewersm.addons.thunderbird.net/
@@ -60,9 +94,13 @@ local=/services.addons.thunderbird.net/
 local=/servicesc.addons.thunderbird.net/
 local=/versionchecka.addons.thunderbird.net/
 local=/www.addons.thunderbird.net/
+local=/www.autoconfig.thunderbird.net/
 local=/www.blocklist.addons.thunderbird.net/
+local=/www.live.thunderbird.net/
 local=/www.reviewers.addons.thunderbird.net/
 local=/www.services.addons.thunderbird.net/
+local=/www.versioncheck-bg.addons.thunderbird.net/
+local=/www.versioncheck.addons.thunderbird.net/
 # # Betterbird Thunderbird urls
 server=/autoconfig.thunderbird.net/
 server=/live.thunderbird.net/
@@ -162,10 +200,12 @@ local=/zlotarioproai.com/
 local=/zlotariopropro.com/
 local=/zlotarioprotrade.com/
 # # Firefox Forked browser's tracking urls
+local=/123-nonexistant-dnsjedi-456.palemoon.org/
 local=/123-nonexistant-dnsjedi-456.waterfox.net/
 local=/accounts.waterfox.net/
 local=/accountso.waterfox.net/
 local=/addons-dev.palemoon.org/
+local=/addons-legacy.palemoon.org/
 local=/analytics.waterfox.net/
 local=/analyticse.waterfox.net/
 local=/aus.basilisk-browser.org/
@@ -190,6 +230,7 @@ local=/commentos.waterfox.net/
 local=/debe.eu.librewolf.net/
 local=/debiang.librewolf.net/
 local=/detectportal.palemoon.org/
+local=/dev.addons.palemoon.org/
 local=/dev.basilisk-browser.org/
 local=/developer.palemoon.org/
 local=/devz.basilisk-browser.org/
@@ -206,9 +247,12 @@ local=/matomo.waterfox.net/
 local=/mjolnir.librewolf.net/
 local=/nextcloud.floorp.app/
 local=/ns1.librewolf.net/
+local=/ns1.palemoon.org/
 local=/ns2.librewolf.net/
 local=/odoh.waterfox.net/
+local=/outbound.palemoon.org/
 local=/pmsync.palemoon.org/
+local=/pmsync7.palemoon.org/
 local=/private-cdn.zen-browser.app/
 local=/remark.waterfox.net/
 local=/s1.waterfox.net/
@@ -217,8 +261,14 @@ local=/searche.waterfox.net/
 local=/stage.waterfox.net/
 local=/staging.deb.librewolf.net/
 local=/staging.rpm.librewolf.net/
+local=/start-usa.palemoon.org/
 local=/start.palemoon.org/
+local=/start2.palemoon.org/
+local=/start2e.palemoon.org/
+local=/startc.palemoon.org/
 local=/stats.waterfox.net/
+local=/syncstatus.palemoon.org/
+local=/tab.palemoon.org/
 local=/test.librewolf.net/
 local=/test2.librewolf.net/
 local=/test29.librewolf.net/
@@ -232,6 +282,8 @@ local=/updates.floorp.app/
 local=/updates.librewolf.net/
 local=/updates.zen-browser.app/
 local=/vmx.palemoon.org/
+local=/vmxe.palemoon.org/
+local=/www-dev.palemoon.org/
 local=/xref.palemoon.org/
 # # Urls related to downloads,addons and accounts
 local=/moz.works/

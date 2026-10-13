@@ -4,45 +4,79 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 11 October 2026 22:09:39 UTC
-! Version: 4.94
+! Last modified: 13 October 2026 15:38:43 UTC
+! Version: 4.96
 ! Syntax: Adblock
-! Number of entries: 828
+! Number of entries: 880
 !
 !! Addon endpoints - important override
+||59.addons.mozilla.org^$important
+||ab.addons.mozilla.org^$important
 ||aff.addons.mozilla.org^$important
 ||amazonkag.addons.mozilla.org^$important
+||animalse.addons.mozilla.org^$important
+||ansible-role-javay.addons.mozilla.org^$important
 ||aoc.addons.mozilla.org^$important
+||apc2.addons.mozilla.org^$important
+||asp2.addons.mozilla.org^$important
+||athena.addons.mozilla.org^$important
 ||autodiscovery.addons.mozilla.org^$important
+||awesome-iotao.addons.mozilla.org^$important
+||b11.addons.mozilla.org^$important
 ||bash-insulterq.addons.mozilla.org^$important
+||bastione.addons.mozilla.org^$important
 ||bg.addons.mozilla.org^$important
 ||blockchain-stuffw.addons.mozilla.org^$important
 ||blocklist.addons.mozilla.org^$important
 ||blocklist.addons.thunderbird.net^$important
 ||blocklisto.addons.thunderbird.net^$important
+||bsd0.addons.mozilla.org^$important
+||ccp7.addons.mozilla.org^$important
+||certificatesc.addons.mozilla.org^$important
 ||chaosm-thi.addons.mozilla.org^$important
+||cloudproberm.addons.mozilla.org^$important
+||compressg.addons.mozilla.org^$important
+||compute-1i.addons.mozilla.org^$important
 ||consul-templateu.addons.mozilla.org^$important
 ||crash.addons.mozilla.org^$important
 ||crash.addons.thunderbird.net^$important
 ||crashplan.addons.mozilla.org^$important
 ||crashplan.addons.thunderbird.net^$important
+||criu.addons.mozilla.org^$important
+||dagger2e.addons.mozilla.org^$important
 ||dat8.addons.mozilla.org^$important
 ||dear-imguik.addons.mozilla.org^$important
 ||debuggingi.addons.mozilla.org^$important
 ||deepmojig.addons.mozilla.org^$important
+||dehydratedk.addons.mozilla.org^$important
 ||devi.movie.addons.mozilla.org^$important
 ||discovery.addons.allizom.org^$important
 ||discovery.addons.mozilla.org^$important
 ||discovery.addons.thunderbird.net^$important
+||dockbixe.addons.mozilla.org^$important
+||dockpromg.addons.mozilla.org^$important
+||documentation-tool.addons.mozilla.org^$important
+||dotnetcorek.addons.mozilla.org^$important
+||downloadbuttons.addons.mozilla.org^$important
 ||dx.addons.mozilla.org^$important
 ||eduroame.addons.mozilla.org^$important
+||elektrae.addons.mozilla.org^$important
 ||erictreacy.github.io.addons.mozilla.org^$important
 ||facebook-messenger.addons.mozilla.org^$important
+||fde.addons.mozilla.org^$important
+||fdk.addons.mozilla.org^$important
+||flightsimi.addons.mozilla.org^$important
+||framework7k.addons.mozilla.org^$important
+||fst.addons.mozilla.org^$important
 ||gae-initg.addons.mozilla.org^$important
 ||game-devg.addons.mozilla.org^$important
+||gas.addons.mozilla.org^$important
 ||git-addonsk.addons.mozilla.org^$important
+||gnu-linuxi.addons.mozilla.org^$important
 ||go-web3e.addons.mozilla.org^$important
+||graphite-webo.addons.mozilla.org^$important
 ||graphqlvizk.addons.mozilla.org^$important
+||gxb.addons.mozilla.org^$important
 ||reviewers.addons.mozilla.org^$important
 ||reviewers.addons.thunderbird.net^$important
 ||reviewersm.addons.thunderbird.net^$important
@@ -51,9 +85,13 @@
 ||servicesc.addons.thunderbird.net^$important
 ||versionchecka.addons.thunderbird.net^$important
 ||www.addons.thunderbird.net^$important
+||www.autoconfig.thunderbird.net^$important
 ||www.blocklist.addons.thunderbird.net^$important
+||www.live.thunderbird.net^$important
 ||www.reviewers.addons.thunderbird.net^$important
 ||www.services.addons.thunderbird.net^$important
+||www.versioncheck-bg.addons.thunderbird.net^$important
+||www.versioncheck.addons.thunderbird.net^$important
 !!! Wildcard rules
 ||aus*.basilisk-browser.org^
 ||aus*.palemoon.org^
@@ -145,10 +183,12 @@
 ||zlotariopropro.com^
 ||zlotarioprotrade.com^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
+||123-nonexistant-dnsjedi-456.palemoon.org^
 ||123-nonexistant-dnsjedi-456.waterfox.net^
 ||accounts.waterfox.net^
 ||accountso.waterfox.net^
 ||addons-dev.palemoon.org^
+||addons-legacy.palemoon.org^
 ||analytics.waterfox.net^
 ||analyticse.waterfox.net^
 ||aus.basilisk-browser.org^
@@ -173,6 +213,7 @@
 ||debe.eu.librewolf.net^
 ||debiang.librewolf.net^
 ||detectportal.palemoon.org^
+||dev.addons.palemoon.org^$important
 ||dev.basilisk-browser.org^
 ||developer.palemoon.org^
 ||devz.basilisk-browser.org^
@@ -189,9 +230,12 @@
 ||mjolnir.librewolf.net^
 ||nextcloud.floorp.app^
 ||ns1.librewolf.net^
+||ns1.palemoon.org^
 ||ns2.librewolf.net^
 ||odoh.waterfox.net^
+||outbound.palemoon.org^
 ||pmsync.palemoon.org^
+||pmsync7.palemoon.org^
 ||private-cdn.zen-browser.app^
 ||remark.waterfox.net^
 ||s1.waterfox.net^
@@ -200,8 +244,14 @@
 ||stage.waterfox.net^
 ||staging.deb.librewolf.net^
 ||staging.rpm.librewolf.net^
+||start-usa.palemoon.org^
 ||start.palemoon.org^
+||start2.palemoon.org^
+||start2e.palemoon.org^
+||startc.palemoon.org^
 ||stats.waterfox.net^
+||syncstatus.palemoon.org^
+||tab.palemoon.org^
 ||test.librewolf.net^
 ||test2.librewolf.net^
 ||test29.librewolf.net^
@@ -215,6 +265,8 @@
 ||updates.librewolf.net^
 ||updates.zen-browser.app^
 ||vmx.palemoon.org^
+||vmxe.palemoon.org^
+||www-dev.palemoon.org^
 ||xref.palemoon.org^
 ||addons.basilisk-browser.org^
 ||addons.palemoon.org^

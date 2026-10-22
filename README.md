@@ -49,13 +49,13 @@ These filters only make sense with **system-wide ad-blockers, DNS sinkholes, and
 
 > ## ⚠️ General security tradeoff
 >
-> This blocklist stops Mozilla connections — which includes Firefox's own
-> certificate-revocation pipeline. Deliberate tradeoff, not a bug.
+> This blocklist stops Mozilla connections — which includes the hosts Firefox
+> uses to fetch certificate revocation updates (CRLite and OneCRL). Deliberate
+> tradeoff, not a bug.
 >
-> When the `firefox_security_domains` category is blocked, Firefox can't refresh
-> CRLite (its revoked-cert database). It falls back to OCSP soft-fail
-> (error = "certificate OK"). Since Firefox 142, DV revocation depends on
-> CRLite.
+> When those hosts are blocked, Firefox can't refresh CRLite (its revoked-cert
+> database). It falls back to OCSP soft-fail (error = "certificate OK"). Since
+> Firefox 142, DV revocation depends on CRLite.
 >
 > **To restore revocation coverage, allowlist these hosts in your DNS
 > (AdGuard Home, Pi-hole, etc.):**

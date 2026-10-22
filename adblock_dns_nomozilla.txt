@@ -4,14 +4,19 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 October 2026 17:31:43 UTC
-! Version: 4.99.22
+! Last modified: 22 October 2026 22:45:52 UTC
+! Version: 4.99.24
 ! Syntax: Adblock
-! Number of entries: 1077
+! Number of entries: 1104
 !
 !!! All addon endpoints, download & account urls (blocked in nomozilla)
 ||addons.basilisk-browser.org^
 ||addons.palemoon.org^
+!!!! Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked. !!!!
+@@||aus5.mozilla.org^
+@@||content-signature-2.cdn.mozilla.net^
+@@||firefox-settings-attachments.cdn.mozilla.net^
+@@||firefox.settings.services.mozilla.com^
 !! Addon endpoints blocked even though addons are allowlisted
 ||2d-frameworko.addons.mozilla.org^$important
 ||59.addons.mozilla.org^$important
@@ -85,6 +90,7 @@
 ||blocklist.addons.mozilla.org^$important
 ||blocklist.addons.thunderbird.net^$important
 ||blocklisto.addons.thunderbird.net^$important
+||blocklisty.addons.mozilla.org^$important
 ||blockstack-coreu.addons.mozilla.org^$important
 ||blogi.erictreacy.github.io.addons.mozilla.org^$important
 ||bluemixe.addons.mozilla.org^$important
@@ -94,29 +100,39 @@
 ||bro.addons.mozilla.org^$important
 ||brpc.addons.mozilla.org^$important
 ||bsd0.addons.mozilla.org^$important
+||bts.addons.mozilla.org^$important
 ||buggaloe.addons.mozilla.org^$important
 ||bugz.addons.mozilla.org^$important
 ||builder.addons.mozilla.org^$important
+||cameraviewk.addons.mozilla.org^$important
 ||canary.addons.mozilla.org^$important
+||cardano-slk.addons.mozilla.org^$important
 ||cassandra-example-using-railsq.addons.mozilla.org^$important
 ||castle.addons.mozilla.org^$important
 ||catchupe.addons.mozilla.org^$important
+||cbf3.addons.mozilla.org^$important
 ||ccp7.addons.mozilla.org^$important
+||ce.addons.mozilla.org^$important
 ||cerberusg.addons.mozilla.org^$important
 ||certificatesc.addons.mozilla.org^$important
 ||cgp.addons.mozilla.org^$important
 ||chaosm-thi.addons.mozilla.org^$important
 ||chat-apig.addons.mozilla.org^$important
 ||cheatkitg.addons.mozilla.org^$important
+||childreng.addons.mozilla.org^$important
 ||ckp.addons.mozilla.org^$important
+||clementinek.addons.mozilla.org^$important
 ||client-side-validationse.addons.mozilla.org^$important
 ||cloudboostk.addons.mozilla.org^$important
 ||cloudproberm.addons.mozilla.org^$important
 ||cockroachdb.addons.mozilla.org^$important
 ||code.addons.mozilla.org^$important
 ||codetele.addons.mozilla.org^$important
+||collectionkit.addons.mozilla.org^$important
+||comfortablem.addons.mozilla.org^$important
 ||commerceqlk.addons.mozilla.org^$important
 ||commit-commentsu.addons.mozilla.org^$important
+||component-libraryy.addons.mozilla.org^$important
 ||compressg.addons.mozilla.org^$important
 ||compute-1i.addons.mozilla.org^$important
 ||connecticutm.addons.mozilla.org^$important
@@ -130,6 +146,7 @@
 ||crashplan.addons.thunderbird.net^$important
 ||criu.addons.mozilla.org^$important
 ||cryptographyo.addons.mozilla.org^$important
+||cust101o.addons.mozilla.org^$important
 ||cust116o.addons.mozilla.org^$important
 ||d2e.addons.mozilla.org^$important
 ||d9y.addons.mozilla.org^$important
@@ -163,15 +180,18 @@
 ||dokumentyi.addons.mozilla.org^$important
 ||dotnetcorek.addons.mozilla.org^$important
 ||downloadbuttons.addons.mozilla.org^$important
+||dp.addons.mozilla.org^$important
 ||dv.addons.mozilla.org^$important
 ||dwgk.addons.mozilla.org^$important
 ||dx.addons.mozilla.org^$important
+||e1y.addons.mozilla.org^$important
 ||easy-mocki.addons.mozilla.org^$important
 ||easypeasyi.addons.mozilla.org^$important
 ||eclipseoriginss.addons.mozilla.org^$important
 ||eduroame.addons.mozilla.org^$important
 ||efi.addons.mozilla.org^$important
 ||elektrae.addons.mozilla.org^$important
+||epg.addons.mozilla.org^$important
 ||erictreacy.github.io.addons.mozilla.org^$important
 ||eventstorek.addons.mozilla.org^$important
 ||examplesg.addons.mozilla.org^$important
@@ -190,6 +210,7 @@
 ||fst.addons.mozilla.org^$important
 ||gae-initg.addons.mozilla.org^$important
 ||game-devg.addons.mozilla.org^$important
+||game-jamg.addons.mozilla.org^$important
 ||gas.addons.mozilla.org^$important
 ||ghc.addons.mozilla.org^$important
 ||gifski-appk.addons.mozilla.org^$important
@@ -199,21 +220,27 @@
 ||git-pointi.addons.mozilla.org^$important
 ||git-recipesm.addons.mozilla.org^$important
 ||git-sizeri.addons.mozilla.org^$important
+||git-standupm.addons.mozilla.org^$important
 ||github-updaters.addons.mozilla.org^$important
 ||gnu-linuxi.addons.mozilla.org^$important
 ||go-web3e.addons.mozilla.org^$important
 ||goflywayg.addons.mozilla.org^$important
 ||good-readsk.addons.mozilla.org^$important
 ||google-apik.addons.mozilla.org^$important
+||goto.addons.mozilla.org^$important
 ||graph-databases.addons.mozilla.org^$important
+||graphicsrendererw.addons.mozilla.org^$important
 ||graphite-webo.addons.mozilla.org^$important
 ||graphql-jpam.addons.mozilla.org^$important
 ||graphql-voyageru.addons.mozilla.org^$important
 ||graphqlvizk.addons.mozilla.org^$important
 ||graylog2g.addons.mozilla.org^$important
+||groupwarei.addons.mozilla.org^$important
 ||gsl.addons.mozilla.org^$important
 ||gxb.addons.mozilla.org^$important
 ||gyno.addons.mozilla.org^$important
+||hamiltong.addons.mozilla.org^$important
+||hannibalg.addons.mozilla.org^$important
 ||haxor-newsk.addons.mozilla.org^$important
 ||heimdallm.addons.mozilla.org^$important
 ||highwaye.addons.mozilla.org^$important
@@ -1007,6 +1034,7 @@
 ||s1.waterfox.net^
 ||search.waterfox.net^
 ||searche.waterfox.net^
+||share.zen-browser.app^
 ||stage.waterfox.net^
 ||staging.deb.librewolf.net^
 ||staging.rpm.librewolf.net^

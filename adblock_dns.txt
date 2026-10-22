@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 October 2026 22:45:52 UTC
-! Version: 4.99.24
+! Last modified: 22 October 2026 23:47:58 UTC
+! Version: 4.99.25
 ! Syntax: Adblock
-! Number of entries: 1112
+! Number of entries: 1113
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.basilisk-browser.org^
@@ -26,6 +26,7 @@
 @@||content-signature-2.cdn.mozilla.net^
 @@||firefox-settings-attachments.cdn.mozilla.net^
 @@||firefox.settings.services.mozilla.com^
+@@||www.content-signature-2.cdn.mozilla.net^
 !! Addon endpoints blocked even though addons are allowlisted
 ||2d-frameworko.addons.mozilla.org^$important
 ||59.addons.mozilla.org^$important

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 22 October 2026 22:45:52 UTC
-# Version: 4.99.24
+# Last modified: 22 October 2026 23:47:58 UTC
+# Version: 4.99.25
 # Syntax: domains (including possible subdomains)
-# Number of entries: 18675
+# Number of entries: 18674
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -30,6 +30,7 @@
 #content-signature-2.cdn.mozilla.net
 #firefox-settings-attachments.cdn.mozilla.net
 #firefox.settings.services.mozilla.com
+#www.content-signature-2.cdn.mozilla.net
 # # Addon endpoints blocked even though addons are allowlisted
 2d-frameworko.addons.mozilla.org
 59.addons.mozilla.org
@@ -15722,7 +15723,6 @@ www.conserver1.tpe1.mozilla.net
 www.conserver1.untrust.mtv2.mozilla.net
 www.conserver1.untrust.pdx1.mozilla.net
 www.conserver1.untrust.yvr1.mozilla.net
-www.content-signature-2.cdn.mozilla.net
 www.contile-dev.topsites.nonprod.cloudops.mozgcp.net
 www.contile-images-dev.topsites.nonprod.cloudops.mozgcp.net
 www.contile-images-stage.topsites.nonprod.cloudops.mozgcp.net

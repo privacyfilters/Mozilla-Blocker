@@ -29,6 +29,55 @@ There are two versions, depending on whether you still want to install add-ons:
 
 These filters only make sense with **system-wide ad-blockers, DNS sinkholes, and hosts-based blocking**. Browser extensions can't do the job here, since the point is to stop Mozilla connections before they leave your network or device.
 
+> ## ⚠️ Heads up: these filters reduce Firefox's certificate-revocation safety
+>
+> Firefox's modern revocation system is **CRLite**: a compressed revoked-cert
+> database that ships to the browser as a background update. As of Firefox
+> 142, **DV-certificate revocation relies on CRLite** (OCSP for DV certs is
+> suppressed when CRLite is healthy; when CRLite can't update, Firefox falls
+> back to **OCSP with soft-fail** — an OCSP error is treated as "certificate
+> OK"). This list **deliberately blocks the CRLite delivery path**:
+>
+> * `firefox.settings.services.mozilla.com` — the Firefox **Remote Settings**
+>   collection host that pushes the CRLite filter (Clubcards) to the browser,
+>   AND the phishing/malware blocklists.
+> * `content-signature-2.cdn.mozilla.net` — verifies the CRLite filter's content
+>   signature before Firefox trusts it.
+>
+> Because CRLite can't refresh, revocation checking degrades to soft-fail OCSP,
+> so a **revoked or rogue certificate** — e.g. a revoked Emudhra DV cert, or any
+> CT/revocation-gap vulnerability — is **less likely to be caught** than in an
+> unfiltered Firefox. (The `prod.crlite.prod.webservices.mozgcp.net` host in the
+> list is only the backend bucket Mozilla's pipeline uploads to — the browser
+> does *not* fetch CRLite from there, so allowlisting that host alone does
+> nothing.)
+>
+> This is **not a bug** — it is the accepted tradeoff of the "no Mozilla
+> connections" stance. You, the user, are responsible for your own security.
+> Mitigations (pick what's right for you):
+>
+> * **Restore revocation only**: allowlist just the two CRLite hosts above
+>   (`firefox.settings.services.mozilla.com` +
+>   `content-signature-2.cdn.mozilla.net`) — e.g. a DNS allow in AdGuard Home /
+>   Pi-hole. This brings back CRLite and the phishing/malware lists without
+>   unblocking Mozilla telemetry. (Note: this one host also carries non-security
+>   Remote Settings collections like Nimbus experiments — they can't be split out
+>   at the DNS level.)
+> * **After a disclosed revoked-ca / Emudhra-style vulnerability**: temporarily
+>   disable this filterlist, let Firefox pull a fresh CRLite (updates land
+>   within ~6–12h), confirm in `about:config` (`security.pki.crlite_mode = 2`,
+>   `security.OCSP.enabled = 1`), then re-enable. On a distro-managed Firefox
+>   (CachyOS/Arch) the browser binary is still patched via `pacman` — but
+>   cert **revocation** still depends on CRLite, so allowlisting the hosts above
+>   is what matters for revoked certs.
+> * **Defense in depth, does not replace revocation**: add a malware/threat
+>   filterlist — e.g. **HaGeZi's Threat Intelligence Feeds (TIF)** — for
+>   bad-domain coverage. TIF blocks malicious *sites*, not revoked *certs*, so it
+>   complements — never substitutes — CRLite.
+> * **Host/endpoint safety net**: keep OS package updates current (browser
+>   patches) and run system malware prevention (a host-based EDR / `clamav`).
+>   These protect the host and the browser engine, not the TLS cert layer.
+
 ---
 
 # 📥 Filter Lists
@@ -196,3 +245,21 @@ It's very fast and was a delight to use as my default browser before I switched 
 * **Codeberg:** https://codeberg.org/privacyfilters/Mozilla-Blocker
 * **GitHub (mirror):** https://github.com/privacyfilters/Mozilla-Blocker
 * **CdnjsDelivr (CDN for the GitHub mirror):** https://cdn.jsdelivr.net/gh/privacyfilters/Mozilla-Blocker@main/
+
+---
+
+## 📜 Liability
+
+These filter lists are provided **as-is**, for privacy-conscious users who
+understand the tradeoff. The author is not responsible for any security incident,
+revoked or rogue certificate, or other consequence arising from using, misusing,
+or failing to update these filters. **You are responsible for your own security
+posture** — these filters deliberately degrade Firefox's CRLite certificate-
+revocation checking (see the warning above), so to restore revoked-cert detection
+either **allowlist the two CRLite hosts** (`firefox.settings.services.mozilla.com`
++ `content-signature-2.cdn.mozilla.net`) or **disable these filters** during any
+period that needs full-strength revocation (e.g. after a disclosed revoked-ca /
+Emudhra-style vulnerability). Keep a threat-intelligence filterlist (e.g. HaGeZi
+TIF, which covers bad-*domains* not revoked-*certs*), keep your browser package
+updates current, and run system-wide malware prevention. Nothing here is warranted
+to be error-free or fit for any particular purpose.

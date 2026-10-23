@@ -4,7 +4,7 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 22 October 2026 23:47:58 UTC
+! Last modified: 23 October 2026 17:57:05 UTC
 ! Version: 4.99.25
 ! Syntax: Adblock
 ! Number of entries: 1113
@@ -24,8 +24,9 @@
 !!!! Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked. !!!!
 @@||aus5.mozilla.org^
 @@||content-signature-2.cdn.mozilla.net^
+@@||content-signature-2m.cdn.mozilla.net^
 @@||firefox-settings-attachments.cdn.mozilla.net^
-@@||firefox.settings.services.mozilla.com^
+@@||firefox.settings.services.mozilla.com*^
 @@||www.content-signature-2.cdn.mozilla.net^
 !! Addon endpoints blocked even though addons are allowlisted
 ||2d-frameworko.addons.mozilla.org^$important
@@ -1082,7 +1083,6 @@
 ||fast.fonts.net^
 ||firefox-test-accounts.auth0.com^
 ||firefox.cloudflare-dns.com^
-||firefox.settings.services.mozilla.com.edgesuite.net^
 ||fxa-auth-server.herokuapp.com^
 ||fxa-auth0.auth0.com^
 ||fxa-content-server.herokuapp.com^

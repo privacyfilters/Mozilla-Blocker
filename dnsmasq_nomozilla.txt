@@ -4,19 +4,21 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 22 October 2026 23:47:58 UTC
+# Last modified: 23 October 2026 17:57:05 UTC
 # Version: 4.99.25
 # Syntax: DNSMasq
-# Number of entries: 1186
+# Number of entries: 1187
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 local=/addons.basilisk-browser.org/
 local=/addons.palemoon.org/
-# # Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked.
+# Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked.
 server=/aus5.mozilla.org/
 server=/content-signature-2.cdn.mozilla.net/
+server=/content-signature-2m.cdn.mozilla.net/
 server=/firefox-settings-attachments.cdn.mozilla.net/
 server=/firefox.settings.services.mozilla.com/
+server=/firefox.settings.services.mozilla.com.edgesuite.net/
 server=/www.content-signature-2.cdn.mozilla.net/
 # # Addon endpoints blocked even though addons are allowlisted
 local=/2d-frameworko.addons.mozilla.org/
@@ -925,7 +927,6 @@ local=/debug-ping-preview.firebaseapp.com/
 local=/fast.fonts.net/
 local=/firefox-test-accounts.auth0.com/
 local=/firefox.cloudflare-dns.com/
-local=/firefox.settings.services.mozilla.com.edgesuite.net/
 local=/fxa-auth-server.herokuapp.com/
 local=/fxa-auth0.auth0.com/
 local=/fxa-content-server.herokuapp.com/

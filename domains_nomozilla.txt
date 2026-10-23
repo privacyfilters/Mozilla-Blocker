@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 22 October 2026 23:47:58 UTC
+# Last modified: 23 October 2026 17:57:05 UTC
 # Version: 4.99.25
 # Syntax: domains (including possible subdomains)
-# Number of entries: 18684
+# Number of entries: 18682
 #
 
 # # All addon endpoints, download & account urls (blocked in nomozilla)
@@ -22,11 +22,13 @@ versioncheck.addons.thunderbird.net
 # # Betterbird/Thunderbird urls (blocked in nomozilla)
 autoconfig.thunderbird.net
 live.thunderbird.net
-# # Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked.
+# Firefox security-critical (CRLite/OneCRL) hosts - TEMPORARILY ALLOWED for Emudhra CRLite/OneCRL delivery. Will be re-blocked.
 #aus5.mozilla.org
 #content-signature-2.cdn.mozilla.net
+#content-signature-2m.cdn.mozilla.net
 #firefox-settings-attachments.cdn.mozilla.net
 #firefox.settings.services.mozilla.com
+#firefox.settings.services.mozilla.com.edgesuite.net
 #www.content-signature-2.cdn.mozilla.net
 # # Addon endpoints blocked even though addons are allowlisted
 2d-frameworko.addons.mozilla.org
@@ -11940,7 +11942,6 @@ content-prod.mozgcp.net
 content-prode.webservices.mozgcp.net
 content-prodi.fxa.prod.webservices.mozgcp.net
 content-services.cdn.mozilla.net
-content-signature-2m.cdn.mozilla.net
 content-signature-3.cdn.mozilla.net
 content-signature-chains.nonprod.webservices.mozgcp.net
 content-signature-chains.prod.autograph.services.mozaws.net
@@ -12658,7 +12659,6 @@ firefox-settings-attachments-cdn.stage.mozaws.net
 firefox-settings.cdn.mozilla.net
 firefox-test-accounts.auth0.com
 firefox.cloudflare-dns.com
-firefox.settings.services.mozilla.com.edgesuite.net
 firefoxc.mozgcp.net
 firefoxcitc.mozgcp.net
 firefoxcitc.taskcluster.prod.cloudops.mozgcp.net

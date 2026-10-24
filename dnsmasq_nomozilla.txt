@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 23 October 2026 18:55:46 UTC
-# Version: 4.99.27
+# Last modified: 24 October 2026 14:42:49 UTC
+# Version: 4.99.28
 # Syntax: DNSMasq
-# Number of entries: 1187
+# Number of entries: 1201
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 local=/addons.basilisk-browser.org/
@@ -382,6 +382,7 @@ local=/fakespot-static.net/
 local=/fakespot-us.com/
 local=/fakespot.com/
 local=/fakespot.io/
+local=/fakspot.io/
 local=/fao.add-ons.mozilla.com/
 local=/fi.add-ons.mozilla.com/
 local=/firefox-addons.com/
@@ -474,7 +475,6 @@ local=/hu.add-ons.mozilla.com/
 local=/hubs-platform.com/
 local=/hubs-platform.net/
 local=/hubs-platform.org/
-local=/i.fakspot.io/
 local=/ide.add-ons.mozilla.com/
 local=/interforest.org/
 local=/irlpodcast.org/
@@ -872,7 +872,9 @@ local=/thanks.dev/
 local=/thunderbird-mail.com/
 local=/thunderbird-mail.net/
 local=/thunderbird-mail.org/
+local=/thunderbird.email/
 local=/thunderbird.top/
+local=/thunderbirdapp.net/
 local=/thunderbirdemail.com/
 local=/thunderbirdemail.net/
 local=/thunderbirdemail.org/
@@ -921,6 +923,7 @@ local=/zh-cn.add-ons.mozilla.com/
 local=/zh-tw.add-ons.mozilla.com/
 # # Mozilla infrastructure (AWS/GCP/CDN)
 local=/ai-mozilla.github.io/
+local=/allizom.net/
 local=/amo-test-1048344596.us-west-2.elb.amazonaws.com/
 local=/asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com/
 local=/debug-ping-preview.firebaseapp.com/
@@ -970,6 +973,7 @@ local=/mozilla.sentry.io/
 local=/mozilla.slack.com/
 local=/mozillaamo.wpengine.com/
 local=/mozillascience.github.io/
+local=/mozit.cloud/
 local=/ohttp-merino.mozilla.fastly-edge.com/
 local=/pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com/
 local=/telemetry-prod-1054754349.us-east-1.elb.amazonaws.com/
@@ -983,6 +987,7 @@ local=/www.discovery.addons.allizom.org/
 local=/assistant.firefoxlabs.net/
 local=/basilisk.community-arts.net/
 local=/basilisk.laosima.com/
+local=/bgzilla.org/
 local=/builders.mozillaai.org/
 local=/dxr.lanedo.com/
 local=/firefox-zh.com.cn/
@@ -993,6 +998,7 @@ local=/firefox.com.hk/
 local=/firefox.com.tw/
 local=/firefox.com.vn/
 local=/firefox.net.ru/
+local=/gfx.tw/
 local=/mozilla-brazil.org.br/
 local=/mozilla.co.jp/
 local=/mozilla.co.kr/
@@ -1062,8 +1068,12 @@ local=/mozilla.org.uk/
 local=/mozilla.org.va/
 local=/mozilla.org.vn/
 local=/mozilla.org.za/
+local=/mozillabrasil.org/
 local=/mozillabrasil.org.br/
 local=/www.addons.mozilla.jp/
+# # Mozilla telemetry endpoints (divviup, dummytracker, etc.)
+local=/anonymised.io/
+local=/domozmail.com/
 # # External trackers Mozilla uses on their own sites
 local=/adjust.com/
 local=/analytics.google.com/
@@ -1090,11 +1100,15 @@ local=/shareprogress.com/
 local=/typeform.com/
 local=/usefathom.com/
 # # Mozilla Innovation projects & AI subsidiaries
+local=/anonym.ai/
+local=/anonym.com/
 local=/didthis.app/
 local=/formulaic.app/
 local=/matomo.abb-notaries.com/
 local=/matomo.notariat.services/
 local=/mlpa-prod-prod-mozilla.freetls.fastly.net/
+local=/mozilla-builders.com/
+local=/mozilla-builders.org/
 local=/mozilladatacollective.com/
 local=/mozillaventures.com/
 local=/octonous.ai/
@@ -1104,6 +1118,7 @@ local=/orcaready.org/
 local=/soloist.ai/
 local=/stats.eengoedenotaris.nl/
 local=/subconscious.network/
+local=/tabstack.ai/
 # # Firefox Forked browsers' auto-update & tracking urls
 local=/123-nonexistant-dnsjedi-456.palemoon.org/
 local=/123-nonexistant-dnsjedi-456.waterfox.net/

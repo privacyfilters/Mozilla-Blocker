@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 23 October 2026 18:55:46 UTC
-# Version: 4.99.27
+# Last modified: 24 October 2026 14:42:49 UTC
+# Version: 4.99.28
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 18677
+# Number of entries: 18698
 #
 # Not blocked: External urls that are used by other services
 # H264 codec from cisco
@@ -1617,6 +1617,7 @@
 0.0.0.0 aus.americas.mozilla.org
 0.0.0.0 aus.asia.mozilla.org
 0.0.0.0 aus.europe.mozilla.org
+0.0.0.0 aus.mozilla.org
 0.0.0.0 aus.oceania.mozilla.org
 0.0.0.0 aus.svn.mozilla.org
 0.0.0.0 aus.thunderbird.net
@@ -3881,6 +3882,7 @@
 0.0.0.0 download-redirect.firefox.com.cn
 0.0.0.0 download-ssl.firefox.com.cn
 0.0.0.0 download-ssle.firefox.com.cn
+0.0.0.0 download-stats.mozilla.com
 0.0.0.0 download-stats.mozilla.org
 0.0.0.0 download-stats.r53-2.services.mozilla.com
 0.0.0.0 download-stats5.mozilla.org
@@ -3889,6 +3891,7 @@
 0.0.0.0 downloadcounter.mozilla.com
 0.0.0.0 downloads.taskcluster.net
 0.0.0.0 downloadstats.mozilla.com
+0.0.0.0 downloadstats.mozilla.org
 0.0.0.0 doyouevenlearn.planet.mozilla.org
 0.0.0.0 doyouevenlearni.vpn.mozilla.org
 0.0.0.0 dpaimic2utim0iecsd1lf4al6debs7ce.mozilla.org
@@ -4413,6 +4416,7 @@
 0.0.0.0 fakespot-us.com
 0.0.0.0 fakespot.com
 0.0.0.0 fakespot.io
+0.0.0.0 fakspot.io
 0.0.0.0 falcon.mozilla.org
 0.0.0.0 falko9.api.build.mozilla.org
 0.0.0.0 fancluba.mozilla.org
@@ -9022,9 +9026,11 @@
 0.0.0.0 thunderbird-settings-stagem.thunderbird.net
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 thunderbird-settingsq.thunderbird.net
+0.0.0.0 thunderbird.email
 0.0.0.0 thunderbird.innocraft.cloud
 0.0.0.0 thunderbird.planet.mozilla.org
 0.0.0.0 thunderbird.top
+0.0.0.0 thunderbirdapp.net
 0.0.0.0 thunderbirdemail.com
 0.0.0.0 thunderbirdemail.net
 0.0.0.0 thunderbirdemail.org
@@ -9044,6 +9050,7 @@
 0.0.0.0 tiles-asia.services.mozilla.com
 0.0.0.0 tiles-eu.services.mozilla.com
 0.0.0.0 tiles-us.services.mozilla.com
+0.0.0.0 tiles.cdn.mozilla.com
 0.0.0.0 tiles.services.mozilla.com
 0.0.0.0 timliu.mozilla.org
 0.0.0.0 timm.mozilla.org
@@ -11106,6 +11113,7 @@
 0.0.0.0 akacsa63q25mech7r6ee4a108piostmj.mozilla.net
 0.0.0.0 aknfgmctblc47kq30u874c9ebtssbi5m.mozilla.net
 0.0.0.0 allizom.mktns.services.phx1.mozilla.net
+0.0.0.0 allizom.net
 0.0.0.0 almtn8hosgb6arm6juo648hl438ma286.mozilla.net
 0.0.0.0 alpha.mozgcp.net
 0.0.0.0 alphaa.mozgcp.net
@@ -13771,6 +13779,7 @@
 0.0.0.0 mozillamessagingi.zlb.phx.mozilla.net
 0.0.0.0 mozillascience.github.io
 0.0.0.0 mozillians-generics.zlb.phx.mozilla.net
+0.0.0.0 mozit.cloud
 0.0.0.0 mozorg-stage.dynect.mozilla.net
 0.0.0.0 mozorg.cdn.mozilla.net
 0.0.0.0 mozphab-phabhost-cdn.devsvcprod.mozaws.net
@@ -16162,7 +16171,9 @@
 0.0.0.0 assets.allizom.org
 0.0.0.0 au51o0fepar23612aq8inr3res0hrt86.allizom.org
 0.0.0.0 au8vo94rh74dk60efbp4jaf4kf3qo992.allizom.org
+0.0.0.0 aus2-staging.mozilla.org
 0.0.0.0 aus4-admin-dev.allizom.org
+0.0.0.0 aus4-dev.allizom.org
 0.0.0.0 auth.allizom.org
 0.0.0.0 auth0-cis-webhook-consumer.dev.sso.allizom.org
 0.0.0.0 authenticate.allizom.org
@@ -16929,6 +16940,7 @@
 0.0.0.0 basilisk.community-arts.net
 0.0.0.0 basilisk.laosima.com
 0.0.0.0 beta.webmaker.org
+0.0.0.0 bgzilla.org
 0.0.0.0 bitly.mofoprod.net
 0.0.0.0 bitly9.mofoprod.net
 0.0.0.0 blgcp.thunderbirdskin.com
@@ -17047,6 +17059,7 @@
 0.0.0.0 gamingu.mozillalabs.com
 0.0.0.0 gateway.thunderbirdskin.com
 0.0.0.0 gatewayk.thunderbirdskin.com
+0.0.0.0 gfx.tw
 0.0.0.0 git.mozilla-russia.org
 0.0.0.0 gitch.mozilla-russia.org
 0.0.0.0 goggles.webmaker.org
@@ -17171,6 +17184,7 @@
 0.0.0.0 mozilla.orgorg.mozilla.jp
 0.0.0.0 mozilla.orgorg.mozilla.pl
 0.0.0.0 mozilla.orgorg.mozilla.tw
+0.0.0.0 mozillabrasil.org
 0.0.0.0 mozillabrasil.org.br
 0.0.0.0 mozillafestival.mofoprod.net
 0.0.0.0 mozutil.mozilla-russia.org
@@ -17430,6 +17444,7 @@
 0.0.0.0 alertmanager.monitoring.staging-dap-04.api.divviup.org
 0.0.0.0 alertmanager.monitoring.staging-dap-09-1.api.divviup.org
 0.0.0.0 analytics-track-digest256.dummytracker.org
+0.0.0.0 anonymised.io
 0.0.0.0 api.divviup.org
 0.0.0.0 api.staging.divviup.org
 0.0.0.0 app.divviup.org
@@ -17442,6 +17457,7 @@
 0.0.0.0 dap-09-3.api.divviup.org
 0.0.0.0 docs.divviup.org
 0.0.0.0 docso.divviup.org
+0.0.0.0 domozmail.com
 0.0.0.0 grafana.monitoring.dap-04.api.divviup.org
 0.0.0.0 grafana.monitoring.dap-09-1.api.divviup.org
 0.0.0.0 grafana.monitoring.dap-09-3.api.divviup.org
@@ -17611,6 +17627,8 @@
 0.0.0.0 accounts-stage3.tb.pro
 0.0.0.0 accounts.tb.pro
 0.0.0.0 alpha-app.thundermail.com
+0.0.0.0 anonym.ai
+0.0.0.0 anonym.com
 0.0.0.0 api.eu.otari.ai
 0.0.0.0 api.otari.ai
 0.0.0.0 appointment-dev.tb.pro
@@ -17662,6 +17680,8 @@
 0.0.0.0 matomo.abb-notaries.com
 0.0.0.0 matomo.notariat.services
 0.0.0.0 mlpa-prod-prod-mozilla.freetls.fastly.net
+0.0.0.0 mozilla-builders.com
+0.0.0.0 mozilla-builders.org
 0.0.0.0 mozilladatacollective.com
 0.0.0.0 mozillaventures.com
 0.0.0.0 mta-sts-stage.tb.pro
@@ -17679,6 +17699,7 @@
 0.0.0.0 stats.eengoedenotaris.nl
 0.0.0.0 status.tb.pro
 0.0.0.0 subconscious.network
+0.0.0.0 tabstack.ai
 0.0.0.0 webmail.thundermail.com
 0.0.0.0 wildcard.tb.pro
 0.0.0.0 wsmail.thundermail.com

@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 23 October 2026 18:55:46 UTC
-! Version: 4.99.27
+! Last modified: 24 October 2026 14:42:49 UTC
+! Version: 4.99.28
 ! Syntax: Adblock
-! Number of entries: 1113
+! Number of entries: 1126
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.basilisk-browser.org^
@@ -445,6 +445,7 @@
 ||fakespot-us.com^
 ||fakespot.com^
 ||fakespot.io^
+||fakspot.io^
 ||fao.add-ons.mozilla.com^$important
 ||fi.add-ons.mozilla.com^$important
 ||firefox-addons.com^
@@ -525,7 +526,6 @@
 ||hubs-platform.com^
 ||hubs-platform.net^
 ||hubs-platform.org^
-||i.fakspot.io^
 ||ide.add-ons.mozilla.com^$important
 ||interforest.org^
 ||irlpodcast.org^
@@ -921,7 +921,9 @@
 ||thunderbird-mail.com^
 ||thunderbird-mail.net^
 ||thunderbird-mail.org^
+||thunderbird.email^
 ||thunderbird.top^
+||thunderbirdapp.net^
 ||thunderbirdemail.com^
 ||thunderbirdemail.net^
 ||thunderbirdemail.org^
@@ -969,11 +971,15 @@
 ||zh-cn.add-ons.mozilla.com^$important
 ||zh-tw.add-ons.mozilla.com^$important
 !! Mozilla Innovation projects
+||anonym.ai^
+||anonym.com^
 ||didthis.app^
 ||formulaic.app^
 ||matomo.abb-notaries.com^
 ||matomo.notariat.services^
 ||mlpa-prod-prod-mozilla.freetls.fastly.net^
+||mozilla-builders.com^
+||mozilla-builders.org^
 ||mozilladatacollective.com^
 ||mozillaventures.com^
 ||octonous.ai^
@@ -983,6 +989,7 @@
 ||soloist.ai^
 ||stats.eengoedenotaris.nl^
 ||subconscious.network^
+||tabstack.ai^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
 ||123-nonexistant-dnsjedi-456.palemoon.org^
 ||123-nonexistant-dnsjedi-456.waterfox.net^
@@ -1077,6 +1084,7 @@
 ||xref.palemoon.org^
 !!!!!! Mozilla infrastructure (AWS/GCP/CDN) !!!!!!
 ||ai-mozilla.github.io^
+||allizom.net^
 ||amo-test-1048344596.us-west-2.elb.amazonaws.com^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||debug-ping-preview.firebaseapp.com^
@@ -1123,6 +1131,7 @@
 ||mozilla.slack.com^
 ||mozillaamo.wpengine.com^
 ||mozillascience.github.io^
+||mozit.cloud^
 ||ohttp-merino.mozilla.fastly-edge.com^
 ||pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 ||telemetry-prod-1054754349.us-east-1.elb.amazonaws.com^
@@ -1136,18 +1145,23 @@
 ||assistant.firefoxlabs.net^
 ||basilisk.community-arts.net^
 ||basilisk.laosima.com^
+||bgzilla.org^
 ||builders.mozillaai.org^
 ||dxr.lanedo.com^
 ||firefox-zh.com.cn^
 ||firefox.co.kr^
 ||firefox.co.uk^
 ||firefox.net.ru^
+||gfx.tw^
 ||mozilla-brazil.org.br^
 ||mozilla.co.jp^
 ||mozilla.co.kr^
 ||mozilla.co.uk^
-||mozillabrasil.org.br^
+||mozillabrasil.org*^
 ||www.addons.mozilla.jp^$important
+!!!!!! Mozilla telemetry endpoints (divviup/dummytracker) !!!!!!
+||anonymised.io^
+||domozmail.com^
 ! WARNING: unknown category 'typosquatting'
 !!!!!! Anonymity-related services (brave/anonymco) !!!!!!
 ||anonymous.ads.brave.com^

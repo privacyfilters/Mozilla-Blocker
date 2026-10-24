@@ -29,13 +29,16 @@ There are two versions, depending on whether you still want to install add-ons:
 
 Due to a recent security issue with the Emudhra certificate authority (their
 private keys were compromised, CVE-2026-113470), Firefox needs to fetch updated
-certificate revocation lists. **I've temporarily allowed the 4 Mozilla hosts
+certificate revocation lists. **I've temporarily allowed the 7 Mozilla hosts
 that Firefox uses for CRLite and OneCRL delivery** — so revocation updates can
 get through:
 
 - `firefox.settings.services.mozilla.com` — Remote Settings API (CRLite collection)
+- `firefox.settings.services.mozilla.com.edgesuite.net` — Akamai edge (Remote Settings)
 - `firefox-settings-attachments.cdn.mozilla.net` — CRLite blob attachments
 - `content-signature-2.cdn.mozilla.net` — signature verification
+- `content-signature-2m.cdn.mozilla.net` — signature verification (variant)
+- `www.content-signature-2.cdn.mozilla.net` — signature verification (www variant)
 - `aus5.mozilla.org` — OneCRL (intermediate-CA revocation) + self-updates
 
 The Emudhra revocation was pushed via OneCRL/CRLite through these exact hosts.
@@ -62,8 +65,11 @@ These filters only make sense with **system-wide ad-blockers, DNS sinkholes, and
 >
 > ```
 > firefox.settings.services.mozilla.com
+> firefox.settings.services.mozilla.com.edgesuite.net
 > firefox-settings-attachments.cdn.mozilla.net
 > content-signature-2.cdn.mozilla.net
+> content-signature-2m.cdn.mozilla.net
+> www.content-signature-2.cdn.mozilla.net
 > aus5.mozilla.org
 > ```
 >
@@ -256,7 +262,7 @@ Firefox uses to fetch certificate revocation updates (CRLite and OneCRL). When
 those hosts are blocked, Firefox falls back to OCSP soft-fail, meaning a
 revoked certificate may still be treated as valid.
 
-As of October 2026, the 4 revocation hosts are temporarily allowed due to the
+As of October 2026, the 7 revocation hosts are temporarily allowed due to the
 Emudhra CA compromise, but they will be re-blocked. If/when they are blocked
 again, you'll need to allowlist them in your DNS (AdGuard Home, Pi-hole, etc.)
 or disable this filterlist to restore revocation coverage. Keep a

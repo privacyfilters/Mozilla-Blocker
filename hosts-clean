@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 24 October 2026 17:00:48 UTC
-# Version: 4.99.31
+# Last modified: 24 October 2026 18:41:38 UTC
+# Version: 4.99.40
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 18569
 #
@@ -5928,7 +5928,6 @@
 0.0.0.0 lt7.add-ons.mozilla.com
 0.0.0.0 lt8glr5filvicnqpr3jrppvvgfiasrg3.mozilla.com
 0.0.0.0 ltc.phish-error.mozilla.com
-0.0.0.0 lumigator.ai
 0.0.0.0 lumigator.mozilla.ai
 0.0.0.0 lunar.calendar.for.mac.planet.mozilla.org
 0.0.0.0 lvfi3m1ga69n03jpe2mubn04jpbsai82.mozilla.org
@@ -6861,7 +6860,6 @@
 0.0.0.0 osint.svn.mozilla.org
 0.0.0.0 ostats.mozilla.com
 0.0.0.0 ostatsa.mozilla.com
-0.0.0.0 otari.ai
 0.0.0.0 otel-collector.getpocket.dev
 0.0.0.0 oteomr638bult1pbu3esc3jfs84di2sb.mozilla.org
 0.0.0.0 otts0tdmugv932v286i3na1fra0fehna.mozilla.com
@@ -13644,7 +13642,6 @@
 0.0.0.0 monitorw.identity.us-east-1.prod-old.mozaws.net
 0.0.0.0 moz-language-portal.prod.webservices.mozgcp.net
 0.0.0.0 mozaggregator.nonprod.dataops.mozgcp.net
-0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.com
 0.0.0.0 mozaws.net
 0.0.0.0 mozcom-cdn.mozilla.net
@@ -16984,9 +16981,9 @@
 0.0.0.0 minion.mozillalabs.com
 0.0.0.0 mofo-redirector.mozillafoundation.org
 0.0.0.0 movementbuilding.mozillafoundation.org
+0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozbrowser.nl
 0.0.0.0 mozdev.com
-0.0.0.0 mozdev.net
 0.0.0.0 mozdev.org
 0.0.0.0 mozfest.net
 0.0.0.0 mozilla-brazil.org.br
@@ -17317,7 +17314,6 @@
 0.0.0.0 divviup.org
 0.0.0.0 docs.divviup.org
 0.0.0.0 docso.divviup.org
-0.0.0.0 domozmail.com
 0.0.0.0 dummytracker.org
 0.0.0.0 grafana.monitoring.dap-04.api.divviup.org
 0.0.0.0 grafana.monitoring.dap-09-1.api.divviup.org
@@ -17495,8 +17491,12 @@
 0.0.0.0 accounts.tb.pro
 0.0.0.0 alpha-app.thundermail.com
 0.0.0.0 anonym.ai
+0.0.0.0 anonym.co
 0.0.0.0 anonym.com
 0.0.0.0 anonymco.com
+0.0.0.0 any-agent.com
+0.0.0.0 any-guardrail.com
+0.0.0.0 any-llm.com
 0.0.0.0 api.eu.otari.ai
 0.0.0.0 api.otari.ai
 0.0.0.0 appointment-dev.tb.pro
@@ -17525,6 +17525,7 @@
 0.0.0.0 docs.otari.ai
 0.0.0.0 dsa7.future.mozilla.org
 0.0.0.0 enc7.future.mozilla.org
+0.0.0.0 encoderfile.com
 0.0.0.0 eu.api.otari.ai
 0.0.0.0 flower-dev.tb.pro
 0.0.0.0 flower-stage.tb.pro
@@ -17545,11 +17546,15 @@
 0.0.0.0 keycloak-stage.tb.pro
 0.0.0.0 keycloak.tb.pro
 0.0.0.0 links.tb.pro
+0.0.0.0 llamafile.org
+0.0.0.0 lumigator.ai
 0.0.0.0 mail-dev.tb.pro
 0.0.0.0 mail.tb.pro
 0.0.0.0 mail.thundermail.com
 0.0.0.0 matomo.abb-notaries.com
 0.0.0.0 matomo.notariat.services
+0.0.0.0 mcpd.ai
+0.0.0.0 memorycache.ai
 0.0.0.0 mlpa-prod-prod-mozilla.freetls.fastly.net
 0.0.0.0 mozilla-builders.com
 0.0.0.0 mozilla-builders.org
@@ -17562,6 +17567,7 @@
 0.0.0.0 octonous.com
 0.0.0.0 orbitbymozilla.com
 0.0.0.0 orcaready.org
+0.0.0.0 otari.ai
 0.0.0.0 send-backend-stage.tb.pro
 0.0.0.0 send-backend.tb.pro
 0.0.0.0 send-stage.tb.pro
@@ -17763,12 +17769,6 @@
 0.0.0.0 mozilla.org
 0.0.0.0 thunderbird.net
 # # Anonymity-related services (brave, anonymco)
-0.0.0.0 anonymous.ads.brave.com
-0.0.0.0 gitlab.anonymous.ads.brave.com
-0.0.0.0 private.anonymous.ads.brave.com
-0.0.0.0 search.anonymous.ads.brave.com
-0.0.0.0 search.anonymous.brave.com
-0.0.0.0 vpn.anonymous.ads.brave.com
 0.0.0.0 www.anonymco.com
 0.0.0.0 wwwsdu.anonymco.com
 # # Remaining Mozilla domains & typosquatting

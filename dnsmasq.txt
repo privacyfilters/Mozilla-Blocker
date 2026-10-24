@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 24 October 2026 17:00:48 UTC
-# Version: 4.99.31
+# Last modified: 24 October 2026 18:41:38 UTC
+# Version: 4.99.40
 # Syntax: DNSMasq
-# Number of entries: 1187
+# Number of entries: 1191
 #
 # # Mozilla Addons
 server=/addons.basilisk-browser.org/
@@ -464,7 +464,6 @@ local=/lightbeam.org/
 local=/lizardwrangler.com/
 local=/llamafile.dev/
 local=/lt.add-ons.mozilla.com/
-local=/lumigator.ai/
 local=/m-firefox.com/
 local=/machinelearningmoz.com/
 local=/main.shared.global.mozilla.akadns.net/
@@ -701,7 +700,6 @@ local=/orbit-platform.com/
 local=/orbit-platform.net/
 local=/oregon-a.moz.works/
 local=/oregon-b.moz.works/
-local=/otari.ai/
 local=/pdfjs.robwu.nl/
 local=/pioneer-data.com/
 local=/pioneer-data.org/
@@ -861,7 +859,6 @@ local=/mdnplay.dev/
 local=/mdnyalp.dev/
 local=/mlpa-nonprod-stage-mozilla.global.ssl.fastly.net/
 local=/mlpa-prod-prod-mozilla.global.ssl.fastly.net/
-local=/mozamo.wpengine.com/
 local=/mozaws.com/
 local=/mozaws.net/
 local=/mozgcp.net/
@@ -942,9 +939,9 @@ local=/irlpodcast.org/
 local=/learningfreedomandtheweb.org/
 local=/makerparty.org/
 local=/mhafai.com/
+local=/mozamo.wpengine.com/
 local=/mozbrowser.nl/
 local=/mozdev.com/
-local=/mozdev.net/
 local=/mozdev.org/
 local=/mozfest.net/
 local=/mozilla-brazil.org.br/
@@ -1049,7 +1046,6 @@ local=/xulfr.org/
 # # Mozilla telemetry endpoints (divviup/dummytracker)
 local=/anonymised.io/
 local=/divviup.org/
-local=/domozmail.com/
 local=/dummytracker.org/
 local=/itisatracker.com/
 local=/itisatracker.org/
@@ -1103,13 +1099,22 @@ local=/typeform.com/
 local=/usefathom.com/
 # # Mozilla Innovation projects
 local=/anonym.ai/
+local=/anonym.co/
 local=/anonym.com/
 local=/anonymco.com/
+local=/any-agent.com/
+local=/any-guardrail.com/
+local=/any-llm.com/
 local=/commonvoice.ai/
 local=/didthis.app/
+local=/encoderfile.com/
 local=/formulaic.app/
+local=/llamafile.org/
+local=/lumigator.ai/
 local=/matomo.abb-notaries.com/
 local=/matomo.notariat.services/
+local=/mcpd.ai/
+local=/memorycache.ai/
 local=/mlpa-prod-prod-mozilla.freetls.fastly.net/
 local=/mozilla-builders.com/
 local=/mozilla-builders.org/
@@ -1120,6 +1125,7 @@ local=/octonous.ai/
 local=/octonous.com/
 local=/orbitbymozilla.com/
 local=/orcaready.org/
+local=/otari.ai/
 local=/soloist.ai/
 local=/stats.eengoedenotaris.nl/
 local=/subconscious.network/
@@ -1227,9 +1233,6 @@ local=/mozilla.com/
 local=/mozilla.net/
 local=/mozilla.org/
 local=/thunderbird.net/
-# # Anonymity-related services (brave, anonymco)
-local=/anonymous.ads.brave.com/
-local=/search.anonymous.brave.com/
 # # Remaining Mozilla domains
 local=/addons.mozilla.net.ru/
 local=/ja-jp-mac.add-ons.mozilla.com/

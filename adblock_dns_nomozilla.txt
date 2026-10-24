@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 24 October 2026 17:00:48 UTC
-! Version: 4.99.31
+! Last modified: 24 October 2026 18:41:38 UTC
+! Version: 4.99.40
 ! Syntax: Adblock
-! Number of entries: 1096
+! Number of entries: 1100
 !
 !!! All addon endpoints, download & account urls (blocked in nomozilla)
 ||addons.basilisk-browser.org^
@@ -497,7 +497,6 @@
 ||lizardwrangler.com^
 ||llamafile.dev^
 ||lt.add-ons.mozilla.com^$important
-||lumigator.ai^
 ||m-firefox.com^
 ||machinelearningmoz.com^
 ||main.shared.global.mozilla.akadns.net^
@@ -732,7 +731,6 @@
 ||orbit-platform.net^
 ||oregon-a.moz.works^
 ||oregon-b.moz.works^
-||otari.ai^
 ||pdfjs.robwu.nl^
 ||pioneer-data.com^
 ||pioneer-data.org^
@@ -863,13 +861,22 @@
 ||zh-tw.add-ons.mozilla.com^$important
 !! Mozilla Innovation projects
 ||anonym.ai^
+||anonym.co^
 ||anonym.com^
 ||anonymco.com^
+||any-agent.com^
+||any-guardrail.com^
+||any-llm.com^
 ||commonvoice.ai^
 ||didthis.app^
+||encoderfile.com^
 ||formulaic.app^
+||llamafile.org^
+||lumigator.ai^
 ||matomo.abb-notaries.com^
 ||matomo.notariat.services^
+||mcpd.ai^
+||memorycache.ai^
 ||mlpa-prod-prod-mozilla.freetls.fastly.net^
 ||mozilla-builders.com^
 ||mozilla-builders.org^
@@ -880,6 +887,7 @@
 ||octonous.com^
 ||orbitbymozilla.com^
 ||orcaready.org^
+||otari.ai^
 ||soloist.ai^
 ||stats.eengoedenotaris.nl^
 ||subconscious.network^
@@ -1007,7 +1015,6 @@
 ||mdnyalp.dev^
 ||mlpa-nonprod-stage-mozilla.global.ssl.fastly.net^
 ||mlpa-prod-prod-mozilla.global.ssl.fastly.net^
-||mozamo.wpengine.com^
 ||mozaws.com^
 ||mozaws.net^
 ||mozgcp.net^
@@ -1081,9 +1088,9 @@
 ||learningfreedomandtheweb.org^
 ||makerparty.org^
 ||mhafai.com^
+||mozamo.wpengine.com^
 ||mozbrowser.nl^
 ||mozdev.com^
-||mozdev.net^
 ||mozdev.org^
 ||mozfest.net^
 ||mozilla-brazil.org.br^
@@ -1122,7 +1129,6 @@
 !!!!!! Mozilla telemetry endpoints (divviup/dummytracker) !!!!!!
 ||anonymised.io^
 ||divviup.org^
-||domozmail.com^
 ||dummytracker.org^
 ||itisatracker.com^
 ||itisatracker.org^
@@ -1131,9 +1137,6 @@
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^
 ! WARNING: unknown category 'typosquatting'
-!!!!!! Anonymity-related services (brave/anonymco) !!!!!!
-||anonymous.ads.brave.com^
-||search.anonymous.brave.com^
 !!!!!! Remaining Mozilla domains !!!!!!
 ||addons.mozilla.net.ru^
 ||ja-jp-mac.add-ons.mozilla.com^$important

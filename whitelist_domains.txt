@@ -3,7 +3,7 @@
 # and Thunderbird/Betterbird email account setup.
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/whitelist_domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
-# Last modified: 23 October 2026 18:05:52 UTC
+# Last modified: 26 October 2026 21:41:10 UTC
 # Syntax: plain domains (whitelist)
 # Number of entries: 17
 #

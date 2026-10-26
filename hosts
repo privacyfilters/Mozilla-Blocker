@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 24 October 2026 18:41:38 UTC
-# Version: 4.99.40
+# Last modified: 26 October 2026 21:41:10 UTC
+# Version: 4.99.47
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 18559
+# Number of entries: 18560
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -18559,6 +18559,7 @@
 0.0.0.0 t3pckmrg9sjg1gvu2l8a6c32ktopjmn0.mozilla.org
 0.0.0.0 td6npgt1lbgpkc2lm1mio07e7s6rgoot.mozilla.com
 0.0.0.0 telemetry-coverage9.mozilla.org
+0.0.0.0 telemetry.example.mozilla.org
 0.0.0.0 test.plus.build.mozilla.org
 0.0.0.0 test.vms.planet.mozilla.org
 0.0.0.0 theme.icarus.mozilla.org

@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 24 October 2026 18:41:38 UTC
-# Version: 4.99.40
+# Last modified: 26 October 2026 21:41:10 UTC
+# Version: 4.99.47
 # Syntax: domains (including possible subdomains)
-# Number of entries: 18574
+# Number of entries: 18575
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 addons.basilisk-browser.org
@@ -18555,6 +18555,7 @@ sync880.mozilla.com
 t3pckmrg9sjg1gvu2l8a6c32ktopjmn0.mozilla.org
 td6npgt1lbgpkc2lm1mio07e7s6rgoot.mozilla.com
 telemetry-coverage9.mozilla.org
+telemetry.example.mozilla.org
 test.plus.build.mozilla.org
 test.vms.planet.mozilla.org
 theme.icarus.mozilla.org

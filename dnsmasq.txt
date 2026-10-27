@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 October 2026 21:52:36 UTC
-# Version: 4.99.48
+# Last modified: 27 October 2026 18:21:07 UTC
+# Version: 4.99.51
 # Syntax: DNSMasq
-# Number of entries: 1191
+# Number of entries: 1195
 #
 # # Mozilla Addons
 server=/addons.basilisk-browser.org/
@@ -370,6 +370,7 @@ local=/fao.add-ons.mozilla.com/
 local=/fi.add-ons.mozilla.com/
 local=/firefox-addons.com/
 local=/firefox-dns-perf-test.net/
+local=/firefox-enterprise.com/
 local=/firefox-extensions.com/
 local=/firefox-extensions.net/
 local=/firefox-extensions.org/
@@ -403,6 +404,7 @@ local=/firefox.hl.cn/
 local=/firefox.it/
 local=/firefox.jp/
 local=/firefox.map.fastly.net/
+local=/firefox.net/
 local=/firefox.org/
 local=/firefox.org.au/
 local=/firefox.org.br/
@@ -788,7 +790,9 @@ local=/thanks.dev/
 local=/thunderbird-mail.com/
 local=/thunderbird-mail.net/
 local=/thunderbird-mail.org/
+local=/thunderbird.com/
 local=/thunderbird.email/
+local=/thunderbird.org/
 local=/thunderbird.top/
 local=/thunderbirdapp.net/
 local=/thunderbirdemail.com/

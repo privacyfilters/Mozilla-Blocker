@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 26 October 2026 21:52:36 UTC
-# Version: 4.99.48
+# Last modified: 27 October 2026 18:21:07 UTC
+# Version: 4.99.51
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 18560
+# Number of entries: 18564
 #
 # DoH canary domain(allowed)
 #0.0.0.0 use-application-dns.net
@@ -4510,6 +4510,7 @@
 0.0.0.0 firefox-ci-tc.services.mozilla.com
 0.0.0.0 firefox-container.service.mozilla.com
 0.0.0.0 firefox-dns-perf-test.net
+0.0.0.0 firefox-enterprise.com
 0.0.0.0 firefox-extensions.com
 0.0.0.0 firefox-extensions.net
 0.0.0.0 firefox-extensions.org
@@ -4559,6 +4560,7 @@
 0.0.0.0 firefox.map.fastly.net
 0.0.0.0 firefox.mozgcp.net
 0.0.0.0 firefox.mozilla.com
+0.0.0.0 firefox.net
 0.0.0.0 firefox.org
 0.0.0.0 firefox.org.au
 0.0.0.0 firefox.org.br
@@ -8934,8 +8936,10 @@
 0.0.0.0 thunderbird-settings-stagem.thunderbird.net
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 thunderbird-settingsq.thunderbird.net
+0.0.0.0 thunderbird.com
 0.0.0.0 thunderbird.email
 0.0.0.0 thunderbird.innocraft.cloud
+0.0.0.0 thunderbird.org
 0.0.0.0 thunderbird.planet.mozilla.org
 0.0.0.0 thunderbird.top
 0.0.0.0 thunderbirdapp.net

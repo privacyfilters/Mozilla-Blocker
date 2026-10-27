@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 26 October 2026 21:52:36 UTC
-! Version: 4.99.48
+! Last modified: 27 October 2026 18:21:07 UTC
+! Version: 4.99.51
 ! Syntax: Adblock
-! Number of entries: 1108
+! Number of entries: 1111
 !
 !!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 @@||addons.basilisk-browser.org^
@@ -424,6 +424,7 @@
 ||fi.add-ons.mozilla.com^$important
 ||firefox-addons.com^
 ||firefox-dns-perf-test.net^
+||firefox-enterprise.com^
 ||firefox-extensions.com^
 ||firefox-extensions.net^
 ||firefox-extensions.org^
@@ -450,6 +451,7 @@
 ||firefox.it^
 ||firefox.jp^
 ||firefox.map.fastly.net^
+||firefox.net*^
 ||firefox.org*^
 ||firefox.pl^
 ||firefox.private.network^
@@ -828,7 +830,9 @@
 ||thunderbird-mail.com^
 ||thunderbird-mail.net^
 ||thunderbird-mail.org^
+||thunderbird.com^
 ||thunderbird.email^
+||thunderbird.org^
 ||thunderbird.top^
 ||thunderbirdapp.net^
 ||thunderbirdemail.com^
@@ -1085,7 +1089,6 @@
 ||firefox-zh.com.cn^
 ||firefox.co.kr^
 ||firefox.co.uk^
-||firefox.net.ru^
 ||foxkeh.com^
 ||foxkeh.jp^
 ||geckozone.org^

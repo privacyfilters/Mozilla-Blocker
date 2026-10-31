@@ -4,8 +4,8 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 29 October 2026 20:41:23 UTC
-# Version: 4.99.53
+# Last modified: 31 October 2026 21:48:41 UTC
+# Version: 4.99.56
 # Syntax: hosts (including possible subdomains)
 # Number of entries: 19677
 #
@@ -18878,7 +18878,7 @@
 0.0.0.0 mozilla.net
 0.0.0.0 mozilla.org
 0.0.0.0 thunderbird.net
-# # Anonymity-related services (brave, anonymco)
+# # Anonymity-related services (anonymco)
 0.0.0.0 www.anonymco.com
 0.0.0.0 wwwsdu.anonymco.com
 # # Remaining Mozilla domains & typosquatting

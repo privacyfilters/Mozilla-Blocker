@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 31 October 2026 21:48:41 UTC
-# Version: 4.99.56
+# Last modified: 01 November 2026 08:21:55 UTC
+# Version: 4.99.57
 # Syntax: domains (including possible subdomains)
-# Number of entries: 19672
+# Number of entries: 19674
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -18683,6 +18683,8 @@ send-backend-stage.tb.pro
 send-backend.tb.pro
 send-stage.tb.pro
 send.tb.pro
+solo.mozilla.com
+solo.mozilla.org
 soloist.ai
 stage.tb.pro
 stats.eengoedenotaris.nl

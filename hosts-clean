@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 31 October 2026 21:48:41 UTC
-# Version: 4.99.56
+# Last modified: 01 November 2026 08:21:55 UTC
+# Version: 4.99.57
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 19677
+# Number of entries: 19679
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 0.0.0.0 addons.basilisk-browser.org
@@ -18679,6 +18679,8 @@
 0.0.0.0 send-backend.tb.pro
 0.0.0.0 send-stage.tb.pro
 0.0.0.0 send.tb.pro
+0.0.0.0 solo.mozilla.com
+0.0.0.0 solo.mozilla.org
 0.0.0.0 soloist.ai
 0.0.0.0 stage.tb.pro
 0.0.0.0 stats.eengoedenotaris.nl

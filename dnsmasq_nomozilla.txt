@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/dnsmasq_nomozilla.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 31 October 2026 21:48:41 UTC
-# Version: 4.99.56
+# Last modified: 05 November 2026 01:06:48 UTC
+# Version: 4.99.58
 # Syntax: DNSMasq
-# Number of entries: 1207
+# Number of entries: 1225
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 local=/addons.basilisk-browser.org/
@@ -38,6 +38,7 @@ local=/aff.addons.mozilla.org/
 local=/ag-kopf-moertzs.addons.mozilla.org/
 local=/agileseasonm.addons.mozilla.org/
 local=/airflow.addons.mozilla.org/
+local=/airwavee.addons.mozilla.org/
 local=/alertere.addons.mozilla.org/
 local=/allianceg.addons.mozilla.org/
 local=/allo.addons.mozilla.org/
@@ -46,6 +47,7 @@ local=/amateure.addons.mozilla.org/
 local=/amazon-web-services.addons.mozilla.org/
 local=/amazonkag.addons.mozilla.org/
 local=/android-gif-example.addons.mozilla.org/
+local=/android-guidess.addons.mozilla.org/
 local=/angular-l10no.addons.mozilla.org/
 local=/animalse.addons.mozilla.org/
 local=/ann.addons.mozilla.org/
@@ -65,11 +67,14 @@ local=/architecture-componentse.addons.mozilla.org/
 local=/archive1g.addons.mozilla.org/
 local=/arrayfirei.addons.mozilla.org/
 local=/asb.addons.mozilla.org/
+local=/asian.addons.mozilla.org/
 local=/asp2.addons.mozilla.org/
+local=/ata.addons.mozilla.org/
 local=/athena.addons.mozilla.org/
 local=/ats.addons.mozilla.org/
 local=/auctionk.addons.mozilla.org/
 local=/austriae.addons.mozilla.org/
+local=/autocompletions.addons.mozilla.org/
 local=/autodiscovery.addons.mozilla.org/
 local=/autoencoderm.addons.mozilla.org/
 local=/awesome-bigdatau.addons.mozilla.org/
@@ -130,7 +135,9 @@ local=/cerberusg.addons.mozilla.org/
 local=/certificatesc.addons.mozilla.org/
 local=/cgp.addons.mozilla.org/
 local=/chaosm-thi.addons.mozilla.org/
+local=/chartjse.addons.mozilla.org/
 local=/chat-apig.addons.mozilla.org/
+local=/chatserverk.addons.mozilla.org/
 local=/cheatkitg.addons.mozilla.org/
 local=/childreng.addons.mozilla.org/
 local=/ckp.addons.mozilla.org/
@@ -138,6 +145,7 @@ local=/clementinek.addons.mozilla.org/
 local=/client-side-validationse.addons.mozilla.org/
 local=/cloudboostk.addons.mozilla.org/
 local=/cloudproberm.addons.mozilla.org/
+local=/cloudreaderm.addons.mozilla.org/
 local=/cnn9.addons.mozilla.org/
 local=/cockroachdb.addons.mozilla.org/
 local=/code.addons.mozilla.org/
@@ -159,6 +167,7 @@ local=/crash.addons.thunderbird.net/
 local=/crashplan.addons.mozilla.org/
 local=/crashplan.addons.thunderbird.net/
 local=/criu.addons.mozilla.org/
+local=/crop-imagek.addons.mozilla.org/
 local=/cryptographyo.addons.mozilla.org/
 local=/cuda.addons.mozilla.org/
 local=/cust101o.addons.mozilla.org/
@@ -204,10 +213,12 @@ local=/dv.addons.mozilla.org/
 local=/dwgk.addons.mozilla.org/
 local=/dx.addons.mozilla.org/
 local=/e1y.addons.mozilla.org/
+local=/e2ek.addons.mozilla.org/
 local=/easy-mocki.addons.mozilla.org/
 local=/easypeasyi.addons.mozilla.org/
 local=/eclipseoriginss.addons.mozilla.org/
 local=/eduroame.addons.mozilla.org/
+local=/ef.addons.mozilla.org/
 local=/efi.addons.mozilla.org/
 local=/elektrae.addons.mozilla.org/
 local=/epg.addons.mozilla.org/
@@ -220,6 +231,7 @@ local=/fastadapterm.addons.mozilla.org/
 local=/fde.addons.mozilla.org/
 local=/fdk.addons.mozilla.org/
 local=/ffmpeg-androids.addons.mozilla.org/
+local=/file-sharingo.addons.mozilla.org/
 local=/flightsimi.addons.mozilla.org/
 local=/forum.addons.mozilla.org/
 local=/forums.addons.mozilla.org/
@@ -236,6 +248,8 @@ local=/ghc.addons.mozilla.org/
 local=/gifski-appk.addons.mozilla.org/
 local=/giropops-monitoring.addons.mozilla.org/
 local=/git-addonsk.addons.mozilla.org/
+local=/git-cheat-sheetu.addons.mozilla.org/
+local=/git-depsg.addons.mozilla.org/
 local=/git-phpe.addons.mozilla.org/
 local=/git-pointi.addons.mozilla.org/
 local=/git-recipesm.addons.mozilla.org/
@@ -258,16 +272,20 @@ local=/graphql-jpam.addons.mozilla.org/
 local=/graphql-voyageru.addons.mozilla.org/
 local=/graphqlvizk.addons.mozilla.org/
 local=/graylog2g.addons.mozilla.org/
+local=/griddlee.addons.mozilla.org/
 local=/groupwarei.addons.mozilla.org/
 local=/gsl.addons.mozilla.org/
 local=/gxb.addons.mozilla.org/
 local=/gyno.addons.mozilla.org/
 local=/hamiltong.addons.mozilla.org/
 local=/hannibalg.addons.mozilla.org/
+local=/hass.addons.mozilla.org/
 local=/haxor-newsk.addons.mozilla.org/
+local=/health-center-client.addons.mozilla.org/
 local=/heimdallm.addons.mozilla.org/
 local=/highwaye.addons.mozilla.org/
 local=/hokbygget-gwo.addons.mozilla.org/
+local=/internal-apis.addons.mozilla.org/
 local=/nli.add-ons.mozilla.com/
 local=/npmrepo.addons.mozilla.org/
 local=/org.addons.mozilla.org/

@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 31 October 2026 21:48:41 UTC
-! Version: 4.99.56
+! Last modified: 05 November 2026 01:06:48 UTC
+! Version: 4.99.58
 ! Syntax: Adblock
-! Number of entries: 1123
+! Number of entries: 1141
 !
 !!! All addon endpoints, download & account urls (blocked in nomozilla)
 ||addons.basilisk-browser.org^
@@ -37,6 +37,7 @@
 ||ag-kopf-moertzs.addons.mozilla.org^$important
 ||agileseasonm.addons.mozilla.org^$important
 ||airflow.addons.mozilla.org^$important
+||airwavee.addons.mozilla.org^$important
 ||alertere.addons.mozilla.org^$important
 ||allianceg.addons.mozilla.org^$important
 ||allo.addons.mozilla.org^$important
@@ -45,6 +46,7 @@
 ||amazon-web-services.addons.mozilla.org^$important
 ||amazonkag.addons.mozilla.org^$important
 ||android-gif-example.addons.mozilla.org^$important
+||android-guidess.addons.mozilla.org^$important
 ||angular-l10no.addons.mozilla.org^$important
 ||animalse.addons.mozilla.org^$important
 ||ann.addons.mozilla.org^$important
@@ -64,11 +66,14 @@
 ||archive1g.addons.mozilla.org^$important
 ||arrayfirei.addons.mozilla.org^$important
 ||asb.addons.mozilla.org^$important
+||asian.addons.mozilla.org^$important
 ||asp2.addons.mozilla.org^$important
+||ata.addons.mozilla.org^$important
 ||athena.addons.mozilla.org^$important
 ||ats.addons.mozilla.org^$important
 ||auctionk.addons.mozilla.org^$important
 ||austriae.addons.mozilla.org^$important
+||autocompletions.addons.mozilla.org^$important
 ||autodiscovery.addons.mozilla.org^$important
 ||autoencoderm.addons.mozilla.org^$important
 ||awesome-bigdatau.addons.mozilla.org^$important
@@ -129,7 +134,9 @@
 ||certificatesc.addons.mozilla.org^$important
 ||cgp.addons.mozilla.org^$important
 ||chaosm-thi.addons.mozilla.org^$important
+||chartjse.addons.mozilla.org^$important
 ||chat-apig.addons.mozilla.org^$important
+||chatserverk.addons.mozilla.org^$important
 ||cheatkitg.addons.mozilla.org^$important
 ||childreng.addons.mozilla.org^$important
 ||ckp.addons.mozilla.org^$important
@@ -137,6 +144,7 @@
 ||client-side-validationse.addons.mozilla.org^$important
 ||cloudboostk.addons.mozilla.org^$important
 ||cloudproberm.addons.mozilla.org^$important
+||cloudreaderm.addons.mozilla.org^$important
 ||cnn9.addons.mozilla.org^$important
 ||cockroachdb.addons.mozilla.org^$important
 ||code.addons.mozilla.org^$important
@@ -158,6 +166,7 @@
 ||crashplan.addons.mozilla.org^$important
 ||crashplan.addons.thunderbird.net^$important
 ||criu.addons.mozilla.org^$important
+||crop-imagek.addons.mozilla.org^$important
 ||cryptographyo.addons.mozilla.org^$important
 ||cuda.addons.mozilla.org^$important
 ||cust101o.addons.mozilla.org^$important
@@ -203,10 +212,12 @@
 ||dwgk.addons.mozilla.org^$important
 ||dx.addons.mozilla.org^$important
 ||e1y.addons.mozilla.org^$important
+||e2ek.addons.mozilla.org^$important
 ||easy-mocki.addons.mozilla.org^$important
 ||easypeasyi.addons.mozilla.org^$important
 ||eclipseoriginss.addons.mozilla.org^$important
 ||eduroame.addons.mozilla.org^$important
+||ef.addons.mozilla.org^$important
 ||efi.addons.mozilla.org^$important
 ||elektrae.addons.mozilla.org^$important
 ||epg.addons.mozilla.org^$important
@@ -219,6 +230,7 @@
 ||fde.addons.mozilla.org^$important
 ||fdk.addons.mozilla.org^$important
 ||ffmpeg-androids.addons.mozilla.org^$important
+||file-sharingo.addons.mozilla.org^$important
 ||flightsimi.addons.mozilla.org^$important
 ||forum.addons.mozilla.org^$important
 ||forums.addons.mozilla.org^$important
@@ -235,6 +247,8 @@
 ||gifski-appk.addons.mozilla.org^$important
 ||giropops-monitoring.addons.mozilla.org^$important
 ||git-addonsk.addons.mozilla.org^$important
+||git-cheat-sheetu.addons.mozilla.org^$important
+||git-depsg.addons.mozilla.org^$important
 ||git-phpe.addons.mozilla.org^$important
 ||git-pointi.addons.mozilla.org^$important
 ||git-recipesm.addons.mozilla.org^$important
@@ -257,16 +271,20 @@
 ||graphql-voyageru.addons.mozilla.org^$important
 ||graphqlvizk.addons.mozilla.org^$important
 ||graylog2g.addons.mozilla.org^$important
+||griddlee.addons.mozilla.org^$important
 ||groupwarei.addons.mozilla.org^$important
 ||gsl.addons.mozilla.org^$important
 ||gxb.addons.mozilla.org^$important
 ||gyno.addons.mozilla.org^$important
 ||hamiltong.addons.mozilla.org^$important
 ||hannibalg.addons.mozilla.org^$important
+||hass.addons.mozilla.org^$important
 ||haxor-newsk.addons.mozilla.org^$important
+||health-center-client.addons.mozilla.org^$important
 ||heimdallm.addons.mozilla.org^$important
 ||highwaye.addons.mozilla.org^$important
 ||hokbygget-gwo.addons.mozilla.org^$important
+||internal-apis.addons.mozilla.org^$important
 ||nli.add-ons.mozilla.com^$important
 ||npmrepo.addons.mozilla.org^$important
 ||org.addons.mozilla.org^$important

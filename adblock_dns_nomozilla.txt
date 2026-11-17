@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 05 November 2026 01:06:48 UTC
-! Version: 4.99.58
+! Last modified: 16 November 2026 19:55:38 UTC
+! Version: 4.99.59
 ! Syntax: Adblock
-! Number of entries: 1141
+! Number of entries: 1157
 !
 !!! All addon endpoints, download & account urls (blocked in nomozilla)
 ||addons.basilisk-browser.org^
@@ -17,7 +17,8 @@
 @@||content-signature-2.cdn.mozilla.net^
 @@||content-signature-2m.cdn.mozilla.net^
 @@||firefox-settings-attachments.cdn.mozilla.net^
-@@||firefox.settings.services.mozilla.com*^
+@@||firefox.settings.services.mozilla.com^
+@@||firefox.settings.services.mozilla.com.edgesuite.net^
 @@||www.content-signature-2.cdn.mozilla.net^
 !! Addon endpoints blocked even though addons are allowlisted
 ||2d-frameworko.addons.mozilla.org^$important
@@ -29,6 +30,7 @@
 ||absoluteg.addons.mozilla.org^$important
 ||accessoriesm.addons.mozilla.org^$important
 ||actionse.addons.mozilla.org^$important
+||activitylogm.addons.mozilla.org^$important
 ||ad1e.addons.mozilla.org^$important
 ||add7.addons.mozilla.org^$important
 ||administrator.addons.mozilla.org^$important
@@ -80,6 +82,7 @@
 ||awesome-iotao.addons.mozilla.org^$important
 ||awesome-malware-analysisg.addons.mozilla.org^$important
 ||awesome-opensource-appse.addons.mozilla.org^$important
+||awesome-raspberry-pi.addons.mozilla.org^$important
 ||awesome-ri.addons.mozilla.org^$important
 ||awesome-tensorflow-chinesek.addons.mozilla.org^$important
 ||awesome-threat-intelligencem.addons.mozilla.org^$important
@@ -96,11 +99,14 @@
 ||bastione.addons.mozilla.org^$important
 ||baze.addons.mozilla.org^$important
 ||bc1.addons.mozilla.org^$important
+||beaverandfairiesw.addons.mozilla.org^$important
 ||beetboxe.addons.mozilla.org^$important
 ||belaruse.addons.mozilla.org^$important
+||benz.addons.mozilla.org^$important
 ||bg.addons.mozilla.org^$important
 ||bitcoin-wallets.addons.mozilla.org^$important
 ||blacklisti.addons.mozilla.org^$important
+||blockchain-clis.addons.mozilla.org^$important
 ||blockchain-stuffw.addons.mozilla.org^$important
 ||blocklist.addons.mozilla.org^$important
 ||blocklist.addons.thunderbird.net^$important
@@ -127,6 +133,7 @@
 ||castle.addons.mozilla.org^$important
 ||catchupe.addons.mozilla.org^$important
 ||cbf3.addons.mozilla.org^$important
+||cbf7.addons.mozilla.org^$important
 ||ccp7.addons.mozilla.org^$important
 ||cdn1.addons.mozilla.org^$important
 ||ce.addons.mozilla.org^$important
@@ -134,15 +141,18 @@
 ||certificatesc.addons.mozilla.org^$important
 ||cgp.addons.mozilla.org^$important
 ||chaosm-thi.addons.mozilla.org^$important
+||charitye.addons.mozilla.org^$important
 ||chartjse.addons.mozilla.org^$important
 ||chat-apig.addons.mozilla.org^$important
 ||chatserverk.addons.mozilla.org^$important
 ||cheatkitg.addons.mozilla.org^$important
 ||childreng.addons.mozilla.org^$important
+||chronos-timetracker.addons.mozilla.org^$important
 ||ckp.addons.mozilla.org^$important
 ||clementinek.addons.mozilla.org^$important
 ||client-side-validationse.addons.mozilla.org^$important
 ||cloudboostk.addons.mozilla.org^$important
+||cloudformations.addons.mozilla.org^$important
 ||cloudproberm.addons.mozilla.org^$important
 ||cloudreaderm.addons.mozilla.org^$important
 ||cnn9.addons.mozilla.org^$important
@@ -157,10 +167,13 @@
 ||compressg.addons.mozilla.org^$important
 ||compute-1i.addons.mozilla.org^$important
 ||connecticutm.addons.mozilla.org^$important
+||constellationss.addons.mozilla.org^$important
 ||consul-templateu.addons.mozilla.org^$important
 ||coreclre.addons.mozilla.org^$important
+||cors.addons.mozilla.org^$important
 ||couponse.addons.mozilla.org^$important
 ||covoituragem.addons.mozilla.org^$important
+||cpt.addons.mozilla.org^$important
 ||crash.addons.mozilla.org^$important
 ||crash.addons.thunderbird.net^$important
 ||crashplan.addons.mozilla.org^$important
@@ -191,12 +204,14 @@
 ||directoriesm.addons.mozilla.org^$important
 ||directx-11k.addons.mozilla.org^$important
 ||disassemblero.addons.mozilla.org^$important
+||discoursei.addons.mozilla.org^$important
 ||discovery.addons.allizom.org^$important
 ||discovery.addons.mozilla.org^$important
 ||discovery.addons.thunderbird.net^$important
 ||discoverya.addons.mozilla.org^$important
 ||django-cacheopsu.addons.mozilla.org^$important
 ||django-rosettas.addons.mozilla.org^$important
+||dns0.addons.mozilla.org^$important
 ||dockbix-xxl.addons.mozilla.org^$important
 ||dockbixe.addons.mozilla.org^$important
 ||docker-in-aws-lambda.addons.mozilla.org^$important
@@ -207,6 +222,7 @@
 ||dotnetcorek.addons.mozilla.org^$important
 ||downloadbuttons.addons.mozilla.org^$important
 ||dp.addons.mozilla.org^$important
+||dpm.addons.mozilla.org^$important
 ||dumb.addons.mozilla.org^$important
 ||dv.addons.mozilla.org^$important
 ||dwgk.addons.mozilla.org^$important
@@ -220,6 +236,8 @@
 ||ef.addons.mozilla.org^$important
 ||efi.addons.mozilla.org^$important
 ||elektrae.addons.mozilla.org^$important
+||emc.addons.mozilla.org^$important
+||eos.addons.mozilla.org^$important
 ||epg.addons.mozilla.org^$important
 ||erictreacy.github.io.addons.mozilla.org^$important
 ||eventstorek.addons.mozilla.org^$important
@@ -256,15 +274,18 @@
 ||git-standupm.addons.mozilla.org^$important
 ||github-updaters.addons.mozilla.org^$important
 ||give.addons.mozilla.org^$important
+||gjs.addons.mozilla.org^$important
 ||gnu-linuxi.addons.mozilla.org^$important
 ||go-web3e.addons.mozilla.org^$important
 ||goby.addons.mozilla.org^$important
 ||goflywayg.addons.mozilla.org^$important
 ||good-readsk.addons.mozilla.org^$important
 ||google-apik.addons.mozilla.org^$important
+||goss.addons.mozilla.org^$important
 ||goto.addons.mozilla.org^$important
 ||graph-databases.addons.mozilla.org^$important
 ||graphicsrendererw.addons.mozilla.org^$important
+||graphite-stack-ansible-vagrants.addons.mozilla.org^$important
 ||graphite-webo.addons.mozilla.org^$important
 ||graphql-java-tools.addons.mozilla.org^$important
 ||graphql-jpam.addons.mozilla.org^$important
@@ -278,6 +299,7 @@
 ||gyno.addons.mozilla.org^$important
 ||hamiltong.addons.mozilla.org^$important
 ||hannibalg.addons.mozilla.org^$important
+||hashi-uig.addons.mozilla.org^$important
 ||hass.addons.mozilla.org^$important
 ||haxor-newsk.addons.mozilla.org^$important
 ||health-center-client.addons.mozilla.org^$important
@@ -287,6 +309,7 @@
 ||internal-apis.addons.mozilla.org^$important
 ||nli.add-ons.mozilla.com^$important
 ||npmrepo.addons.mozilla.org^$important
+||npmrepoa.addons.mozilla.org^$important
 ||org.addons.mozilla.org^$important
 ||public.addons.mozilla.org^$important
 ||pyrepo.addons.mozilla.org^$important
@@ -298,6 +321,7 @@
 ||servicesc.addons.thunderbird.net^$important
 ||sri.add-ons.mozilla.com^$important
 ||uk-ua.add-ons.mozilla.com^$important
+||versioncheck-bgg.addons.mozilla.org^$important
 ||versionchecka.addons.thunderbird.net^$important
 ||www.addons.mozilla.org^$important
 ||www.addons.thunderbird.net^$important
@@ -341,6 +365,8 @@
 ||cdn.amplitude.com^
 ! Convert.com - A/B testing (Mozilla privacy notice)
 ||convert.com^
+! Mobile app analytics by Yahoo
+||data.flurry.com^
 ! Fundraise Up - donations (Mozilla privacy notice)
 ||fundraiseup.com^
 ! Core Google Analytics service
@@ -466,6 +492,7 @@
 ||firefox-relay.com^
 ||firefox-relay.net^
 ||firefox-relay.org^
+||firefox-updater.com^
 ||firefox-vpn.com^
 ||firefox-vpn.net^
 ||firefox-vpn.org^
@@ -490,7 +517,6 @@
 ||firefoxcloud.net^
 ||firefoxflicks.com^
 ||firefoxusercontent.com^
-||flurry.com^
 ||fpn-vpn.com^
 ||fr.add-ons.mozilla.com^$important
 ||fr.moz.works^
@@ -531,7 +557,6 @@
 ||ja.add-ons.mozilla.com^$important
 ||jag.add-ons.mozilla.com^$important
 ||lcip.org^
-||leanprivacy.com^
 ||librewolf.fr^
 ||lightbeam.org^
 ||lizardwrangler.com^
@@ -551,6 +576,7 @@
 ||mecha-mozilla.org^
 ||mn-mn.add-ons.mozilla.com^$important
 ||mofoprod.net^
+||monitor-prod-mozilla.fastly-edge.com^
 ||moz.la^
 ||mozilla-africa.org^
 ||mozilla-ai.com^
@@ -749,7 +775,6 @@
 ||mozorg-stage.moz.works^
 ||mozorgbi.moz.works^
 ||mozsocial.cliqz.com^
-||mparticle.com^
 ||myhubs.net^
 ||mzl.la^
 ||nb-no.add-ons.mozilla.com^$important
@@ -762,7 +787,6 @@
 ||openh264.org^
 ||opennews.org^
 ||opentimetable.jp^
-||optmnstr.com^
 ||orbit-app.com^
 ||orbit-app.net^
 ||orbit-community.com^
@@ -771,7 +795,6 @@
 ||orbit-platform.net^
 ||oregon-a.moz.works^
 ||oregon-b.moz.works^
-||pdfjs.robwu.nl^
 ||pioneer-data.com^
 ||pioneer-data.org^
 ||pioneer-studies.com^
@@ -861,6 +884,7 @@
 ||thunderbird-mail.org^
 ||thunderbird.com^
 ||thunderbird.email^
+||thunderbird.es^
 ||thunderbird.org^
 ||thunderbird.top^
 ||thunderbirdapp.net^
@@ -876,7 +900,6 @@
 ||tokyo.moz.works^
 ||tokyo1.moz.works^
 ||tr.add-ons.mozilla.com^$important
-||trk.floorplanner.com^
 ||uk.add-ons.mozilla.com^$important
 ||uki.add-ons.mozilla.com^$important
 ||us-west.moz.works^
@@ -915,8 +938,6 @@
 ||formulaic.app^
 ||llamafile.org^
 ||lumigator.ai^
-||matomo.abb-notaries.com^
-||matomo.notariat.services^
 ||mcpd.ai^
 ||memorycache.ai^
 ||mlpa-prod-prod-mozilla.freetls.fastly.net^
@@ -931,7 +952,6 @@
 ||orcaready.org^
 ||otari.ai^
 ||soloist.ai^
-||stats.eengoedenotaris.nl^
 ||subconscious.network^
 ||tabstack.ai^
 !!!!!! Firefox Forked browser's tracking urls !!!!!!!
@@ -1032,7 +1052,6 @@
 ||amo-test-1048344596.us-west-2.elb.amazonaws.com^
 ||asan-nightly-frontend-elb-1348905149.us-east-2.elb.amazonaws.com^
 ||debug-ping-preview.firebaseapp.com^
-||fast.fonts.net^
 ||firefox-test-accounts.auth0.com^
 ||firefox.cloudflare-dns.com^
 ||fxa-auth-server.herokuapp.com^
@@ -1102,8 +1121,6 @@
 ||assistant.firefoxlabs.net^
 ||aviary.pl^
 ||badg.us^
-||basilisk.community-arts.net^
-||basilisk.laosima.com^
 ||bgzilla.org^
 ||bmoattachments.org^
 ||bugzilla.org^
@@ -1177,7 +1194,6 @@
 ||tb.pro^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^
-! WARNING: unknown category 'typosquatting'
 !!!!!! Remaining Mozilla domains !!!!!!
 ||addons.mozilla.net.ru^
 ||ja-jp-mac.add-ons.mozilla.com^$important

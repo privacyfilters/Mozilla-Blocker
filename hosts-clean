@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts-clean
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 November 2026 19:55:38 UTC
-# Version: 4.99.59
+# Last modified: 24 November 2026 00:08:09 UTC
+# Version: 4.99.61
 # Syntax: hosts (including possible subdomains)
-# Number of entries: 21660
+# Number of entries: 21655
 #
 # # All addon endpoints, download & account urls (blocked in nomozilla)
 0.0.0.0 addons.basilisk-browser.org
@@ -2715,7 +2715,6 @@
 0.0.0.0 blog.getpocket.com
 0.0.0.0 blog.getpocket.dev
 0.0.0.0 blog.mixedreality.mozilla.org
-0.0.0.0 blog.mozilla.ai
 0.0.0.0 blog.mozilla.com
 0.0.0.0 blog.mozilla.org
 0.0.0.0 blog.nightly.mozilla.org
@@ -2734,7 +2733,6 @@
 0.0.0.0 blogtesty.maven.mozilla.org
 0.0.0.0 blogueg.vpn.mozilla.org
 0.0.0.0 bloom.mozilla.org
-0.0.0.0 blueprints.mozilla.ai
 0.0.0.0 blueprintso.mozilla.ai
 0.0.0.0 blueyonder.mozilla.org
 0.0.0.0 blueyonderi.mozilla.org
@@ -5852,7 +5850,6 @@
 0.0.0.0 firefox.mozgcp.net
 0.0.0.0 firefox.mozilla.com
 0.0.0.0 firefox.net
-0.0.0.0 firefox.org
 0.0.0.0 firefox.org.au
 0.0.0.0 firefox.org.br
 0.0.0.0 firefox.org.nz
@@ -7178,7 +7175,6 @@
 0.0.0.0 intent.mozilla.org
 0.0.0.0 interactive-examples.mdn.moz.works
 0.0.0.0 interactive-examplesc.mdn.moz.works
-0.0.0.0 interforest.org
 0.0.0.0 internal.taskcluster.net
 0.0.0.0 internal.zlb.ops.mdc1.mozilla.com
 0.0.0.0 internal.zlb.ops.phx1.mozilla.com
@@ -8889,7 +8885,6 @@
 0.0.0.0 pioneer-api.mozilla.org
 0.0.0.0 pioneer-data.com
 0.0.0.0 pioneer-data.org
-0.0.0.0 pioneer-studies.com
 0.0.0.0 pioneer-studies.org
 0.0.0.0 pioneer.mozilla.com
 0.0.0.0 pioneer.mozilla.org
@@ -8967,19 +8962,15 @@
 0.0.0.0 pocket.api.firefox.com
 0.0.0.0 pocket.bedrock.nonprod.webservices.mozgcp.net
 0.0.0.0 pocket.co
-0.0.0.0 pocket.com
 0.0.0.0 pocket.moz.works
 0.0.0.0 pocket.mozilla.com
 0.0.0.0 pocket.services.mozilla.com
-0.0.0.0 pocketapi.com
 0.0.0.0 pocketapp.com
-0.0.0.0 pocketapps.com
 0.0.0.0 pocketbackend.com
 0.0.0.0 pocketbackend.net
 0.0.0.0 pocketcdn.com
 0.0.0.0 pocketcdn.net
 0.0.0.0 pocketimages.com
-0.0.0.0 pocketstatic.com
 0.0.0.0 podlaska.mozilla.com
 0.0.0.0 policy.mozilla.org
 0.0.0.0 pollbot.services.mozilla.com
@@ -11076,20 +11067,14 @@
 0.0.0.0 thunderbird-settings-stagem.thunderbird.net
 0.0.0.0 thunderbird-settings.thunderbird.net
 0.0.0.0 thunderbird-settingsq.thunderbird.net
-0.0.0.0 thunderbird.com
 0.0.0.0 thunderbird.email
 0.0.0.0 thunderbird.es
 0.0.0.0 thunderbird.innocraft.cloud
-0.0.0.0 thunderbird.org
 0.0.0.0 thunderbird.planet.mozilla.org
 0.0.0.0 thunderbird.top
 0.0.0.0 thunderbirdapp.net
-0.0.0.0 thunderbirdemail.com
 0.0.0.0 thunderbirdemail.net
 0.0.0.0 thunderbirdemail.org
-0.0.0.0 thunderbirdfoundation.com
-0.0.0.0 thunderbirdfoundation.org
-0.0.0.0 thunderbirdmail.com
 0.0.0.0 thunderbirdmail.org
 0.0.0.0 thundermail.com
 0.0.0.0 ticlo0h6tgem8tvk1t092bfm5hvs5ofh.mozilla.org
@@ -11208,6 +11193,9 @@
 0.0.0.0 tw.mozilla.org
 0.0.0.0 twitterparty.mozilla.org
 0.0.0.0 u.fakespot.com
+0.0.0.0 u003edetectportal.firefox.com
+0.0.0.0 u003esend.firefox.com
+0.0.0.0 u003ewww.firefox.com
 0.0.0.0 u01ld2csbndgo896hvmhn6vr5llqjrco.mozilla.org
 0.0.0.0 u0kfpl21h3kftjqiu7r0llj8rovflgdv.mozilla.org
 0.0.0.0 u1fgoq4vrfm3p5gqg93vdkc7etatpvet.mozilla.com
@@ -12297,6 +12285,9 @@
 0.0.0.0 www.truecolours.firefox.com
 0.0.0.0 www.turningred.firefox.com
 0.0.0.0 www.u.fakespot.com
+0.0.0.0 www.u003edetectportal.firefox.com
+0.0.0.0 www.u003esend.firefox.com
+0.0.0.0 www.u003ewww.firefox.com
 0.0.0.0 www.u2.fakespot.com
 0.0.0.0 www.updates-stage.thunderbird.net
 0.0.0.0 www.updates.thunderbird.net
@@ -18228,6 +18219,7 @@
 0.0.0.0 tvqljjkq9d0gmgtovj41qu5557n4117g.mozilla.net
 0.0.0.0 twitterpartyy.zlb.phx.mozilla.net
 0.0.0.0 u.mozilla.net
+0.0.0.0 u003edetectportal.prod.mozaws.net
 0.0.0.0 u0197e099ap14e4bm4i13mj5a12s7mch.mozilla.net
 0.0.0.0 u0fhhisigfibulqjek69s2am672a4pch.mozilla.net
 0.0.0.0 u1bn0bblu27diq0uurr6lsm3k2kvgcjd.mozilla.net
@@ -18851,6 +18843,7 @@
 0.0.0.0 www.tc-staging.treeherder.nonprod.cloudops.mozgcp.net
 0.0.0.0 www.testrail.stage.mozaws.net
 0.0.0.0 www.tracking-protection.cdn.mozilla.net
+0.0.0.0 www.u003edetectportal.prod.mozaws.net
 0.0.0.0 www.videos-cdn.mozilla.net
 0.0.0.0 www.wifi.mozilla.net
 0.0.0.0 www.yttest.dev.mozaws.net
@@ -20420,6 +20413,7 @@
 0.0.0.0 monitoring.staging-dap-04.api.divviup.org
 0.0.0.0 monitoring.staging-dap-09-1.api.divviup.org
 0.0.0.0 monitoringe.load-test-salmoneus.api.divviup.org
+0.0.0.0 pdfjs.robwu.nl
 0.0.0.0 prometheus.monitoring.dap-04.api.divviup.org
 0.0.0.0 prometheus.monitoring.dap-09-1.api.divviup.org
 0.0.0.0 prometheus.monitoring.dap-09-3.api.divviup.org
@@ -20578,7 +20572,6 @@
 0.0.0.0 anonymco.com
 0.0.0.0 any-agent.com
 0.0.0.0 any-guardrail.com
-0.0.0.0 any-llm.com
 0.0.0.0 api.eu.otari.ai
 0.0.0.0 api.otari.ai
 0.0.0.0 appointment-dev.tb.pro
@@ -20597,6 +20590,8 @@
 0.0.0.0 autodiscovers.tb.pro
 0.0.0.0 bigstorea.future.mozilla.org
 0.0.0.0 bitcoin-in-a-nutshell.future.mozilla.org
+0.0.0.0 blog.mozilla.ai
+0.0.0.0 blueprints.mozilla.ai
 0.0.0.0 builders.mozilla.org
 0.0.0.0 cahootzg.future.mozilla.org
 0.0.0.0 cdntest.future.mozilla.org

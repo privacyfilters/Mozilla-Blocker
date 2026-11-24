@@ -4,10 +4,10 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 16 November 2026 19:55:38 UTC
-! Version: 4.99.59
+! Last modified: 24 November 2026 00:08:08 UTC
+! Version: 4.99.61
 ! Syntax: Adblock
-! Number of entries: 1157
+! Number of entries: 1170
 !
 !!! All addon endpoints, download & account urls (blocked in nomozilla)
 ||addons.basilisk-browser.org^
@@ -392,6 +392,9 @@
 ||usefathom.com^
 !!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
 ||ab-cd.add-ons.mozilla.com^$important
+||accounts.firefox.org^
+||addons.firefox.org^
+||addons9.firefox.org^
 ||af-azuree.add-ons.mozilla.com^$important
 ||akamai.moz.works^
 ||amo-extensions.com^
@@ -403,6 +406,8 @@
 ||anonymco.io^
 ||anonymco.net^
 ||api.firefox.ai^
+||api.pocket.com^
+||app.pocket.com^
 ||assets.moz.works^
 ||basket-admin.moz.works^
 ||basket-adminq.moz.works^
@@ -508,7 +513,11 @@
 ||firefox.jp^
 ||firefox.map.fastly.net^
 ||firefox.net*^
-||firefox.org*^
+||firefox.org.au^
+||firefox.org.br^
+||firefox.org.nz^
+||firefox.org.uk^
+||firefox.org.za^
 ||firefox.pl^
 ||firefox.private.network^
 ||firefox.pt^
@@ -552,7 +561,6 @@
 ||hubs-platform.net^
 ||hubs-platform.org^
 ||ide.add-ons.mozilla.com^$important
-||interforest.org^
 ||it.add-ons.mozilla.com^$important
 ||ja.add-ons.mozilla.com^$important
 ||jag.add-ons.mozilla.com^$important
@@ -564,7 +572,10 @@
 ||lt.add-ons.mozilla.com^$important
 ||m-firefox.com^
 ||machinelearningmoz.com^
+||mail.firefox.org^
+||mail.pocket.com^
 ||main.shared.global.mozilla.akadns.net^
+||marketplace.firefox.org^
 ||mdn-demos-origin.moz.works^
 ||mdn-demos-origino.moz.works^
 ||mdn-demos.moz.works^
@@ -775,11 +786,16 @@
 ||mozorg-stage.moz.works^
 ||mozorgbi.moz.works^
 ||mozsocial.cliqz.com^
+||mx2.pocket.com^
+||my.pocket.com^
 ||myhubs.net^
 ||mzl.la^
 ||nb-no.add-ons.mozilla.com^$important
+||nightly.firefox.org^
 ||nl.add-ons.mozilla.com^$important
 ||no.add-ons.mozilla.com^$important
+||ns1.pocket.com^
+||ns2.pocket.com^
 ||nucleus.moz.works^
 ||onemozilla.org^
 ||openbadges.net^
@@ -797,11 +813,11 @@
 ||oregon-b.moz.works^
 ||pioneer-data.com^
 ||pioneer-data.org^
-||pioneer-studies.com^
 ||pioneer-studies.org^
 ||pl.add-ons.mozilla.com^$important
 ||pocket-ai.com^
 ||pocket-analytics.com^
+||pocket-client.pocket.com^
 ||pocket-content.com^
 ||pocket-discovery.com^
 ||pocket-events.com^
@@ -818,19 +834,16 @@
 ||pocket-tracking.com^
 ||pocket-userdata.com^
 ||pocket.co^
-||pocket.com^
 ||pocket.moz.works^
-||pocketapi.com^
 ||pocketapp.com^
-||pocketapps.com^
 ||pocketbackend.com^
 ||pocketbackend.net^
 ||pocketcdn.com^
 ||pocketcdn.net^
 ||pocketimages.com^
-||pocketstatic.com^
 ||popcornjs.org^
 ||portland.moz.works^
+||power.pocket.com^
 ||privacybadger.org^
 ||privacydashboard.org^
 ||protocol-stage.moz.works^
@@ -852,6 +865,7 @@
 ||relayemail.net^
 ||ro.add-ons.mozilla.com^$important
 ||ru.add-ons.mozilla.com^$important
+||sms.pocket.com^
 ||snippets-admin.moz.works^
 ||snippets-prod-cdn.moz.works^
 ||snippets-prod-cdng.moz.works^
@@ -882,18 +896,12 @@
 ||thunderbird-mail.com^
 ||thunderbird-mail.net^
 ||thunderbird-mail.org^
-||thunderbird.com^
 ||thunderbird.email^
 ||thunderbird.es^
-||thunderbird.org^
 ||thunderbird.top^
 ||thunderbirdapp.net^
-||thunderbirdemail.com^
 ||thunderbirdemail.net^
 ||thunderbirdemail.org^
-||thunderbirdfoundation.com^
-||thunderbirdfoundation.org^
-||thunderbirdmail.com^
 ||thunderbirdmail.org^
 ||thundermail.com^
 ||togetherjs.com^
@@ -908,16 +916,21 @@
 ||voice-ai.com^
 ||voice-ai.org^
 ||vpn-mozilla.com^
+||vpn.pocket.com^
 ||vpn1.moz.works^
 ||wapi.ja.add-ons.mozilla.com^$important
 ||wapk.nb-no.add-ons.mozilla.com^$important
+||wd.pocket.com^
 ||webcompat.com^
+||webmail.pocket.com^
 ||webthingsplatform.com^
 ||webthingsplatform.net^
 ||webthingsplatform.org^
 ||wg.nb-no.add-ons.mozilla.com^$important
 ||www-media.mozorg.moz.works^
 ||www.de.add-ons.mozilla.com^$important
+||www.firefox.org^
+||www.pocket.com^
 ||wwwc.bg.add-ons.mozilla.com^$important
 ||wwwc.es-es.add-ons.mozilla.com^$important
 ||wwwk.mozorg.moz.works^
@@ -931,7 +944,6 @@
 ||anonymco.com^
 ||any-agent.com^
 ||any-guardrail.com^
-||any-llm.com^
 ||commonvoice.ai^
 ||didthis.app^
 ||encoderfile.com^
@@ -1191,6 +1203,7 @@
 ||itisatracker.com^
 ||itisatracker.org^
 ||itisatrap.org^
+||pdfjs.robwu.nl^
 ||tb.pro^
 ||trackertest.org^
 ||tracking-protection-issues.herokuapp.com^

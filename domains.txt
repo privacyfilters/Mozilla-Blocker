@@ -4,10 +4,10 @@
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains.txt
 # License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 # Expires: 1 day
-# Last modified: 16 November 2026 19:55:38 UTC
-# Version: 4.99.59
+# Last modified: 24 November 2026 00:08:09 UTC
+# Version: 4.99.61
 # Syntax: domains (including possible subdomains)
-# Number of entries: 21655
+# Number of entries: 21650
 #
 # DoH canary domain(allowed)
 #use-application-dns.net
@@ -2719,7 +2719,6 @@ blog.firefox.com
 blog.getpocket.com
 blog.getpocket.dev
 blog.mixedreality.mozilla.org
-blog.mozilla.ai
 blog.mozilla.com
 blog.mozilla.org
 blog.nightly.mozilla.org
@@ -2738,7 +2737,6 @@ blogs.mozilla.com
 blogtesty.maven.mozilla.org
 blogueg.vpn.mozilla.org
 bloom.mozilla.org
-blueprints.mozilla.ai
 blueprintso.mozilla.ai
 blueyonder.mozilla.org
 blueyonderi.mozilla.org
@@ -5856,7 +5854,6 @@ firefox.map.fastly.net
 firefox.mozgcp.net
 firefox.mozilla.com
 firefox.net
-firefox.org
 firefox.org.au
 firefox.org.br
 firefox.org.nz
@@ -7182,7 +7179,6 @@ intelligent.mozilla.org
 intent.mozilla.org
 interactive-examples.mdn.moz.works
 interactive-examplesc.mdn.moz.works
-interforest.org
 internal.taskcluster.net
 internal.zlb.ops.mdc1.mozilla.com
 internal.zlb.ops.phx1.mozilla.com
@@ -8893,7 +8889,6 @@ pings.mozilla.org
 pioneer-api.mozilla.org
 pioneer-data.com
 pioneer-data.org
-pioneer-studies.com
 pioneer-studies.org
 pioneer.mozilla.com
 pioneer.mozilla.org
@@ -8971,19 +8966,15 @@ pocket-userdata.com
 pocket.api.firefox.com
 pocket.bedrock.nonprod.webservices.mozgcp.net
 pocket.co
-pocket.com
 pocket.moz.works
 pocket.mozilla.com
 pocket.services.mozilla.com
-pocketapi.com
 pocketapp.com
-pocketapps.com
 pocketbackend.com
 pocketbackend.net
 pocketcdn.com
 pocketcdn.net
 pocketimages.com
-pocketstatic.com
 podlaska.mozilla.com
 policy.mozilla.org
 pollbot.services.mozilla.com
@@ -11080,20 +11071,14 @@ thunderbird-settings-stage.thunderbird.net
 thunderbird-settings-stagem.thunderbird.net
 thunderbird-settings.thunderbird.net
 thunderbird-settingsq.thunderbird.net
-thunderbird.com
 thunderbird.email
 thunderbird.es
 thunderbird.innocraft.cloud
-thunderbird.org
 thunderbird.planet.mozilla.org
 thunderbird.top
 thunderbirdapp.net
-thunderbirdemail.com
 thunderbirdemail.net
 thunderbirdemail.org
-thunderbirdfoundation.com
-thunderbirdfoundation.org
-thunderbirdmail.com
 thunderbirdmail.org
 thundermail.com
 ticlo0h6tgem8tvk1t092bfm5hvs5ofh.mozilla.org
@@ -11212,6 +11197,9 @@ tvu4hp80tm6cri9h9vmfdd7ostvg64ag.mozilla.org
 tw.mozilla.org
 twitterparty.mozilla.org
 u.fakespot.com
+u003edetectportal.firefox.com
+u003esend.firefox.com
+u003ewww.firefox.com
 u01ld2csbndgo896hvmhn6vr5llqjrco.mozilla.org
 u0kfpl21h3kftjqiu7r0llj8rovflgdv.mozilla.org
 u1fgoq4vrfm3p5gqg93vdkc7etatpvet.mozilla.com
@@ -12301,6 +12289,9 @@ www.truecolors.firefox.com
 www.truecolours.firefox.com
 www.turningred.firefox.com
 www.u.fakespot.com
+www.u003edetectportal.firefox.com
+www.u003esend.firefox.com
+www.u003ewww.firefox.com
 www.u2.fakespot.com
 www.updates-stage.thunderbird.net
 www.updates.thunderbird.net
@@ -18232,6 +18223,7 @@ tvds4o4khfl83kmk891f0sdvpi7lk1ou.mozilla.net
 tvqljjkq9d0gmgtovj41qu5557n4117g.mozilla.net
 twitterpartyy.zlb.phx.mozilla.net
 u.mozilla.net
+u003edetectportal.prod.mozaws.net
 u0197e099ap14e4bm4i13mj5a12s7mch.mozilla.net
 u0fhhisigfibulqjek69s2am672a4pch.mozilla.net
 u1bn0bblu27diq0uurr6lsm3k2kvgcjd.mozilla.net
@@ -18855,6 +18847,7 @@ www.taar.prod.mozaws.net
 www.tc-staging.treeherder.nonprod.cloudops.mozgcp.net
 www.testrail.stage.mozaws.net
 www.tracking-protection.cdn.mozilla.net
+www.u003edetectportal.prod.mozaws.net
 www.videos-cdn.mozilla.net
 www.wifi.mozilla.net
 www.yttest.dev.mozaws.net
@@ -20424,6 +20417,7 @@ monitoring.load-test-sisyphus.api.divviup.org
 monitoring.staging-dap-04.api.divviup.org
 monitoring.staging-dap-09-1.api.divviup.org
 monitoringe.load-test-salmoneus.api.divviup.org
+pdfjs.robwu.nl
 prometheus.monitoring.dap-04.api.divviup.org
 prometheus.monitoring.dap-09-1.api.divviup.org
 prometheus.monitoring.dap-09-3.api.divviup.org
@@ -20582,7 +20576,6 @@ anonym.com
 anonymco.com
 any-agent.com
 any-guardrail.com
-any-llm.com
 api.eu.otari.ai
 api.otari.ai
 appointment-dev.tb.pro
@@ -20601,6 +20594,8 @@ autodiscoveri.thundermail.com
 autodiscovers.tb.pro
 bigstorea.future.mozilla.org
 bitcoin-in-a-nutshell.future.mozilla.org
+blog.mozilla.ai
+blueprints.mozilla.ai
 builders.mozilla.org
 cahootzg.future.mozilla.org
 cdntest.future.mozilla.org
